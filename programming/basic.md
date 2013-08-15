@@ -46,10 +46,18 @@ Resources:
 
 An object has a dependency when it knows:
 
-0. The name of another class. Solution: Dependency Injection.
+0. The name of another class.
+    0. Solution: Dependency Injection. Inject an instance of the object via an argument rather than hard code the
+        class/instance within the calling object.
 0. The name of a message that it intends to send to someone other than self.
+    0. Solution: Isolate external messages to a single method which can be messaged within the class. If anything
+       changes with sending messages to the external object, only the one method needs to be refactored.
 0. The arguments that a message requires.
+    0. Solution: Use a hash as a single argument which can then set default values possibly making the argument list
+       optional.
 0. The order of those arguments.
+    0. Solution: Use a hash as a single argument. Allows arguments to be passed in any order. If not a single hash then
+       possibly use a required argument with a hash as the last argument for additional/optional arguments.
 
 The goal is to keep as few dependencies as possible so that a class knows enough to do it's job and nothing else.
 
