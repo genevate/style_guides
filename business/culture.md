@@ -68,3 +68,7 @@ to encourage employee/team improvement:
         0. Animate with purpose, don't animate with rewards.
     0. Turn your next offsite into a FedEx day - A day where employees can work on whaterver they want with whomever
        they like. Must deliver the next day.
+
+## Resources
+
+* [Why Your Startup’s Culture Is Secretly Awful](http://www.fastcolabs.com/3016238/why-your-startups-culture-is-secretly-awful)
