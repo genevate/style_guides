@@ -70,3 +70,13 @@ Resources:
 0. Defines a parent/child relationship where behavior defined in the superclass is inherited/overwritable by the subclass.
 0. Also known as automatic message delegation whereby messages received by the subclass automaticall bubble up to the
    superclass when not found in the subclass.
+
+## Template Method Pattern
+
+0. Basic object structure is defined by the superclass but overwritable by the subclass.
+0. Methods defined in the subclass provide customized behavior which the superclass will message.
+0. Useful for initializing similar objects with different default behavior.
+0. Imposes sublcass requirements that is not obvious but can be illeviated by defining default methods
+   in the superclass that raise NotImplementedError exceptions. NOTE: These exceptions should explain themselves
+   by indicating why the exception was thrown via a useful error message. Example:
+   raise NotImplementedError, "This #{self.class} cannot respond to:"
