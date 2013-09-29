@@ -13,10 +13,6 @@
     0. Bad: task.owner.full_name. (i.e. task --> owner --> string)
     0. Good: task.owner_full_name.
 
-Resources:
-
-  * [Demeter: It's not just a good idea. It's the law.](http://devblog.avdi.org/2011/07/05/demeter-its-not-just-a-good-idea-its-the-law)
-
 ## Single Responsibility Pattern (SRP)
 
 0. Should do the smallest possible useful thing.
@@ -24,10 +20,6 @@ Resources:
 0. Everything should be highly related to a single purpose.
 0. Does not allow extraneous responsibilities to leak in.
 0. Isolation allows change without consequence and reuse without duplication.
-
-Resources:
-
-  * [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=sr_1_1?ie=UTF8&qid=1375637328&sr=8-1&keywords=Sandy+Metz+Object) by Sandi Metz
 
 ## Transparent, Reasonable, Usable, and Exemplary (TRUE)
 
@@ -37,10 +29,6 @@ Resources:
 0. Exemplary - The code itself should encourage those who change it to perpetuate these qualities.
 
 TRUE code not only meets today's needs but can also be changed to meet the needs of the future.
-
-Resources:
-
-  * [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=sr_1_1?ie=UTF8&qid=1375637328&sr=8-1&keywords=Sandy+Metz+Object) by Sandi Metz
 
 ## Recognizing Dependencies
 
@@ -61,22 +49,45 @@ An object has a dependency when it knows:
 
 The goal is to keep as few dependencies as possible so that a class knows enough to do it's job and nothing else.
 
-Resources:
-
-  * [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=sr_1_1?ie=UTF8&qid=1375637328&sr=8-1&keywords=Sandy+Metz+Object) by Sandi Metz
-
 ## Inheritance
 
 0. Defines a parent/child relationship where behavior defined in the superclass is inherited/overwritable by the subclass.
 0. Also known as automatic message delegation whereby messages received by the subclass automaticall bubble up to the
    superclass when not found in the subclass.
 
-## Template Method Pattern
+### Template Method Pattern
 
 0. Basic object structure is defined by the superclass but overwritable by the subclass.
 0. Methods defined in the subclass provide customized behavior which the superclass will message.
 0. Useful for initializing similar objects with different default behavior.
-0. Imposes sublcass requirements that is not obvious but can be illeviated by defining default methods
-   in the superclass that raise NotImplementedError exceptions. NOTE: These exceptions should explain themselves
-   by indicating why the exception was thrown via a useful error message. Example:
-   raise NotImplementedError, "This #{self.class} cannot respond to:"
+0. Imposes sublcass requirements that is not obvious but can be illeviated by defining default methods in the
+   superclass that raise NotImplementedError exceptions. NOTE: These exceptions should explain themselves by indicating
+   why the exception was thrown via a useful error message. Example:
+
+        raise NotImplementedError, "This #{self.class} cannot respond to:"
+
+### Hook Method Pattern
+
+0. Allows customized subclass method behavior without needing to know the abstract algorithm used by the superclass.
+0. Each hook method is defined by the superclass but overwrittable by the subclass.
+0. Most importantly, hook methods remove the need for subclasses to call the super method and reduces tight coupling
+   between the subclass and superclass. Example:
+
+        class Vehicle
+          def initialize options = {}
+            after_initialize options
+          end
+
+          def after_initialize options = {}
+          end
+        end
+
+        class Truck < Vehicle
+          def after_initialize options = {}
+            options.reverse_merge! wheel_size: 10
+          end
+        end
+
+# Resources
+
+* [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=sr_1_1?ie=UTF8&qid=1375637328&sr=8-1&keywords=Sandy+Metz+Object) by Sandi Metz
