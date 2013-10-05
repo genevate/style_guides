@@ -101,6 +101,7 @@ The goal is to keep as few dependencies as possible so that a class knows enough
           end
         end
 
-# Resources
+## Resources
 
+* [Ruby Tapas - Episode 4 (Barewords)](http://www.rubytapas.com)
 * [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=sr_1_1?ie=UTF8&qid=1375637328&sr=8-1&keywords=Sandy+Metz+Object) by Sandi Metz
