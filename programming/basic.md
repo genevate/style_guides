@@ -1,5 +1,18 @@
 # Basic Programming Styles
 
+## Bare Words
+
+0. Bare words are lowercase words with no special modifier in front of them. Example:
+    * example = This is a bare word which is also a method.
+0. The following are NOT bare words but introduce scope limitations (using Ruby syntax but applicable to
+   other languages):
+    * $example = Global variable
+    * @@example = Class variable
+    * @example = Instance variable
+    * EXAMPLE = Constant variable
+0. It is good design to use bare words as they allow for greater flexibility when enhancing/refactoring
+   future code due to fewer scope limitations/complexities.
+
 ## The Law of Demeter (LoD)
 
 0. Assume no knowledge of an object's internal structure.
