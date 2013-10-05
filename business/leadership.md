@@ -8,7 +8,7 @@
 0. Identify weaknesses and focus on turning them into strengths.
 0. Be human - Remember The Golden Rule.
 0. Be honest.
-0. Be transparent - Share information often clearly and concisely.
+0. Be transparent - Share information often, clearly, and concisely.
 0. Be empathetic and caring - Strive to listen and understand where teammates are coming from.
 0. Be decisive but not a dictator.
 0. Be a peer to the team.
