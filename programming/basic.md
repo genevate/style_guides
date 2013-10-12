@@ -31,6 +31,12 @@
       two steps are involved to answer the value to be removed AND changing the state of the collection. Being able
       simply *pop* a value off a collection (which answers the value and changes state) in one step is very convenient.
 
+## Pluggable Selector
+
+* Defines an object (to be initialized) or a method which accepts an object and method, as arguments, to be messaged.
+* Allows for different objects, of similar behavior, to be dynamically plugged in.
+* Allows for highly customizable code but introduces additional levels of indirection and complexity.
+
 ## The Law of Demeter (LoD)
 
 * Assume no knowledge of an object's internal structure.
