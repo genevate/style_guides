@@ -89,8 +89,24 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 ## Inheritance
 
 * Defines a parent/child relationship where behavior defined in the superclass is inherited/overwritable by the subclass.
-* Also known as automatic message delegation whereby messages received by the subclass automaticall bubble up to the
+* Also known as automatic message delegation whereby messages received by the subclass automatically bubble up to the
    superclass when not found in the subclass.
+* Things to do:
+    * Code defined in the abstract/super class should always apply to all subclasses.
+    * Each subclass must conform to the superclass interface and implement expected behavior.
+    * When subclassing, stick to shallow/narrow or shallow/wide hierarchies as they are easier to maintain. Deep
+      hierarchies that are either narrow or wide are harder to maintain, difficult to understand, and are best avoided.
+* Things to avoid:
+    * Avoid calling *super* from the subclass. Use hook methods instead.
+    * If an object uses a variable to determine the type/category of a message to send, then the inherited code has not
+      been properly abstracted. Classic inheritence can solve this problem by creating an abstract class from which
+      subclasses can extend to define specialized behavior.
+    * If the sending object has to check the class of the receiving object, then a duck type has been missed. It is
+      better to extract this behavior into a common interface for which all subsequent objects can inherit the same
+      behavior from.
+    * Don't allow a subclass to raise an exception when overridding a superclass method because it doesn't need/want
+      to implement it. One should question whether it is even a sublcass at that point or whether inheritance is the
+      correct solution.
 
 ### Template Method Pattern
 
