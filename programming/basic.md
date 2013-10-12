@@ -20,6 +20,17 @@
 0. Method - A named, concrete, implementation for which a responsibility may be fullfilled. There can be many methods
    for a single responsibility.
 
+## Command-Query Separation (CQS)
+
+* Specifies that methods should be categorized as follows:
+    * **Queries**: Answer a result without changing the observable system state (i.e. no side side effects). Also means
+      that queries can be chained (in any order) without consequences.
+    * **Commands** (a.k.a. modifiers/mutators): Change the system state but do not answer a result.
+* Caveats:
+    * Adhering strictly to this principal makes popping values off a collection, for example, cumbersome because
+      two steps are involved to answer the value to be removed AND changing the state of the collection. Being able
+      simply *pop* a value off a collection (which answers the value and changes state) in one step is very convenient.
+
 ## The Law of Demeter (LoD)
 
 0. Assume no knowledge of an object's internal structure.
@@ -112,4 +123,5 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 
 * [Ruby Tapas - Barewords (Episode 4)](http://www.rubytapas.com)
 * [Ruby Tapas - Message and Method (Episode 11)](http://www.rubytapas.com)
+* [Command-Query Separation](http://martinfowler.com/bliki/CommandQuerySeparation.html)
 * [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=sr_1_1?ie=UTF8&qid=1375637328&sr=8-1&keywords=Sandy+Metz+Object) by Sandi Metz
