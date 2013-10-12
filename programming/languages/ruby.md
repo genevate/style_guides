@@ -26,3 +26,21 @@
     `%i(one two three) # => [:one, :two, :three]`
 * %x() - Executes an interpolated system command (does not echo to STDOUT or return the running command's result).
     `%x(echo #{message}) # => "Huzzah!"`
+
+## Hashes
+
+* Consider using #fetch when setting default values for missing keys instead of || as || will answer the default value
+  when a key doesn't exist or has a value of nil/false. Example:
+
+        {}[:example] || :default # :default
+        {example: nil}[:example] || :default # :default
+        {example: false}[:example] || :default # :default
+
+        {}.fetch(:example) { :default } # :default
+        {example: nil}.fetch(:example)  { :default } # nil
+        {example: false}.fetch(:example) { :default } # false
+
+
+## Resources
+
+* [Ruby Tapas - Fetch for Defaults (Episode 12)](http://www.rubytapas.com)
