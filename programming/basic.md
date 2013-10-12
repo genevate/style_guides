@@ -13,6 +13,13 @@
 0. It is good design to use bare words as they allow for greater flexibility when enhancing/refactoring
    future code due to fewer scope limitations/complexities.
 
+## Messages and Methods
+
+0. Message - A name for a responsibility an object may have. In other words, you send a message to a collaborator
+   (i.e. object) not a method.
+0. Method - A named, concrete, implementation for which a responsibility may be fullfilled. There can be many methods
+   for a single responsibility.
+
 ## The Law of Demeter (LoD)
 
 0. Assume no knowledge of an object's internal structure.
@@ -104,4 +111,5 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 ## Resources
 
 * [Ruby Tapas - Barewords (Episode 4)](http://www.rubytapas.com)
+* [Ruby Tapas - Message and Method (Episode 11)](http://www.rubytapas.com)
 * [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=sr_1_1?ie=UTF8&qid=1375637328&sr=8-1&keywords=Sandy+Metz+Object) by Sandi Metz
