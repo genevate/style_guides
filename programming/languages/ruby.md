@@ -40,7 +40,18 @@
         {example: nil}.fetch(:example)  { :default } # nil
         {example: false}.fetch(:example) { :default } # false
 
+## Exceptions
+
+* $! can be used to capture currently thrown exception, although not always intuitively readable.
+* Don't rescue Exception, rescue StandardError instead. Exception catches all exception types including SyntaxError,
+  LoadError, and Interrupt which is usually not what you want.
+* Avoid using inline rescue statements (can be useful when converting exceptions into return values, however). Example:
+
+        def example
+          bad_method rescue $!
+        end
 
 ## Resources
 
 * [Ruby Tapas - Fetch for Defaults (Episode 12)](http://www.rubytapas.com)
+* [Ruby Tapas - Inline Rescue (Episode 22)](http://www.rubytapas.com)
