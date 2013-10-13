@@ -88,6 +88,7 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 
 ## Inheritance
 
+* Defines a *has-a* relationship.
 * Defines a parent/child relationship where behavior defined in the superclass is inherited/overwritable by the subclass.
 * Also known as automatic message delegation whereby messages received by the subclass automatically bubble up to the
    superclass when not found in the subclass.
@@ -140,6 +141,20 @@ The goal is to keep as few dependencies as possible so that a class knows enough
             options.reverse_merge! wheel_size: 10
           end
         end
+
+## Duck Types
+
+* Defines a *behaves-like-a* relationship.
+* Defines an object that behaves idential to objects of different types due to methods and/or properties
+  that enable this behavior.
+
+## Composition
+
+* Defines a *has-a* relationship.
+* Defines an object that is composed of many objects which exhibits behavior this is separate from and includes
+  the behavior of the sum of its parts.
+* Composed of objects of smaller well-defined behavior, the composed object benefits from the greater sum of its parts
+  but can become hard to manage should the number of parts grow to a large size.
 
 ## Resources
 
