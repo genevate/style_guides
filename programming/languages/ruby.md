@@ -49,6 +49,7 @@
     * example.call "hello"
     * example["hello"]
     * example.("hello")
+* The `===` method which calls `call` is useful when used as a predicate in case statements.
 
 ## Lambdas
 
@@ -61,7 +62,7 @@
 
 * $! can be used to capture currently thrown exception, although not always intuitively readable.
 * Don't rescue Exception, rescue StandardError instead. Exception catches all exception types including SyntaxError,
-  LoadError, and Interrupt which is usually not what you want.
+  LoadError, NoMemoryError, Interrupt (i.e. CONTROL+C), etc. which is usually not what you want.
 * Avoid using inline rescue statements (can be useful when converting exceptions into return values, however). Example:
 
         def example
