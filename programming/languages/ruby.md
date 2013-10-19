@@ -40,6 +40,23 @@
         {example: nil}.fetch(:example)  { :default } # nil
         {example: false}.fetch(:example) { :default } # false
 
+## Procs
+
+* Disregards out extra arguments without error.
+* Returns from the scope of the bounded object (i.e. returns from the scope of the object in which the proc was defined).
+* Use `proc` instead of `Proc.new` as provided by the Kernel module.
+* Procs can be called the following ways (the first option, however, is more readable):
+    * example.call "hello"
+    * example["hello"]
+    * example.("hello")
+
+## Lambdas
+
+* Respects defined arguments and throws errors if extra arguments are not defined.
+* Returns from the scope of the lambda, not the bounded object in which it was defined.
+* Use lambdas, by default, over procs.
+* Lambda can be defined via `lambda` or `->`. The latter is preferred.
+
 ## Exceptions
 
 * $! can be used to capture currently thrown exception, although not always intuitively readable.
