@@ -70,6 +70,10 @@
 * %x() - Executes an interpolated system command (does not echo to STDOUT or return the running command's result).
     `%x(echo #{message}) # => "Huzzah!"`
 
+## Booleans
+
+* Use !! to convert an object into a boolean.
+
 ## Hashes
 
 * Consider using #fetch when setting default values for missing keys instead of || as || will answer the default value
