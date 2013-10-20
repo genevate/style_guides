@@ -4,7 +4,7 @@
 
 * Never reference instance variables directly, use getters/setters instead.
 * Never reference complex data structures because the structure could change.
-* Always call super when subclassing, overriding methods (especially in constructors).
+* Super may be called when subclassing, overriding methods (especially in constructors).
 
 ## Methods
 

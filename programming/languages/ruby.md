@@ -7,6 +7,8 @@
 
 ## Global Variables
 
+The following are worth knowing about but should be avoided in practice since code is harder to read and maintain:
+
 * $/ - Input record separator. Alias: $INPUT_RECORD_SEPARATOR. Default: newline.
 * $. - Current input line number of the last file read. Alias: $INPUT_LINE_NUMBER.
 * $\ - Output record separator. Alias: $OUTPUT_RECORD_SEPARATOR. Default: nil.
@@ -72,11 +74,11 @@
 
 ## Booleans
 
-* Use !! to convert an object into a boolean.
+* Use !! to convert an object to a boolean.
 
 ## Hashes
 
-* Use caution when setting default values. Use blocks when possible.
+* Use blocks when setting default values.
     * Example: Hash.new []. Will use the same array object for each new key.
     * Example: Hash.new {|hash, key| hash[key] = []}. Will initialize a new array object for each new key.
 * Consider using #fetch when setting default values for missing keys instead of || as || will answer the default value
@@ -92,7 +94,7 @@
 
 ## Procs
 
-* Disregards out extra arguments without error.
+* Disregards extra arguments without error.
 * Returns from the scope of the bounded object (i.e. returns from the scope of the object in which the proc was defined).
 * Use `proc` instead of `Proc.new` as provided by the Kernel module.
 * Procs can be called the following ways (the first option, however, is more readable):
@@ -110,7 +112,6 @@
 
 ## Exceptions
 
-* $! can be used to capture currently thrown exception, although not always intuitively readable.
 * Don't rescue Exception, rescue StandardError instead. Exception catches all exception types including SyntaxError,
   LoadError, NoMemoryError, Interrupt (i.e. CONTROL+C), etc. which is usually not what you want.
 * Avoid using inline rescue statements (can be useful when converting exceptions into return values, however). Example:

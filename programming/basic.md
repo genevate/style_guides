@@ -15,9 +15,9 @@
 
 ## Messages and Methods
 
-* Message - A name for a responsibility an object may have. In other words, you send a message to a collaborator
+* **Message** - A name for a responsibility an object may have. In other words, you send a message to a collaborator
    (i.e. object) not a method.
-* Method - A named, concrete, implementation for which a responsibility may be fullfilled. There can be many methods
+* **Method** - A named, concrete, implementation for which a responsibility may be fullfilled. There can be many methods
    for a single responsibility.
 
 ## Command-Query Separation (CQS)
@@ -60,10 +60,11 @@
 
 ## Transparent, Reasonable, Usable, and Exemplary (TRUE)
 
-* Transparent - The consequences of change should be obvious in the code that is changing and in distant code that relies upon it.
-* Reasonable -The cost of any change should be proportional to the benefits the change achieves.
-* Usable - Existing code should be usable in new and unexpected contexts.
-* Exemplary - The code itself should encourage those who change it to perpetuate these qualities.
+* **Transparent** - The consequences of change should be obvious in the code that is changing and in distant code that
+                relies upon it.
+* **Reasonable** - The cost of any change should be proportional to the benefits the change achieves.
+* **Usable** - Existing code should be usable in new and unexpected contexts.
+* **Exemplary** - The code itself should encourage those who change it to perpetuate these qualities.
 
 TRUE code not only meets today's needs but can also be changed to meet the needs of the future.
 
@@ -115,8 +116,8 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 * Methods defined in the subclass provide customized behavior which the superclass will message.
 * Useful for initializing similar objects with different default behavior.
 * Imposes sublcass requirements that is not obvious but can be illeviated by defining default methods in the
-   superclass that raise NotImplementedError exceptions. NOTE: These exceptions should explain themselves by indicating
-   why the exception was thrown via a useful error message. Example:
+  superclass that raise NotImplementedError exceptions. NOTE: These exceptions should explain themselves by indicating
+  why the exception was thrown via a useful error message. Example:
 
         raise NotImplementedError, "This #{self.class} cannot respond to:"
 
@@ -125,7 +126,7 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 * Allows customized subclass method behavior without needing to know the abstract algorithm used by the superclass.
 * Each hook method is defined by the superclass but overwrittable by the subclass.
 * Most importantly, hook methods remove the need for subclasses to call the super method and reduces tight coupling
-   between the subclass and superclass. Example:
+  between the subclass and superclass. Example:
 
         class Vehicle
           def initialize options = {}

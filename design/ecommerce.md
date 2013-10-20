@@ -1,13 +1,13 @@
 # E-Commerce Styles
 
-Know your Customers
+## Know your Customers
 
 * Use Qualaroo to Survey Visitors
 * Enable Olark for Direct Chat Interactions
 * Survey your Existing Customers
 * Home Page Optimization
 
-Home Page Optimization
+## Home Page Optimization
 
 * Show your Top-Selling Products on your Home Page
 * Offer More Ways to Order from your Store
@@ -15,7 +15,7 @@ Home Page Optimization
 * Localize your store to specific countries
 * Navigation Optimization
 
-Navigation Optimization
+## Navigation Optimization
 
 * Avoid vague category structures
 * Sort category structure by popularity
@@ -25,7 +25,7 @@ Navigation Optimization
 * Avoid writing vague ‘Unique Selling Points’
 * Product Search Optimization
 
-Product Search Optimization
+## Product Search Optimization
 
 * Test your search for accuracy
 * Implement an Intelligent search to cover singular, plurals, mis-spells etc.
@@ -34,7 +34,7 @@ Product Search Optimization
 * Let the user know what they searched
 * Product Page Optimization
 
-Product Page Optimization
+## Product Page Optimization
 
 * Get high quality product images
 * Pay attention to your product’s description
@@ -47,7 +47,7 @@ Product Page Optimization
 * Encourage users to leave reviews
 * Checkout Optimization
 
-Checkout Optimization
+## Checkout Optimization
 
 * Offer Persistent Shopping Cart
 * Don’t make users enter the same information twice
@@ -79,7 +79,7 @@ Checkout Optimization
 * Offer Brave Guarantees
 * Touch Point Optimization
 
-Touch Point Optimization
+## Touch Point Optimization
 
 * Write crisp & enticing Meta Tags
 * Enable Open graphs
@@ -97,7 +97,7 @@ Touch Point Optimization
 * Sign-up with Google Trusted Stores
 * Information Touch Points
 
-Information Touch Points
+## Information Touch Points
 
 * Show product close-up videos
 * Educate the visitors and enable them to make an informed decision
@@ -106,7 +106,7 @@ Information Touch Points
 * Get a thorough usability testing done
 * Load Speed Optimization
 
-Load Speed Optimization
+## Load Speed Optimization
 
 * Leverage browser caching
 * Defer parsing of JavaScript
@@ -119,7 +119,7 @@ Load Speed Optimization
 * Minimize request size
 * Shipping and Returns
 
-Shipping and Returns
+## Shipping and Returns
 
 * Get your Shipping Policies right
 * Offer Free Shipping
@@ -127,14 +127,14 @@ Shipping and Returns
 * Offer a good returns policy
 * Customer Re-Targeting
 
-Customer Re-Targeting
+## Customer Re-Targeting
 
 * Use Ad-Roll
 * Use Adwords Remarketing
 * Clean your Email Subscribers’ List from time to time
 * Offer Cashbacks
 
-Resources
+## Resources
 
 All of the above was taken from [The Moz Blog](http://moz.com/blog/holygrail-of-ecommerce-conversion-optimization-91-points-checklist).
 Please visit the web site to learn more.
