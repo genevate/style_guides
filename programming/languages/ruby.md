@@ -7,7 +7,7 @@
 
 ## Global Variables
 
-The following are worth knowing about but should be avoided in practice since code is harder to read and maintain:
+The following are worth knowing but should be avoided since it makes code harder to read and maintain:
 
 * $/ - Input record separator. Alias: $INPUT_RECORD_SEPARATOR. Default: newline.
 * $. - Current input line number of the last file read. Alias: $INPUT_LINE_NUMBER.

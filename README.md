@@ -6,6 +6,7 @@ A collection of styles/best practices.
 
 * Business
 * Communication
+* Design
 * Personal
 * Programming
 
@@ -21,7 +22,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/style_guides.git
     cd style_guides
-    git checkout v0.1.0
+    git checkout v0.2.0
 
 Master Version (unstable):
 
@@ -30,7 +31,7 @@ Master Version (unstable):
 
 # Usage
 
-Read/use any of the *.md (Markdown) documents located in any of the subfolders.
+Read/use the *.md (Markdown) documents located in the subfolders.
 
 # Versioning
 
