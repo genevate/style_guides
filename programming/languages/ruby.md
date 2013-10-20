@@ -119,8 +119,16 @@
           bad_method rescue $!
         end
 
+## Modules
+
+* Use `module_function` to mark methods in a module that will be private instance methods when included in a class.
+  These methods can also be accessed as class level methods via the module. This allows classes to include module
+  methods when all or many of the methods are needed by the class but also allows classes to simply reference the module
+  directly when only a few of the methods are required.
+
 ## Resources
 
 * [Ruby Tapas - Fetch for Defaults (Episode 12)](http://www.rubytapas.com)
 * [Ruby Tapas - Inline Rescue (Episode 22)](http://www.rubytapas.com)
 * [Ruby Tapas - Hash Default Values (Episode 45)](http://www.rubytapas.com)
+* [Ruby Tapas - Utility Function (Episode 49)](http://www.rubytapas.com)
