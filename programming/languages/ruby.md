@@ -42,6 +42,12 @@
 * $stdout - Current standard output.
 * $stderr - Current standard error output.
 
+## Global Constants
+
+* \_\_FILE__ - Current file.
+* \_\_LINE__ - Current line.
+* \_\_dir__ - Current directory.
+
 ## % Shortcuts
 
 * %() - Yields an interpolated, quoted string.
