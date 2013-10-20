@@ -76,6 +76,9 @@
 
 ## Hashes
 
+* Use caution when setting default values. Use blocks when possible.
+    * Example: Hash.new []. Will use the same array object for each new key.
+    * Example: Hash.new {|hash, key| hash[key] = []}. Will initialize a new array object for each new key.
 * Consider using #fetch when setting default values for missing keys instead of || as || will answer the default value
   when a key doesn't exist or has a value of nil/false. Example:
 
@@ -120,3 +123,4 @@
 
 * [Ruby Tapas - Fetch for Defaults (Episode 12)](http://www.rubytapas.com)
 * [Ruby Tapas - Inline Rescue (Episode 22)](http://www.rubytapas.com)
+* [Ruby Tapas - Hash Default Values (Episode 45)](http://www.rubytapas.com)
