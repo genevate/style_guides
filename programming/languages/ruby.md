@@ -49,6 +49,7 @@ The following are worth knowing but should be avoided since it makes code harder
 * \_\_FILE__ - Current file.
 * \_\_LINE__ - Current line.
 * \_\_dir__ - Current directory.
+* ARGF - IO stream for processing files, given as command-line arguments, via a script.
 
 ## % Shortcuts
 
@@ -157,3 +158,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Utility Function (Episode 49)](http://www.rubytapas.com)
 * [Ruby Tapas - Include Namespace (Episode 50)](http://www.rubytapas.com)
 * [Ruby Tapas - Selectively Run Tests (Episode 53)](http://www.rubytapas.com)
+* [Ruby Tapas - ARGF (Episode 58)](http://www.rubytapas.com)
