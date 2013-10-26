@@ -157,9 +157,17 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 * Composed of objects of smaller well-defined behavior, the composed object benefits from the greater sum of its parts
   but can become hard to manage should the number of parts grow to a large size.
 
+## Tests
+
+### Mocks
+
+* Only mock what you own. In cases where objects exist that talk to external APIs (for example) switch to stubbing
+  instead.
+
 ## Resources
 
 * [Ruby Tapas - Barewords (Episode 4)](http://www.rubytapas.com)
 * [Ruby Tapas - Message and Method (Episode 11)](http://www.rubytapas.com)
+* [Ruby Tapas - The End of Mocking (Episode 52)](http://www.rubytapas.com)
 * [Command-Query Separation](http://martinfowler.com/bliki/CommandQuerySeparation.html)
 * [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.poodr.com) by Sandi Metz

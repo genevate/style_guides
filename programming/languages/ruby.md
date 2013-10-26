@@ -26,7 +26,7 @@ The following are worth knowing but should be avoided since it makes code harder
 * $< - Object access to the concatenation of all file contents given as command-line arguments. Alias: $DEFAULT_INPUT.
 * $> - Output destination of Kernel.print and Kernel.printf. Alias: $DEFAULT_OUTPUT. Default: $stdout.
 * $_ - Last input line of string by gets or readline. Alias: $LAST_READ_LINE.
-* $0 - Name of the script being executed.
+* $0 - Name of the script being executed. Alias: $PROGRAM_NAME.
 * $* - Command line arguments given for script. Alias: ARGV.
 * $$ - Ruby process number of current script. Alias: $PID.
 * $? - Status of the last executed child process. Alias: $CHILD_STATUS.
@@ -122,10 +122,32 @@ The following are worth knowing but should be avoided since it makes code harder
 
 ## Modules
 
+* Modules allow code to be namespaced.
 * Use `module_function` to mark methods in a module that will be private instance methods when included in a class.
   These methods can also be accessed as class level methods via the module. This allows classes to include module
   methods when all or many of the methods are needed by the class but also allows classes to simply reference the module
   directly when only a few of the methods are required.
+* Submodles can include containing modules. Example:
+
+        module Outer
+          module Inner
+            include Outer
+          end
+        end
+
+## Tests
+
+### MiniTest
+
+* Run a single test: `example_test.rb --name=test_me`
+* Run tests that match a regular expresion: `example_test.rb --name=/test_me/`
+* Alternatively, the TESTOPTS environment variable can be used: `TESTOPTS="--name=test_me" example_test.rb`
+
+### RSpec
+
+* Run a single test or group of tests that match the substring: `example_spec.rb -e "example description"`
+* Run line number of test (can be any line number of the test): `example_spec.rb -l 10`
+* Alternatively, the SPEC_OPTS environment variable can be used: `SPEC_OPTS="-l 10" example_spec.rb`
 
 ## Resources
 
@@ -133,3 +155,5 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Inline Rescue (Episode 22)](http://www.rubytapas.com)
 * [Ruby Tapas - Hash Default Values (Episode 45)](http://www.rubytapas.com)
 * [Ruby Tapas - Utility Function (Episode 49)](http://www.rubytapas.com)
+* [Ruby Tapas - Include Namespace (Episode 50)](http://www.rubytapas.com)
+* [Ruby Tapas - Selectively Run Tests (Episode 53)](http://www.rubytapas.com)
