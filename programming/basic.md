@@ -31,6 +31,13 @@
       two steps are involved to answer the value to be removed AND changing the state of the collection. Being able
       simply *pop* a value off a collection (which answers the value and changes state) in one step is very convenient.
 
+## Tell Don't Ask
+
+* As pointed out in the CQS caveats, above, it is best to tell an object what to do rather than ask it to do something.
+  This also allows objects to couple behavor with the data being manipulated (i.e. commands). However, there are many
+  situations where it useful to query an object for information as well.
+* Further reading: [Martin Fowler - Tell Don't Ask](http://martinfowler.com/bliki/TellDontAsk.html).
+
 ## Pluggable Selector
 
 * Defines an object (to be initialized) or a method which accepts an object and method, as arguments, to be messaged.
