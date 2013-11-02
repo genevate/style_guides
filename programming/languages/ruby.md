@@ -77,6 +77,11 @@ The following are worth knowing but should be avoided since it makes code harder
 
 * Use !! to convert an object to a boolean.
 
+## Arrays
+
+* Use Array#concat when concatenating arrays. It is faster than using `<<` and `.flatten!` or using `+=`. It also
+  updates the target array in place whereas `+=` will create a new array object of the concatenated source arrays.
+
 ## Hashes
 
 * Use blocks when setting default values.
@@ -177,3 +182,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Break with Value (Episode 71)](http://www.rubytapas.com)
 * [Ruby Tapas - Tail 1 - Random Access (Episode 72)](http://www.rubytapas.com)
 * [Ruby Tapas - Tail 2 - Do While (Episode 73)](http://www.rubytapas.com)
+* [Ruby Tapas - Concat (Episode 79)](http://www.rubytapas.com)
