@@ -141,6 +141,12 @@ The following are worth knowing but should be avoided since it makes code harder
           end
         end
 
+## Files
+
+* Use IO::SEEK_SET to set position in file from which to read. Example: `file.seek 0, IO::SEEK_SET`.
+* Use IO::SEEK_CUR to read from current position in file. Example: `file.seek 10, IO::SEEK_CUR`.
+* Use IO::SEEK_END to read from end of a file. Example: `file.seek -10, IO::SEEK_END`.
+
 ## Tests
 
 ### MiniTest
@@ -165,3 +171,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Selectively Run Tests (Episode 53)](http://www.rubytapas.com)
 * [Ruby Tapas - ARGF (Episode 58)](http://www.rubytapas.com)
 * [Ruby Tapas - Break with Value (Episode 71)](http://www.rubytapas.com)
+* [Ruby Tapas - Tail 1 - Random Access (Episode 72)](http://www.rubytapas.com)
