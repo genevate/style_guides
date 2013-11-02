@@ -104,6 +104,11 @@ The following are worth knowing but should be avoided since it makes code harder
     * example.("hello")
 * The `===` method which calls `call` is useful when used as a predicate in case statements.
 
+## Breaks
+
+* The obvious use for breaks are to exit quickly out of a loop once a particular condition is met but they can also
+  be used to return a value. Example: `break "Example Message" if some_value == 'found'`
+
 ## Lambdas
 
 * Respects defined arguments and throws errors if extra arguments are not defined.
@@ -159,3 +164,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Include Namespace (Episode 50)](http://www.rubytapas.com)
 * [Ruby Tapas - Selectively Run Tests (Episode 53)](http://www.rubytapas.com)
 * [Ruby Tapas - ARGF (Episode 58)](http://www.rubytapas.com)
+* [Ruby Tapas - Break with Value (Episode 71)](http://www.rubytapas.com)
