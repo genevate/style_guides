@@ -104,6 +104,10 @@ The following are worth knowing but should be avoided since it makes code harder
     * example.("hello")
 * The `===` method which calls `call` is useful when used as a predicate in case statements.
 
+## Loops
+
+* `begin..end while <condition>` is the equivalent of a do while loop.
+
 ## Breaks
 
 * The obvious use for breaks are to exit quickly out of a loop once a particular condition is met but they can also
@@ -172,3 +176,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - ARGF (Episode 58)](http://www.rubytapas.com)
 * [Ruby Tapas - Break with Value (Episode 71)](http://www.rubytapas.com)
 * [Ruby Tapas - Tail 1 - Random Access (Episode 72)](http://www.rubytapas.com)
+* [Ruby Tapas - Tail 2 - Do While (Episode 73)](http://www.rubytapas.com)
