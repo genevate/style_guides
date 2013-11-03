@@ -148,6 +148,17 @@ The following are worth knowing but should be avoided since it makes code harder
 * Use lambdas, by default, over procs.
 * Lambda can be defined via `lambda` or `->`. The latter is preferred.
 
+## Assigments
+
+* Use inline assigment, with parentheses, in loop conditions to keep code concise. Example:
+
+        lines = 0
+        while(chunk = file.read(1024))
+          lines += chunk.count "\n"
+        end
+  The use of parentheses indicates that the *chunk* assigment is intentional and avoids the confusion of thinking that
+  the assigment (=) was not meant to be an equals (==).
+
 ## Exceptions
 
 * Don't rescue Exception, rescue StandardError instead. Exception catches all exception types including SyntaxError,
@@ -208,3 +219,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Concat (Episode 79)](http://www.rubytapas.com)
 * [Ruby Tapas - Splat Basics (Episode 80)](http://www.rubytapas.com)
 * [Ruby Tapas - Implicit Splat (Episode 81)](http://www.rubytapas.com)
+* [Ruby Tapas - Inline Assigments (Episode 82)](http://www.rubytapas.com)
