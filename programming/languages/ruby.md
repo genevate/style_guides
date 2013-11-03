@@ -98,6 +98,38 @@ The following are worth knowing but should be avoided since it makes code harder
         {example: nil}.fetch(:example)  { :default } # nil
         {example: false}.fetch(:example) { :default } # false
 
+## Splats
+
+* Also known as *Destructuring*. Examples:
+
+        a1 = %i(one two three)
+        a2 = %w(red black white)
+
+        a, b, c = *a1 # => a == :one, b == :two, c == :three
+        a, b, c = :insert, *a1 # => a == :insert, b == :one, c == :two
+        [*a1, *a2] = # => [:one, :two, :three, "red", "black", "white"]
+* Can be used to expand collections on the right side of an assignment (as shown above).
+* Can be used to suck up multiple values into a single variable on the left side of an assigment:
+
+        a = %i(one two three four five)
+
+        *b, c, d = *a # => b == [:one, :two, :three], c == :four, d == :five
+        b, *c, d = *a # => b == :one, c == [:two, :three, :four], d == :five
+        b, c, *d = *a # => b == :one, c == :two, d == [:three, :four, :five]
+* Commonly used in method and/or block arguments.
+* Use explicit rather than implicit splatting as implicit splatting assumes an object behaves like an Array. Example:
+
+        a = :one, :two, :three # => a == [:one, :two, :three]
+
+## Loops
+
+* `begin..end while <condition>` is the equivalent of a do while loop.
+
+## Breaks
+
+* The obvious use for breaks are to exit quickly out of a loop once a particular condition is met but they can also
+  be used to return a value. Example: `break "Example Message" if some_value == 'found'`
+
 ## Procs
 
 * Disregards extra arguments without error.
@@ -108,15 +140,6 @@ The following are worth knowing but should be avoided since it makes code harder
     * example["hello"]
     * example.("hello")
 * The `===` method which calls `call` is useful when used as a predicate in case statements.
-
-## Loops
-
-* `begin..end while <condition>` is the equivalent of a do while loop.
-
-## Breaks
-
-* The obvious use for breaks are to exit quickly out of a loop once a particular condition is met but they can also
-  be used to return a value. Example: `break "Example Message" if some_value == 'found'`
 
 ## Lambdas
 
@@ -183,3 +206,5 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Tail 1 - Random Access (Episode 72)](http://www.rubytapas.com)
 * [Ruby Tapas - Tail 2 - Do While (Episode 73)](http://www.rubytapas.com)
 * [Ruby Tapas - Concat (Episode 79)](http://www.rubytapas.com)
+* [Ruby Tapas - Splat Basics (Episode 80)](http://www.rubytapas.com)
+* [Ruby Tapas - Implicit Splat (Episode 81)](http://www.rubytapas.com)
