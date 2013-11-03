@@ -117,9 +117,15 @@ The following are worth knowing but should be avoided since it makes code harder
         b, *c, d = *a # => b == :one, c == [:two, :three, :four], d == :five
         b, c, *d = *a # => b == :one, c == :two, d == [:three, :four, :five]
 * Commonly used in method and/or block arguments.
-* Use explicit rather than implicit splatting as implicit splatting assumes an object behaves like an Array. Example:
+* Use explicit over implicit splatting as implicit splatting assumes an object behaves like an Array. Example:
 
         a = :one, :two, :three # => a == [:one, :two, :three]
+* Any object that responds to the #to_ary method can be used in an implicit splat.
+* Splats can be grouped (handy in block arguments) which allows for values of an array to be auto-assigned to variables
+  without having to use an intermediate variable to do the same thing. Example:
+
+        vehicles = {"Volkswagen" => "New Beetle"}
+        vehicles.each {|(make, model)| puts "Make: #{make}, Model: #{model}"} # => "Make: Volkswagen, Model: New Beetle"
 
 ## Loops
 
@@ -220,3 +226,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Splat Basics (Episode 80)](http://www.rubytapas.com)
 * [Ruby Tapas - Implicit Splat (Episode 81)](http://www.rubytapas.com)
 * [Ruby Tapas - Inline Assigments (Episode 82)](http://www.rubytapas.com)
+* [Ruby Tapas - Splat Group (Episode 84)](http://www.rubytapas.com)
