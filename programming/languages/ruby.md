@@ -73,31 +73,6 @@ The following are worth knowing but should be avoided since it makes code harder
 * %x() - Executes an interpolated system command (does not echo to STDOUT or return the running command's result).
     `%x(echo #{message}) # => "Huzzah!"`
 
-## Booleans
-
-* Use !! to convert an object to a boolean.
-
-## Arrays
-
-* Use Array#concat when concatenating arrays. It is faster than using `<<` and `.flatten!` or using `+=`. It also
-  updates the target array in place whereas `+=` will create a new array object of the concatenated source arrays.
-
-## Hashes
-
-* Use blocks when setting default values.
-    * Example: Hash.new []. Will use the same array object for each new key.
-    * Example: Hash.new {|hash, key| hash[key] = []}. Will initialize a new array object for each new key.
-* Consider using #fetch when setting default values for missing keys instead of || as || will answer the default value
-  when a key doesn't exist or has a value of nil/false. Example:
-
-        {}[:example] || :default # :default
-        {example: nil}[:example] || :default # :default
-        {example: false}[:example] || :default # :default
-
-        {}.fetch(:example) { :default } # :default
-        {example: nil}.fetch(:example)  { :default } # nil
-        {example: false}.fetch(:example) { :default } # false
-
 ## Splats
 
 * Also known as *Destructuring*. Examples:
@@ -126,6 +101,56 @@ The following are worth knowing but should be avoided since it makes code harder
 
         vehicles = {"Volkswagen" => "New Beetle"}
         vehicles.each {|(make, model)| puts "Make: #{make}, Model: #{model}"} # => "Make: Volkswagen, Model: New Beetle"
+* Use a naked splat (*) when defining arguments to be ignored (useful in subclass contructors as well). Example:
+
+        def example(required, *)
+          puts "Required argument is: #{required}."
+        end
+
+        example 1, 2, 3, 4, 5 # => "Required argument is: 1"
+
+## Assigments
+
+* Use inline assigment, with parentheses, in loop conditions to keep code concise. Example:
+
+        lines = 0
+        while(chunk = file.read(1024))
+          lines += chunk.count "\n"
+        end
+  The use of parentheses indicates that the *chunk* assigment is intentional and avoids the confusion of thinking that
+  the assigment (=) was not meant to be an equals (==).
+
+## Arguments
+
+* Use _ to ignore an argument or multiple arguments. Example:
+
+        a = [%w(Mr. Billy Bob Simpson), %w(Mrs. Sally Jane Ruffy)]
+        a.map { |_, first, _, last| [first, last] } # =>  [["Billy", "Simpson"], ["Sally", "Ruffy"]]
+
+## Booleans
+
+* Use !! to convert an object to a boolean.
+
+## Arrays
+
+* Use Array#concat when concatenating arrays. It is faster than using `<<` and `.flatten!` or using `+=`. It also
+  updates the target array in place whereas `+=` will create a new array object of the concatenated source arrays.
+
+## Hashes
+
+* Use blocks when setting default values.
+    * Example: Hash.new []. Will use the same array object for each new key.
+    * Example: Hash.new {|hash, key| hash[key] = []}. Will initialize a new array object for each new key.
+* Consider using #fetch when setting default values for missing keys instead of || as || will answer the default value
+  when a key doesn't exist or has a value of nil/false. Example:
+
+        {}[:example] || :default # :default
+        {example: nil}[:example] || :default # :default
+        {example: false}[:example] || :default # :default
+
+        {}.fetch(:example) { :default } # :default
+        {example: nil}.fetch(:example)  { :default } # nil
+        {example: false}.fetch(:example) { :default } # false
 
 ## Loops
 
@@ -153,17 +178,6 @@ The following are worth knowing but should be avoided since it makes code harder
 * Returns from the scope of the lambda, not the bounded object in which it was defined.
 * Use lambdas, by default, over procs.
 * Lambda can be defined via `lambda` or `->`. The latter is preferred.
-
-## Assigments
-
-* Use inline assigment, with parentheses, in loop conditions to keep code concise. Example:
-
-        lines = 0
-        while(chunk = file.read(1024))
-          lines += chunk.count "\n"
-        end
-  The use of parentheses indicates that the *chunk* assigment is intentional and avoids the confusion of thinking that
-  the assigment (=) was not meant to be an equals (==).
 
 ## Exceptions
 
@@ -227,3 +241,5 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Implicit Splat (Episode 81)](http://www.rubytapas.com)
 * [Ruby Tapas - Inline Assigments (Episode 82)](http://www.rubytapas.com)
 * [Ruby Tapas - Splat Group (Episode 84)](http://www.rubytapas.com)
+* [Ruby Tapas - Ignore Arguments (Episode 85)](http://www.rubytapas.com)
+* [Ruby Tapas - Naked Splat (Episode 86)](http://www.rubytapas.com)
