@@ -131,6 +131,22 @@ The following are worth knowing but should be avoided since it makes code harder
 
 * Use !! to convert an object to a boolean.
 
+## Strings
+
+* Use [] to parse substrings. Example:
+
+        song = "05 - Misty Mountain Hop"
+        song[5, song.length] # => "Misty Mountain Hop"
+* Use [] with a regular expression to parse a substring. Example:
+
+        song = "05 - Misty Mountain Hop"
+        song[/M.+n/] # => "Misty Mountain"
+
+* Use [] with a regular expression and second argument to parse the substring match group. Example:
+
+        song = "05 - Misty Mountain Hop"
+        song[/^\d{2} - (.+)/, 1] # => "Misty Mountain Hop"
+
 ## Arrays
 
 * Use Array#concat when concatenating arrays. It is faster than using `<<` and `.flatten!` or using `+=`. It also
@@ -254,3 +270,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Splat Group (Episode 84)](http://www.rubytapas.com)
 * [Ruby Tapas - Ignore Arguments (Episode 85)](http://www.rubytapas.com)
 * [Ruby Tapas - Naked Splat (Episode 86)](http://www.rubytapas.com)
+* [Ruby Tapas - String Subscript Regex (Episode 99)](http://www.rubytapas.com)
