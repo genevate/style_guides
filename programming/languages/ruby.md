@@ -204,6 +204,17 @@ The following are worth knowing but should be avoided since it makes code harder
           end
         end
 
+## Methods
+
+* Always define methods in the following order (from top to bottom within class definition):
+    * Class methods
+    * Public methods
+    * Protected methods
+    * Private methods
+* Class methods should be defined as `def self.method_name..end`.
+    * Do not use `self << class..end` as it is confusing to read when there are multiple methods defined within.
+    * Do not use `def ClassName.method_name..end` as it is redundant and can complicate refactoring.
+
 ## Files
 
 * Use IO::SEEK_SET to set position in file from which to read. Example: `file.seek 0, IO::SEEK_SET`.
