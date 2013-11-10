@@ -137,15 +137,23 @@ The following are worth knowing but should be avoided since it makes code harder
 
         song = "05 - Misty Mountain Hop"
         song[5, song.length] # => "Misty Mountain Hop"
+* Use [0,0] to prepend to a string. Example:
+
+        song = "Misty Mountain Hop"
+        song[0,0] = "05 - "
+        song # => "05 - Misty Mountain Hop"
 * Use [] with a regular expression to parse a substring. Example:
 
         song = "05 - Misty Mountain Hop"
         song[/M.+n/] # => "Misty Mountain"
-
-* Use [] with a regular expression and second argument to parse the substring match group. Example:
+* Use [] with a regular expression and a second argument to parse substring group. Example:
 
         song = "05 - Misty Mountain Hop"
         song[/^\d{2} - (.+)/, 1] # => "Misty Mountain Hop"
+* Use [] with a regular expression and named groups to parse a substring group. Example:
+
+        song = "05 - Misty Mountain Hop"
+        song[/^(?<track>\d{2})(?<delimiter> - )(?<title>.+)/, :title] # => "Misty Mountain Hop"
 
 ## Arrays
 
@@ -271,3 +279,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Ignore Arguments (Episode 85)](http://www.rubytapas.com)
 * [Ruby Tapas - Naked Splat (Episode 86)](http://www.rubytapas.com)
 * [Ruby Tapas - String Subscript Regex (Episode 99)](http://www.rubytapas.com)
+* [Ruby Tapas - String Subscript Assignment (Episode 107)](http://www.rubytapas.com)
