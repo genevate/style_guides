@@ -12,8 +12,15 @@
     0. If the candidate is not employeed give them a week, otherwise give them two weeks if employeed.
     0. Have the interviewee join the team discussion for planning (Monday) and assign actions for the week.
     0. Collaborate and actively engage with the interviewee for the week, working on real business problems.
+    0. Go to lunch (maybe serveral times) during the week(s) to get to know the interview in person better:
+        0. Is he/she humble, polite, and respectful to others?
+        0. Is he/she driven/passionate about work, hobbies, etc?
+        0. What does the team, as a whole, think?
     0. Have the interviewee demo what they worked on for the week (Friday) with the entire team.
     0. Pay the interviewee for services/time rendered, evaluate performance, and make the decision to hire/fire.
+    0. Important: The entire team needs to be involved in the interview process and there must be team consensus in
+       order to maintain team dynamics, culture, temperament, etc. moving forward. If you don't do this, you don't
+       empower the team to work as a democracy but instead have a dictatorship which is damaging to team moral.
 
 ## Resources
 
