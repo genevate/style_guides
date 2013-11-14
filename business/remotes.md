@@ -22,6 +22,8 @@
     * Maybe give every Friday off during the summer months.
     * Enable further learning (like cooking, dancing, playing an instrument) to augment current skills.
     * Host a company retreat, etc. to get face-to-face time with fellow employees.
+* Encourage employees to work from different locations (i.e. library, coffee shop, home, different cities, countries,
+  etc). A change of location can inspire and get people to think about problems differently.
 
 ## Things to Avoid
 

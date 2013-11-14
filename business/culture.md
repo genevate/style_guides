@@ -3,6 +3,9 @@
 "The only reliable way to muster motivation is by encouraging people to work on the stuff they like and care about,
 with people they like and care about. There are no shortcuts." -- Remote: Office Not Requred.
 
+"Motivation is pivotal to healthy lives and healthy companies. Make sure you’re minding it."
+-- Remote: Office Not Required.
+
 ## General
 
 0. Be positive.
