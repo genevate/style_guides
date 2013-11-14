@@ -1,5 +1,8 @@
 # Culture Styles
 
+"The only reliable way to muster motivation is by encouraging people to work on the stuff they like and care about,
+with people they like and care about. There are no shortcuts." -- Remote: Office Not Requred.
+
 ## General
 
 0. Be positive.
