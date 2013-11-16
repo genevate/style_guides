@@ -212,6 +212,20 @@ The following are worth knowing but should be avoided since it makes code harder
         def example
           bad_method rescue $!
         end
+* Never use exceptions for control flow. Use catch and throw instead. Example:
+
+        def thrower
+          ...
+          throw :complete
+        end
+
+        def catcher
+          ...
+          # Exit early if :complete is caught while attempting to perform work.
+          catch(:complete) do
+            thrower
+          end
+        end
 
 ## Modules
 
@@ -280,3 +294,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Naked Splat (Episode 86)](http://www.rubytapas.com)
 * [Ruby Tapas - String Subscript Regex (Episode 99)](http://www.rubytapas.com)
 * [Ruby Tapas - String Subscript Assignment (Episode 107)](http://www.rubytapas.com)
+* [Ruby Tapas - Catch and Throw (Episode 110)](http://www.rubytapas.com)
