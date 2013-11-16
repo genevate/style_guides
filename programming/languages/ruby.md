@@ -227,6 +227,15 @@ The following are worth knowing but should be avoided since it makes code harder
           end
         end
 
+## Debugging
+
+* Use `p` instead of `puts` when debugging. Reasons:
+    * Returns the value given - makes printing of inline values possible while not obstructing control flow.
+    * Inspects by default (i.e. which is the same as `puts some_object.inspect`).
+* Use `pp` to pretty print objects when debugging. Is part of the standard library, so make sure to `require "pp"`.
+  Additionally, the #pretty_print method allows objects to generate a pretty printed version of themselves for storage
+  within a local variable for later inspection if necessary.
+
 ## Modules
 
 * Modules allow code to be namespaced.
@@ -295,3 +304,5 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - String Subscript Regex (Episode 99)](http://www.rubytapas.com)
 * [Ruby Tapas - String Subscript Assignment (Episode 107)](http://www.rubytapas.com)
 * [Ruby Tapas - Catch and Throw (Episode 110)](http://www.rubytapas.com)
+* [Ruby Tapas - p (Episode 113)](http://www.rubytapas.com)
+* [Ruby Tapas - pp (Episode 115)](http://www.rubytapas.com)
