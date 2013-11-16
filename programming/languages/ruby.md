@@ -126,6 +126,10 @@ The following are worth knowing but should be avoided since it makes code harder
 
         a = [%w(Mr. Billy Bob Simpson), %w(Mrs. Sally Jane Ruffy)]
         a.map { |_, first, _, last| [first, last] } # =>  [["Billy", "Simpson"], ["Sally", "Ruffy"]]
+* When using ambiguous arguments, that don't clearly express their intent, define a local variable instead. Example:
+
+        include_super = false
+        String.instance_methods include_super
 
 ## Booleans
 
@@ -306,3 +310,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Catch and Throw (Episode 110)](http://www.rubytapas.com)
 * [Ruby Tapas - p (Episode 113)](http://www.rubytapas.com)
 * [Ruby Tapas - pp (Episode 115)](http://www.rubytapas.com)
+* [Ruby Tapas - Intent Revealing Argument (Episode 119)](http://www.rubytapas.com)
