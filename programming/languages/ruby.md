@@ -189,6 +189,11 @@ The following are worth knowing but should be avoided since it makes code harder
 * The obvious use for breaks are to exit quickly out of a loop once a particular condition is met but they can also
   be used to return a value. Example: `break "Example Message" if some_value == 'found'`
 
+## Control Flow
+
+* Use `and` and `or` for control flow since they have lesser precidence than their `&&` and `||` counterparts.
+* `and` and `or` also do not evaluate to a return value like `&&` and `||` (hence their significance for control flow).
+
 ## Procs
 
 * Disregards extra arguments without error.
@@ -311,3 +316,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - p (Episode 113)](http://www.rubytapas.com)
 * [Ruby Tapas - pp (Episode 115)](http://www.rubytapas.com)
 * [Ruby Tapas - Intent Revealing Argument (Episode 119)](http://www.rubytapas.com)
+* [Ruby Tapas - and-or (Episode 125)](http://www.rubytapas.com)
