@@ -271,6 +271,11 @@ The following are worth knowing but should be avoided since it makes code harder
     * Do not use `self << class..end` as it is confusing to read when there are multiple methods defined within.
     * Do not use `def ClassName.method_name..end` as it is redundant and can complicate refactoring.
 
+## Threads
+
+* Use .handle_interrupt over #raise or #kill to safely handle asynchronise interrupts. NOTE: These are hard to
+  use correctly so read method documentation for more info.
+
 ## Files
 
 * Use IO::SEEK_SET to set position in file from which to read. Example: `file.seek 0, IO::SEEK_SET`.
@@ -317,3 +322,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - pp (Episode 115)](http://www.rubytapas.com)
 * [Ruby Tapas - Intent Revealing Argument (Episode 119)](http://www.rubytapas.com)
 * [Ruby Tapas - and-or (Episode 125)](http://www.rubytapas.com)
+* [Ruby Tapas - Thread Interruptions (Episode 143)](http://www.rubytapas.com)
