@@ -276,6 +276,11 @@ The following are worth knowing but should be avoided since it makes code harder
 
 * Use .handle_interrupt over #raise or #kill to safely handle asynchronise interrupts. NOTE: These are hard to
   use correctly so read method documentation for more info.
+* Use `MonitorMixin` (via `require "monitor"` and `include MonitorMixin`) to enhance an existing class so that all
+  methods are executed with mutual exclusion (including recursive exclusion). NOTE: This might be overkill in some cases
+  where using a Mutex would be simpler. Read the documentation for further details.
+* Use the [Atomic](https://github.com/headius/ruby-atomic) gem as an alternative to making mutually exclusive operations
+  Additionally, it is also more performant and supports MRI, Rubinius, and JRuby.
 
 ## Files
 
@@ -325,3 +330,5 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - and-or (Episode 125)](http://www.rubytapas.com)
 * [Ruby Tapas - Thread Interruptions (Episode 143)](http://www.rubytapas.com)
 * [Ruby Tapas - Bulk Generation (Episode 144)](http://www.rubytapas.com)
+* [Ruby Tapas - Monitor (Episode 146)](http://www.rubytapas.com)
+* [Ruby Tapas - Atomic (Episode 147)](http://www.rubytapas.com)
