@@ -182,7 +182,8 @@ The following are worth knowing but should be avoided since it makes code harder
 
 ## Loops
 
-* `begin..end while <condition>` is the equivalent of a do while loop.
+* Use `begin..end while <condition>` in lieu of a do while loop (it is the equivalent in Ruby).
+* Use `<number>.times.map` instead of `(0…<number>).map` as it reads better and requires less setup.
 
 ## Breaks
 
@@ -323,3 +324,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Intent Revealing Argument (Episode 119)](http://www.rubytapas.com)
 * [Ruby Tapas - and-or (Episode 125)](http://www.rubytapas.com)
 * [Ruby Tapas - Thread Interruptions (Episode 143)](http://www.rubytapas.com)
+* [Ruby Tapas - Bulk Generation (Episode 144)](http://www.rubytapas.com)
