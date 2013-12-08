@@ -19,6 +19,8 @@
         * Try to limit responses so the room doesn't get too noisy...excitement is inevitable/understandable. :)
     * Development Notifications - For automated notifications like Git updates, build failures, deployments, etc.
     * Emergencies - For production level issues that must be addressed immediately.
+        * Keep this chat open at all times or when you are on call.
+        * Ensure notifications are enabled for your mobile device.
     * (team) - For specific teams. Use the following sub-structure (create the same structure per team):
       (see [Iterations](../business/iterations.md) for more info):
         * (team) Plans - For start of week planning.
@@ -33,3 +35,10 @@
       can be anytime there is something of interest to share.
     * Watercooler - For general converstations, what people are doing in their spare time, vacation experiences, etc.
     * After Hours - For news and information people might want to share for after hours adventures, gatherings, etc.
+0. Tips
+    * Only keep chat rooms open that are of value and critical to getting the job done. The rest can be entered as
+      time allows.
+    * Limit notifications for rooms that are too noisy/distracting. Some clients allow notifications to be silenced per
+      room so room distractions can be limited.
+    * For the noisest of group chats, consider entering/exiting three times a day (morning, noon, and night) like good
+      [email styles](email.md).
