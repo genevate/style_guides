@@ -36,6 +36,7 @@
     * Happy :-) - List what worked well.
     * Confused :-| - List what was confusing.
     * Sad ;-( - List what didn't work.
+* Based on feedback, create a list of actionable items and assign ownership to them.
 
 ## Demos
 
