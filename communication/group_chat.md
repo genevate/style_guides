@@ -30,7 +30,7 @@
             * Away From Keyboard (AFK). Examples: Grabbing lunch, taking care of the kids, running a quick errand, etc.
             * End of Work - Keep it light, sincere, even funny but do let people know you are done for the day.
             * Out of Office (OOO). Examples: Errands, sickness, upcomming vacation reminders, etc.
-        * (team) Retrospectives - For end-of-week retrospectives. Use the following format:
+        * (team) Retrospectives - For end-of-week retrospectives.
     * Demos - For end-of-week demos to show off the week's cumulative work. Doesn't have to limited to end-of-week but
       can be anytime there is something of interest to share.
     * Watercooler - For general converstations, what people are doing in their spare time, vacation experiences, etc.
