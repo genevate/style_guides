@@ -7,7 +7,7 @@
     * Ensures automatic history for old conversations which can be searched and resurfaced.
     * Enables remote/mobile access for those traveling or constantly on the move.
 0. Use group chat software for asynchronous communication. Examples:
-    * [Campfire](https://campfirenow.com)
+    * [Campfire](https://campfirenow.com)/[Flint](http://giantcomet.com/flint/mac)
     * [Troupe](https://trou.pe)
     * [Hall](https://hall.com)
     * [HipChat](https://www.hipchat.com)
