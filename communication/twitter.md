@@ -1,5 +1,6 @@
 # Twitter Styles
 
+0. Use [basic communication](basic.md) styles.
 0. Keep your tweets educational, entertaining, and relevant. Refrain from tweeting the mundane. Be creative.
 0. Try to average posting less than 5 tweets a day.
 0. Unfollow anyone that averages more than 5 tweets a day, brags about themselves and/or company, spams, etc. Your

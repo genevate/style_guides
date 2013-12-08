@@ -23,16 +23,19 @@
 * Team Chat Room Name: "Statuses".
 * Avoid meetings if possible.
 * Posted when a team member begins work. Format:
-    * List previous actions.
-    * List next actions.
-    * List blockers (if any).
+    * Previous actions.
+    * Next actions.
+    * Blockers (skip if none).
 
 ## Retrospectives
 
 * Performed, end-of-day, every Friday at 4pm.
 * Team Chat Room Name: "Restrospectives".
 * Avoid meetings if possible.
-* Post the pros and cons of the past week.
+* Format:
+    * Happy :-) - List what worked well.
+    * Confused :-| - List what was confusing.
+    * Sad ;-( - List what didn't work.
 
 ## Demos
 

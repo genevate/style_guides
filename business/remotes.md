@@ -18,7 +18,7 @@
     * Ensure everyone has access to the required resources.
     * Give each a company credit card and use it within reason/common sense.
     * Allow everyone to take vacation when necessary/needed. Allow each to coordinate with team members on scheduling.
-* Watch out for burn out by giving people time off and preventing people from overwork (i.e. more than 40 hours/week):
+* Watch for burn out by giving people time off and preventing people from overwork (i.e. more than 40 hours/week):
     * Maybe give every Friday off during the summer months.
     * Enable further learning (like cooking, dancing, playing an instrument) to augment current skills.
     * Host a company retreat, etc. to get face-to-face time with fellow employees.
