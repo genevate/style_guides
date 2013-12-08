@@ -1,5 +1,14 @@
 # Git Styles
 
+## Clones
+
+* For large project repositories, use the following workflow:
+    0. cd (large git project)
+    0. git bundle create git-bundle master
+    0. mkdir new-project && cd new-project
+    0. git clone (path to previously created bundle)/git-bundle -b master
+    0. git remote set-url origin
+
 ## Commits
 
 * Always write commits in past tense. This makes it easier to build and read changelogs.
@@ -20,3 +29,7 @@
     * Makes it easier to build changelogs.
     * Makes it easier to compare differences between versions.
     * Makes adoption of the new changes easier and faster.
+
+## References
+
+* [How to share large repositories](http://blog.plataformatec.com.br/2013/12/sharing-large-repositories-with-your-team).
