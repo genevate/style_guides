@@ -42,3 +42,4 @@
       room so room distractions can be limited.
     * For the noisest of group chats, consider entering/exiting three times a day (morning, noon, and night) like good
       [email styles](email.md).
+    * Most group chat services provide desktop and mobile applications. Install and use both.
