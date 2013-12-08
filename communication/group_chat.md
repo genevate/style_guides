@@ -19,7 +19,7 @@
         * Try to limit responses so the room doesn't get too noisy...excitement is inevitable/understandable. :)
     * Development Notifications - For automated notifications like Git updates, build failures, deployments, etc.
     * Emergencies - For production level issues that must be addressed immediately.
-    * (team) - For specific teams. Use the following sub-structure
+    * (team) - For specific teams. Use the following sub-structure (create the same structure per team):
       (see [Iterations](../business/iterations.md) for more info):
         * (team) Plans - For start of week planning.
         * (team) Statuses - For daily member status updates:
