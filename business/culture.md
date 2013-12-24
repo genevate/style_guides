@@ -77,4 +77,5 @@ to encourage employee/team improvement:
 
 ## Resources
 
+* [7 Vital Trends Disrupting Today’s Workplace](https://www.tinypulse.com/employee-engagement-survey-2013)
 * [Why Your Startup’s Culture Is Secretly Awful](http://www.fastcolabs.com/3016238/why-your-startups-culture-is-secretly-awful)
