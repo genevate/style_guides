@@ -249,6 +249,22 @@ The following are worth knowing but should be avoided since it makes code harder
 ## Modules
 
 * Modules allow code to be namespaced.
+* When defining modules, use nesting instead of shorthand:
+    * Good:
+
+            module ParentModule
+              module ChildModule
+                Module.nesting # => [ParentModule::ChildModule, ParentModule]
+              end
+            end
+    * Bad:
+
+            module ParentModule::ChildModule
+              Module.nesting # => [ParentModule::ChildModule]
+            end
+    * Reason: When nested, you maintain hierarchy and constant/method lookup within the hierarchy. Using the shorthand
+      would cause constants, for example, defined in the *ParentModule* to not be found and makes debugging any related
+      errors much harder.
 * Use `module_function` to mark methods in a module that will be private instance methods when included in a class.
   These methods can also be accessed as class level methods via the module. This allows classes to include module
   methods when all or many of the methods are needed by the class but also allows classes to simply reference the module
@@ -332,3 +348,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Bulk Generation (Episode 144)](http://www.rubytapas.com)
 * [Ruby Tapas - Monitor (Episode 146)](http://www.rubytapas.com)
 * [Ruby Tapas - Atomic (Episode 147)](http://www.rubytapas.com)
+* [Ruby Tapas - Constant Lookup Scope (Episode 158)](http://www.rubytapas.com)
