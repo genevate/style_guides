@@ -163,6 +163,10 @@ The following are worth knowing but should be avoided since it makes code harder
 
 * Use Array#concat when concatenating arrays. It is faster than using `<<` and `.flatten!` or using `+=`. It also
   updates the target array in place whereas `+=` will create a new array object of the concatenated source arrays.
+* Array#reduce
+    * Always supply an initial value so that empty arrays don't evaluate to nil (especially when dealing with numbers):
+        * Bad: [].reduce(:+) # => Evaluates to nil.
+        * Good: [].reduce(0, :+) # => Evaluates to 0.
 
 ## Hashes
 
@@ -349,3 +353,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Monitor (Episode 146)](http://www.rubytapas.com)
 * [Ruby Tapas - Atomic (Episode 147)](http://www.rubytapas.com)
 * [Ruby Tapas - Constant Lookup Scope (Episode 158)](http://www.rubytapas.com)
+* [Ruby Tapas - Reduce Reduce (Episode 160)](http://www.rubytapas.com)
