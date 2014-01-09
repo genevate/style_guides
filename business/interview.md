@@ -6,7 +6,7 @@
     0. Syndicated Feeds (RSS) - Maintains, hosts, writes about experiences and passion.
     0. GitHub - Has an active and well-maintained open source presense.
     0. Other - Other sources of online precense such as Google+, Tumblr, Stack Overvflow, Quora, etc. count too.
-    0. If none of the above exist (or via alternative sources), then move on to next candidate.
+    0. If none of the above exist (or supplied via alternative sources), then move on to next candidate.
 0. Look for candidates that can write well.
     0. Good writers means good communicators.
     0. Introductory emails are a good indicator.
@@ -20,7 +20,7 @@
         0. What does the team, as a whole, think?
     0. *Important*: The entire team needs to be involved in the interview process and there must be team consensus in
        order to maintain team dynamics, culture, temperament, etc. moving forward. If you don't do this, you don't
-       empower the team to grow as a whole and weaken the camaraderie.
+       empower the team to grow as a whole and weakens the established camaraderie.
     0. Have the interviewee demo what they worked on for the week (Friday) with the entire team.
     0. Pay the interviewee for services/time rendered, evaluate performance, and make the decision to hire/fire.
 
