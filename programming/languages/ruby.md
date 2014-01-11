@@ -281,6 +281,18 @@ The following are worth knowing but should be avoided since it makes code harder
           end
         end
 
+## Classes
+
+* When implementing an abstract class, raise a NotImplementedError (inherits from RuntimeError) for methods that
+  need to be implimented by a subclass. This will, in turn, clearly explain to future developers what needs to be fixed
+  with clear documentation and a stack trace back to the abstract class. Example:
+
+        class AbstractExample
+          def overwrittable_method
+            raise NotImplementedError, "The method, #overwrittable_method, is not implemented yet."
+          end
+        end
+
 ## Methods
 
 * Always define methods in the following order (from top to bottom within class definition):
@@ -354,3 +366,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Atomic (Episode 147)](http://www.rubytapas.com)
 * [Ruby Tapas - Constant Lookup Scope (Episode 158)](http://www.rubytapas.com)
 * [Ruby Tapas - Reduce Reduce (Episode 160)](http://www.rubytapas.com)
+* [Ruby Tapas - Not Implemented (Episode 166)](http://www.rubytapas.com)
