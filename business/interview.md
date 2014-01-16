@@ -28,3 +28,4 @@
 
 * [Remote: Office Not Required](https://37signals.com/remote)
 * [I will not do your tech interview](https://medium.com/lessons-learned/80ba19c55883)
+* [Hire by Auditions, Not Resumes](http://blogs.hbr.org/2014/01/hire-by-auditions-not-resumes)
