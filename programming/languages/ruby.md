@@ -131,6 +131,14 @@ The following are worth knowing but should be avoided since it makes code harder
         include_super = false
         String.instance_methods include_super
 
+* Use `key:,` to enforce a keyword argument:
+
+        def example first_name:, last_name: "Grant"
+          puts [first_name, last_name].compact * ' '
+        end
+
+        example last_name: "Smith" # => ArgumentError: missing keyword: first_name
+
 ## Booleans
 
 * Use !! to convert an object to a boolean.
