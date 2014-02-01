@@ -196,6 +196,8 @@ The following are worth knowing but should be avoided since it makes code harder
 
 * Use `begin..end while <condition>` in lieu of a do while loop (it is the equivalent in Ruby).
 * Use `<number>.times.map` instead of `(0…<number>).map` as it reads better and requires less setup.
+* Use `each do..end` instead of `for in do..end` since *for* loops use *each* loops under the covers. Additionally,
+  *each* loop syntax is more concise than the *for* loop syntax.
 
 ## Breaks
 
