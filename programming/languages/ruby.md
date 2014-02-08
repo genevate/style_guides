@@ -7,7 +7,8 @@
 
 ## Global Variables
 
-The following are worth knowing but should be avoided since it makes code harder to read and maintain:
+The following is worth knowing but should be avoided since it makes code harder to read and maintain (NOTE: if globals
+are used, ensure the longer aliases are used instead of the crpytic shorcuts):
 
 * $/ - Input record separator. Alias: $INPUT_RECORD_SEPARATOR. Default: newline.
 * $. - Current input line number of the last file read. Alias: $INPUT_LINE_NUMBER.
@@ -75,7 +76,19 @@ The following are worth knowing but should be avoided since it makes code harder
 
 ## Splats
 
-* Also known as *Destructuring*. Examples:
+* Commonly used in method and/or block arguments.
+* Can be used to slurp collections into a variable on the left side of an assigment (a.k.a. *multiple assignment*):
+
+        a = %i(one two three four five)
+
+        *b, c, d = *a # => b == [:one, :two, :three], c == :four, d == :five
+        b, *c, d = *a # => b == :one, c == [:two, :three, :four], d == :five
+        b, c, *d = *a # => b == :one, c == :two, d == [:three, :four, :five]
+* Multiple assignment should generally be avoided as it makes code harder to read, maintain, and modify.
+    * In rare cases, multiple assignment is acceptable in the following situations:
+        * Variable swaping. Example: `a, b = b, a`
+        * Related variables assignment. Example: `lat, long = x, y`
+* Can be used to expand collections on the right side of an assignment (a.k.a. *destructuring*):
 
         a1 = %i(one two three)
         a2 = %w(red black white)
@@ -83,15 +96,6 @@ The following are worth knowing but should be avoided since it makes code harder
         a, b, c = *a1 # => a == :one, b == :two, c == :three
         a, b, c = :insert, *a1 # => a == :insert, b == :one, c == :two
         [*a1, *a2] = # => [:one, :two, :three, "red", "black", "white"]
-* Can be used to expand collections on the right side of an assignment (as shown above).
-* Can be used to suck up multiple values into a single variable on the left side of an assigment:
-
-        a = %i(one two three four five)
-
-        *b, c, d = *a # => b == [:one, :two, :three], c == :four, d == :five
-        b, *c, d = *a # => b == :one, c == [:two, :three, :four], d == :five
-        b, c, *d = *a # => b == :one, c == :two, d == [:three, :four, :five]
-* Commonly used in method and/or block arguments.
 * Use explicit over implicit splatting as implicit splatting assumes an object behaves like an Array. Example:
 
         a = :one, :two, :three # => a == [:one, :two, :three]
@@ -377,3 +381,4 @@ The following are worth knowing but should be avoided since it makes code harder
 * [Ruby Tapas - Constant Lookup Scope (Episode 158)](http://www.rubytapas.com)
 * [Ruby Tapas - Reduce Reduce (Episode 160)](http://www.rubytapas.com)
 * [Ruby Tapas - Not Implemented (Episode 166)](http://www.rubytapas.com)
+* [Ruby Tapas - Multiple Assignment (Episode 174)](http://www.rubytapas.com)
