@@ -16,6 +16,23 @@ with people they like and care about. There are no shortcuts." -- Remote: Office
 0. Be diverse (i.e. equal mix of females, males, races, backgrounds, etc).
 0. Be passionate, driven, and disciplined.
 
+## Core Values
+
+* Be Influential - Big or small, each employee's contribution is valued and encouraged. Always.
+* Be Appreciative - Show appreciation for work done well internally or, even better, externally (via Twitter, etc.)
+  When performance is poor, clearly communicate why and provide aid to turn the problem or weakness into a postive
+  outcome.
+* Be Safe - Allow open and non-discriminatory communication for situations where conflict arises. Anyone should be
+  allowed to voice their concerns and be clearly heard, acknowledged, and understood. When individual space and/or
+  team code of conduct is violated, decisive action is taken and the culprits are held responsible for their actions.
+* Be Healthy - Focus on a healthy mental/physical balance. If overtime is put in, reward accordingly. Spurts are
+  allowed sustained overtime should be prevented in order to counter burnout.
+* No Know It Alls - Reward people who have drive, focus, discipline, and professional conduct
+  instead of knowing everything.
+* Relative Pay - Pay and compensation should be equal to or higher than the industry average. Period.
+* No Trophies - You are hired to for expertise and professionalism - not for bragging rights, promotional capabilities,
+  or a prized position of your boss/employeer.
+
 ## Results-Only Work Environment (ROWE)
 
 The following is from the [ROWE vs Telework Inforgraphic](http://www.gorowe.com/main/rowe-vs-telework-infographic):
