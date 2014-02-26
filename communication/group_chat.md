@@ -12,16 +12,17 @@
     * [Hall](https://hall.com)
     * [HipChat](https://www.hipchat.com)
 0. Structure chats/rooms at a company wide level as follows:
-    * General - For general company level communications, questions, etc.
-    * Announcements - For official company alerts, news, and updates.
-    * Emergencies - For production level issues that must be addressed immediately.
+    * General - General company level communications, discussions, questions, etc.
+    * Announcements - Official company alerts, news, and updates.
+    * Emergencies - Production level issues that must be addressed immediately.
         * Keep this chat open at all times or when you are on call.
         * Ensure notifications are enabled for your mobile device.
-    * Sales - For news related to new customer sign-up, new revenue earned, new contracts signed, etc.
+    * Sales - News related to customer sign-up, revenue earned, contracts signed, etc.
         * Try to limit the information to simply *(customer/contract) - (new revenue earned)*.
         * Try to limit responses so the room doesn't get too noisy...excitement is inevitable/understandable. :)
-    * Marketing - For global/public promotional/awareness efforts.
-    * (team) - For specific teams. Use the following sub-structure (create the same structure per team):
+    * Marketing - News related to global/public promotional/awareness efforts.
+    * Development - General technical news, discussions, etc. related to the software development.
+    * (team) - Teams specific news. Use the following sub-structure (create the same structure per team):
       (see [Iterations](../business/iterations.md) for more info):
         * (team) Plans - For start of week planning.
         * (team) Statuses - For daily member status updates:
@@ -34,8 +35,9 @@
     * Development Notifications - For automated notifications like Git updates, build failures, deployments, etc.
     * Demos - For end-of-week demos to show off the week's cumulative work. Doesn't have to limited to end-of-week but
       can be anytime there is something of interest to share.
-    * Watercooler - For general converstations, what people are doing in their spare time, vacation experiences, etc.
-    * After Hours - For news and information people might want to share for after hours adventures, gatherings, etc.
+    * After Hours - News and information related to after hours adventures, gatherings, etc. Examples:
+        * Snow - Ski/snowboarding information and events.
+        * Games - Video/board game information and events.
 0. Tips
     * Only keep chat rooms open that are of value and critical to getting the job done. The rest can be entered as
       time allows.
