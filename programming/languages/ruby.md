@@ -155,6 +155,9 @@ are used, ensure the longer aliases are used instead of the crpytic shorcuts):
 ## Booleans
 
 * Use !! to convert an object to a boolean.
+* Remove spaces after !:
+
+        !example
 
 ## Strings
 
@@ -221,6 +224,18 @@ are used, ensure the longer aliases are used instead of the crpytic shorcuts):
 
 * Use `and` and `or` for control flow since they have lesser precidence than their `&&` and `||` counterparts.
 * `and` and `or` also do not evaluate to a return value like `&&` and `||` (hence their significance for control flow).
+
+## Blocks
+
+* Use braces, with spaces between each brace, for one-liners:
+
+        (1..5).detect { |item| item == 2 }
+* Use do...end for multi-liners:
+
+        %w(one two three).map do |word|
+          ...
+          ...
+        end
 
 ## Procs
 
