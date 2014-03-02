@@ -1,5 +1,13 @@
 # Basic Programming Styles
 
+## Sandi Metz' Rules
+
+0. Classes must not be more than one hundred lines of code.
+0. Methods must not be more than five lines of code.
+0. Methods must not accept more than four parameters (this includes hash options).
+0. Controllers must instantiate only one object. Therefore, views can only know about a single instance variable
+   and should only send messages to that object.
+
 ## Bare Words
 
 * Bare words are lowercase words with no special modifier in front of them. Example:
@@ -173,8 +181,9 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 
 ## Resources
 
+* [Sandi Metz' Rules For Developers](http://robots.thoughtbot.com/sandi-metz-rules-for-developers)
+* [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.poodr.com) by Sandi Metz
 * [Ruby Tapas - Barewords (Episode 4)](http://www.rubytapas.com)
 * [Ruby Tapas - Message and Method (Episode 11)](http://www.rubytapas.com)
 * [Ruby Tapas - The End of Mocking (Episode 52)](http://www.rubytapas.com)
 * [Command-Query Separation](http://martinfowler.com/bliki/CommandQuerySeparation.html)
-* [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.poodr.com) by Sandi Metz
