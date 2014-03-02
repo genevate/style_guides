@@ -4,6 +4,15 @@
 
 * Don't use unless..else..end, use if..else..end instead.
 * Avoid inheritance (not always necessary, except in rare cases). Use modules instead.
+* Use spaces around operators. Examples:
+
+        a = 1 + 2
+        a, b = 1, 2
+        a > b ? true : false
+* Remove spaces around parentheses () and brackets []:
+
+        a = "bob".gsub('o', 'O').reverse
+        b = [1, 2, 3]
 
 ## Global Variables
 

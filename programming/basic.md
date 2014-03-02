@@ -1,5 +1,11 @@
 # Basic Programming Styles
 
+## Code Rules
+
+0. Use spaces instead of tabs (i.e. soft tabs).
+0. Never leave trailing whitespace.
+0. End every file with a blank new line.
+
 ## Sandi Metz' Rules
 
 0. Classes must not be more than one hundred lines of code.
