@@ -347,7 +347,7 @@ are used, ensure the longer aliases are used instead of the crpytic shorcuts):
 
 ## Methods
 
-* Always define methods in the following order (from top to bottom within class definition):
+* Define methods in the following order (from top to bottom within class definition):
     * Class methods
     * Public methods
     * Protected methods
@@ -355,6 +355,15 @@ are used, ensure the longer aliases are used instead of the crpytic shorcuts):
 * Class methods should be defined as `def self.method_name..end`.
     * Do not use `self << class..end` as it is confusing to read when there are multiple methods defined within.
     * Do not use `def ClassName.method_name..end` as it is redundant and can complicate refactoring.
+* Avoid parentheses for method definitions:
+
+        # Bad
+        def example(one, two)
+        end
+
+        # Good
+        def example one, two
+        end
 
 ## Threads
 
