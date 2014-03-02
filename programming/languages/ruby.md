@@ -381,6 +381,8 @@
 ## Methods
 
 * Use `snake_case` for method names.
+* Use `?` for boolean method names. Example: `example.admin?`
+* Use `!` for destructive method names (methods that will change the object). Example: `example.destroy!`
 * Define methods in the following order (from top to bottom within class definition):
     * Class methods
     * Public methods
