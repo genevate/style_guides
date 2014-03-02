@@ -14,74 +14,77 @@
         a = "bob".gsub('o', 'O').reverse
         b = [1, 2, 3]
 
-## Global Variables
+## Variables
 
-The following is worth knowing but should be avoided since it makes code harder to read and maintain (NOTE: if globals
-are used, ensure the longer aliases are used instead of the crpytic shorcuts):
+* Use `snake_case` for variable names.
+* Avoid the following global variables since it makes code harder to read and maintain (NOTE: if globals are used,
+  ensure the longer aliases are used instead of the crpytic shortcuts):
+    * $/ - Input record separator. Alias: $INPUT_RECORD_SEPARATOR. Default: newline.
+    * $. - Current input line number of the last file read. Alias: $INPUT_LINE_NUMBER.
+    * $\ - Output record separator. Alias: $OUTPUT_RECORD_SEPARATOR. Default: nil.
+    * $; - String#split default field separator. Alias: $FIELD_SEPARATOR.
+    * $, - Output field separator. Alias: $OUTPUT_FIELD_SEPARATOR.
+    * _$ - Input variable for each object within an IO loop.
+    * $! - Last exception thrown. Alias: $ERROR_INFO.
+    * $@ - Backtrace array of last exception thrown. Alias: $ERROR_POSITION.
+    * $& - String match of last successful pattern match for current scope. Alias: $MATCH.
+    * $` - String to the left of last successful match. Alias: $PREMATCH.
+    * $' - String to the right of last successful match. Alias: $POSTMATCH.
+    * $+ - Last bracket matched by the last successful match. Alias: $LAST_PAREN_MATCH.
+    * $<n> - nth group of last successful regexp match.
+    * $~ - Last match info for current scope. Alias: $LAST_MATCH_INFO.
+    * $< - Object access to the concatenation of all file contents given as command-line arguments. Alias: $DEFAULT_INPUT.
+    * $> - Output destination of Kernel.print and Kernel.printf. Alias: $DEFAULT_OUTPUT. Default: $stdout.
+    * $_ - Last input line of string by gets or readline. Alias: $LAST_READ_LINE.
+    * $0 - Name of the script being executed. Alias: $PROGRAM_NAME.
+    * $* - Command line arguments given for script. Alias: ARGV.
+    * $$ - Ruby process number of current script. Alias: $PID.
+    * $? - Status of the last executed child process. Alias: $CHILD_STATUS.
+    * $: - Load path for scripts and binary modules via load or require. Alias: $LOAD_PATH.
+    * $" - Array of module names as loaded by require. Alias: $LOADED_FEATURES.
+    * $-d - Status of the -d switch. Alias: $DEBUG.
+    * $-K - Source code character encoding being used. Alias: $KCODE.
+    * $-v - Verbose flag (as set by the -v switch). Alias: $VERBOSE.
+    * $-a - True if option -a ("autosplit" mode) is set.
+    * $-i - In-place-edit mode. Holds the extension if true, otherwise nil.
+    * $-l - True if option -l is set ("line-ending processing" is on).
+    * $-p - True if option -p is set ("loop" mode is on).
+    * $-w - True if option -w is set (Ruby warnings).
+    * $stdin - Current standard input.
+    * $stdout - Current standard output.
+    * $stderr - Current standard error output.
 
-* $/ - Input record separator. Alias: $INPUT_RECORD_SEPARATOR. Default: newline.
-* $. - Current input line number of the last file read. Alias: $INPUT_LINE_NUMBER.
-* $\ - Output record separator. Alias: $OUTPUT_RECORD_SEPARATOR. Default: nil.
-* $; - String#split default field separator. Alias: $FIELD_SEPARATOR.
-* $, - Output field separator. Alias: $OUTPUT_FIELD_SEPARATOR.
-* _$ - Input variable for each object within an IO loop.
-* $! - Last exception thrown. Alias: $ERROR_INFO.
-* $@ - Backtrace array of last exception thrown. Alias: $ERROR_POSITION.
-* $& - String match of last successful pattern match for current scope. Alias: $MATCH.
-* $` - String to the left of last successful match. Alias: $PREMATCH.
-* $' - String to the right of last successful match. Alias: $POSTMATCH.
-* $+ - Last bracket matched by the last successful match. Alias: $LAST_PAREN_MATCH.
-* $<n> - nth group of last successful regexp match.
-* $~ - Last match info for current scope. Alias: $LAST_MATCH_INFO.
-* $< - Object access to the concatenation of all file contents given as command-line arguments. Alias: $DEFAULT_INPUT.
-* $> - Output destination of Kernel.print and Kernel.printf. Alias: $DEFAULT_OUTPUT. Default: $stdout.
-* $_ - Last input line of string by gets or readline. Alias: $LAST_READ_LINE.
-* $0 - Name of the script being executed. Alias: $PROGRAM_NAME.
-* $* - Command line arguments given for script. Alias: ARGV.
-* $$ - Ruby process number of current script. Alias: $PID.
-* $? - Status of the last executed child process. Alias: $CHILD_STATUS.
-* $: - Load path for scripts and binary modules via load or require. Alias: $LOAD_PATH.
-* $" - Array of module names as loaded by require. Alias: $LOADED_FEATURES.
-* $-d - Status of the -d switch. Alias: $DEBUG.
-* $-K - Source code character encoding being used. Alias: $KCODE.
-* $-v - Verbose flag (as set by the -v switch). Alias: $VERBOSE.
-* $-a - True if option -a ("autosplit" mode) is set.
-* $-i - In-place-edit mode. Holds the extension if true, otherwise nil.
-* $-l - True if option -l is set ("line-ending processing" is on).
-* $-p - True if option -p is set ("loop" mode is on).
-* $-w - True if option -w is set (Ruby warnings).
-* $stdin - Current standard input.
-* $stdout - Current standard output.
-* $stderr - Current standard error output.
+## Constants
 
-## Global Constants
+* Use `SCREAMING_SNAKE_CASE` for contant names.
+* Be aware of the following global constants:
+    * \_\_FILE__ - Current file.
+    * \_\_LINE__ - Current line.
+    * \_\_dir__ - Current directory.
+    * ARGF - IO stream for processing files, given as command-line arguments, via a script.
 
-* \_\_FILE__ - Current file.
-* \_\_LINE__ - Current line.
-* \_\_dir__ - Current directory.
-* ARGF - IO stream for processing files, given as command-line arguments, via a script.
+## Shortcuts
 
-## % Shortcuts
-
-* %() - Yields an interpolated, quoted string.
-    `%(Example Says: #{message}) # => "Example Says: Hello!"`
-* %Q() - Same behavior as %().
-* %q() - Yields a non-interpolated, quoted string.
-    `%q(One Two Three) # => "One Two Three"`
-* %W() - Yields an interpolated string array.
-    `%W(one two, #{three}) # => ["one", "two", "three"]`
-* %w() - Yields a non-interpolated string array.
-    `%w(one two, three) # => ["one", "two", "three"]`
-* %r() - Yields an interpolated regular expression.
-    `%r(one|#{two}) # => /one|two/`
-* %s() - Yields a non-interpolated symbol.
-    `%s(test) # => :test`
-* %I() - Yields an interpolated symbol array.
-    `%I(one two #{three}) # => [:one, :two, :three]`
-* %i() - Yields a non-interpolated symbol array.
-    `%i(one two three) # => [:one, :two, :three]`
-* %x() - Executes an interpolated system command (does not echo to STDOUT or return the running command's result).
-    `%x(echo #{message}) # => "Huzzah!"`
+* Be aware of the following global shortcuts:
+    * %() - Yields an interpolated, quoted string.
+        `%(Example Says: #{message}) # => "Example Says: Hello!"`
+    * %Q() - Same behavior as %().
+    * %q() - Yields a non-interpolated, quoted string.
+        `%q(One Two Three) # => "One Two Three"`
+    * %W() - Yields an interpolated string array.
+        `%W(one two, #{three}) # => ["one", "two", "three"]`
+    * %w() - Yields a non-interpolated string array.
+        `%w(one two, three) # => ["one", "two", "three"]`
+    * %r() - Yields an interpolated regular expression.
+        `%r(one|#{two}) # => /one|two/`
+    * %s() - Yields a non-interpolated symbol.
+        `%s(test) # => :test`
+    * %I() - Yields an interpolated symbol array.
+        `%I(one two #{three}) # => [:one, :two, :three]`
+    * %i() - Yields a non-interpolated symbol array.
+        `%i(one two three) # => [:one, :two, :three]`
+    * %x() - Executes an interpolated system command (does not echo to STDOUT or return the running command's result).
+        `%x(echo #{message}) # => "Huzzah!"`
 
 ## Splats
 
@@ -364,6 +367,7 @@ are used, ensure the longer aliases are used instead of the crpytic shorcuts):
 
 ## Classes
 
+* Use `CamelCase` for class names.
 * When implementing an abstract class, raise a NotImplementedError (inherits from RuntimeError) for methods that
   need to be implimented by a subclass. This will, in turn, clearly explain to future developers what needs to be fixed
   with clear documentation and a stack trace back to the abstract class. Example:
@@ -376,6 +380,7 @@ are used, ensure the longer aliases are used instead of the crpytic shorcuts):
 
 ## Methods
 
+* Use `snake_case` for method names.
 * Define methods in the following order (from top to bottom within class definition):
     * Class methods
     * Public methods
@@ -393,6 +398,22 @@ are used, ensure the longer aliases are used instead of the crpytic shorcuts):
         # Yes
         def example one, two
         end
+* When using parentheses to pass parameters to a method, do not put a space between the name and parameters:
+        # No
+        example ("param")
+
+        # Yes
+        example("param")
+* Use spaces around `=` for default parameters:
+
+        # No
+        def vehicle make="BMW", model="R1200GS"
+        end
+
+        # Yes
+        def vehicle make = "BMW", model = "R1200GS"
+        end
+
 * Avoid explicit use of `return` statements when unnecessary:
 
         # No
