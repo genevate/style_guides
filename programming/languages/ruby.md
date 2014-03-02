@@ -222,12 +222,41 @@ are used, ensure the longer aliases are used instead of the crpytic shorcuts):
 
 ## Control Flow
 
-* Use `and` and `or` for control flow since they have lesser precidence than their `&&` and `||` counterparts.
-* `and` and `or` also do not evaluate to a return value like `&&` and `||` (hence their significance for control flow).
+* Use `and` and `or` sparingly and for control flow only since they have lesser precidence than their `&&` and `||`
+  counterparts. Additionally, `and` and `or` do not evaluate to a return value like `&&` and `||` (hence their
+  significance for control flow).
+* Use the ternary operator for one-liners:
+
+        a > b ? "Yep" : "Nope"
+
+* Use the ternary operator with a single expression per branch only:
+
+        # No
+        a > b ? (a * 2 + 1000) : message_y(message_x(b))
+
+        # Yes
+        a > b ? "Yep" : "Nope"
+* Use if..else..end (not the ternary operator) for complex multi-line expressions:
+
+        if condition
+          ...
+        else
+          ...
+        end
+* Never use `unless..else..end`, use `if..else..end` instead.
+* Avoid using parentheses around conditions:
+
+        # No
+        if (n > 5)
+        end
+
+        # Yes
+        if n > 10
+        end
 
 ## Cases
 
-* Indent `when` under `case`:
+* Indent `when` statements:
 
         case status_code
           when 100..199 then "informational"
@@ -306,19 +335,19 @@ are used, ensure the longer aliases are used instead of the crpytic shorcuts):
 
 * Modules allow code to be namespaced.
 * When defining modules, use nesting instead of shorthand:
-    * Good:
 
-            module ParentModule
-              module ChildModule
-                Module.nesting # => [ParentModule::ChildModule, ParentModule]
-              end
-            end
-    * Bad:
+          # No
+          module ParentModule::ChildModule
+            Module.nesting # => [ParentModule::ChildModule]
+          end
 
-            module ParentModule::ChildModule
-              Module.nesting # => [ParentModule::ChildModule]
+          # Yes
+          module ParentModule
+            module ChildModule
+              Module.nesting # => [ParentModule::ChildModule, ParentModule]
             end
-    * Reason: When nested, you maintain hierarchy and constant/method lookup within the hierarchy. Using the shorthand
+          end
+    * When nested, you maintain hierarchy and constant/method lookup within the hierarchy. Using the shorthand
       would cause constants, for example, defined in the *ParentModule* to not be found and makes debugging any related
       errors much harder.
 * Use `module_function` to mark methods in a module that will be private instance methods when included in a class.
@@ -357,12 +386,23 @@ are used, ensure the longer aliases are used instead of the crpytic shorcuts):
     * Do not use `def ClassName.method_name..end` as it is redundant and can complicate refactoring.
 * Avoid parentheses for method definitions:
 
-        # Bad
+        # No
         def example(one, two)
         end
 
-        # Good
+        # Yes
         def example one, two
+        end
+* Avoid explicit use of `return` statements when unnecessary:
+
+        # No
+        def example
+          return "Hi"
+        end
+
+        # Yes
+        def example
+          "Hi"
         end
 
 ## Threads
