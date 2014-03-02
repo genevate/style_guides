@@ -10,7 +10,7 @@
 * Be relaxed, enjoy the process, and stay positive. Remember: It's a two-way street and you're interviewing the
   company too!
 * Use each interview as a learning experience. You can always adapt and course correct.
-* Consider interviewing once a year to keep your skills sharp and keeping a pulse on the ever changing landscape.
+* Consider interviewing once a year to keep your skills sharp and a pulse on the ever changing landscape.
   Who knows when opportunity might strike!
 * Never ask about salary (and definitely never in front of the entire team). Wait for the employeer to make the offer
   and always talk to the hiring manager directly.
