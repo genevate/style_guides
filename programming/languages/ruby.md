@@ -368,6 +368,7 @@
 ## Classes
 
 * Use `CamelCase` for class names.
+* Never use `@@` class variables since the inheritance hierarchy uses the same variable. Example: `@@variable`.
 * When implementing an abstract class, raise a NotImplementedError (inherits from RuntimeError) for methods that
   need to be implimented by a subclass. This will, in turn, clearly explain to future developers what needs to be fixed
   with clear documentation and a stack trace back to the abstract class. Example:
@@ -388,6 +389,37 @@
     * Public methods
     * Protected methods
     * Private methods
+* Use the same indentation for all protected/private method sections of a class:
+
+        # No
+        class Example
+          protected
+
+            def protected_method_1
+            end
+
+          private
+
+            def private_1
+            end
+        end
+
+        # Yes
+        class Example
+          def public_method_1
+          end
+
+          protected
+
+          def protected_method_1
+          end
+
+          private
+
+          def private_1
+          end
+        end
+
 * Class methods should be defined as `def self.method_name..end`.
     * Do not use `self << class..end` as it is confusing to read when there are multiple methods defined within.
     * Do not use `def ClassName.method_name..end` as it is redundant and can complicate refactoring.
