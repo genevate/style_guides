@@ -225,6 +225,20 @@ are used, ensure the longer aliases are used instead of the crpytic shorcuts):
 * Use `and` and `or` for control flow since they have lesser precidence than their `&&` and `||` counterparts.
 * `and` and `or` also do not evaluate to a return value like `&&` and `||` (hence their significance for control flow).
 
+## Cases
+
+* Indent `when` under `case`:
+
+        case status_code
+          when 100..199 then "informational"
+          when 200..299 then "success"
+          when 300..399 then "redirection"
+          when 400..499 then "client error"
+          when 500..599 then "server error"
+          else
+            "unknown"
+        end
+
 ## Blocks
 
 * Use braces, with spaces between each brace, for one-liners:
