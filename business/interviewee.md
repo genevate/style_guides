@@ -1,13 +1,19 @@
 # Interviewee Styles
 
 * Be prepared:
-    * Keep your online portfolio (i.e. Twitter, web site/syndicated feeds, open source work, etc.) and resume
-      up-to-date.
-    * Spellcheck everything you write.
-    * Avoid buzzwords like the plague. Speak/write clearly for everything you describe.
-    * Make sure you know the company dress code before appearing in person.
-    * Know the date, time, and length of the interview (*double check the details - first impressions are critical*).
-    * Know everyone involved in the interview. Write down the names/roles and keep them with you the entire time.
+    * Your Portfolio:
+        * Keep your online portfolio (i.e. Twitter, web site/syndicated feeds, open source work, etc.) and resume
+          up-to-date.
+        * Spellcheck everything you write.
+        * Avoid buzzwords like the plague. Speak/write clearly for everything you describe.
+    * First Contact:
+        * Research the company and personalize your introductory message accordingly.
+        * Register and use the product/service prior to the first interview.
+        * Always respond with a follow-up email after the first interview.
+    * First Interview:
+        * Make sure you know the company dress code before appearing in person.
+        * Know the date, time, and length of the interview (*double check the details - first impressions are critical*).
+        * Know everyone involved in the interview. Write down the names/roles and keep them with you the entire time.
 * Be honest. You'll earn more respect by stating you don't know the answer and will avoid future questioning of deeper
   knowledge that can't be supported.
 * Be humble. If asked to rate/estimate something, answer with a response lower than you might think. It is better to set
