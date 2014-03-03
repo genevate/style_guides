@@ -18,6 +18,7 @@ with people they like and care about. There are no shortcuts." -- Remote: Office
 
 ## Core Values
 
+* Cherish your employees more than your clients.
 * Be Influential - Big or small, each employee's contribution is valued and encouraged. Always.
 * Be Appreciative - Show appreciation for work done well internally or, even better, externally (via Twitter, etc.)
   When performance is poor, clearly communicate why and provide aid to turn the problem or weakness into a postive
