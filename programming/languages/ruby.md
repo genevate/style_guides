@@ -312,6 +312,14 @@
         end
 * Never use exceptions for control flow. Use catch and throw instead. Example:
 
+        # No
+        begin
+          22 / 0
+        rescue ZeroDivisionError
+          puts "Wait, what? You divided by zero!?!"
+        end
+
+        # Yes
         def thrower
           ...
           throw :complete
