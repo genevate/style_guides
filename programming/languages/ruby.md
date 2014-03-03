@@ -188,15 +188,38 @@
 
 ## Arrays
 
+* Use `%w(one two three)` instead of `[“one”, “two”, “three"]` when building an array of strings.
+* Use `Set` instead of `Array` when managing unique elements. `Set` is a hybrid of Array's inter-operation
+  capabilities and Hash's fast lookup.
 * Use Array#concat when concatenating arrays. It is faster than using `<<` and `.flatten!` or using `+=`. It also
   updates the target array in place whereas `+=` will create a new array object of the concatenated source arrays.
-* Array#reduce
-    * Always supply an initial value so that empty arrays don't evaluate to nil (especially when dealing with numbers):
-        * Bad: [].reduce(:+) # => Evaluates to nil.
-        * Good: [].reduce(0, :+) # => Evaluates to 0.
+* Use Array#reduce with an initial value so that empty arrays don't evaluate to nil (especially with numbers):
+
+        # No
+        [].reduce(:+) # => Evaluates to nil.
+
+        # Yes
+        [].reduce(0, :+) # => Evaluates to 0.
 
 ## Hashes
 
+* Use symbols for keys: `{a: “one”, b: “two”, c: “three"}`.
+* Avoid spaces when defining a hash:
+
+        # No
+        example = { key: "value" }
+
+        # Yes
+        example = {key: "value"}
+* Indent and list one key per line when too long to define in a single line:
+
+        {
+          make: "BMW",
+          model: "R1200GST",
+          year: 2014,
+          color: "Black/Black",
+          mileage: 30_000
+      }
 * Use blocks when setting default values.
     * Example: Hash.new []. Will use the same array object for each new key.
     * Example: Hash.new {|hash, key| hash[key] = []}. Will initialize a new array object for each new key.
