@@ -2,17 +2,18 @@
 
 ## General
 
-* Don't use unless..else..end, use if..else..end instead.
-* Avoid inheritance (not always necessary, except in rare cases). Use modules instead.
-* Use spaces around operators. Examples:
+* Use spaces around operators:
 
+        # No
+        a=1+2
+        a,b=1,2
+        a>b ? true : false
+
+        # Yes
         a = 1 + 2
         a, b = 1, 2
         a > b ? true : false
-* Remove spaces around parentheses () and brackets []:
-
-        a = "bob".gsub('o', 'O').reverse
-        b = [1, 2, 3]
+* Avoid inheritance (not always necessary, except in rare cases). Use modules instead.
 
 ## Variables
 
@@ -56,8 +57,8 @@
 
 ## Constants
 
-* Use `SCREAMING_SNAKE_CASE` for contant names.
-* Be aware of the following global constants:
+* Use `SCREAMING_SNAKE_CASE` for constant names.
+* Use the following global constants:
     * \_\_FILE__ - Current file.
     * \_\_LINE__ - Current line.
     * \_\_dir__ - Current directory.
@@ -65,7 +66,7 @@
 
 ## Shortcuts
 
-* Be aware of the following global shortcuts:
+* Use the following global shortcuts:
     * %() - Yields an interpolated, quoted string.
         `%(Example Says: #{message}) # => "Example Says: Hello!"`
     * %Q() - Same behavior as %().
@@ -162,8 +163,13 @@
 
         !example
 
+## Characters
+
+* Use single quotes for a single character: `'a'`
+
 ## Strings
 
+* Use double quotes for strings: `"example"`
 * Use [] to parse substrings. Example:
 
         song = "05 - Misty Mountain Hop"
@@ -188,6 +194,13 @@
 
 ## Arrays
 
+* Avoid spaces around brackets []:
+
+        # No
+        example = [ 1, 2, 3 ]
+
+        # Yes
+        example = [1, 2, 3]
 * Use `%w(one two three)` instead of `[“one”, “two”, “three"]` when building an array of strings.
 * Use `Set` instead of `Array` when managing unique elements. `Set` is a hybrid of Array's inter-operation
   capabilities and Hash's fast lookup.
@@ -219,12 +232,16 @@
           year: 2014,
           color: "Black/Black",
           mileage: 30_000
-      }
-* Use blocks when setting default values.
-    * Example: Hash.new []. Will use the same array object for each new key.
-    * Example: Hash.new {|hash, key| hash[key] = []}. Will initialize a new array object for each new key.
-* Consider using #fetch when setting default values for missing keys instead of || as || will answer the default value
-  when a key doesn't exist or has a value of nil/false. Example:
+        }
+* Use blocks when setting default values:
+
+        # Will use the same array object for each new key.
+        Hash.new []
+
+        # Will initialize a new array object for each new key.
+        Hash.new {|hash, key| hash[key] = []}
+* Consider using #fetch when setting default values for missing keys instead of `||` as `||` will answer the default
+  value when a key doesn't exist or has a value of nil/false. Example:
 
         {}[:example] || :default # :default
         {example: nil}[:example] || :default # :default
@@ -244,7 +261,9 @@
 ## Breaks
 
 * The obvious use for breaks are to exit quickly out of a loop once a particular condition is met but they can also
-  be used to return a value. Example: `break "Example Message" if some_value == 'found'`
+  be used to return a value:
+
+        break "Example Message" if some_value == "found"
 
 ## Control Flow
 
@@ -299,7 +318,7 @@
 * Use braces, with spaces between each brace, for one-liners:
 
         (1..5).detect { |item| item == 2 }
-* Use do...end for multi-liners:
+* Use `do..end` for multi-liners:
 
         %w(one two three).map do |word|
           ...
@@ -463,7 +482,15 @@
         # Yes
         def example one, two
         end
-* When using parentheses to pass parameters to a method, do not put a space between the name and parameters:
+* When using parentheses, do not put spaces around the parentheses:
+
+        # No
+        example( "param" )
+
+        # Yes
+        example("param")
+* When using parentheses, do not put a space between the name and parameters:
+
         # No
         example ("param")
 
