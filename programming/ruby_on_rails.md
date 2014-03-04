@@ -16,7 +16,7 @@
 ## View
 
 * Apply renderer extensions to all files. Example:
-    * HTML: *.html.erb
+    * SLIM: *.html.slim
     * SASS: *.css.sass
 * Fragment cache when possible for anything that doesn't change much. Examples:
     * Site headers
