@@ -38,7 +38,7 @@
     * Communication:
         * How is email used?
         * How is group chat used?
-        * How content management used?
+        * How is content management used?
     * Teamwork:
         * How is pair programming performed?
         * How are new members indoctrinated/bootstrapped?
