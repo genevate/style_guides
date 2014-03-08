@@ -518,6 +518,12 @@
           "Hi"
         end
 
+## Macros
+
+* Macros are methods which dynamically generated methods, classes, and/or modules at class/module load time. Examples:
+    * attr_reader
+    * attr_accessor
+
 ## Threads
 
 * Use .handle_interrupt over #raise or #kill to safely handle asynchronise interrupts. NOTE: These are hard to
