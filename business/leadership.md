@@ -45,9 +45,9 @@ The following is taken word-for-word from [My Management Lessons from Three Fail
 
 * Steep (can be high maintenance and might not stay in one place for long):
     * Push them to tackle new challenges.
-    * Cleary define their to promotion.
+    * Cleary define their path to promotion.
     * Make them your thought partner.
-    * Don't ignore them because their independence or belief the don't need to be managed.
+    * Don't ignore them because of their independence or belief they don't need to be managed.
 * Slow (stable and tend to remain in their roles for some time)
     * Honor them for the great work they do because, very often, they go unrecognized.
 
