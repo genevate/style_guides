@@ -7,7 +7,7 @@
 0. Allow teammates to gain/achieve mastery.
 0. Empower teammates with a sense of purpose/drive.
 0. Protect teammates from daily distractions and interruptions.
-0. Identify weaknesses and focus on turning them into strengths.
+0. Identify weaknesses and focus on turning them into strengths but also build upon existing strengths.
 0. Be human. Always strive to make a connection with each and every one of your teammates so that you can understand
    who they are, what drives them, and how best to help them grow.
 0. Be honest:
@@ -15,19 +15,24 @@
     * Give praise but only when it is sincere and meaningful. Get this wrong and you'll do more damage than never
       giving praise in the first place. Plus, you'll lose credibility and respect.
 0. Be transparent: Share information often, clearly, and concisely.
-0. Be empathetic and caring - Strive to listen and understand what motivates people:
+0. Be empathetic and caring -- Strive to listen and understand what motivates people:
     * Past: Listen to where they came from, what makes them tick, and how they got to where they are now.
     * Present: Listen to what they think of the current situation, how they feel about it, and how they would change it.
     * Future: Listen to what drives them, where they are excited about going, and how you can help in these endeavors.
 0. Be decisive but not a dictator:
+    * Always base decisions on productivity not politics.
     * Never mandate how work will be performed/completed.
     * Facilitate and listen. Let the team come to their own conclusions.
     * Debate and clarify all decisions.
+    * Negotiate diversity and resistance into resolved actions.
     * Don't be afraid to delegate decisions to people that know the information better than you.
     * Don't defer decisions to senior staff when people, in the meeting, know the information better.
+0. Be a motivator. Do this for every teammate by taking action, when necessary, to engage people in the mission
+   and vision of the team/company.
+0. Be accountable. Be responsible for tasks assigned to the team and hold teammates to the same standard for their
+   work accordingly.
 0. Be a peer to the team.
 0. Be additional help when help is needed.
-0. Be responsible for tasks assigned to the team.
 0. Remember that excellent management doesn't scale. Limit your time and attention team to five people or less.
 0. Have faith and confidence in your team.
 
@@ -74,3 +79,4 @@ The following is taken word-for-word from [My Management Lessons from Three Fail
 ## Resources
 
 * [My Management Lessons from Three Failed Startups, Google, Apple, Dropbox, Twitter and Square](http://www.timeforpool.com/2/post/2014/02/my-management-lessons-from-three-failed-startups-google-apple-dropbox-twitter-and-squareread.html)
+* [Why Good Managers Are So Rare](http://blogs.hbr.org/2014/03/why-good-managers-are-so-rare)
