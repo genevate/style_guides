@@ -18,55 +18,36 @@ with people they like and care about. There are no shortcuts." -- Remote: Office
 
 ## Core Values
 
-* Cherish your employees more than your clients.
-* Be Influential - Big or small, each employee's contribution is valued and encouraged. Always.
-* Be Appreciative - Show appreciation for work done well internally or, even better, externally (via Twitter, etc.)
-  When performance is poor, clearly communicate why and provide aid to turn the problem or weakness into a postive
-  outcome.
-* Be Safe - Allow open and non-discriminatory communication for situations where conflict arises. Anyone should be
-  allowed to voice their concerns and be clearly heard, acknowledged, and understood. When individual space and/or
-  team code of conduct is violated, decisive action is taken and the culprits are held responsible for their actions.
+* People, not organizations, build software -- Cherish your employees more than your customers.
+* Outstanding software and teams can't be built without emotion –- *You have to care!*
+* Be Empowered:
+    * Work is not a place you go but something you do.
+    * Provide each employee with the autonomy to work however want with whatever tools they need to *get things done*.
+    * Your schedule and hours worked are your own as long as you focus on *getting things done*.
+    * Feel free to use dialog and debate to understand and solve complex problems.
+    * Act upon your convictions.
+* Be Responsible:
+    * You are hired for your expertise and professionalism -- not for bragging rights, promotional capabilities,
+      or a prized position of your boss/employeer.
+    * Avoid actions that waste your time, the customer's time, or the company's money.
+    * Lead with questions, not answers -- Listen to and understand the *why* of something.
+    * Question *why* something is necessary -- Does the benefit outweigh the effort?
+    * When performance is poor, clearly communicate why and provide the necessary support to turn the problem/weakness
+      into a positive outcome.
+    * Provide open and non-discriminatory communication for situations where conflict arises. Anyone can voice their
+      concerns and be clearly heard, acknowledged, and understood. When individual space and/or team code of conduct
+      is violated, decisive action is taken on the responsible culprits.
+    * Conduct autopsies without blame -- Analyze, learn, and pivot instead.
+* Be Appreciative:
+    * Big or small, each employee's contribution is valued and encouraged. Always.
+    * Reward people who have drive, focus, discipline, and professional conduct instead of knowing everything.
+    * Pay and compensation should be equal to or higher than the industry average. Period.
 * Be Healthy - Focus on a healthy mental/physical balance. If overtime is put in, reward accordingly. Spurts are
-  allowed sustained overtime should be prevented in order to counter burnout.
-* No Know It Alls - Reward people who have drive, focus, discipline, and professional conduct
-  instead of knowing everything.
-* Relative Pay - Pay and compensation should be equal to or higher than the industry average. Period.
-* No Trophies - You are hired to for expertise and professionalism - not for bragging rights, promotional capabilities,
-  or a prized position of your boss/employeer.
+  allowed but sustained overtime should be prevented to avoid burnout.
 
-## Results-Only Work Environment (ROWE)
+## Resources
 
-The following is from the [ROWE vs Telework Inforgraphic](http://www.gorowe.com/main/rowe-vs-telework-infographic):
-
-0. People at all levels stop doing any activity that is a waste of their time, the customer's time, or the company's
-money.
-0. Employees have the freedom to work any way they want.
-0. Every day feels like Saturday.
-0. Work isn't a place you go, it's something you do.
-0. People have an unlimited amount of paid time off as long as the work gets done.
-0. Leaving the worksplace at 2pm is not considered leaving early, arriving at the workplace at 2pm is not considered
-coming in late.
-0. Nobody talks about how many hours they work.
-0. Every meeting is optional.
-0. It's okay to catch a movie on a Tuesday afternoon, it's okay to grocery shop on a Wednesday morning, it's okay to
-take a nap on a Thursday afternoon.
-0. There are no work schedules.
-0. Nobody feels overworked, guilty, or stressed-out.
-0. There aren't any last minute fire drills.
-0. There's no judgement about how you spend your time.
-
-## Foster Employee Self-Motivation
-
-The following is based off of [Good to Great](http://www.amazon.com/Good-Great-Companies-Leap-Others/dp/0066620996/ref=tmm_hrd_title_0?_encoding=UTF8&sr=8-1&qid=1375567924) by Jim Collins.
-where the goal is to hire good people and then focus on motivating without being demotivating. There are four basic
-practices for establishing company culture where self motivations can flourish:
-
-0. Lead with questions, not answers.
-0. Engage in dialog and debate.
-0. Conduct autopsies without blame.
-0. Build red flag mechanisms - Make it easy for customers/employees to speak up when they find an issue.
-
-## Behavior Improvement Exercises
+### Behavior Improvement Exercises
 
 The following is taken from [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805/ref=sr_1_1?ie=UTF8&qid=1375569191&sr=8-1&keywords=Drive) by Daniel H. Pink
 to encourage employee/team improvement:
@@ -93,8 +74,10 @@ to encourage employee/team improvement:
     0. Turn your next offsite into a FedEx day - A day where employees can work on whaterver they want with whomever
        they like. Must deliver the next day.
 
-## Resources
+### Further Reading
 
+* [ROWE vs Telework Inforgraphic](http://www.gorowe.com/main/rowe-vs-telework-infographic)
+* [Good to Great](http://www.amazon.com/Good-Great-Companies-Leap-Others/dp/0066620996/ref=tmm_hrd_title_0?_encoding=UTF8&sr=8-1&qid=1375567924) by Jim Collins
 * [7 Vital Trends Disrupting Today’s Workplace](https://www.tinypulse.com/employee-engagement-survey-2013)
 * [Why Your Startup’s Culture Is Secretly Awful](http://www.fastcolabs.com/3016238/why-your-startups-culture-is-secretly-awful)
 * [The Open-Office Trap](http://www.newyorker.com/online/blogs/currency/2014/01/the-open-office-trap.html)
