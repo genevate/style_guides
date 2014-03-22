@@ -120,11 +120,19 @@
         vehicles.each {|(make, model)| puts "Make: #{make}, Model: #{model}"} # => "Make: Volkswagen, Model: New Beetle"
 * Use a naked splat (*) when defining arguments to be ignored (useful in subclass contructors as well). Example:
 
-        def example(required, *)
+        def example required, *
           puts "Required argument is: #{required}."
         end
 
         example 1, 2, 3, 4, 5 # => "Required argument is: 1"
+* Use a double naked splat (**) with keyword arguments to assign additional options to a named hash (WARNING: Should
+  be avoided in most cases but can be useful in supporting legacy code backwards compatibility). Example:
+
+        def example string, keyword_1: 1, keyword_2: 2, **options
+          puts "Additional Options are: #{options.inspect}."
+        end
+
+        example "test", extra_1: "one", extra_2: "two" # => Additional Options are: {:extra_1=>"one", :extra_2=>"two"}.
 
 ## Assigments
 
