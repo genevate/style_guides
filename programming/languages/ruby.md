@@ -155,6 +155,13 @@
         end
 
         example last_name: "Smith" # => ArgumentError: missing keyword: first_name
+* Use keyword arguments instead of option hashes so that an ArgumentError is thrown for unknown keywords:
+
+        def say name, prefix: "Hello"
+          puts "#{prefix} #{name}"
+        end
+
+        example "Bob", bogus: "Foo" # => ArgumentError: unknown keyword: bogus
 
 ## Booleans
 
