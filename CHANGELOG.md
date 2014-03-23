@@ -1,3 +1,46 @@
+# v0.4.0
+
+* Fixed typos.
+* Updated business vacation styles to include standard holidays, birthdays, and end of year holidays.
+* Updated group chat styles to mention that team structure is created per team.
+* Updated restrospective styles to be actionable.
+* Updated Ruby splat styles to better define multiple assignment usage.
+* Updated group chat room/channel structure.
+* Updated Ruby loop syntax documentation.
+* Updated Ruby style for exceptions used as control flow.
+* Refactored the culture styles for clarity by distilling the information to the essential details.
+* Added group chat communication styles.
+* Added Git steps for cloning and replicating large Git project repositories.
+* Added "7 Vital Trends Disrupting Today’s Workplace" as a resource for business culture.
+* Added Ruby styles for module definitions (nesting vs. shorthand).
+* Added Ruby styles for Array#reduce.
+* Added design styles for site navigation (inluding tabs, logos, search, page labels, and breadcrumbs).
+* Added design styles for site logo, tag lines, and home page.
+* Added traits remote employees must have to business remote styles.
+* Added Ruby abstract class styles.
+* Added resource links for culture and interview styles.
+* Added required keyword arguments to the Ruby style guide.
+* Added Ruby styles for *each* versus *for* loop syntax.
+* Added Slack software to group chat styles.
+* Added culture core values.
+* Added interview guidelines and questions.
+* Added interviewee styles.
+* Added Sandi Metz' developer rules.
+* Added general programming code styles.
+* Added Ruby block styles and updated boolean styles.
+* Added Ruby styles for case statements.
+* Added parentheses avoidance for Ruby method definitions.
+* Added Ruby styles for method parentheses and default parameters.
+* Added Ruby styles for boolean and destructive method naming.
+* Added styles for Ruby method formatting and avoidance of @@ class variables.
+* Added basic Ruby Array and Hash styles.
+* Added guideline, tactics, growth trajectories, maintenance, and resources to leadership styles.
+* Added notes on cherishing employees over clients to business culture styles.
+* Added Ruby macro method styles (introduction only).
+* Added leadership notes related to the article on "Why Good Managers Are So Rare".
+* Added Ruby keyword arguments style to throw an ArgumentError for invalid keywords.
+* Added Ruby style for double naked splat (**).
+
 # v0.3.0
 
 * Updated Ruby splat styles to define splat grouping.
