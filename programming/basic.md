@@ -71,13 +71,18 @@
     * Bad: task.owner.full_name. (i.e. task --> owner --> string)
     * Good: task.owner_full_name.
 
-## Single Responsibility Pattern (SRP)
+## Single responsibility, Open-closed, Liskov substitution, Interface segregation and Dependency inversion (SOLID)
 
-* Should do the smallest possible useful thing.
-* Should be explainable in a sentence (it is code smell if the word "and" is used in a sentence).
-* Everything should be highly related to a single purpose.
-* Does not allow extraneous responsibilities to leak in.
-* Isolation allows change without consequence and reuse without duplication.
+* Single Responsibility Pattern (SRP)
+    * Should do the smallest possible useful thing.
+    * Should be explainable in a sentence (it is code smell if the word "and" is used in a sentence).
+    * Everything should be highly related to a single purpose.
+    * Does not allow extraneous responsibilities to leak in.
+    * Isolation allows change without consequence and reuse without duplication.
+* [Open/Closed Principle (OCP)](https://en.wikipedia.org/wiki/Open/closed_principle)
+* [Liskov Substitution Principle (LSP)](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+* [Interface Segregation Principle (ISP)](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+* [Dependency Inversion Principle (DIP)](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
 ## Transparent, Reasonable, Usable, and Exemplary (TRUE)
 
