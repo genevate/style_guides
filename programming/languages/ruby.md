@@ -217,6 +217,16 @@
         # Yes
         example = [1, 2, 3]
 * Use `%w(one two three)` instead of `[“one”, “two”, “three"]` when building an array of strings.
+* Use `Array` when dealing with a collection that might be nil:
+
+        # No
+        params[:ids] = nil
+        if params[:ids]
+          params[:ids].each { |id| # Process. }
+        end
+
+        # Yes
+        Array(params[:ids]).each { |id| # Process. } # If :ids is nil, then it will be converted to an empty array.
 * Use `Set` instead of `Array` when managing unique elements. `Set` is a hybrid of Array's inter-operation
   capabilities and Hash's fast lookup.
 * Use Array#concat when concatenating arrays. It is faster than using `<<` and `.flatten!` or using `+=`. It also
