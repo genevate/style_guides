@@ -61,6 +61,7 @@
 
 ### Local Soloist -- Local Reviewer
 
+0. Use the basic workflow (see above).
 0. Commit and rebase.
 0. Review changes with teammate when ready to push to remote: `git diff origin/master`.
 0. Use interactive rebase (`git rebase -i @{u}`) to clean up commits, commit messages, etc. one last time before
@@ -69,6 +70,7 @@
 
 ### Local/Remote Soloist -- Remote Reviewer
 
+0. Use the basic workflow (see above).
 0. Create a feature branch.
 0. Commit changes.
 0. Issue a GitHub pull request once all commits for work is complete and ready for review.
@@ -78,7 +80,7 @@
 
 In this situation, two people are sharing the same screen and codebase together (either local or remote). There is no
 need to create a branch or issue pull requests since the pairs are communicating in realtime. This workflow is the same
-as the basic workflow mentioned above.
+as the basic workflow (see above).
 
 ## References
 
