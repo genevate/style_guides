@@ -582,6 +582,14 @@
 * Run line number of test (can be any line number of the test): `example_spec.rb -l 10`
 * Alternatively, the SPEC_OPTS environment variable can be used: `SPEC_OPTS="-l 10" example_spec.rb`
 
+# Value Objects
+
+* Follows value semantics rather than reference semantics.
+* Must be immutable
+* Defines an equivalence operator (==) that uses state
+* Defines #hash to use state
+* Defines #eql? (hash equality) as an alias of equivalence (==)
+
 ## Resources
 
 * [Ruby Tapas - Fetch for Defaults (Episode 12)](http://www.rubytapas.com)
@@ -617,3 +625,4 @@
 * [Ruby Tapas - Not Implemented (Episode 166)](http://www.rubytapas.com)
 * [Ruby Tapas - Multiple Assignment (Episode 174)](http://www.rubytapas.com)
 * [Ruby Tapas - Fail and Raise (Episode 188)](http://www.rubytapas.com)
+* [Ruby Tapas - Hash Equality (Episode 204)](http://www.rubytapas.com)
