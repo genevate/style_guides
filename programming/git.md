@@ -16,17 +16,26 @@
 
 ## Commits
 
-* Always write commits in past tense (makes it easier to build and read changelogs).
-* Always prefix commits using one of the following:
-    * **Fixed** - This is code that has been fixed.
-    * **Removed** - This is a feature that was once added but is now removed.
-    * **Added** - This is a new feature.
-    * **Updated** - This is an existing feature that has been updated.
-    * **Refactored** - This is a code that has been refactored.
-* Use hashtags in commit messages if helpful. These can easily be searched for later.
-* Use the --message option for short one-line commit messages sparingly. Better to use a short one-line commit message
-  but also provide bullet points, within the commit message body, which detail and support the one-line commit message.
-* Include links (via the commit message body, usually) to dependent projects, etc. if useful.
+* Use the following format for the first line of the commit message:
+    * Use 50 characters or less.
+    * Use past tense (makes it easier to build and read changelogs).
+    * Use the following prefixes only:
+        * **Fixed** - Code that has been fixed.
+        * **Removed** - Code that was once added but has now been removed.
+        * **Added** - New code that is an enhancement/feature, etc.
+        * **Updated** - Code that has been updated.
+        * **Refactored** - Code that has been refactored.
+    * Use hashtags (easier to search for later).
+* Use the following format for the body of the commit message:
+    * Use a space between the first line of the commit message and the body.
+    * Use a bullet for each detail of the commit body.
+    * Include links to dependent projects, stories, etc. if available (usually the first bullet point).
+* Use the --message option for short one-line commit messages sparingly. Better to provide bullet points, within the
+      commit message body, which details and supports the one-line commit message.
+* Each commit should answer the following:
+    * What? -- What is the body of work being committed.
+    * Why? -- Why is the body of work necessary?
+    * How? -- How does the body of work solve the why.
 
 ## Tags
 
