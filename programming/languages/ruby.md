@@ -182,6 +182,17 @@
 
 * Use single quotes for a single character: `'a'`
 
+## Numbers
+
+* In most situations, it is important to use `Integer(value)` instead of `value.to_i` when converting a possible
+  non-integer value into an integer. The former will throw an exception, the latter will not (yields zero instead).
+  Example:
+
+        value = "example"
+        Integer(value) # => ArgumentError: invalid value for Integer(): "example"
+        value.to_i # => 0
+  This pattern applies to Floats as well.
+
 ## Strings
 
 * Use double quotes for strings: `"example"`
@@ -626,3 +637,4 @@
 * [Ruby Tapas - Multiple Assignment (Episode 174)](http://www.rubytapas.com)
 * [Ruby Tapas - Fail and Raise (Episode 188)](http://www.rubytapas.com)
 * [Ruby Tapas - Hash Equality (Episode 204)](http://www.rubytapas.com)
+* [Ruby Tapas - Conversion Function (Episode 207)](http://www.rubytapas.com)
