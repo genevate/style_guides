@@ -2,9 +2,11 @@
 
 ## Code Rules
 
-0. Use spaces instead of tabs (i.e. soft tabs).
-0. Never leave trailing whitespace.
-0. End every file with a blank new line.
+* Use spaces instead of tabs (i.e. soft tabs).
+* Avoid leaving trailing whitespace.
+* Remove spaces from blank lines.
+* End every file with a blank new line.
+* Write tests that demonstration passing and failing requirements.
 
 ## Sandi Metz' Rules
 
@@ -19,20 +21,20 @@
 * Bare words are lowercase words with no special modifier in front of them. Example:
     * example = This is a bare word which is also a method.
 * The following are NOT bare words but introduce scope limitations (using Ruby syntax but applicable to
-   other languages):
+  other languages):
     * $example = Global variable
     * @@example = Class variable
     * @example = Instance variable
     * EXAMPLE = Constant variable
 * It is good design to use bare words as they allow for greater flexibility when enhancing/refactoring
-   future code due to fewer scope limitations/complexities.
+  future code due to fewer scope limitations/complexities.
 
 ## Messages and Methods
 
 * **Message** - A name for a responsibility an object may have. In other words, you send a message to a collaborator
-   (i.e. object) not a method.
+  (i.e. object) not a method.
 * **Method** - A named, concrete, implementation for which a responsibility may be fullfilled. There can be many methods
-   for a single responsibility.
+  for a single responsibility.
 
 ## Command-Query Separation (CQS)
 
@@ -182,8 +184,6 @@ The goal is to keep as few dependencies as possible so that a class knows enough
   the behavior of the sum of its parts.
 * Composed of objects of smaller well-defined behavior, the composed object benefits from the greater sum of its parts
   but can become hard to manage should the number of parts grow to a large size.
-
-## Tests
 
 ### Mocks
 
