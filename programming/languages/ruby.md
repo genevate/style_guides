@@ -192,6 +192,10 @@
         Integer(value) # => ArgumentError: invalid value for Integer(): "example"
         value.to_i # => 0
   This pattern applies to Floats as well.
+* Use `#to_i` for explicit conversion of an object to an integer. Useful when forcing an object to convert to an
+  integer. Example: "1234".to_i.
+* Use `#to_int` for implicit conversion of an object to an integer. Useful when building an object that might need to
+  behave like an integer. Ruby calls `#to_int` when processing object that behave like integers.
 
 ## Strings
 
@@ -249,6 +253,10 @@
 
         # Yes
         [].reduce(0, :+) # => Evaluates to 0.
+* Use `#to_a` for explicit conversion of an object to an array. Useful when forcing an object to convert to an
+  array. Example: `(1..10).to_a`.
+* Use `#to_ary` for implicit conversion of an object to an array. Useful when building an object that might need to
+  behave like an array. Ruby calls `#to_ary` when processing object that behave like arrays.
 
 ## Hashes
 
@@ -638,3 +646,4 @@
 * [Ruby Tapas - Fail and Raise (Episode 188)](http://www.rubytapas.com)
 * [Ruby Tapas - Hash Equality (Episode 204)](http://www.rubytapas.com)
 * [Ruby Tapas - Conversion Function (Episode 207)](http://www.rubytapas.com)
+* [Ruby Tapas - Implicit Conversion (Episode 210)](http://www.rubytapas.com)
