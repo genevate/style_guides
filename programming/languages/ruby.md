@@ -356,6 +356,8 @@
           else
             "unknown"
         end
+* Use lambda's in `when` statements when needing to evaluate code since lambda's alias the `===` method to the `call`
+  method.
 
 ## Blocks
 
@@ -564,6 +566,14 @@
         def example
           "Hi"
         end
+* Explicit Conversions (i.e. #to_s): Represent object conversions from classes that are vaguely or absolutely unrelated
+  to the target class. These messages are issued by a non-core Ruby object, never a core Ruby object. These are lenient
+  methods.
+* Implicit Conversions (i.e. #to_str): Represent object conversions from classes that are strongly related to the target
+  class. These messages can be issued by a core Ruby object. These are strict methods and will issue exceptions when not
+  found.
+* Conversion Functions (i.e. Integer(), String(), Array(), etc.): For times when objects needs to be converted to a core
+  type, sensibly, with the most leniency.
 
 ## Macros
 
@@ -611,6 +621,7 @@
 
 ## Resources
 
+* [Confident Ruby](http://www.confidentruby.com) by Avdi Grimm
 * [Ruby Tapas - Fetch for Defaults (Episode 12)](http://www.rubytapas.com)
 * [Ruby Tapas - Inline Rescue (Episode 22)](http://www.rubytapas.com)
 * [Ruby Tapas - Hash Default Values (Episode 45)](http://www.rubytapas.com)
