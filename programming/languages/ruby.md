@@ -371,6 +371,8 @@
           ...
         end
 
+*NOTE: `do…end` blocks have a higher precedence over `{…}` blocks*
+
 ## Procs
 
 * Disregards extra arguments without error.
