@@ -284,8 +284,8 @@
 
         # Will initialize a new array object for each new key.
         Hash.new {|hash, key| hash[key] = []}
-* Consider using #fetch when setting default values for missing keys instead of `||` as `||` will answer the default
-  value when a key doesn't exist or has a value of nil/false. Example:
+* Use `#fetch` when setting default values for missing keys instead of `||` as `||` will answer the default value when a
+  key doesn't exist or has a value of nil/false. Example:
 
         {}[:example] || :default # :default
         {example: nil}[:example] || :default # :default
@@ -294,6 +294,9 @@
         {}.fetch(:example) { :default } # :default
         {example: nil}.fetch(:example)  { :default } # nil
         {example: false}.fetch(:example) { :default } # false
+* Use a block instead of a value for the default (second) argument of `#fetch`. This provides the following benefits:
+    0. Blocks can be defined once for easy reference in multiple defaults (DRY).
+    0. Blocks are lazy evaluated which improves application performance.
 
 ## Loops
 
