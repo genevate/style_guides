@@ -616,6 +616,15 @@
 * Run line number of test (can be any line number of the test): `example_spec.rb -l 10`
 * Alternatively, the SPEC_OPTS environment variable can be used: `SPEC_OPTS="-l 10" example_spec.rb`
 
+# Comparing Objects
+
+* When defining the `<=>` method for an object, make sure to check for type:
+
+        def <=>(other)
+          return nil unless other.is_a?(self.class)
+          some_method <=> other.some_method
+        end
+
 # Value Objects
 
 * Follows value semantics rather than reference semantics.
@@ -663,3 +672,4 @@
 * [Ruby Tapas - Hash Equality (Episode 204)](http://www.rubytapas.com)
 * [Ruby Tapas - Conversion Function (Episode 207)](http://www.rubytapas.com)
 * [Ruby Tapas - Implicit Conversion (Episode 210)](http://www.rubytapas.com)
+* [Ruby Tapas - Spaceship Revisited (Episode 218)](http://www.rubytapas.com)
