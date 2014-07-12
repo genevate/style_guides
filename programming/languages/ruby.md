@@ -632,6 +632,7 @@
 * Defines an equivalence operator (==) that uses state
 * Defines #hash to use state
 * Defines #eql? (hash equality) as an alias of equivalence (==)
+* Consider using the [Adamantium](https://github.com/dkubb/adamantium) gem when building value objects.
 
 ## Resources
 
@@ -673,3 +674,4 @@
 * [Ruby Tapas - Conversion Function (Episode 207)](http://www.rubytapas.com)
 * [Ruby Tapas - Implicit Conversion (Episode 210)](http://www.rubytapas.com)
 * [Ruby Tapas - Spaceship Revisited (Episode 218)](http://www.rubytapas.com)
+* [Ruby Tapas - Adamantium (Episode 219)](http://www.rubytapas.com)
