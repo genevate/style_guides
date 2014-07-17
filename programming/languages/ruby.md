@@ -408,7 +408,7 @@
         def example
           bad_method rescue $!
         end
-* Never use exceptions for control flow. Use catch and throw instead. Example:
+* Avoid using exceptions for control flow. Use catch and throw instead. Example:
 
         # No
         begin
@@ -429,6 +429,24 @@
           catch(:complete) do
             thrower
           end
+        end
+* Use top-level rescue clauses when dealing with exceptions:
+
+        # No
+        def example
+          # Do work.
+          begin
+            # Do suspicious work.
+          rescue StandardError
+            # Do exception.
+          end
+        end
+
+        # Yes
+        def example
+          # Do positive work.
+        rescue StandardError
+          # Do negative work.
         end
 
 ## Debugging
