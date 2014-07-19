@@ -599,6 +599,27 @@
   found.
 * Conversion Functions (i.e. Integer(), String(), Array(), etc.): For times when objects needs to be converted to a core
   type, sensibly, with the most leniency.
+* With Ruby 2.1+, methods return a symbolized version of their name instead of nil when there is nothing to return. This
+  can be combined with `private` statements or any statment that takes a symbol. *NOTE: This technique should only be
+  used in situations when a single method is defined but not for multiple methods as it is redundant.*
+
+        # No
+        def example
+        end
+        private :example
+
+        # Yes (single method)
+        private def example
+        end
+
+        # Yes (multiple methods)
+        private
+
+        def example1
+        end
+
+        def example2
+        end
 
 ## Macros
 
