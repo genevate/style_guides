@@ -1,3 +1,29 @@
+# v0.5.0
+
+* Updated Ruby styles to use blocks for Hash#fetch second arguments.
+* Updated Ruby styles for value objects to reference the Adamantium gem.
+* Updated Ruby style guide to use symbols for Hash#fetch default values.
+* Updated iteration styles to be more open to on-demand meetings and adjusted weekly schedules.
+* Updated the Git style guide layout for pull requests.
+* Updated the Git commit styles with more details and improved layout.
+* Updated code rules for basic programming styles.
+* Added the SOLID pattern to programming basic styles.
+* Added Bash script style guide.
+* Added Ruby styles for fail and raise exception syntax.
+* Added Ruby style for processing arrays that might be nil.
+* Added Git styles for local/remote soloist/pairs and GitHub pull requests.
+* Added Git workflow clarifications.
+* Added code review styles.
+* Added Ruby value object styles.
+* Added Ruby styles for numbers.
+* Added Ruby styles for implicit/explicit integer/array conversion.
+* Added Ruby styles for lambdas in case statements and explicit/implicit method conversions.
+* Added Ruby styles for block precedence.
+* Added Ruby styles for comparing objects.
+* Added Ruby styles for Rspec #raise_error.
+* Added Ruby styles for handling exceptions.
+* Added Ruby styles for method modifier statements (for Ruby 2.1+).
+
 # v0.4.0
 
 * Fixed typos.
