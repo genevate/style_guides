@@ -621,6 +621,19 @@
         def example2
         end
 
+## Monkey Patches
+
+* Avoid monkey patching code you don't own because each patch adds additional maintenance and debugging effort to a
+  project as core/third-party libraries are updated. Use any of the following alternatives to better localize custom
+  changes for easier debugging and maintainability:
+    * Use aliases. Example: `alias SCE Some::Custom::Example`.
+    * Use a helper module that defines methods to make the dependant code more concise. Include the module in objects
+      that need the additional functionality.
+    * Extend instance objects with helper module functionality. Example:
+
+            example = Example.new
+            example.extend(ExampleHelpers)
+
 ## Macros
 
 * Macros are methods which dynamically generated methods, classes, and/or modules at class/module load time. Examples:
@@ -723,3 +736,4 @@
 * [Ruby Tapas - Implicit Conversion (Episode 210)](http://www.rubytapas.com)
 * [Ruby Tapas - Spaceship Revisited (Episode 218)](http://www.rubytapas.com)
 * [Ruby Tapas - Adamantium (Episode 219)](http://www.rubytapas.com)
+* [Ruby Tapas - Evil Monkeys (Episode 226)](http://www.rubytapas.com)
