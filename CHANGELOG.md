@@ -1,4 +1,4 @@
-# v0.5.0
+# v0.5.0 (2014-07-19)
 
 * Updated Ruby styles to use blocks for Hash#fetch second arguments.
 * Updated Ruby styles for value objects to reference the Adamantium gem.
@@ -24,7 +24,7 @@
 * Added Ruby styles for handling exceptions.
 * Added Ruby styles for method modifier statements (for Ruby 2.1+).
 
-# v0.4.0
+# v0.4.0 (2014-03-23)
 
 * Fixed typos.
 * Updated business vacation styles to include standard holidays, birthdays, and end of year holidays.
@@ -67,7 +67,7 @@
 * Added Ruby keyword arguments style to throw an ArgumentError for invalid keywords.
 * Added Ruby style for double naked splat (**).
 
-# v0.3.0
+# v0.3.0 (2013-12-03)
 
 * Updated Ruby splat styles to define splat grouping.
 * Updated Ruby string styles with more regular expression named groups and group matching styles.
@@ -100,7 +100,7 @@
 * Added Ruby times vs. ranges loop styles.
 * Added basic design styles.
 
-# v0.2.0
+# v0.2.0 (2013-10-20)
 
 * Fixed minor typos, styles, etc.
 * Added solutions when recognizing object dependencies.
@@ -134,6 +134,6 @@
 * Added Ruby module styles.
 * Enhanced business leadership styles to include empathetic listening and transparent communication.
 
-# v0.1.0
+# v0.1.0 (2013-08-13)
 
 * Initial version.
