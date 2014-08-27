@@ -6,11 +6,11 @@ A collection of styles/best practices.
 
 # Features
 
-* Business
-* Communication
-* Design
-* Personal
-* Programming
+- Business
+- Communication
+- Design
+- Personal
+- Programming
 
 # Requirements
 
@@ -39,9 +39,9 @@ Read/use the *.md (Markdown) documents located in the subfolders.
 
 Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 
-* Patch (x.y.Z) - Incremented for small, backwards compatible bug fixes.
-* Minor (x.Y.z) - Incremented for new, backwards compatible public API enhancements and/or bug fixes.
-* Major (X.y.z) - Incremented for any backwards incompatible public API changes.
+- Patch (x.y.Z) - Incremented for small, backwards compatible bug fixes.
+- Minor (x.Y.z) - Incremented for new, backwards compatible public API enhancements and/or bug fixes.
+- Major (X.y.z) - Incremented for any backwards incompatible public API changes.
 
 # Contributions
 
