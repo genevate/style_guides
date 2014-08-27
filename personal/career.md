@@ -14,4 +14,4 @@
 
 ## Resources
 
-* [Ruby Rogues - Loyalty and Layoffs (Episode 125)](http://rubyrogues.com/125-rr-loyalty-and-layoffs)
+- [Ruby Rogues - Loyalty and Layoffs (Episode 125)](http://rubyrogues.com/125-rr-loyalty-and-layoffs)

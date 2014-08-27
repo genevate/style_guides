@@ -18,31 +18,31 @@ with people they like and care about. There are no shortcuts." -- Remote: Office
 
 ## Core Values
 
-* People, not organizations, build software -- Cherish your employees more than your customers.
-* Outstanding software and teams can't be built without emotion –- *You have to care!*
-* Be Empowered:
-    * Work is not a place you go but something you do.
-    * Provide each employee with the autonomy to work however want with whatever tools they need to *get things done*.
-    * Your schedule and hours worked are your own as long as you focus on *getting things done*.
-    * Feel free to use dialog and debate to understand and solve complex problems.
-    * Act upon your convictions.
-* Be Responsible:
-    * You are hired for your expertise and professionalism -- not for bragging rights, promotional capabilities,
+- People, not organizations, build software -- Cherish your employees more than your customers.
+- Outstanding software and teams can't be built without emotion –- *You have to care!*
+- Be Empowered:
+    - Work is not a place you go but something you do.
+    - Provide each employee with the autonomy to work however want with whatever tools they need to *get things done*.
+    - Your schedule and hours worked are your own as long as you focus on *getting things done*.
+    - Feel free to use dialog and debate to understand and solve complex problems.
+    - Act upon your convictions.
+- Be Responsible:
+    - You are hired for your expertise and professionalism -- not for bragging rights, promotional capabilities,
       or a prized position of your boss/employeer.
-    * Avoid actions that waste your time, the customer's time, or the company's money.
-    * Lead with questions, not answers -- Listen to and understand the *why* of something.
-    * Question *why* something is necessary -- Does the benefit outweigh the effort?
-    * When performance is poor, clearly communicate why and provide the necessary support to turn the problem/weakness
+    - Avoid actions that waste your time, the customer's time, or the company's money.
+    - Lead with questions, not answers -- Listen to and understand the *why- of something.
+    - Question *why- something is necessary -- Does the benefit outweigh the effort?
+    - When performance is poor, clearly communicate why and provide the necessary support to turn the problem/weakness
       into a positive outcome.
-    * Provide open and non-discriminatory communication for situations where conflict arises. Anyone can voice their
+    - Provide open and non-discriminatory communication for situations where conflict arises. Anyone can voice their
       concerns and be clearly heard, acknowledged, and understood. When individual space and/or team code of conduct
       is violated, decisive action is taken on the responsible culprits.
-    * Conduct autopsies without blame -- Analyze, learn, and pivot instead.
-* Be Appreciative:
-    * Big or small, each employee's contribution is valued and encouraged. Always.
-    * Reward people who have drive, focus, discipline, and professional conduct instead of knowing everything.
-    * Pay and compensation should be equal to or higher than the industry average. Period.
-* Be Healthy - Focus on a healthy mental/physical balance. If overtime is put in, reward accordingly. Spurts are
+    - Conduct autopsies without blame -- Analyze, learn, and pivot instead.
+- Be Appreciative:
+    - Big or small, each employee's contribution is valued and encouraged. Always.
+    - Reward people who have drive, focus, discipline, and professional conduct instead of knowing everything.
+    - Pay and compensation should be equal to or higher than the industry average. Period.
+- Be Healthy - Focus on a healthy mental/physical balance. If overtime is put in, reward accordingly. Spurts are
   allowed but sustained overtime should be prevented to avoid burnout.
 
 ## Resources
@@ -76,8 +76,8 @@ to encourage employee/team improvement:
 
 ### Further Reading
 
-* [ROWE vs Telework Inforgraphic](http://www.gorowe.com/main/rowe-vs-telework-infographic)
-* [Good to Great](http://www.amazon.com/Good-Great-Companies-Leap-Others/dp/0066620996/ref=tmm_hrd_title_0?_encoding=UTF8&sr=8-1&qid=1375567924) by Jim Collins
-* [7 Vital Trends Disrupting Today’s Workplace](https://www.tinypulse.com/employee-engagement-survey-2013)
-* [Why Your Startup’s Culture Is Secretly Awful](http://www.fastcolabs.com/3016238/why-your-startups-culture-is-secretly-awful)
-* [The Open-Office Trap](http://www.newyorker.com/online/blogs/currency/2014/01/the-open-office-trap.html)
+- [ROWE vs Telework Inforgraphic](http://www.gorowe.com/main/rowe-vs-telework-infographic)
+- [Good to Great](http://www.amazon.com/Good-Great-Companies-Leap-Others/dp/0066620996/ref=tmm_hrd_title_0?_encoding=UTF8&sr=8-1&qid=1375567924) by Jim Collins
+- [7 Vital Trends Disrupting Today’s Workplace](https://www.tinypulse.com/employee-engagement-survey-2013)
+- [Why Your Startup’s Culture Is Secretly Awful](http://www.fastcolabs.com/3016238/why-your-startups-culture-is-secretly-awful)
+- [The Open-Office Trap](http://www.newyorker.com/online/blogs/currency/2014/01/the-open-office-trap.html)

@@ -28,10 +28,10 @@
 0. Every interview takes time to prepare (i.e. reading online portfolios, reviewing open source code, searching for
    additional details, etc). If you don't want to put in the time, then don't do the interview.
 0. Always assemble a stellar interview team:
-    * Train team members in the art of interviewing, never bring them in cold turkey.
-    * Ensure every team member can provide comprehensive/constructive feedback of each interviewee.
-    * Use members that keep a positive view of the company (ideally that is everyone).
-    * Set everyone's expectation of the interviewee (*this is important*) to be someone better than each member was
+    - Train team members in the art of interviewing, never bring them in cold turkey.
+    - Ensure every team member can provide comprehensive/constructive feedback of each interviewee.
+    - Use members that keep a positive view of the company (ideally that is everyone).
+    - Set everyone's expectation of the interviewee (*this is important*) to be someone better than each member was
       when they were first hired in order to keep raising the bar of the team.
 0. Once the initial impression of the interviewee is formed (usually within the first minute), spend the rest of the
    interview asking questions that will break that impression.
@@ -45,30 +45,30 @@
 
 ## Questions
 
-* Start by talking about yourself, the team, and the company before questioning the inteviewee.
-* Ask the interviewee to talk about him/herself and what drives them.
-* Provide an environment that is non-threating and calm any nerves the interviewee might have/exhibit.
-* Never ask questions that haven't been asked before or you don't have the answers to.
-* Focus on specifics:
+- Start by talking about yourself, the team, and the company before questioning the inteviewee.
+- Ask the interviewee to talk about him/herself and what drives them.
+- Provide an environment that is non-threating and calm any nerves the interviewee might have/exhibit.
+- Never ask questions that haven't been asked before or you don't have the answers to.
+- Focus on specifics:
     0. Probe for a start: "Give me an example of something you worked on?"
     0. Dig for details: Ask who, what, where, when, why.
     0. Differentiate: we vs. I, owner vs. leader, etc.
-* Ask STAR (Situation, Task, Actions, and Results) questions:
+- Ask STAR (Situation, Task, Actions, and Results) questions:
     0. What was the context of the problem you were trying to solve?
     0. What tasks were you given?
     0. What actions did you take?
     0. What results did you measure?
-* Collaborate on a whiteboard solution to a problem.
-* Provide a laptop and ask the interviewee to design, build, and deliver a simple application. Examples:
-    * A command line interface.
-    * A login/registration application.
-    * A task manager application.
-* Ask the inteviewee to imagine what fellow co-workers would say their strengths and weaknesses are.
+- Collaborate on a whiteboard solution to a problem.
+- Provide a laptop and ask the interviewee to design, build, and deliver a simple application. Examples:
+    - A command line interface.
+    - A login/registration application.
+    - A task manager application.
+- Ask the inteviewee to imagine what fellow co-workers would say their strengths and weaknesses are.
 
 ## Resources
 
-* [Remote: Office Not Required](https://37signals.com/remote)
-* [I will not do your tech interview](https://medium.com/lessons-learned/80ba19c55883)
-* [Hire by Auditions, Not Resumes](http://blogs.hbr.org/2014/01/hire-by-auditions-not-resumes)
-* [The Anatomy of the Perfect Technical Interview from a Former Amazon VP](http://firstround.com/article/The-anatomy-of-the-perfect-technical-interview-from-a-former-Amazon-VP)
-* [On Interviewing Front-End Engineers - Generalists/Specialists](http://www.nczonline.net/blog/2013/12/27/on-interviewing-front-end-engineers)
+- [Remote: Office Not Required](https://37signals.com/remote)
+- [I will not do your tech interview](https://medium.com/lessons-learned/80ba19c55883)
+- [Hire by Auditions, Not Resumes](http://blogs.hbr.org/2014/01/hire-by-auditions-not-resumes)
+- [The Anatomy of the Perfect Technical Interview from a Former Amazon VP](http://firstround.com/article/The-anatomy-of-the-perfect-technical-interview-from-a-former-Amazon-VP)
+- [On Interviewing Front-End Engineers - Generalists/Specialists](http://www.nczonline.net/blog/2013/12/27/on-interviewing-front-end-engineers)
