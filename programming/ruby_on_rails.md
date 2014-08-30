@@ -40,3 +40,14 @@
 - Caching
     - Add caches_page when appropriate. Example: caches_page :index, :show
     - Add expires_page when appropriate. Example: action: :show, id: @post
+
+## Logging
+
+- Use blocks when logging as [blocks are more
+  performant](http://guides.rubyonrails.org/debugging_rails_applications.html#impact-of-logs-on-performance):
+
+        # No
+        logger.debug "Example"
+
+        # Yes
+        logger.debug { "Example" }
