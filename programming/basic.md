@@ -134,7 +134,7 @@ The goal is to keep as few dependencies as possible so that a class knows enough
     - If the sending object has to check the class of the receiving object, then a duck type has been missed. It is
       better to extract this behavior into a common interface for which all subsequent objects can inherit the same
       behavior from.
-    - Don't allow a subclass to raise an exception when overridding a superclass method because it doesn't need/want
+    - Don't allow a subclass to throw an exception when overridding a superclass method because it doesn't need/want
       to implement it. One should question whether it is even a sublcass at that point or whether inheritance is the
       correct solution.
 
@@ -143,11 +143,11 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 - Basic object structure is defined by the superclass but overwritable by the subclass.
 - Methods defined in the subclass provide customized behavior which the superclass will message.
 - Useful for initializing similar objects with different default behavior.
-- Imposes sublcass requirements that is not obvious but can be illeviated by defining default methods in the
-  superclass that raise NotImplementedError exceptions. NOTE: These exceptions should explain themselves by indicating
-  why the exception was thrown via a useful error message. Example:
+- Imposes sublcass requirements that is not obvious but can be illeviated by defining default methods in the superclass
+  that throw NotImplementedError exceptions. NOTE: These exceptions should explain themselves by indicating why the
+  exception was thrown via a useful error message. Example:
 
-        raise NotImplementedError, "This #{self.class} cannot respond to:"
+        fail NotImplementedError, "This #{self.class} cannot respond to:"
 
 ### Hook Method Pattern
 

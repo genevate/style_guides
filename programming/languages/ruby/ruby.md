@@ -493,13 +493,13 @@
 
 * Use `CamelCase` for class names.
 * Never use `@@` class variables since the inheritance hierarchy uses the same variable. Example: `@@variable`.
-* When implementing an abstract class, raise a NotImplementedError (inherits from RuntimeError) for methods that
+* When implementing an abstract class, throw a NotImplementedError (inherits from RuntimeError) for methods that
   need to be implimented by a subclass. This will, in turn, clearly explain to future developers what needs to be fixed
   with clear documentation and a stack trace back to the abstract class. Example:
 
         class AbstractExample
           def overwrittable_method
-            raise NotImplementedError, "The method, #overwrittable_method, is not implemented yet."
+            fail NotImplementedError, "The method, #overwrittable_method, is not implemented yet."
           end
         end
 
