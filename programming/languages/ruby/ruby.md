@@ -222,6 +222,14 @@
         song = "05 - Misty Mountain Hop"
         song[/^(?<track>\d{2})(?<delimiter> - )(?<title>.+)/, :title] # => "Misty Mountain Hop"
 
+## Enumerables
+
+- Use `.with_index` instead of `.(each|map|select|etc)_with_index` as the `.with_index` syntax can easily be chained
+  to existing enumerable objects. Example: `example.each.with_index { |target, index| puts "#{index}: #{target}" }`.
+
+- Use `.with_object` instead of `.(each|map|select|etc)_with_object` as the `.with_object` syntax can easily be chained
+  to existing enumerable objects. Example: `example.each.with_object("Test") { |target, object| puts "#{object}: #{target}" }`.
+
 ## Arrays
 
 - Avoid spaces around brackets []:
