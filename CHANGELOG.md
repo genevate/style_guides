@@ -1,3 +1,13 @@
+# v0.6.0 (2015-01-01)
+
+- Fixed use of `raise` versus `fail` in code examples.
+- Added Ruby styles for monkey patches.
+- Added Ruby on Rails styles for setting PostgreSQL prepared statement limits.
+- Added Ruby on Rails styles guides for logging.
+- Added a Capybara style guide.
+- Added an enumerables section to the Ruby style guides.
+- Added "Maintaining Happiness" to personal style guide.
+
 # v0.5.0 (2014-07-19)
 
 - Updated Ruby styles to use blocks for Hash#fetch second arguments.
