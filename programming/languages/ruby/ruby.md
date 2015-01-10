@@ -468,6 +468,21 @@
 
 ## Objects
 
+### General
+
+- Use `Object#tap` when wanting to return a value other than the default return value.
+
+        # No
+        def update_params params
+          params[:example] = "Example"
+          params
+        end
+
+        # Yes
+        def update_params params
+          params.tap { |param| param[:example ] = "Example" }
+        end
+
 ### Comparing Objects
 
 - When defining the `<=>` method for an object, make sure to check for type:
