@@ -466,6 +466,26 @@
   Additionally, the #pretty_print method allows objects to generate a pretty printed version of themselves for storage
   within a local variable for later inspection if necessary.
 
+## Objects
+
+### Comparing Objects
+
+- When defining the `<=>` method for an object, make sure to check for type:
+
+        def <=>(other)
+          return nil unless other.is_a?(self.class)
+          some_method <=> other.some_method
+        end
+
+### Value Objects
+
+- Follows value semantics rather than reference semantics.
+- Must be immutable
+- Defines an equivalence operator (==) that uses state
+- Defines #hash to use state
+- Defines #eql? (hash equality) as an alias of equivalence (==)
+- Consider using the [Adamantium](https://github.com/dkubb/adamantium) gem when building value objects.
+
 ## Modules
 
 - Modules allow code to be namespaced.
@@ -671,24 +691,6 @@
 - Run a single test: `example_test.rb --name=test_me`
 - Run tests that match a regular expresion: `example_test.rb --name=/test_me/`
 - Alternatively, the TESTOPTS environment variable can be used: `TESTOPTS="--name=test_me" example_test.rb`
-
-# Comparing Objects
-
-- When defining the `<=>` method for an object, make sure to check for type:
-
-        def <=>(other)
-          return nil unless other.is_a?(self.class)
-          some_method <=> other.some_method
-        end
-
-# Value Objects
-
-- Follows value semantics rather than reference semantics.
-- Must be immutable
-- Defines an equivalence operator (==) that uses state
-- Defines #hash to use state
-- Defines #eql? (hash equality) as an alias of equivalence (==)
-- Consider using the [Adamantium](https://github.com/dkubb/adamantium) gem when building value objects.
 
 ## Resources
 
