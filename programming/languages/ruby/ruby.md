@@ -311,9 +311,10 @@
 ## Loops
 
 - Use `begin..end while <condition>` in lieu of a do while loop (it is the equivalent in Ruby).
-- Use `<number>.times.map` instead of `(0…<number>).map` as it reads better and requires less setup.
+- Use `<number>.times.map` instead of `(0...<number>).map` as it reads better and requires less setup.
 - Use `each do..end` instead of `for in do..end` since `for` doesn't introduce a new scope and uses `each` under
   the covers. Additionally, `each` is more concise.
+- Use `loop do...end` instead of `while true do...end` for infinite loops as it expresses intent and is idiomatic.
 
 ## Breaks
 
@@ -749,3 +750,4 @@
 - [Ruby Tapas - Spaceship Revisited (Episode 218)](http://www.rubytapas.com)
 - [Ruby Tapas - Adamantium (Episode 219)](http://www.rubytapas.com)
 - [Ruby Tapas - Evil Monkeys (Episode 226)](http://www.rubytapas.com)
+- [Ruby Tapas - Loop (Episode 277)](http://www.rubytapas.com)
