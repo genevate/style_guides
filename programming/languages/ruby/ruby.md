@@ -684,6 +684,16 @@
     - attr_reader
     - attr_accessor
 
+## Deprecations
+
+- Use `Kernal.warn` when deprecating a method. Example:
+
+            # **DEPRECATED:** Use `example_two` instead.
+            def example
+              warn "[DEPRECATION] `example` is deprecated. Use `example_two` instead."
+              example_two
+            end
+
 ## Threads
 
 - Use .handle_interrupt over #raise or #kill to safely handle asynchronise interrupts. NOTE: These are hard to
