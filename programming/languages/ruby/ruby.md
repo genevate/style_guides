@@ -701,8 +701,8 @@
 - Use `MonitorMixin` (via `require "monitor"` and `include MonitorMixin`) to enhance an existing class so that all
   methods are executed with mutual exclusion (including recursive exclusion). NOTE: This might be overkill in some cases
   where using a Mutex would be simpler. Read the documentation for further details.
-- Use the [Atomic](https://github.com/headius/ruby-atomic) gem as an alternative to making mutually exclusive operations
-  Additionally, it is also more performant and supports MRI, Rubinius, and JRuby.
+- Use the [Concurrent Ruby](https://github.com/ruby-concurrency/concurrent-ruby) gem as an alternative to making
+  mutually exclusive operations Additionally, it is also more performant and supports MRI, Rubinius, and JRuby.
 
 ## Files
 
