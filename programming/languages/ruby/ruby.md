@@ -133,6 +133,13 @@
         end
 
         example "test", extra_1: "one", extra_2: "two" # => Additional Options are: {:extra_1=>"one", :extra_2=>"two"}.
+- Use a double naked underscore splat (**_) with keyword arguments to ignore additional options to a named hash (WARNING: Should
+  be avoided in most cases but can be useful in supporting legacy code backwards compatibility and/or testing). Example:
+
+        def example keyword_1: 1, keyword_2: 2, **_
+        end
+
+        example extra_1: "one", extra_2: "two" # => Both of the "extra_*" arguments are completely ignored in this case.
 
 ## Assigments
 
