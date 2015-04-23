@@ -20,11 +20,11 @@
     - Use 50 characters or less.
     - Use past tense (makes it easier to build and read changelogs).
     - Use the following prefixes only:
-        - **Fixed*- - Code that has been fixed.
-        - **Removed*- - Code that was once added but has now been removed.
-        - **Added*- - New code that is an enhancement/feature, etc.
-        - **Updated*- - Code that has been updated.
-        - **Refactored*- - Code that has been refactored.
+        - *Fixed* - Code that has been fixed.
+        - *Removed* - Code that was once added but has now been removed.
+        - *Added* - New code that is an enhancement/feature, etc.
+        - *Updated* - Code that has been updated.
+        - *Refactored* - Code that has been refactored.
     - Use hashtags (easier to search for later).
 - Use the following format for the body of the commit message:
     - Use a space between the first line of the commit message and the body.
@@ -33,9 +33,9 @@
 - Use the --message option for short one-line commit messages sparingly. Better to provide bullet points, within the
       commit message body, which details and supports the one-line commit message.
 - Each commit should answer the following:
-    - What? -- What is the body of work being committed.
-    - Why? -- Why is the body of work necessary?
-    - How? -- How does the body of work solve the why.
+    - Why? - Why is the body of work necessary?
+    - What? - What is the body of work being committed.
+    - How? - How does the body of work solve the why.
 
 ## Tags
 
@@ -48,7 +48,7 @@
 
 - Avoid authoring and reviewing your own pull request.
 - Review and merge pull requests quickly (ideally, don't let them linger more than a couple of hours max).
-- Keep pull requests short, sweet, and easy to review.
+- Keep pull requests short and easy to review.
 - Add story links to pull request message bodies (if applicable).
 - If the pull request discussion gets noisy, stop typing and switch to face-to-face chat.
 - Once reviewed and discussions resolved, the reviewer should merge the feature branch.
