@@ -38,8 +38,8 @@
     - $> - Output destination of Kernel.print and Kernel.printf. Alias: $DEFAULT_OUTPUT. Default: $stdout.
     - $_ - Last input line of string by gets or readline. Alias: $LAST_READ_LINE.
     - $0 - Name of the script being executed. Alias: $PROGRAM_NAME.
-    - $- - Command line arguments given for script. Alias: ARGV.
-    - $$ - Ruby process number of current script. Alias: $PID.
+    - $- - Command line arguments given for script. Alias: $ARGV.
+    - $$ - Ruby process number of current script. Alias: $PROCESS_ID or $PID.
     - $? - Status of the last executed child process. Alias: $CHILD_STATUS.
     - $: - Load path for scripts and binary modules via load or require. Alias: $LOAD_PATH.
     - $" - Array of module names as loaded by require. Alias: $LOADED_FEATURES.
