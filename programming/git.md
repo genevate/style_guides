@@ -20,11 +20,11 @@
     - Use 50 characters or less.
     - Use past tense (makes it easier to build and read changelogs).
     - Use the following prefixes only:
-        - *Fixed* - Code that has been fixed.
-        - *Removed* - Code that was once added but has now been removed.
-        - *Added* - New code that is an enhancement/feature, etc.
-        - *Updated* - Code that has been updated.
-        - *Refactored* - Code that has been refactored.
+        - *Fixed* - Existing code that has been fixed.
+        - *Removed* - Code that was once added and is now removed.
+        - *Added* - New code that is an enhancement, feature, etc.
+        - *Updated* - Existing code that has been updated.
+        - *Refactored* - Existing code that has been refactored.
     - Use hashtags (easier to search for later).
 - Use the following format for the body of the commit message:
     - Use a space between the first line of the commit message and the body.
