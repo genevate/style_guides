@@ -34,7 +34,11 @@
 - **Message*- - A name for a responsibility an object may have. In other words, you send a message to a collaborator
   (i.e. object) not a method.
 - **Method*- - A named, concrete, implementation for which a responsibility may be fullfilled. There can be many methods
-  for a single responsibility.
+  for a single responsibility. There are four parts to a method:
+    - Collect Input
+    - Perform Work
+    - Deliver Output
+    - Handle Failures
 
 ## Command-Query Separation (CQS)
 
@@ -180,7 +184,7 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 ## Composition
 
 - Defines a *has-a- relationship.
-- Defines an object that is composed of many objects which exhibits behavior this is separate from and includes
+- Defines an object that is composed of many objects which exhibits behavior that is separate from and includes
   the behavior of the sum of its parts.
 - Composed of objects of smaller well-defined behavior, the composed object benefits from the greater sum of its parts
   but can become hard to manage should the number of parts grow to a large size.
