@@ -79,16 +79,22 @@
 
 ## Single responsibility, Open-closed, Liskov substitution, Interface segregation and Dependency inversion (SOLID)
 
-- Single Responsibility Pattern (SRP)
+- [Single Responsibility Pattern (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle) - A
+  class/module/method should only have one, and only one, reason to change.
     - Should do the smallest possible useful thing.
     - Should be explainable in a sentence (it is code smell if the word "and" is used in a sentence).
     - Everything should be highly related to a single purpose.
     - Does not allow extraneous responsibilities to leak in.
     - Isolation allows change without consequence and reuse without duplication.
-- [Open/Closed Principle (OCP)](https://en.wikipedia.org/wiki/Open/closed_principle)
-- [Liskov Substitution Principle (LSP)](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
-- [Interface Segregation Principle (ISP)](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+- [Open/Closed Principle (OCP)](https://en.wikipedia.org/wiki/Open/closed_principle) - A class/module/method should be
+  open for extension, but closed for modification.
+- [Liskov Substitution Principle (LSP)](https://en.wikipedia.org/wiki/Liskov_substitution_principle) - An object should
+  be replaceable via a subtype without altering/breaking the correctness/contract of the supertype.
+- [Interface Segregation Principle (ISP)](https://en.wikipedia.org/wiki/Interface_segregation_principle) - An object
+  should not be forced to depend upon interfaces it does not use.
 - [Dependency Inversion Principle (DIP)](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+    - High-level modules should not depend on low-level modules. Both should depend on abstractions.
+    - Abstractions should not depend on details. Details should depend on abstractions.
 
 ## Transparent, Reasonable, Usable, and Exemplary (TRUE)
 
