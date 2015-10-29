@@ -153,11 +153,11 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 - Basic object structure is defined by the superclass but overwritable by the subclass.
 - Methods defined in the subclass provide customized behavior which the superclass will message.
 - Useful for initializing similar objects with different default behavior.
-- Imposes sublcass requirements that is not obvious but can be illeviated by defining default methods in the superclass
+- Imposes sublcass requirements that is not obvious but can be alleviated by defining default methods in the superclass
   that throw NotImplementedError exceptions. NOTE: These exceptions should explain themselves by indicating why the
   exception was thrown via a useful error message. Example:
 
-        fail NotImplementedError, "This #{self.class} cannot respond to:"
+        fail NotImplementedError, "The method, #method, is not implemented yet."
 
 ### Hook Method Pattern
 
