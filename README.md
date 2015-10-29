@@ -1,5 +1,7 @@
 # Style Guides
 
+[![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/bkuhlmann)
+
 A collection of styles/best practices.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
