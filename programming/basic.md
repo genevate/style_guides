@@ -31,9 +31,9 @@
 
 ## Messages and Methods
 
-- **Message*- - A name for a responsibility an object may have. In other words, you send a message to a collaborator
+- **Message** - A name for a responsibility an object may have. In other words, you send a message to a collaborator
   (i.e. object) not a method.
-- **Method*- - A named, concrete, implementation for which a responsibility may be fullfilled. There can be many methods
+- **Method** - A named, concrete, implementation for which a responsibility may be fullfilled. There can be many methods
   for a single responsibility. There are four parts to a method:
     - Collect Input
     - Perform Work
@@ -45,11 +45,11 @@
 - Specifies that methods should be categorized as follows:
     - **Queries**: Answer a result without changing the observable system state (i.e. no side side effects). Also means
       that queries can be chained (in any order) without consequences.
-    - **Commands*- (a.k.a. modifiers/mutators): Change the system state but do not answer a result.
+    - **Commands** (a.k.a. modifiers/mutators): Change the system state but do not answer a result.
 - Caveats:
-    - Adhering strictly to this principal makes popping values off a collection, for example, cumbersome because
-      two steps are involved to answer the value to be removed AND changing the state of the collection. Being able
-      simply *pop- a value off a collection (which answers the value and changes state) in one step is very convenient.
+    - Adhering strictly to this principal makes popping values off a collection, for example, cumbersome because two
+      steps are involved to answer the value to be removed AND changing the state of the collection. Being able *pop* a
+      value off a collection (which answers the value and changes state) in one step is very convenient.
 
 ## Tell Don't Ask
 
@@ -98,11 +98,11 @@
 
 ## Transparent, Reasonable, Usable, and Exemplary (TRUE)
 
-- **Transparent*- - The consequences of change should be obvious in the code that is changing and in distant code that
+- **Transparent** - The consequences of change should be obvious in the code that is changing and in distant code that
                 relies upon it.
-- **Reasonable*- - The cost of any change should be proportional to the benefits the change achieves.
-- **Usable*- - Existing code should be usable in new and unexpected contexts.
-- **Exemplary*- - The code itself should encourage those who change it to perpetuate these qualities.
+- **Reasonable** - The cost of any change should be proportional to the benefits the change achieves.
+- **Usable** - Existing code should be usable in new and unexpected contexts.
+- **Exemplary** - The code itself should encourage those who change it to perpetuate these qualities.
 
 TRUE code not only meets today's needs but can also be changed to meet the needs of the future.
 
@@ -127,7 +127,7 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 
 ## Inheritance
 
-- Defines a *has-a- relationship.
+- Defines a *has-a* relationship.
 - Defines a parent/child relationship where behavior defined in the superclass is inherited/overwritable by the subclass.
 - Also known as automatic message delegation whereby messages received by the subclass automatically bubble up to the
    superclass when not found in the subclass.
@@ -137,7 +137,7 @@ The goal is to keep as few dependencies as possible so that a class knows enough
     - When subclassing, stick to shallow/narrow or shallow/wide hierarchies as they are easier to maintain. Deep
       hierarchies that are either narrow or wide are harder to maintain, difficult to understand, and are best avoided.
 - Things to avoid:
-    - Avoid calling *super- from the subclass. Use hook methods instead.
+    - Avoid calling *super* from the subclass. Use hook methods instead.
     - If an object uses a variable to determine the type/category of a message to send, then the inherited code has not
       been properly abstracted. Classic inheritence can solve this problem by creating an abstract class from which
       subclasses can extend to define specialized behavior.
@@ -183,13 +183,13 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 
 ## Duck Types
 
-- Defines a *behaves-like-a- relationship.
+- Defines a *behaves-like-a* relationship.
 - Defines an object that behaves idential to objects of different types due to methods and/or properties
   that enable this behavior.
 
 ## Composition
 
-- Defines a *has-a- relationship.
+- Defines a *has-a* relationship.
 - Defines an object that is composed of many objects which exhibits behavior that is separate from and includes
   the behavior of the sum of its parts.
 - Composed of objects of smaller well-defined behavior, the composed object benefits from the greater sum of its parts
