@@ -217,6 +217,10 @@
 
         diff <(curl --location url_1) <(curl --location url_2)
 
+## Command Line Interface (CLI)
+
+- Use `getopt` for CLI option parsing.
+
 ## Resources
 
 - [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bashref.html).
