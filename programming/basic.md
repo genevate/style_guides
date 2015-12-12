@@ -6,7 +6,7 @@
 - Avoid leaving trailing whitespace.
 - Remove spaces from blank lines.
 - End every file with a blank new line.
-- Write tests that demonstration passing and failing requirements.
+- Write tests that demonstrate passing and failing requirements.
 
 ## Sandi Metz' Rules
 
@@ -48,8 +48,8 @@
     - **Commands** (a.k.a. modifiers/mutators): Change the system state but do not answer a result.
 - Caveats:
     - Adhering strictly to this principal makes popping values off a collection, for example, cumbersome because two
-      steps are involved to answer the value to be removed AND changing the state of the collection. Being able *pop* a
-      value off a collection (which answers the value and changes state) in one step is very convenient.
+      steps are involved to answer the value to be removed AND changing the state of the collection. Being able pop a
+      value off a collection (which answers the value and changes state) in one step can be rather convenient.
 
 ## Tell Don't Ask
 
