@@ -1,3 +1,27 @@
+# v0.7.0 (2015-12-13)
+
+- Fixed Git style guide typos and layout issues.
+- Fixed basic programming style bold/italic syntax.
+- Fixed minor typos/missing info with Ruby $ARGV and $PID globals.
+- Added Patreon badge to README.
+- Added Ruby style for `Object#tap`.
+- Added SOLID descriptions.
+- Added `getopt` for Bash CLI option parsing.
+- Added code of conduct documentation.
+- Added code review question examples.
+- Added deprecations section to Ruby style guide.
+- Added idiomatic infinite loop sytanx to the Ruby style guide.
+- Added keyword argument **_ usage to Ruby style guide.
+- Added method responsibilities.
+- Added project name to README.
+- Added table of contents to README.
+- Updated Code of Conduct 1.3.0.
+- Updated README with Tocer generated Table of Contents.
+- Updated Ruby styles to use the Concurrent Ruby instead of Atomic gem.
+- Updated basic programming style documentation.
+- Updated method not implemented error example.
+- Removed GitTip badge from README.
+
 # v0.6.0 (2015-01-01)
 
 - Fixed use of `raise` versus `fail` in code examples.

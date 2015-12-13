@@ -41,7 +41,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/style_guides.git
     cd style_guides
-    git checkout v0.6.0
+    git checkout v0.7.0
 
 Master Version (unstable):
 
