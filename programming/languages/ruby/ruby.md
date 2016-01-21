@@ -180,14 +180,14 @@
 
 ## Booleans
 
-- Use !! to convert an object to a boolean.
+- Avoid using `!!` to convert an object to a boolean.
 - Remove spaces after !:
 
         !example
 
 ## Characters
 
-- Use single quotes for a single character: `'a'`
+- Use double quotes for a single characters: `"a"`.
 
 ## Numbers
 
