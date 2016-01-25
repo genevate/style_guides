@@ -478,7 +478,8 @@
 
 ### General
 
-- Use `Object#tap` when wanting to return a value other than the default return value.
+- Use `Object#tap` to communicate that the method subject is also the object being returned. It also serves as a concise
+  way to modify and return and object within a single step.
 
         # No
         def update_params params
