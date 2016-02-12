@@ -558,8 +558,12 @@
 ## Methods
 
 - Use `snake_case` for method names.
-- Use `?` for boolean method names. Example: `example.admin?`
-- Use `!` for destructive method names (methods that will change the object). Example: `example.destroy!`
+- Use `?` for boolean methods. Example: `example.admin?`
+- Use `!` for cautionary methods. Example: `example.destroy!` Good uses of bang:
+  - Use when throwing an error instead of returning nil.
+  - Use when bypassing a cache to force fetch.
+  - Use when implementation has performance implictions.
+  - Use when it may cause unexpected side effects.
 - Define methods in the following order (from top to bottom within class definition):
     - Class methods
     - Public methods
