@@ -10,8 +10,8 @@
 ## Commits
 
 - Use small, atomic commits:
-  - Easier to document and provide detailed subject messages (especially when grouped together in a pull request).
-  - Easier to fix/squash.
+  - Easier to document with detailed subject messages (especially when grouped together in a pull request).
+  - Easier to reword, edit, squash, fix, and drop when interactively rebasing.
   - Easier to merge together versus tearing apart larger commits.
 - Use the following format for the first line of the commit message:
   - Use 50 characters or less.
