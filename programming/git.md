@@ -44,6 +44,11 @@
   - Makes it easier to compare differences between versions.
   - Makes adoption of the new changes easier and faster.
 
+## Rebases
+
+- Avoid rebasing a shared branch. If you must do this, clear communcation should be used to warn those ahead of time,
+  ensure that all of their work is checked in, and that their local branch is deleted first.
+
 ## Pull Requests
 
 - Avoid authoring and reviewing your own pull request.
