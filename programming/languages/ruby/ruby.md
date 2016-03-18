@@ -504,10 +504,15 @@
 ### Value Objects
 
 - Follows value semantics rather than reference semantics.
-- Must be immutable
-- Defines an equivalence operator (==) that uses state
-- Defines #hash to use state
-- Defines #eql? (hash equality) as an alias of equivalence (==)
+- Must be immutable.
+- Defines `#==` (value equality) to be equivalent to itself and other instances of same values.
+  - It must check that the class (type) of the other object is identical before checking it's values.
+  - It must not be equivalent to other instances of different values or classes (types).
+- Defines `#===` (case equality) to behave identically to `#==` (make it an alias of `#==`).
+- Defines `#eql?` (hash equality) to behave identically to `#==` (make it an alias of `#==`). This is important when
+  using an instance as a hash key.
+- Defines `#equal?` (identity equality) as equal only to itself.
+- Defines `#hash` to use value equality (state of all values) plus class to produce a unique hash.
 - Consider using the [Adamantium](https://github.com/dkubb/adamantium) gem when building value objects.
 
 ## Modules
