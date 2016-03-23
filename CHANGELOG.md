@@ -1,3 +1,17 @@
+# v0.8.0 (2016-03-22)
+
+- Fixed contributing guideline links.
+- Added Git rebase styles.
+- Added GitHub issue and pull request templates.
+- Added RSpec performance styles.
+- Updated Git atomic commit documentation.
+- Updated Git style guide documentation.
+- Updated Ruby `Object#tap` style.
+- Updated Ruby bang method (!) styles.
+- Updated Ruby booleans and character styles.
+- Updated Ruby value object styles.
+- Updated to Code of Conduct, Version 1.4.0.
+
 # v0.7.0 (2015-12-13)
 
 - Fixed Git style guide typos and layout issues.
