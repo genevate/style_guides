@@ -181,6 +181,15 @@ The goal is to keep as few dependencies as possible so that a class knows enough
           end
         end
 
+## Primitive Obsession
+
+- Occurs when primitive data types (i.e. integer, string, array, etc.) are used to represent domain knowledge.
+- Primitive obsession can be solved by introducing value objects to denote these special types.
+- The following are signs of primitive obsession:
+  - When primitives are used instead of value objects. Good, correctly typed, value objects might be: version, currency,
+    units of measure, etc.
+  - When constants or class methods are used to denote *special* values.
+
 ## Duck Types
 
 - Defines a *behaves-like-a* relationship.
