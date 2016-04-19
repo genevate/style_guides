@@ -546,6 +546,12 @@
           end
         end
 
+## Structs
+
+- Avoid using `Struct.new(...).new(...)` for creating a new instance of an anonymous class as it suffers a serious
+  [performance penalty](https://pragtob.wordpress.com/2016/04/12/dont-you-struct-new-new). Use a `class` instead
+  to contantize and properly name an object like this.
+
 ## Classes
 
 - Use `CamelCase` for class names.
