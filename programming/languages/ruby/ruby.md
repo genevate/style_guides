@@ -727,6 +727,12 @@
 - Use IO::SEEK_CUR to read from current position in file. Example: `file.seek 10, IO::SEEK_CUR`.
 - Use IO::SEEK_END to read from end of a file. Example: `file.seek -10, IO::SEEK_END`.
 
+## Load versus Require
+
+- Prefer `require` over `load`.
+- Use `load` when you need to read and load files every time you parse it.
+- Use `require` when you need to read and load files when referenced the first time only.
+
 ## Tests
 
 ### MiniTest
