@@ -204,6 +204,18 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 - Composed of objects of smaller well-defined behavior, the composed object benefits from the greater sum of its parts
   but can become hard to manage should the number of parts grow to a large size.
 
+## Self-Saving Perils
+
+- First and foremost, don't allow objects to self-save.
+- Business logic and persistence shouldn't mix within the same object.
+- Allowing objects to self-save leads to many of the following problems:
+  - Inability to test an object in isolation.
+  - Validations that don't work in all scenerios (the use of conditional logic is a strong indicator).
+  - Before, after, etc. hooks that cause unexpected consequences (leads to complicated tests).
+  - Failures when processing transactions and related after effects.
+  - Implicit order of events that aren't realized until much later.
+  - Slow tests due to needless saving an object multiple times.
+
 ### Mocks
 
 - Only mock what you own. In cases where objects exist that talk to external APIs (for example) switch to stubbing
@@ -216,4 +228,8 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 - [Ruby Tapas - Barewords (Episode 4)](http://www.rubytapas.com)
 - [Ruby Tapas - Message and Method (Episode 11)](http://www.rubytapas.com)
 - [Ruby Tapas - The End of Mocking (Episode 52)](http://www.rubytapas.com)
+- [Ruby Tapas - Self-Save Part 1 (Episode 402)](http://www.rubytapas.com)
+- [Ruby Tapas - Self-Save Part 2 (Episode 403)](http://www.rubytapas.com)
+- [Ruby Tapas - Self-Save Part 3 (Episode 404)](http://www.rubytapas.com)
+- [Ruby Tapas - Self-Save Part 4 (Episode 405)](http://www.rubytapas.com)
 - [Command-Query Separation](http://martinfowler.com/bliki/CommandQuerySeparation.html)
