@@ -203,6 +203,14 @@
   integer. Example: "1234".to_i.
 - Use `#to_int` for implicit conversion of an object to an integer. Useful when building an object that might need to
   behave like an integer. Ruby calls `#to_int` when processing objects that behave like integers.
+- Literals can be used for shorthand representations of different numbers:
+    - `0x22 = 34` (Integer, hexadecimal, 0-16 format)
+    - `0o22 = 18` (Integer, octal, 0-8 format)
+    - `0b11 = 3` (Integer, binary, 0-1 format)
+    - `1e11 = 100000000000.0` (Float, exponential notation)
+    - `11i = (0+11i)` (Complex)
+    - `3/6r = (1/2)` (Rational)
+    - `2_2 = 22` (any, the "_" is used to visual separate/delimit numbers)
 
 ## Strings
 
