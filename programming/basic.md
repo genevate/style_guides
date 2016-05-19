@@ -220,6 +220,11 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 
 - Only mock what you own. In cases where objects exist that talk to external APIs (for example) switch to stubbing
   instead.
+- Don't mock the object under test.
+
+## Stubs
+
+- Don't stub the object under test.
 
 ## Resources
 
