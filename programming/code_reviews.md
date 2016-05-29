@@ -6,9 +6,9 @@
   not every opinion will ship code.
 - Be critical of the code, not the author.
 - Ask questions rather than making demands:
-    - What do you think about?
-    - Did you consider?
-    - Can you clarify?
+  - What do you think about?
+  - Did you consider?
+  - Can you clarify?
 - Switch to face-to-face discussions when digital discussions get lengthy/complex.
 
 ## When Being Reviewed

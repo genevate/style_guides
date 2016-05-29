@@ -11,22 +11,22 @@
 0. Be human. Always strive to make a connection with each and every one of your teammates so that you can understand
    who they are, what drives them, and how best to help them grow.
 0. Be honest:
-    - Be quick to constructively criticise. The longer you wait, the worse the situation will become.
-    - Give praise but only when it is sincere and meaningful. Get this wrong and you'll do more damage than never
-      giving praise in the first place. Plus, you'll lose credibility and respect.
+  - Be quick to constructively criticise. The longer you wait, the worse the situation will become.
+  - Give praise but only when it is sincere and meaningful. Get this wrong and you'll do more damage than never
+    giving praise in the first place. Plus, you'll lose credibility and respect.
 0. Be transparent: Share information often, clearly, and concisely.
 0. Be empathetic and caring -- Strive to listen and understand what motivates people:
-    - Past: Listen to where they came from, what makes them tick, and how they got to where they are now.
-    - Present: Listen to what they think of the current situation, how they feel about it, and how they would change it.
-    - Future: Listen to what drives them, where they are excited about going, and how you can help in these endeavors.
+  - Past: Listen to where they came from, what makes them tick, and how they got to where they are now.
+  - Present: Listen to what they think of the current situation, how they feel about it, and how they would change it.
+  - Future: Listen to what drives them, where they are excited about going, and how you can help in these endeavors.
 0. Be decisive but not a dictator:
-    - Always base decisions on productivity not politics.
-    - Never mandate how work will be performed/completed.
-    - Facilitate and listen. Let the team come to their own conclusions.
-    - Debate and clarify all decisions.
-    - Negotiate diversity and resistance into resolved actions.
-    - Don't be afraid to delegate decisions to people that know the information better than you.
-    - Don't defer decisions to senior staff when people, in the meeting, know the information better.
+  - Always base decisions on productivity not politics.
+  - Never mandate how work will be performed/completed.
+  - Facilitate and listen. Let the team come to their own conclusions.
+  - Debate and clarify all decisions.
+  - Negotiate diversity and resistance into resolved actions.
+  - Don't be afraid to delegate decisions to people that know the information better than you.
+  - Don't defer decisions to senior staff when people, in the meeting, know the information better.
 0. Be a motivator. Do this for every teammate by taking action, when necessary, to engage people in the mission
    and vision of the team/company.
 0. Be accountable. Be responsible for tasks assigned to the team and hold teammates to the same standard for their
@@ -49,32 +49,32 @@ The following is taken word-for-word from [My Management Lessons from Three Fail
 ## Growth Trajectories (for high performing employees)
 
 - Steep (can be high maintenance and might not stay in one place for long):
-    - Push them to tackle new challenges.
-    - Cleary define their path to promotion.
-    - Make them your thought partner.
-    - Don't ignore them because of their independence or belief they don't need to be managed.
+  - Push them to tackle new challenges.
+  - Cleary define their path to promotion.
+  - Make them your thought partner.
+  - Don't ignore them because of their independence or belief they don't need to be managed.
 - Slow (stable and tend to remain in their roles for some time)
-    - Honor them for the great work they do because, very often, they go unrecognized.
+  - Honor them for the great work they do because, very often, they go unrecognized.
 
 ## Maintenance
 
-- Maintain quarterly 1x1 meetings with the following structure:
-    - You:
-        - What should I start doing?
-        - What should I stop doing?
-        - What should I keep doing?
-    - Them:
-        - What do you want to be doing?
-        - What are you not doing?
-        - What do you feel you ought to be doing?
-    - Tips:
-        - Always block an hour of time (maybe you don't fill it but ensuring plenty of time shows value).
-        - Pick a casual settings: lunch at a restuarant, a beach walk, a brief hike, a stroll in the meadows, etc.
-        - Allowing people to open up and tell the truth is hard and uncomfortable. Ask the uncomfortable questions and
-          don't be afraid to dig deep (in a polite way, of course ;-).
-        - Reward those who tell the truth by honoring their request for change. Do this through determination and
-          dilligence by providing constant status updates/feedback, either privately or publically, until the change
-          is solidified.
+- Maintain weekly 1x1 meetings with the following structure:
+  - You:
+    - What should I start doing?
+    - What should I stop doing?
+    - What should I keep doing?
+  - Them:
+    - What do you want to be doing?
+    - What are you not doing?
+    - What do you feel you ought to be doing?
+  - Tips:
+    - Always block an hour of time (maybe you don't fill it but ensuring plenty of time shows value).
+    - Pick a casual settings: lunch at a restuarant, a beach walk, a brief hike, a stroll in the meadows, etc.
+    - Allowing people to open up and tell the truth is hard and uncomfortable. Ask the uncomfortable questions and
+      don't be afraid to dig deep (in a polite way, of course ;-).
+    - Reward those who tell the truth by honoring their request for change. Do this through determination and
+      dilligence by providing constant status updates/feedback, either privately or publically, until the change
+      is solidified.
 
 ## Resources
 

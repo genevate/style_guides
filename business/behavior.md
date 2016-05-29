@@ -43,15 +43,15 @@ Is progress being made? What needs to change?
 0. [Go oblique](https://twitter.com/Oblique_Chirps) when stuck. Read one of these each time you are stuck to give
 your mind something to focus on while the subconscious chips away at the real problem.
 0. Maintain deliberate practice:
-    0. Measure and improve performance.
-    0. Repeat. Repeat. Repeat.
-    0. Ask for constant feedback.
-    0. Focus ruthlessly on weaknesses and turn them into strengths.
-    0. Prepare for mental exhaustion.
+  0. Measure and improve performance.
+  0. Repeat. Repeat. Repeat.
+  0. Ask for constant feedback.
+  0. Focus ruthlessly on weaknesses and turn them into strengths.
+  0. Prepare for mental exhaustion.
 0. Keep asking yourself the following:
-    0. What gets you up in the morning?
-    0. What keeps you up at night?
-    0. What are you going to do about each?
+  0. What gets you up in the morning?
+  0. What keeps you up at night?
+  0. What are you going to do about each?
 
 ## Recommended Books
 

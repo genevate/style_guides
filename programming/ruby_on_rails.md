@@ -13,24 +13,24 @@
 ## Model
 
 - Attachments
-    - Do not allow users to upload executable files (via Paperclip, for example).
-    - Always validate attachment content type.
+  - Do not allow users to upload executable files (via Paperclip, for example).
+  - Always validate attachment content type.
 - SQL Injection
-    - Don't substitute params directly into dynamic SQL statements. Use the following
-      instead: ["name like ?", "%params[:names]%"]
+  - Don't substitute params directly into dynamic SQL statements. Use the following
+    instead: ["name like ?", "%params[:names]%"]
 
 ## View
 
 - Apply renderer extensions to all files. Example:
-    - SLIM: *.html.slim
-    - SASS: *.css.sass
+  - SLIM: *.html.slim
+  - SASS: *.css.sass
 - Fragment cache when possible for anything that doesn't change much. Examples:
-    - Site headers
-    - Site navigation menus
+  - Site headers
+  - Site navigation menus
 - Forms
-    - Select statements should include blanks. Example: include_blank: "-select-"
+  - Select statements should include blanks. Example: include_blank: "-select-"
 - HTML Injection
-    - Use the 'h' method to render form values in your views so that SQL or other code is not rendered.
+  - Use the 'h' method to render form values in your views so that SQL or other code is not rendered.
 
 ## Controller
 
@@ -38,8 +38,8 @@
 - Use protect_from_forgery to prevent CRSF attacks.
 - Authorize user access before rendering content.
 - Caching
-    - Add caches_page when appropriate. Example: caches_page :index, :show
-    - Add expires_page when appropriate. Example: action: :show, id: @post
+  - Add caches_page when appropriate. Example: caches_page :index, :show
+  - Add expires_page when appropriate. Example: action: :show, id: @post
 
 ## Logging
 

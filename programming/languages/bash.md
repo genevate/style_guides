@@ -3,8 +3,8 @@
 ## General
 
 - Use environment variables instead of process output:
-    - Yes: $PWD
-    - No: $(pwd)
+  - Yes: $PWD
+  - No: $(pwd)
 - Use `$((...))` instead of `expr` when executing arithmetic expressions.
 - Use 1/0 instead of true/false for boolean variables.
 - Use quotes around every `"$variable"` and `"$(...)"` expression unless word-spliting and/or glob interpretation is
@@ -14,9 +14,9 @@
 
 - The first line of every Bash script should be: `#!/bin/bash`.
 - Avoid using `#!/bin/sh` unless the script is runnable and testable on the following systems:
-    - Sh.
-    - Dash in POSIX-compatible mode (Debian).
-    - Bash in POSIX-compatible mode (OSX).
+  - Sh.
+  - Dash in POSIX-compatible mode (Debian).
+  - Bash in POSIX-compatible mode (OSX).
 - Use the following at the top of every script:
 
         set -o nounset # Exit (non-zero) when referencing undefined variables (Shortcut: -u, Default: '').
@@ -26,16 +26,16 @@
 ## Variables
 
 - The following global variables are available:
-    - $0 = The script name.
-    - $n = The positional parameters.
-    - $$ = The script PID.
-    - $! = The PID of the last command executed (and run in the background).
-    - $? = The exit status of the last command (Use ${PIPESTATUS} for pipelined commands).
-    - $# = The number of parameters.
-    - $@ = All parameters (interprets each argument as a separate word). NOTE: Handles empty arguments and whitespace
-      within arguments. Should be quoted: "$@".
-    - $- = All parameters (interprets all arguments as single word). WARNING: This is rarely the right choice, use $@
-      instead.
+  - $0 = The script name.
+  - $n = The positional parameters.
+  - $$ = The script PID.
+  - $! = The PID of the last command executed (and run in the background).
+  - $? = The exit status of the last command (Use ${PIPESTATUS} for pipelined commands).
+  - $# = The number of parameters.
+  - $@ = All parameters (interprets each argument as a separate word). NOTE: Handles empty arguments and whitespace
+    within arguments. Should be quoted: "$@".
+  - $- = All parameters (interprets all arguments as single word). WARNING: This is rarely the right choice, use $@
+    instead.
 - When declaring variables, use the following annotations:
 
         local <variable> # For local variables inside a function.
@@ -128,37 +128,37 @@
 
 - Use `[[  ]]` instead of `[ ]`. The former avoids issues with unexpected pathname expansion and adds
   syntactical/readable functionality.
-      - Syntax:
+  - Syntax:
 
-            ||  # Logical OR.
-            &&  # Logical AND.
-            <   # String comparison without escaping.
-            -eq # Numerical equality.
-            -ne # Numerical inequality.
-            -lt # Numerical less than comparison.
-            -le # Numerical less than or equal to comparison.
-            -gt # Numerical greater than comparison.
-            -ge # Numerical greateer than or equal to comparison.
-            ==  # String matching with globbing.
-            =~  # String matching with regular expressions.
-            -n  # Non-empty string.
-            -z  # Empty string.
-      - Examples:
+        ||  # Logical OR.
+        &&  # Logical AND.
+        <   # String comparison without escaping.
+        -eq # Numerical equality.
+        -ne # Numerical inequality.
+        -lt # Numerical less than comparison.
+        -le # Numerical less than or equal to comparison.
+        -gt # Numerical greater than comparison.
+        -ge # Numerical greateer than or equal to comparison.
+        ==  # String matching with globbing.
+        =~  # String matching with regular expressions.
+        -n  # Non-empty string.
+        -z  # Empty string.
+  - Examples:
 
-            example="abc123"
-            [[ "$example" == abc- ]]         # true (globbing)
-            [[ "$example" == "abc*" ]]       # false (literal matching)
-            [[ "$example" =~ [abc]+[123]+ ]] # true (regular expression)
-            [[ "$example" =~ "abc*" ]]       # false (literal matching)
-      - Notes:
-          - With Bash 3.2+, regular/glob expressions must be quoted.
-          - Use variables if the expression contains whitespace. Example:
+        example="abc123"
+        [[ "$example" == abc- ]]         # true (globbing)
+        [[ "$example" == "abc*" ]]       # false (literal matching)
+        [[ "$example" =~ [abc]+[123]+ ]] # true (regular expression)
+        [[ "$example" =~ "abc*" ]]       # false (literal matching)
+  - Notes:
+      - With Bash 3.2+, regular/glob expressions must be quoted.
+      - Use variables if the expression contains whitespace. Example:
 
-                    examle="a b+"
-                    [[ "a bbb" =~ $example ]] # true
+                examle="a b+"
+                [[ "a bbb" =~ $example ]] # true
 - Check for exit statuses instead of output:
-    - Yes: `if git status;`.
-    - No: `if [ -n "$(git status)” ];`.
+  - Yes: `if git status;`.
+  - No: `if [ -n "$(git status)” ];`.
 
 ## Loops
 
