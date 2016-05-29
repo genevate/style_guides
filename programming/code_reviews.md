@@ -10,6 +10,11 @@
   - Did you consider?
   - Can you clarify?
 - Switch to face-to-face discussions when digital discussions get lengthy/complex.
+- Encourage highly interactive sessions where questions are asked and recommendations given. If this is not happening
+  then look for root causes:
+  - Is there a lack of interest?
+  - Is the team not taking these reviews seriously?
+  - Are people shy about asking questions or giving feedback?
 
 ## When Being Reviewed
 
