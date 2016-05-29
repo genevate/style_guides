@@ -26,7 +26,6 @@ A collection of styles/best practices.
 - Business
 - Communication
 - Design
-- Personal
 - Programming
 
 # Requirements
@@ -41,7 +40,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/style_guides.git
     cd style_guides
-    git checkout v0.8.0
+    git checkout v0.9.0
 
 Master Version (unstable):
 

@@ -1,3 +1,23 @@
+# v0.9.0 (2016-05-29)
+
+- Fixed indentation (from four to two spaces).
+- Added Ruby styles for load versus require.
+- Added Ruby styles for structs.
+- Added business workspace styles.
+- Added code review styles for encouraging highly interactive reviews.
+- Added guidelines (based on experiences) to leadership styles.
+- Added numeric literals to Ruby style guide.
+- Added primitive obsession basic styles.
+- Added rules for mocking/stubbing objects under test.
+- Added self-saving object peril guidelines.
+- Added style guides for burnout.
+- Updated GitHub issue and pull request templates.
+- Updated and cleaned up remote work styles.
+- Updated group chat indentation.
+- Updated iteration style format and wording.
+- Removed leadership styles for 1x1 maintenance.
+- Refactored culture and behavior styles to business folder.
+
 # v0.8.0 (2016-03-22)
 
 - Fixed contributing guideline links.
