@@ -102,26 +102,6 @@ The following is taken word-for-word from [My Management Lessons from Three Fail
 - Slow (stable and tend to remain in their roles for some time)
   - Honor them for the great work they do because, very often, they go unrecognized.
 
-## Maintenance
-
-- Maintain weekly 1x1 meetings with the following structure:
-  - You:
-    - What should I start doing?
-    - What should I stop doing?
-    - What should I keep doing?
-  - Them:
-    - What do you want to be doing?
-    - What are you not doing?
-    - What do you feel you ought to be doing?
-  - Tips:
-    - Always block an hour of time (maybe you don't fill it but ensuring plenty of time shows value).
-    - Pick a casual settings: lunch at a restuarant, a beach walk, a brief hike, a stroll in the meadows, etc.
-    - Allowing people to open up and tell the truth is hard and uncomfortable. Ask the uncomfortable questions and
-      don't be afraid to dig deep (in a polite way, of course ;-).
-    - Reward those who tell the truth by honoring their request for change. Do this through determination and
-      dilligence by providing constant status updates/feedback, either privately or publically, until the change
-      is solidified.
-
 ## Resources
 
 - [My Management Lessons from Three Failed Startups, Google, Apple, Dropbox, Twitter and Square](http://www.timeforpool.com/2/post/2014/02/my-management-lessons-from-three-failed-startups-google-apple-dropbox-twitter-and-squareread.html)
