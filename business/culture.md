@@ -22,7 +22,8 @@ with people they like and care about. There are no shortcuts." -- Remote: Office
 - Outstanding software and teams can't be built without emotion –- *You have to care!*
 - Be Empowered:
   - Work is not a place you go but something you do.
-  - Provide each employee with the autonomy to work however want with whatever tools they need to *get things done*.
+  - Provide each employee with the autonomy to work however they want with whatever tools they need to *get things
+    done*.
   - Your schedule and hours worked are your own as long as you focus on *getting things done*.
   - Feel free to use dialog and debate to understand and solve complex problems.
   - Act upon your convictions.
@@ -30,8 +31,8 @@ with people they like and care about. There are no shortcuts." -- Remote: Office
   - You are hired for your expertise and professionalism -- not for bragging rights, promotional capabilities,
     or a prized position of your boss/employeer.
   - Avoid actions that waste your time, the customer's time, or the company's money.
-  - Lead with questions, not answers -- Listen to and understand the *why- of something.
-  - Question *why- something is necessary -- Does the benefit outweigh the effort?
+  - Lead with questions, not answers -- Listen to and understand the *why* of something.
+  - Question *why* something is necessary -- Does the benefit outweigh the effort?
   - When performance is poor, clearly communicate why and provide the necessary support to turn the problem/weakness
     into a positive outcome.
   - Provide open and non-discriminatory communication for situations where conflict arises. Anyone can voice their
@@ -64,7 +65,7 @@ to encourage employee/team improvement:
   0. Use non-controlling language.
   0. Hold "office hours" so that any employee can talk with you.
   0. Who's purpose is it?
-  0. Test for pronouns. Do the employees use "they" or "we/us". The latter is best.
+  0. Test for pronouns. Do employees use "they" or "we/us". The latter is best.
   0. Design for intrinsic motivation. Give users autonomy, mastery, and purpose.
   0. Promote Goldilocks tasks (i.e. simple tasks that can be easily accomplished within harder tasks) for groups:
     0. Begin with a diverse team.
