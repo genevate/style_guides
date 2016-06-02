@@ -1,16 +1,17 @@
-# Remote Employee Styles
+# Distributed Employee Styles
 
 ## Things to Do
 
-- *Always* treat remote workers as first class citizens. Helps if the founder/top manager of the company is also remote.
-- Having remote teams proves who can get things done and who can't.
+- *Always* treat distributed workers as first class citizens. Helps if the founder/top manager of the company is also
+  remote.
+- Having distributed teams proves who can get things done and who can't.
 - It helps (but is not a requirement) if people know each other well (personality types, temperaments, etc) before
-  enabling a team to go remote.
+  enabling a team to become distributed.
 - Team members who are generally quiet, focused, self motivated, disciplined, and like to work in distraction free
-  environments tend to shine in remote work environments. These are the people you want to hire.
+  environments tend to shine in distributed work environments. These are the people you want to hire.
 - Maintain 1x1 meetings on a weekly basis. Keep them to 30 minutes but allow for longer if necessary. It is important to
   address concerns quickly and keep morale high. If left unaddressed, these issues can compound quickly.
-- Ensure remote workers are empowered to do their job and do it well:
+- Ensure distributed workers are empowered to do their job and do it well:
     - Ensure any potential roadblock and/or managerial intervention is removed.
     - Ensure everyone has access to the required resources.
     - Give each a company credit card and use it within reason/common sense.
@@ -36,3 +37,4 @@
 
 - [Remote: Office Not Required](https://37signals.com/remote).
 - [5 Traits Remote Employees Must Have](http://www.inc.com/jeff-haden/5-traits-of-great-remote-employees.html).
+- [Terms: Distributed, Remote, and More](http://vanderburg.org/blog/2016/05/31/mdt_2_distributed.html)
