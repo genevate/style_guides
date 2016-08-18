@@ -1,3 +1,11 @@
+# v0.10.0 (2016-08-17)
+
+- Fixed culture style typos.
+- Added issue styles for criticals, bugs, and enhancements.
+- Updated culture links for further reading.
+- Removed cultural FedEx day exercise.
+- Removed remote styles (use distributed employees instead).
+
 # v0.9.0 (2016-05-29)
 
 - Fixed indentation (from four to two spaces).
