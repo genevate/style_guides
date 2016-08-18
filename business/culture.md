@@ -72,8 +72,6 @@ to encourage employee/team improvement:
     0. Make the group a no-competition zone. Be collaborative/cooperative.
     0. Try task shifting. If a member is bored, shift to having that member teach another member what he/she knows.
     0. Animate with purpose, don't animate with rewards.
-  0. Turn your next offsite into a FedEx day - A day where employees can work on whaterver they want with whomever
-     they like. Must deliver the next day.
 
 ### Further Reading
 
