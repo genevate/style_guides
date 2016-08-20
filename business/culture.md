@@ -24,6 +24,12 @@ Requred.
     first allows you to remain awesome which, in turn, ensures a high functioning team.
   - People, not organizations, build software -- Cherish your employees more than your customers.
   - Outstanding software and teams can't be built without emotion –- *You have to care!*
+- Be Learning:
+  - A learning culture is an adaptable culture that is constantly growing and thinking of new ways
+    to evolve. *Don't lose this.*
+  - Listen and consider everyone's input before making hasty judgements.
+  - Teach instead of directing (including failures - which is the most import time to be learning
+    and growing).
 - Be Empowered:
   - Work is not a place you go but something you do.
   - Provide each employee with the autonomy to work however they want with whatever tools they need
