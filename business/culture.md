@@ -62,6 +62,17 @@ Requred.
 
 ## Resources
 
+### How to Determine Culture Fit
+
+Here is how to research to determin if your values and the values of the company match:
+
+- Read everything you can about the company by studying their website, videos, press releases, etc.
+  Ask for access to the employee handbook too.
+- Observe everything from quality of office equipment, office layout, work behavior, body language,
+  facial expressions, etc.
+- Talk to existing employees (important). You'll want to ask about office politics, historic
+  turnover, how the leadership team behaves and acts.
+
 ### Behavior Improvement Exercises
 
 The following is taken from [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805/ref=sr_1_1?ie=UTF8&qid=1375569191&sr=8-1&keywords=Drive)
