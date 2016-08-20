@@ -422,12 +422,23 @@
 
 ## Exceptions
 
-- Use `fail` to throw new exceptions and `raise` to re-throw an exception within another exception. NOTE: Both `fail`
-  and `raise` are synonyms but using them in context can help give special meaning/readability to the code. This was
-  a pattern introduced by [Jim Weirich](https://en.wikipedia.org/wiki/Jim_Weirich).
-- Don't rescue Exception, rescue StandardError instead. Exception catches all exception types including SyntaxError,
-  LoadError, NoMemoryError, Interrupt (i.e. CONTROL+C), etc. which is usually not what you want.
-- Avoid using inline rescue statements (can be useful when converting exceptions into return values, however). Example:
+- The basic rule of thumb for exceptoon classification is:
+  - Exception: Ruby has failed.
+  - StandardError: Your application has failed.
+  - RuntimeError: Your application has failed but it is recoverable.
+- Don't rescue Exception, rescue StandardError instead. Exception catches all exception types, which
+  is usually not what you want, including:
+  - SyntaxError
+  - LoadError
+  - NoMemoryError
+  - Interrupt (i.e. CONTROL+C)
+  - etc...
+- Use `fail` to throw new exceptions and `raise` to re-throw an exception within another exception.
+  NOTE: Both `fail` and `raise` are synonyms but using them in context can help give special
+  meaning/readability to the code. This was a pattern introduced by [Jim
+  Weirich](https://en.wikipedia.org/wiki/Jim_Weirich).
+- Avoid using inline rescue statements (can be useful when converting exceptions into return values,
+  however). Example:
 
         def example
           bad_method rescue $!
