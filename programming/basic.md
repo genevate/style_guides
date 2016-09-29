@@ -1,11 +1,14 @@
 # Basic Programming Styles
 
-## Code Rules
+## General Rules
 
-- Use spaces instead of tabs (i.e. soft tabs).
-- Avoid leaving trailing whitespace.
+- Prefer spaces over tabs (i.e. soft tabs).
+- Avoid trailing whitespace.
 - Remove spaces from blank lines.
 - End every file with a blank new line.
+- Prefer small methods/objects - They are easier to read, maintain, and build upon.
+- Prefer duplication over the wrong abstraction - Duplication is much cheaper to fix than
+  refactoring the wrong abstraction. Allow three duplicates, at a minimum, before refactoring.
 - Write tests that demonstrate passing and failing requirements.
 
 ## Sandi Metz' Rules
@@ -230,6 +233,8 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 
 - [Sandi Metz' Rules For Developers](http://robots.thoughtbot.com/sandi-metz-rules-for-developers)
 - [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.poodr.com) by Sandi Metz
+- [Keep Code Small](https://www.youtube.com/watch?v=8bZh5LMaSmE) by Sandi Metz
+- [Command-Query Separation](http://martinfowler.com/bliki/CommandQuerySeparation.html)
 - [Ruby Tapas - Barewords (Episode 4)](http://www.rubytapas.com)
 - [Ruby Tapas - Message and Method (Episode 11)](http://www.rubytapas.com)
 - [Ruby Tapas - The End of Mocking (Episode 52)](http://www.rubytapas.com)
@@ -237,4 +242,3 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 - [Ruby Tapas - Self-Save Part 2 (Episode 403)](http://www.rubytapas.com)
 - [Ruby Tapas - Self-Save Part 3 (Episode 404)](http://www.rubytapas.com)
 - [Ruby Tapas - Self-Save Part 4 (Episode 405)](http://www.rubytapas.com)
-- [Command-Query Separation](http://martinfowler.com/bliki/CommandQuerySeparation.html)
