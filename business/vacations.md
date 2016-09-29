@@ -5,7 +5,8 @@
     - 4th of July
     - Labor Day
     - Thanksgiving
-- Automatically give the day off for birthdays.
-- Automatically give the the last two weeks of the year off for Christmas and New Years.
+    - Christmas and New Years (this includes the week in between the two dates).
+- Automatically give off birthdays.
 - Allow people to take vacation as often as they need and within reason.
-- Allow people who have been at the company two years or more to take a month-long sabbatical per year.
+- Allow people who have been at the company two years or more to take a month-long sabbatical per
+  year.
