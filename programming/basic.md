@@ -215,6 +215,16 @@ nothing else.
           end
         end
 
+## Null Objects
+
+- Prefer creating objects which implement the expected behavior but doesn't answer `null`. It should
+  behave as a pass through which does nothing or the expected type should be answered (be it a safe
+  default value or empty).
+- Null objects should stand in the place of `null` in order to increase preditability and reduce
+  unexpected side-effets.
+- Remember: Nothing is always something -- Identifying what the nothing is and giving it a name is
+  better than letting nulls permeate throughout the code base.
+
 ## Primitive Obsession
 
 - Occurs when primitive data types (i.e. integer, string, array, etc.) are used to represent domain
