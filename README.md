@@ -34,17 +34,18 @@ None.
 
 # Setup
 
-Open a terminal window and execute one of the following setup sequences depending on your version preference:
+Open a terminal window and execute one of the following setup sequences depending on your version
+preference:
 
 Current Version (stable):
 
-    git clone git://github.com/bkuhlmann/style_guides.git
+    git clone https://github.com/bkuhlmann/style_guides.git
     cd style_guides
-    git checkout v0.10.0
+    git checkout v0.11.0
 
 Master Version (unstable):
 
-    git clone git://github.com/bkuhlmann/style_guides.git
+    git clone https://github.com/bkuhlmann/style_guides.git
     cd style_guides
 
 # Usage
@@ -61,8 +62,8 @@ Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 
 # Code of Conduct
 
-Please note that this project is released with a [CODE OF CONDUCT](CODE_OF_CONDUCT.md). By participating in this project
-you agree to abide by its terms.
+Please note that this project is released with a [CODE OF CONDUCT](CODE_OF_CONDUCT.md). By
+participating in this project you agree to abide by its terms.
 
 # Contributions
 
@@ -79,4 +80,5 @@ Read the [CHANGELOG](CHANGELOG.md) for details.
 
 # Credits
 
-Developed by [Brooke Kuhlmann](https://www.alchemists.io) at [Alchemists](https://www.alchemists.io).
+Developed by [Brooke Kuhlmann](https://www.alchemists.io) at
+[Alchemists](https://www.alchemists.io).

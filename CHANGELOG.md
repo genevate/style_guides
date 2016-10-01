@@ -1,3 +1,16 @@
+# v0.11.0 (2016-10-01)
+
+- Added basic null object programming styles.
+- Added being human to culture styles.
+- Added bonus (salary) guidelines.
+- Added culture style guides for determining culture fit.
+- Added general rules for basic programming styles.
+- Added learning as a core cultural value.
+- Added manditory minimum vacation time.
+- Updated Ruby exception style guides.
+- Updated basic programming styles for inheritance and composition.
+- Updated vacation styles for Christmas, New Years, and birthdays.
+
 # v0.10.0 (2016-08-17)
 
 - Fixed culture style typos.
