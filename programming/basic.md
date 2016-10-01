@@ -16,28 +16,28 @@
 0. Classes must not be more than one hundred lines of code.
 0. Methods must not be more than five lines of code.
 0. Methods must not accept more than four parameters (this includes hash options).
-0. Controllers must instantiate only one object. Therefore, views can only know about a single instance variable
-   and should only send messages to that object.
+0. Controllers must instantiate only one object. Therefore, views can only know about a single
+   instance variable and should only send messages to that object.
 
 ## Bare Words
 
 - Bare words are lowercase words with no special modifier in front of them. Example:
     - example = This is a bare word which is also a method.
-- The following are NOT bare words but introduce scope limitations (using Ruby syntax but applicable to
-  other languages):
+- The following are NOT bare words but introduce scope limitations (using Ruby syntax but applicable
+  to other languages):
   - $example = Global variable
   - @@example = Class variable
   - @example = Instance variable
   - EXAMPLE = Constant variable
-- It is good design to use bare words as they allow for greater flexibility when enhancing/refactoring
-  future code due to fewer scope limitations/complexities.
+- It is good design to use bare words as they allow for greater flexibility when
+  enhancing/refactoring future code due to fewer scope limitations/complexities.
 
 ## Messages and Methods
 
-- **Message** - A name for a responsibility an object may have. In other words, you send a message to a collaborator
-  (i.e. object) not a method.
-- **Method** - A named, concrete, implementation for which a responsibility may be fullfilled. There can be many methods
-  for a single responsibility. There are four parts to a method:
+- **Message** - A name for a responsibility an object may have. In other words, you send a message
+  to a collaborator (i.e. object) not a method.
+- **Method** - A named, concrete, implementation for which a responsibility may be fullfilled. There
+  can be many methods for a single responsibility. There are four parts to a method:
   - Collect Input
   - Perform Work
   - Deliver Output
@@ -46,26 +46,30 @@
 ## Command-Query Separation (CQS)
 
 - Specifies that methods should be categorized as follows:
-  - **Queries**: Answer a result without changing the observable system state (i.e. no side side effects). Also means
-    that queries can be chained (in any order) without consequences.
+  - **Queries**: Answer a result without changing the observable system state (i.e. no side side
+    effects). Also means that queries can be chained (in any order) without consequences.
   - **Commands** (a.k.a. modifiers/mutators): Change the system state but do not answer a result.
 - Caveats:
-  - Adhering strictly to this principal makes popping values off a collection, for example, cumbersome because two
-    steps are involved to answer the value to be removed AND changing the state of the collection. Being able pop a
-    value off a collection (which answers the value and changes state) in one step can be rather convenient.
+  - Adhering strictly to this principal makes popping values off a collection, for example,
+    cumbersome because two steps are involved to answer the value to be removed AND changing the
+    state of the collection. Being able pop a value off a collection (which answers the value and
+    changes state) in one step can be rather convenient.
 
 ## Tell Don't Ask
 
-- As pointed out in the CQS caveats, above, it is best to tell an object what to do rather than ask it to do something.
-  This also allows objects to couple behavor with the data being manipulated (i.e. commands). However, there are many
-  situations where it useful to query an object for information as well.
+- As pointed out in the CQS caveats, above, it is best to tell an object what to do rather than ask
+  it to do something. This also allows objects to couple behavor with the data being manipulated
+  (i.e. commands). However, there are many situations where it useful to query an object for
+  information as well.
 - Further reading: [Martin Fowler - Tell Don't Ask](http://martinfowler.com/bliki/TellDontAsk.html).
 
 ## Pluggable Selector
 
-- Defines an object (to be initialized) or a method which accepts an object and method, as arguments, to be messaged.
+- Defines an object (to be initialized) or a method which accepts an object and method, as
+  arguments, to be messaged.
 - Allows for different objects, of similar behavior, to be dynamically plugged in.
-- Allows for highly customizable code but introduces additional levels of indirection and complexity.
+- Allows for highly customizable code but introduces additional levels of indirection and
+  complexity.
 
 ## The Law of Demeter (LoD)
 
@@ -89,23 +93,27 @@
   - Everything should be highly related to a single purpose.
   - Does not allow extraneous responsibilities to leak in.
   - Isolation allows change without consequence and reuse without duplication.
-- [Open/Closed Principle (OCP)](https://en.wikipedia.org/wiki/Open/closed_principle) - A class/module/method should be
-  open for extension, but closed for modification.
-- [Liskov Substitution Principle (LSP)](https://en.wikipedia.org/wiki/Liskov_substitution_principle) - An object should
-  be replaceable via a subtype without altering/breaking the correctness/contract of the supertype.
-- [Interface Segregation Principle (ISP)](https://en.wikipedia.org/wiki/Interface_segregation_principle) - An object
-  should not be forced to depend upon interfaces it does not use.
+- [Open/Closed Principle (OCP)](https://en.wikipedia.org/wiki/Open/closed_principle) - A
+  class/module/method should be open for extension, but closed for modification.
+- [Liskov Substitution Principle (LSP)](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+  - An object should be replaceable via a subtype without altering/breaking the correctness/contract
+  of the supertype.
+- [Interface Segregation Principle
+  (ISP)](https://en.wikipedia.org/wiki/Interface_segregation_principle) - An object should not be
+  forced to depend upon interfaces it does not use.
 - [Dependency Inversion Principle (DIP)](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
   - High-level modules should not depend on low-level modules. Both should depend on abstractions.
   - Abstractions should not depend on details. Details should depend on abstractions.
 
 ## Transparent, Reasonable, Usable, and Exemplary (TRUE)
 
-- **Transparent** - The consequences of change should be obvious in the code that is changing and in distant code that
-                relies upon it.
-- **Reasonable** - The cost of any change should be proportional to the benefits the change achieves.
+- **Transparent** - The consequences of change should be obvious in the code that is changing and in
+  distant code that relies upon it.
+- **Reasonable** - The cost of any change should be proportional to the benefits the change
+  achieves.
 - **Usable** - Existing code should be usable in new and unexpected contexts.
-- **Exemplary** - The code itself should encourage those who change it to perpetuate these qualities.
+- **Exemplary** - The code itself should encourage those who change it to perpetuate these
+  qualities.
 
 TRUE code not only meets today's needs but can also be changed to meet the needs of the future.
 
@@ -114,19 +122,22 @@ TRUE code not only meets today's needs but can also be changed to meet the needs
 An object has a dependency when it knows:
 
 - The name of another class.
-  - Solution: Dependency Injection. Inject an instance of the object via an argument rather than hard code the
-    class/instance within the calling object.
+  - Solution: Dependency Injection. Inject an instance of the object via an argument rather than
+    hard code the class/instance within the calling object.
 - The name of a message that it intends to send to someone other than self.
-  - Solution: Isolate external messages to a single method which can be messaged within the class. If anything changes
-    with sending messages to the external object, only the one method needs to be refactored.
+  - Solution: Isolate external messages to a single method which can be messaged within the class.
+    If anything changes with sending messages to the external object, only the one method needs to
+    be refactored.
 - The arguments that a message requires.
-  - Solution: Use a hash as a single argument which can then set default values possibly making the argument list
-    optional.
+  - Solution: Use a hash as a single argument which can then set default values possibly making the
+    argument list optional.
 - The order of those arguments.
-  - Solution: Use a hash as a single argument. Allows arguments to be passed in any order. If not a single hash then
-    possibly use a required argument with a hash as the last argument for additional/optional arguments.
+  - Solution: Use a hash as a single argument. Allows arguments to be passed in any order. If not a
+    single hash then possibly use a required argument with a hash as the last argument for
+    additional/optional arguments.
 
-The goal is to keep as few dependencies as possible so that a class knows enough to do it's job and nothing else.
+The goal is to keep as few dependencies as possible so that a class knows enough to do it's job and
+nothing else.
 
 ## Inheritance
 
@@ -153,6 +164,22 @@ The goal is to keep as few dependencies as possible so that a class knows enough
   - Don't allow a subclass to throw an exception when overridding a superclass method because it
     doesn't need/want to implement it. One should question whether it is even a sublcass at that
     point or whether inheritance is the correct solution.
+
+## Composition
+
+- Defines a *has-a* relationship.
+- Defines an object that is composed of many objects which exhibits behavior that is separate from
+  and includes the behavior of the sum of its parts.
+- Composed of objects of smaller well-defined behavior, the composed object benefits from the
+  greater sum of its parts but can become hard to manage should the number of parts grow to a large
+  size.
+- Uses dependency inversion to inject an object which can play the role of the behavior that varies.
+
+## Duck Types
+
+- Defines a *behaves-like-a* relationship.
+- Defines an object that behaves idential to objects of different types due to methods and/or
+  properties that enable this behavior.
 
 ### Template Method Pattern
 
@@ -190,28 +217,13 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 
 ## Primitive Obsession
 
-- Occurs when primitive data types (i.e. integer, string, array, etc.) are used to represent domain knowledge.
+- Occurs when primitive data types (i.e. integer, string, array, etc.) are used to represent domain
+  knowledge.
 - Primitive obsession can be solved by introducing value objects to denote these special types.
 - The following are signs of primitive obsession:
-  - When primitives are used instead of value objects. Good, correctly typed, value objects might be: version, currency,
-    units of measure, etc.
+  - When primitives are used instead of value objects. Good, correctly typed, value objects might
+    be: version, currency, units of measure, etc.
   - When constants or class methods are used to denote *special* values.
-
-## Duck Types
-
-- Defines a *behaves-like-a* relationship.
-- Defines an object that behaves idential to objects of different types due to methods and/or
-  properties that enable this behavior.
-
-## Composition
-
-- Defines a *has-a* relationship.
-- Defines an object that is composed of many objects which exhibits behavior that is separate from
-  and includes the behavior of the sum of its parts.
-- Composed of objects of smaller well-defined behavior, the composed object benefits from the
-  greater sum of its parts but can become hard to manage should the number of parts grow to a large
-  size.
-- Uses dependency inversion to inject an object which can play the role of the behavior that varies.
 
 ## Self-Saving Perils
 
