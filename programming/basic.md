@@ -130,44 +130,48 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 
 ## Inheritance
 
-- Defines a *has-a* relationship.
-- Defines a parent/child relationship where behavior defined in the superclass is inherited/overwritable by the subclass.
-- Also known as automatic message delegation whereby messages received by the subclass automatically bubble up to the
-  superclass when not found in the subclass.
+- Defines an *is-a* relationship.
+- Used for specialization, not for sharing code.
+- Defines a parent/child relationship where behavior defined in the superclass is
+  inherited/overwritable by the subclass.
+- Also known as automatic message delegation whereby messages received by the subclass automatically
+  bubble up to the superclass when not found in the subclass.
 - Things to do:
   - Code defined in the abstract/super class should always apply to all subclasses.
   - Each subclass must conform to the superclass interface and implement expected behavior.
-  - When subclassing, stick to shallow/narrow or shallow/wide hierarchies as they are easier to maintain. Deep
-    hierarchies that are either narrow or wide are harder to maintain, difficult to understand, and are best avoided.
+  - When subclassing, stick to shallow/narrow or shallow/wide hierarchies as they are easier to
+    maintain. Deep hierarchies that are either narrow or wide are harder to maintain, difficult to
+    understand, and are best avoided.
 - Things to avoid:
   - Avoid calling *super* from the subclass. Use hook methods instead.
-  - If an object uses a variable to determine the type/category of a message to send, then the inherited code has not
-    been properly abstracted. Classic inheritence can solve this problem by creating an abstract class from which
-    subclasses can extend to define specialized behavior.
-  - If the sending object has to check the class of the receiving object, then a duck type has been missed. It is
-    better to extract this behavior into a common interface for which all subsequent objects can inherit the same
-    behavior from.
-  - Don't allow a subclass to throw an exception when overridding a superclass method because it doesn't need/want
-    to implement it. One should question whether it is even a sublcass at that point or whether inheritance is the
-    correct solution.
+  - If an object uses a variable to determine the type/category of a message to send, then the
+    inherited code has not been properly abstracted. Classic inheritence can solve this problem by
+    creating an abstract class from which subclasses can extend to define specialized behavior.
+  - If the sending object has to check the class of the receiving object, then a duck type has been
+    missed. It is better to extract this behavior into a common interface for which all subsequent
+    objects can inherit the same behavior from.
+  - Don't allow a subclass to throw an exception when overridding a superclass method because it
+    doesn't need/want to implement it. One should question whether it is even a sublcass at that
+    point or whether inheritance is the correct solution.
 
 ### Template Method Pattern
 
 - Basic object structure is defined by the superclass but overwritable by the subclass.
 - Methods defined in the subclass provide customized behavior which the superclass will message.
 - Useful for initializing similar objects with different default behavior.
-- Imposes sublcass requirements that is not obvious but can be alleviated by defining default methods in the superclass
-  that throw NotImplementedError exceptions. NOTE: These exceptions should explain themselves by indicating why the
-  exception was thrown via a useful error message. Example:
+- Imposes sublcass requirements that is not obvious but can be alleviated by defining default
+  methods in the superclass that throw NotImplementedError exceptions. NOTE: These exceptions should
+  explain themselves by indicating why the exception was thrown via a useful error message. Example:
 
         fail NotImplementedError, "The method, #method, is not implemented yet."
 
 ### Hook Method Pattern
 
-- Allows customized subclass method behavior without needing to know the abstract algorithm used by the superclass.
+- Allows customized subclass method behavior without needing to know the abstract algorithm used by
+  the superclass.
 - Each hook method is defined by the superclass but overwrittable by the subclass.
-- Most importantly, hook methods remove the need for subclasses to call the super method and reduces tight coupling
-  between the subclass and superclass. Example:
+- Most importantly, hook methods remove the need for subclasses to call the super method and reduces
+  tight coupling between the subclass and superclass. Example:
 
         class Vehicle
           def initialize options = {}
@@ -196,16 +200,18 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 ## Duck Types
 
 - Defines a *behaves-like-a* relationship.
-- Defines an object that behaves idential to objects of different types due to methods and/or properties
-  that enable this behavior.
+- Defines an object that behaves idential to objects of different types due to methods and/or
+  properties that enable this behavior.
 
 ## Composition
 
 - Defines a *has-a* relationship.
-- Defines an object that is composed of many objects which exhibits behavior that is separate from and includes
-  the behavior of the sum of its parts.
-- Composed of objects of smaller well-defined behavior, the composed object benefits from the greater sum of its parts
-  but can become hard to manage should the number of parts grow to a large size.
+- Defines an object that is composed of many objects which exhibits behavior that is separate from
+  and includes the behavior of the sum of its parts.
+- Composed of objects of smaller well-defined behavior, the composed object benefits from the
+  greater sum of its parts but can become hard to manage should the number of parts grow to a large
+  size.
+- Uses dependency inversion to inject an object which can play the role of the behavior that varies.
 
 ## Self-Saving Perils
 
@@ -213,7 +219,8 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 - Business logic and persistence shouldn't mix within the same object.
 - Allowing objects to self-save leads to many of the following problems:
   - Inability to test an object in isolation.
-  - Validations that don't work in all scenerios (the use of conditional logic is a strong indicator).
+  - Validations that don't work in all scenerios (the use of conditional logic is a strong
+    indicator).
   - Before, after, etc. hooks that cause unexpected consequences (leads to complicated tests).
   - Failures when processing transactions and related after effects.
   - Implicit order of events that aren't realized until much later.
@@ -221,8 +228,8 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 
 ### Mocks
 
-- Only mock what you own. In cases where objects exist that talk to external APIs (for example) switch to stubbing
-  instead.
+- Only mock what you own. In cases where objects exist that talk to external APIs (for example)
+  switch to stubbing instead.
 - Don't mock the object under test.
 
 ## Stubs
@@ -234,6 +241,7 @@ The goal is to keep as few dependencies as possible so that a class knows enough
 - [Sandi Metz' Rules For Developers](http://robots.thoughtbot.com/sandi-metz-rules-for-developers)
 - [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.poodr.com) by Sandi Metz
 - [Keep Code Small](https://www.youtube.com/watch?v=8bZh5LMaSmE) by Sandi Metz
+- [Nothing is Something](https://www.youtube.com/watch?v=9lv2lBq6x4A) by Sandi Metz
 - [Command-Query Separation](http://martinfowler.com/bliki/CommandQuerySeparation.html)
 - [Ruby Tapas - Barewords (Episode 4)](http://www.rubytapas.com)
 - [Ruby Tapas - Message and Method (Episode 11)](http://www.rubytapas.com)
