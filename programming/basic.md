@@ -282,15 +282,25 @@ nothing else.
   - Implicit order of events that aren't realized until much later.
   - Slow tests due to needless saving an object multiple times.
 
+## Testing
+
+- Always test the interface, not the implementation - Avoid testing the private/protected methods of
+  the implementation via assertions/expectations. These will be be tested, indirectly, via the
+  public interface. This will also make it easier to refactor in the future.
+
 ### Mocks
 
+- Avoid mocking the object under test.
 - Only mock what you own. In cases where objects exist that talk to external APIs (for example)
   switch to stubbing instead.
-- Don't mock the object under test.
+- Prefer mocks when unit testing an object under test that needs to message other objects. These
+  mock objects can be injected and expectations can be set to ensure they are messaged properly. The
+  actual unit testing of these mock objects should be provided in their own unit tests. Switch to
+  integration tests when needing to test the communication between all the objects as a whole.
 
-## Stubs
+### Stubs
 
-- Don't stub the object under test.
+- Avoid stubbing the object under test.
 
 ## Resources
 
@@ -298,6 +308,7 @@ nothing else.
 - [Practical Object-Oriented Design in Ruby: An Agile Primer](http://www.poodr.com) by Sandi Metz
 - [Keep Code Small](https://www.youtube.com/watch?v=8bZh5LMaSmE) by Sandi Metz
 - [Nothing is Something](https://www.youtube.com/watch?v=9lv2lBq6x4A) by Sandi Metz
+- [The Magic Tricks of Testing](https://www.youtube.com/watch?v=URSWYvyc42M) by Sandi Metz
 - [Command-Query Separation](http://martinfowler.com/bliki/CommandQuerySeparation.html)
 - [Ruby Tapas - Barewords (Episode 4)](http://www.rubytapas.com)
 - [Ruby Tapas - Message and Method (Episode 11)](http://www.rubytapas.com)
