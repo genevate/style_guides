@@ -12,11 +12,11 @@
 
 ## Settings
 
-- The first line of every Bash script should be: `#!/bin/bash`.
+- The first line of every Bash script should be: `#!/usr/bin/env bash`.
 - Avoid using `#!/bin/sh` unless the script is runnable and testable on the following systems:
   - Sh.
   - Dash in POSIX-compatible mode (Debian).
-  - Bash in POSIX-compatible mode (OSX).
+  - Bash in POSIX-compatible mode (macOS).
 - Use the following at the top of every script:
 
         set -o nounset # Exit (non-zero) when referencing undefined variables (Shortcut: -u, Default: '').
