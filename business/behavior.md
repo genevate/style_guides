@@ -13,11 +13,11 @@ These are the guiding principles of what motivates people to accomplish great th
 0. Have a sense of meaning (i.e. drive -- see above).
 0. Smile often. It releases chemicals within the brain and body. It also is contagious amongst others.
 0. Leave personal issues at home. Avoid carrying over any of these issues into the workspace.
-0. Be future focued. Keeping an eye on goals and meeting those goals.
+0. Be future focused. Keeping an eye on goals and meeting those goals.
 0. Be thankful. It helps improves others sense of self-worth.
 0. Be relaxed. It's easy to get wrapped up in the heat of the moment. Taking the time to step away from the issue
    and compose yourself can have a huge effect on you and the people around you.
-0. Be healthy. Goes without saying that excercising and eat healthy food regularly is good for you.
+0. Be healthy. Goes without saying that exercising and eat healthy food regularly is good for you.
 0. Be organized. Use sticky notes, software, etc. to stay on top of tasks and larger goals.
 0. Avoid multitasking. Despite the sense of feeling productive, it is not. More time is wasted than actually getting
    things done. Plus, it decreases concentration and creativity.
