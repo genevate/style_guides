@@ -5,7 +5,13 @@
     - Keep your online portfolio (i.e. Twitter, web site/syndicated feeds, open source work, etc.) and resume
       up-to-date.
     - Spellcheck everything you write.
-    - Avoid buzzwords like the plague. Speak/write clearly for everything you describe.
+    - Avoid buzzwords.
+    - Speak/write clearly for everything you describe.
+  - Refresh Technical Knowledge:
+    - Ruby
+      - [10 (best) Ruby (and Rails) Interview Questions (and Answers)](http://vlad.omnipragmatic.com/10-best-ruby-and-rails-interview-questions-and-answers)
+      - [19 Ruby & Ruby on Rails Interview Questions and Answers](http://www.skilledup.com/articles/ruby-on-rails-interview-questions-answers)
+      - [15 Questions to Ask During a Ruby Interview](https://gist.github.com/ryansobol/5252653)
   - First Contact:
     - Research the company and personalize your introductory message accordingly.
     - Register and use the product/service prior to the first interview.
