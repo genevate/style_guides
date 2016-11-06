@@ -19,12 +19,18 @@
 
 ## Commits
 
-- Use small, atomic commits:
+- Prefer small, atomic commits:
+  - Easier to review and provide feedback.
+  - Easier to review implementation and corresponding tests.
   - Easier to document with detailed subject messages (especially when grouped together in a pull
     request).
   - Easier to reword, edit, squash, fix, or drop when interactively rebasing.
-  - Easier to merge together versus tearing apart larger commits.
-- Use the following format for the first line of the commit message:
+  - Easier to merge together versus tearing apart a larger commit into smaller commits.
+- Prefer commits in a logical order:
+  - Each commit should tell a story and be a logical building block to the next commit.
+  - Each commit, when reviewed in order, should be able to explain *how* the feature or bug fix was
+    completed and implemented properly.
+- Prefer commit message subject lines in the following format:
   - Use 50 characters or less.
   - Use past tense (makes it easier to build and read release notes).
   - Use the following prefixes only:
@@ -34,9 +40,12 @@
     - *Updated* - Existing code that has been modified.
     - *Refactored* - Existing code that has been refactored and does not change functionality.
   - Use hashtags to identify code (easier to search for later).
-- Use the following format for the body of the commit message:
-  - Use a space between the first line of the commit message and the body.
+- Prefer commit message bodies in the following format:
+  - Use 72 characters or less per line.
+  - Use a space between the first line of the commit message (i.e. subject) and the body.
   - Use a bullet for each detail of the commit body.
+  - If the commit has a dependency to the previous commit or is a dependency to the commit that will
+    follow, make sure to explain that.
   - Include links to dependent projects, stories, etc. if available.
 - Each commit message should answer the following:
   - Why? -- Why is the body of work necessary?
