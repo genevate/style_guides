@@ -2,6 +2,15 @@
 
 ## General
 
+- Prefer `git commit --fixup` when fixing a previous commit or addressing pull request feedback and
+  don't need to preserve original commit message details.
+- Prefer `git commit --squash` when fixing a previous commit or addressing pull request feedback and
+  want to combine previous commit messages into a single message.
+- Prefer `git rebase --interactive` when cleaning up commit history, order, messages, etc.
+  Should be done prior to submitting a pull request or when pull request feedback has been addressed
+  and you are ready to merge to `master`.
+- Prefer `git push --force-with-lease` instead of `git push --force` when pushing changes after an
+  interactive rebasing session.
 - Avoid checking in development-specific configuration files (add to `.gitignore` instead).
 - Avoid checking in sensitive information (i.e. security keys, passphrases, etc).
 - Avoid "WIP" (a.k.a. "Work in Progress") commits and/or pull requests. Be confident with your code
