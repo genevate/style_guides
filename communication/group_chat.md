@@ -22,7 +22,7 @@
   - (team) - Teams specific news. Use the following sub-structure (create the same structure per
     team): (see [Iterations](../business/iterations.md) for more info):
     - (team) Plans - For start of week planning.
-    - (team) Stanups - For daily member status updates:
+    - (team) Standups - For daily member status updates:
       - Start of Work - Keep it light, cheerful. Maybe include a picture of where you are.
       - Standup - Can be part of *Start of Work- or follow directly after.
       - Away From Keyboard (AFK). Examples: Grabbing lunch, taking care of the kids, running a quick
@@ -43,6 +43,6 @@
     be entered as time allows.
   - Limit notifications for rooms that are too noisy/distracting. Some clients allow notifications
     to be silenced per room so room distractions can be limited.
-  - For the noisest of group chats, consider entering/exiting three times a day (morning, noon, and
-    night) like good [email styles](email.md).
+  - For the noisest of group chats, consider muting and then checking three times a day (morning,
+    noon, and night) like good [email styles](email.md).
   - Most group chat services provide desktop and mobile applications. Install and use both.

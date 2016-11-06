@@ -11,7 +11,7 @@
    in all of your followers streams who might not want to follow everyone that you follow. It also
    duplicates (spams) the tweet to a follower that follows both you and the person being replied to.
 0. Don't enable services that auto-tweet your activities. Examples: Path, Gowalla, FourSquare,
-   flight statuses, weight scales, etc. No one wants to read robotic speach.
+   flight statuses, weight scales, etc. No one wants to read robotic speech.
 0. Don't promote your company (bragging). Use a corporate account for company-specific information
    instead.
 0. [Get Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done). Limit the reading of tweets
