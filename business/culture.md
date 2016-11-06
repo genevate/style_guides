@@ -17,6 +17,12 @@ Requred.
 0. Be diverse (i.e. equal mix of females, males, races, backgrounds, etc).
 0. Be passionate, driven, and disciplined.
 
+## Mission
+
+To create an environment where employees are empowered and inspired to reach their greatest
+potential by giving them autonomy, mastery, and purpose. It is by focusing on our employees that we
+can delight, enrich, and astound our customers in ways impossible to imagine otherwise.
+
 ## Core Values
 
 - Be Human:
