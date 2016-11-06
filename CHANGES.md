@@ -1,3 +1,23 @@
+# v0.12.0 (2016-11-06)
+
+- Fixed communication style typos.
+- Fixed distributed employee typos.
+- Fixed personal behavior style typos.
+- Added URL for why brainteasers are bad for interviews.
+- Added basic programming naming style guidelines.
+- Added basic programming testing styles.
+- Added civility as a core cultural value.
+- Added cultural mission statement style.
+- Added emoji documentation for pull request feedback.
+- Added links for refreshing technical knowledge during interview process.
+- Added reference article to support paying more than average salaries.
+- Updated Git general styles with fixup, squash, rebase, and push documentation.
+- Updated README versioning documentation.
+- Updated distributed employee formatting to use 100 character columns.
+- Updated formatting of Git commit message styles.
+- Removed CHANGELOG.md (use CHANGES.md instead).
+- Refactored communication style guides column layout.
+
 # v0.11.0 (2016-10-01)
 
 - Added basic null object programming styles.
