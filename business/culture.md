@@ -50,6 +50,9 @@ Requred.
     space and/or team code of conduct is violated, decisive action is taken on the responsible
     culprits.
   - Conduct autopsies without blame -- Analyze, learn, and pivot instead.
+- [Be Civil](https://rework.withgoogle.com/blog/how-incivility-shuts-down-our-brains-at-work)
+  - Improves focus and processing of information.
+  - Helps employees achieve their greatest potential.
 - Be Appreciative:
   - Big or small, each employee's contribution is valued and encouraged. Always.
   - Reward people who have drive, focus, discipline, and professional conduct instead of knowing
