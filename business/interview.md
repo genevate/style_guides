@@ -68,7 +68,8 @@
 ## Resources
 
 - [Remote: Office Not Required](https://37signals.com/remote)
-- [I will not do your tech interview](https://medium.com/lessons-learned/80ba19c55883)
 - [Hire by Auditions, Not Resumes](http://blogs.hbr.org/2014/01/hire-by-auditions-not-resumes)
 - [The Anatomy of the Perfect Technical Interview from a Former Amazon VP](http://firstround.com/article/The-anatomy-of-the-perfect-technical-interview-from-a-former-Amazon-VP)
 - [On Interviewing Front-End Engineers - Generalists/Specialists](http://www.nczonline.net/blog/2013/12/27/on-interviewing-front-end-engineers)
+- [I will not do your tech interview](https://medium.com/lessons-learned/80ba19c55883)
+- [Why Brainteasers Don't Belong in Job Interviews](http://www.newyorker.com/tech/elements/why-brainteasers-dont-belong-in-job-interviews)
