@@ -24,11 +24,12 @@
   - Future: Listen to what drives them, where they are excited about going, and how you can help in
     these endeavors.
 0. Be a good listener:
-  - Avoid scheduled 1x1 meetings or any awkward variant thereof.
+  - Maintain consistently scheduled
+    [1x1 meetings](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster).
   - Encourage an open channel of communication and honest feedback.
   - Tackle and resolve issues as they arise.
   - Grab a room if information is sensitive but otherwise go for a walk, grab a drink at a local tea
-    shop, or get out of the office altogether to discuss further.
+    shop, or get out of the office altogether.
 0. Be a teacher, always.
 0. Be decisive but not a dictator:
   - Always base decisions on productivity not politics.
