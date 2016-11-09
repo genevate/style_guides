@@ -1,7 +1,7 @@
 # Burnout
 
-Burnout occurs from an excessive and prolonged state of emotional, mental, and physical exhaustion. The more it
-accumulates the less interested one becomes in the thing they are responsible for.
+Burnout occurs from an excessive and prolonged state of emotional, mental, and physical exhaustion.
+The more it accumulates the less interested one becomes in the thing they are responsible for.
 
 ## Signs of Burnout
 

@@ -2,9 +2,10 @@
 
 ## General
 
-- Avoid open office design by all means. It is extremely counterproductive for optimal software devlepment performance
-  and happiness. Use private offices/workspaces instead. Better yet, avoid offices altogether and be remote-first
-  focused instead. See [Remote Employee Styles](remotes.md) for details.
+- Avoid open office design by all means. It is extremely counterproductive for optimal software
+  devlepment performance and happiness. Use private offices/workspaces instead. Better yet, avoid
+  offices altogether and be remote-first focused instead. See [Remote Employee Styles](remotes.md)
+  for details.
 
 ## References
 

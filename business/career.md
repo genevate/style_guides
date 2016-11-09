@@ -7,8 +7,10 @@
   * Small/Mid/Large Companies
   * Commercial, government, and non-profit companies
 0. Avoid burning bridges with an employeer unless necessary.
-0. Be loyal to an employeer but only to the point where your life goals and passions are not sacrificed.
-0. Be helpful to others (it's exhausting but this is the greatest long term career investment one can make).
+0. Be loyal to an employeer but only to the point where your life goals and passions are not
+   sacrificed.
+0. Be helpful to others (it's exhausting but this is the greatest long term career investment one
+   can make).
 0. Be active in your local community.
 0. Use Twitter, write articles, and constanty share what you are learning and know with the world.
 

@@ -37,8 +37,8 @@
   - Happy: List what worked well.
   - Confused: List what was confusing.
   - Sad: List what didn't work.
-- Create actionable items (based on feedback), assign ownership to them, and immediately schedule them for next
-  iteration.
+- Create actionable items (based on feedback), assign ownership to them, and immediately schedule
+  them for next iteration.
 
 ## Demos
 
