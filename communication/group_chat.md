@@ -39,6 +39,38 @@ Structure company-wide channels as follows:
   - Snow - Ski/snowboarding information and events.
   - Games - Video/board game information and events.
 
+## Reactions
+
+Reactions are [emoticons](http://www.webpagefx.com/tools/emoji-cheat-sheet) that can be applied to
+messages posted by team members.
+
+There are several reasons reactions are useful:
+
+- They convey emotion when text isn't enough.
+- They say a lot with very little. As they say...sometimes an image is worth a 1,000 words.
+- They provide feedback without alerting others. This is especially handy in keeping channel
+  notifications at a minimum so others are not constantly distracted.
+- They help let others know that your voice was heard even if someone didn't have anything to say in
+  direct response to your post.
+
+While the list of emoticons is vast and growing, it is best to standardize on emoticons that have a
+consistent meaning as using every possible emoticon can be confusing. Here is a recommended list and
+the message they convey:
+
+- :white_check_mark: - Indicates approval, the task requested of you has been completed, or the task
+  is aleady done.
+- :bookmark: - Indicates you can't read a posted link, article, etc. immediately but will in the
+  future.
+- :cool: - Indicates a posted message is...well...cool.
+- :tada: - Indicates enthusiasm/excitement to a posted message.
+- :star: - Indicates you favorited/liked a posted message.
+- :pill: - Indicates you wish someone to heal up who might not be feeling well.
+- :eyes: - Indicates you are reading/reviewing the posted message and plan to respond shortly.
+- :ok: - Indicates acknowledgement of a posted message.
+- :thought_balloon: - Indicates you are pondering the posted message and that you may or may not
+  respond immediately.
+- :bow: - Indicates thankfulness/gratefulness of a posted message.
+
 ## Tips
 
 - Prefer chat rooms that are of value and critical to getting the job done. The rest can be entered
