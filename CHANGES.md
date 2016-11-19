@@ -1,3 +1,13 @@
+# v0.13.0 (2016-11-19)
+
+- Added DNS SPF security documentation.
+- Added basic infrastructure styles.
+- Added group chat reaction styles.
+- Added leadership documentation for 1x1 meetings.
+- Added sections to group chat styles.
+- Updated group chat styles.
+- Refactored business style guides to use 100 column limits.
+
 # v0.12.0 (2016-11-06)
 
 - Fixed communication style typos.
