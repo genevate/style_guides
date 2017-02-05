@@ -26,7 +26,9 @@ A collection of styles/best practices.
 - Business
 - Communication
 - Design
+- Operations
 - Programming
+- Tools
 
 # Requirements
 
