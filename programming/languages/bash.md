@@ -7,8 +7,8 @@
   - No: $(pwd)
 - Use `$((...))` instead of `expr` when executing arithmetic expressions.
 - Use 1/0 instead of true/false for boolean variables.
-- Use quotes around every `"$variable"` and `"$(...)"` expression unless word-spliting and/or glob interpretation is
-  required.
+- Use quotes around every `"$variable"` and `"$(...)"` expression unless word-spliting and/or glob
+  interpretation is required.
 
 ## Settings
 
@@ -32,10 +32,10 @@
   - $! = The PID of the last command executed (and run in the background).
   - $? = The exit status of the last command (Use ${PIPESTATUS} for pipelined commands).
   - $# = The number of parameters.
-  - $@ = All parameters (interprets each argument as a separate word). NOTE: Handles empty arguments and whitespace
-    within arguments. Should be quoted: "$@".
-  - $- = All parameters (interprets all arguments as single word). WARNING: This is rarely the right choice, use $@
-    instead.
+  - $@ = All parameters (interprets each argument as a separate word). NOTE: Handles empty arguments
+    and whitespace within arguments. Should be quoted: "$@".
+  - $- = All parameters (interprets all arguments as single word). WARNING: This is rarely the right
+    choice, use $@ instead.
 - When declaring variables, use the following annotations:
 
         local <variable> # For local variables inside a function.
@@ -126,8 +126,8 @@
 
 ## Conditionals
 
-- Use `[[  ]]` instead of `[ ]`. The former avoids issues with unexpected pathname expansion and adds
-  syntactical/readable functionality.
+- Use `[[  ]]` instead of `[ ]`. The former avoids issues with unexpected pathname expansion and
+  adds syntactical/readable functionality.
   - Syntax:
 
         ||  # Logical OR.
@@ -180,8 +180,8 @@
 
 ## Subshells
 
-- Use `$()` instead of `` for capturing command output or command substitution. The former is easier to read and allows
-  nesting of commands.
+- Use `$()` instead of `` for capturing command output or command substitution. The former is easier
+  to read and allows nesting of commands.
 
 ## Errors
 
@@ -194,9 +194,10 @@
 ## Debugging
 
 - Use `bash -n <script>` to perform a check/dry run of the script:
-- Use `bash -v <script>` to yield a stack trace of the script. NOTE: The global setting is: `set -o verbose`
-- Use `bash -x <script>` to yield a stack trace of the script including expanded commands. NOTE: The global setting is:
-  `set -o xtrace`
+- Use `bash -v <script>` to yield a stack trace of the script. NOTE: The global setting is: `set -o
+  verbose`
+- Use `bash -x <script>` to yield a stack trace of the script including expanded commands. NOTE: The
+  global setting is: `set -o xtrace`
 
 ## Output
 
@@ -204,14 +205,16 @@
 
 ## Files
 
-- Avoiding parsing `ls` output as UNIX systems allow any character in a file name which makes finding the delimiter
-  extremely difficult and error prone. Details [here](http://mywiki.wooledge.org/ParsingLs). Use `for` loops instead:
+- Avoiding parsing `ls` output as UNIX systems allow any character in a file name which makes
+  finding the delimiter extremely difficult and error prone. Details
+  [here](http://mywiki.wooledge.org/ParsingLs). Use `for` loops instead:
 
         for file in *; do
             [[ -e $file ]] || continue
             ...
         done
-- Avoid using `cat` to provide file contents to `stdin` to a command/process that accepts file arguments.
+- Avoid using `cat` to provide file contents to `stdin` to a command/process that accepts file
+  arguments.
 - Use `mktemp` instead of `$$` to create a temporary file.
 - Use `<()` to avoid creating temporary files for commands that expect file arguments when piping:
 

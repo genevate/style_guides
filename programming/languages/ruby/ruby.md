@@ -18,8 +18,8 @@
 ## Variables
 
 - Use `snake_case` for variable names.
-- Avoid the following global variables since it makes code harder to read and maintain (NOTE: if globals are used,
-  ensure the longer aliases are used instead of the crpytic shortcuts):
+- Avoid the following global variables since it makes code harder to read and maintain (NOTE: if
+  globals are used, ensure the longer aliases are used instead of the crpytic shortcuts):
     - $/ - Input record separator. Alias: $INPUT_RECORD_SEPARATOR. Default: newline.
     - $. - Current input line number of the last file read. Alias: $INPUT_LINE_NUMBER.
     - $\ - Output record separator. Alias: $OUTPUT_RECORD_SEPARATOR. Default: nil.
@@ -34,8 +34,10 @@
     - $+ - Last bracket matched by the last successful match. Alias: $LAST_PAREN_MATCH.
     - $<n> - nth group of last successful regexp match.
     - $~ - Last match info for current scope. Alias: $LAST_MATCH_INFO.
-    - $< - Object access to the concatenation of all file contents given as command-line arguments. Alias: $DEFAULT_INPUT.
-    - $> - Output destination of Kernel.print and Kernel.printf. Alias: $DEFAULT_OUTPUT. Default: $stdout.
+    - $< - Object access to the concatenation of all file contents given as command-line arguments.
+      Alias: $DEFAULT_INPUT.
+    - $> - Output destination of Kernel.print and Kernel.printf. Alias: $DEFAULT_OUTPUT. Default:
+      $stdout.
     - $_ - Last input line of string by gets or readline. Alias: $LAST_READ_LINE.
     - $0 - Name of the script being executed. Alias: $PROGRAM_NAME.
     - $- - Command line arguments given for script. Alias: $ARGV.
@@ -84,20 +86,22 @@
         `%I(one two #{three}) # => [:one, :two, :three]`
     - %i() - Yields a non-interpolated symbol array.
         `%i(one two three) # => [:one, :two, :three]`
-    - %x() - Executes an interpolated system command (does not echo to STDOUT or return the running command's result).
-        `%x(echo #{message}) # => "Huzzah!"`
+    - %x() - Executes an interpolated system command (does not echo to STDOUT or return the running
+      command's result). `%x(echo #{message}) # => "Huzzah!"`
 
 ## Splats
 
 - Commonly used in method and/or block arguments.
-- Can be used to slurp collections into a variable on the left side of an assigment (a.k.a. *multiple assignment*):
+- Can be used to slurp collections into a variable on the left side of an assigment (a.k.a.
+  *multiple assignment*):
 
         a = %i(one two three four five)
 
         *b, c, d = *a # => b == [:one, :two, :three], c == :four, d == :five
         b, *c, d = *a # => b == :one, c == [:two, :three, :four], d == :five
         b, c, *d = *a # => b == :one, c == :two, d == [:three, :four, :five]
-- Multiple assignment should generally be avoided as it makes code harder to read, maintain, and modify.
+- Multiple assignment should generally be avoided as it makes code harder to read, maintain, and
+  modify.
     - In rare cases, multiple assignment is acceptable in the following situations:
         - Variable swaping. Example: `a, b = b, a`
         - Related variables assignment. Example: `lat, long = x, y`
@@ -109,32 +113,37 @@
         a, b, c = *a1 # => a == :one, b == :two, c == :three
         a, b, c = :insert, *a1 # => a == :insert, b == :one, c == :two
         [*a1, *a2] = # => [:one, :two, :three, "red", "black", "white"]
-- Use explicit over implicit splatting as implicit splatting assumes an object behaves like an Array. Example:
+- Use explicit over implicit splatting as implicit splatting assumes an object behaves like an
+  Array. Example:
 
         a = :one, :two, :three # => a == [:one, :two, :three]
 - Any object that responds to the #to_ary method can be used in an implicit splat.
-- Splats can be grouped (handy in block arguments) which allows for values of an array to be auto-assigned to variables
-  without having to use an intermediate variable to do the same thing. Example:
+- Splats can be grouped (handy in block arguments) which allows for values of an array to be auto-
+  assigned to variables without having to use an intermediate variable to do the same thing.
+  Example:
 
         vehicles = {"Volkswagen" => "New Beetle"}
         vehicles.each {|(make, model)| puts "Make: #{make}, Model: #{model}"} # => "Make: Volkswagen, Model: New Beetle"
-- Use a naked splat (*) when defining arguments to be ignored (useful in subclass contructors as well). Example:
+- Use a naked splat (*) when defining arguments to be ignored (useful in subclass contructors as
+  well). Example:
 
         def example required, *
           puts "Required argument is: #{required}."
         end
 
         example 1, 2, 3, 4, 5 # => "Required argument is: 1"
-- Use a double naked splat (**) with keyword arguments to assign additional options to a named hash (WARNING: Should
-  be avoided in most cases but can be useful in supporting legacy code backwards compatibility). Example:
+- Use a double naked splat (**) with keyword arguments to assign additional options to a named hash
+  (WARNING: Should be avoided in most cases but can be useful in supporting legacy code backwards
+  compatibility). Example:
 
         def example string, keyword_1: 1, keyword_2: 2, **options
           puts "Additional Options are: #{options.inspect}."
         end
 
         example "test", extra_1: "one", extra_2: "two" # => Additional Options are: {:extra_1=>"one", :extra_2=>"two"}.
-- Use a double naked underscore splat (**_) with keyword arguments to ignore additional options to a named hash (WARNING: Should
-  be avoided in most cases but can be useful in supporting legacy code backwards compatibility and/or testing). Example:
+- Use a double naked underscore splat (**_) with keyword arguments to ignore additional options to a
+  named hash (WARNING: Should be avoided in most cases but can be useful in supporting legacy code
+  backwards compatibility and/or testing). Example:
 
         def example keyword_1: 1, keyword_2: 2, **_
         end
@@ -158,7 +167,8 @@
 
         a = [%w(Mr. Billy Bob Simpson), %w(Mrs. Sally Jane Ruffy)]
         a.map { |_, first, _, last| [first, last] } # =>  [["Billy", "Simpson"], ["Sally", "Ruffy"]]
-- When using ambiguous arguments, that don't clearly express their intent, define a local variable instead. Example:
+- When using ambiguous arguments, that don't clearly express their intent, define a local variable
+  instead. Example:
 
         include_super = false
         String.instance_methods include_super
@@ -170,7 +180,8 @@
         end
 
         example last_name: "Smith" # => ArgumentError: missing keyword: first_name
-- Use keyword arguments instead of option hashes so that an ArgumentError is thrown for unknown keywords:
+- Use keyword arguments instead of option hashes so that an ArgumentError is thrown for unknown
+  keywords:
 
         def say name, prefix: "Hello"
           puts "#{prefix} #{name}"
@@ -191,18 +202,19 @@
 
 ## Numbers
 
-- In most situations, it is important to use `Integer(value)` instead of `value.to_i` when converting a possible
-  non-integer value into an integer. The former will throw an exception, the latter will not (yields zero instead).
-  Example:
+- In most situations, it is important to use `Integer(value)` instead of `value.to_i` when
+  converting a possible non-integer value into an integer. The former will throw an exception, the
+  latter will not (yields zero instead). Example:
 
         value = "example"
         Integer(value) # => ArgumentError: invalid value for Integer(): "example"
         value.to_i # => 0
   This pattern applies to Floats as well.
-- Use `#to_i` for explicit conversion of an object to an integer. Useful when forcing an object to convert to an
-  integer. Example: "1234".to_i.
-- Use `#to_int` for implicit conversion of an object to an integer. Useful when building an object that might need to
-  behave like an integer. Ruby calls `#to_int` when processing objects that behave like integers.
+- Use `#to_i` for explicit conversion of an object to an integer. Useful when forcing an object to
+  convert to an integer. Example: "1234".to_i.
+- Use `#to_int` for implicit conversion of an object to an integer. Useful when building an object
+  that might need to behave like an integer. Ruby calls `#to_int` when processing objects that
+  behave like integers.
 - Literals can be used for shorthand representations of different numbers:
     - `0x22 = 34` (Integer, hexadecimal, 0-16 format)
     - `0o22 = 18` (Integer, octal, 0-8 format)
@@ -239,11 +251,13 @@
 
 ## Enumerables
 
-- Use `.with_index` instead of `.(each|map|select|etc)_with_index` as the `.with_index` syntax can easily be chained
-  to existing enumerable objects. Example: `example.each.with_index { |target, index| puts "#{index}: #{target}" }`.
+- Use `.with_index` instead of `.(each|map|select|etc)_with_index` as the `.with_index` syntax can
+  easily be chained to existing enumerable objects. Example: `example.each.with_index { |target,
+  index| puts "#{index}: #{target}" }`.
 
-- Use `.with_object` instead of `.(each|map|select|etc)_with_object` as the `.with_object` syntax can easily be chained
-  to existing enumerable objects. Example: `example.each.with_object("Test") { |target, object| puts "#{object}: #{target}" }`.
+- Use `.with_object` instead of `.(each|map|select|etc)_with_object` as the `.with_object` syntax
+  can easily be chained to existing enumerable objects. Example: `example.each.with_object("Test") {
+  |target, object| puts "#{object}: #{target}" }`.
 
 ## Arrays
 
@@ -265,21 +279,24 @@
 
         # Yes
         Array(params[:ids]).each { |id| # Process. } # If :ids is nil, then it will be converted to an empty array.
-- Use `Set` instead of `Array` when managing unique elements. `Set` is a hybrid of Array's inter-operation
-  capabilities and Hash's fast lookup.
-- Use Array#concat when concatenating arrays. It is faster than using `<<` and `.flatten!` or using `+=`. It also
-  updates the target array in place whereas `+=` will create a new array object of the concatenated source arrays.
-- Use Array#reduce with an initial value so that empty arrays don't evaluate to nil (especially with numbers):
+- Use `Set` instead of `Array` when managing unique elements. `Set` is a hybrid of Array's inter-
+  operation capabilities and Hash's fast lookup.
+- Use Array#concat when concatenating arrays. It is faster than using `<<` and `.flatten!` or using
+  `+=`. It also updates the target array in place whereas `+=` will create a new array object of the
+  concatenated source arrays.
+- Use Array#reduce with an initial value so that empty arrays don't evaluate to nil (especially with
+  numbers):
 
         # No
         [].reduce(:+) # => Evaluates to nil.
 
         # Yes
         [].reduce(0, :+) # => Evaluates to 0.
-- Use `#to_a` for explicit conversion of an object to an array. Useful when forcing an object to convert to an
-  array. Example: `(1..10).to_a`.
-- Use `#to_ary` for implicit conversion of an object to an array. Useful when building an object that might need to
-  behave like an array. Ruby calls `#to_ary` when processing objects that behave like arrays.
+- Use `#to_a` for explicit conversion of an object to an array. Useful when forcing an object to
+  convert to an array. Example: `(1..10).to_a`.
+- Use `#to_ary` for implicit conversion of an object to an array. Useful when building an object
+  that might need to behave like an array. Ruby calls `#to_ary` when processing objects that behave
+  like arrays.
 
 ## Hashes
 
@@ -307,8 +324,8 @@
 
         # Will initialize a new array object for each new key.
         Hash.new {|hash, key| hash[key] = []}
-- Use `#fetch` when setting default values for missing keys instead of `||` as `||` will answer the default value when a
-  key doesn't exist or has a value of nil/false. Example:
+- Use `#fetch` when setting default values for missing keys instead of `||` as `||` will answer the
+  default value when a key doesn't exist or has a value of nil/false. Example:
 
         {}[:example] || :default # :default
         {example: nil}[:example] || :default # :default
@@ -317,32 +334,35 @@
         {}.fetch(:example) { :default } # :default
         {example: nil}.fetch(:example)  { :default } # nil
         {example: false}.fetch(:example) { :default } # false
-- Use a block instead of a value for the default (second) argument of `#fetch`. This provides the following benefits:
+- Use a block instead of a value for the default (second) argument of `#fetch`. This provides the
+  following benefits:
     0. Blocks can be defined once for easy reference in multiple defaults (DRY).
     0. Blocks are lazy evaluated which improves application performance.
-- Use symbols as default values for Hash#fetch. This will make it easier to debug when a value is expected but not
-  supplied. Example: `example.fetch(:logger) { :unknown_logger }`.
+- Use symbols as default values for Hash#fetch. This will make it easier to debug when a value is
+  expected but not supplied. Example: `example.fetch(:logger) { :unknown_logger }`.
 
 ## Loops
 
 - Use `begin..end while <condition>` in lieu of a do while loop (it is the equivalent in Ruby).
-- Use `<number>.times.map` instead of `(0...<number>).map` as it reads better and requires less setup.
-- Use `each do..end` instead of `for in do..end` since `for` doesn't introduce a new scope and uses `each` under
-  the covers. Additionally, `each` is more concise.
-- Use `loop do...end` instead of `while true do...end` for infinite loops as it expresses intent and is idiomatic.
+- Use `<number>.times.map` instead of `(0...<number>).map` as it reads better and requires less
+  setup.
+- Use `each do..end` instead of `for in do..end` since `for` doesn't introduce a new scope and uses
+  `each` under the covers. Additionally, `each` is more concise.
+- Use `loop do...end` instead of `while true do...end` for infinite loops as it expresses intent and
+  is idiomatic.
 
 ## Breaks
 
-- The obvious use for breaks are to exit quickly out of a loop once a particular condition is met but they can also
-  be used to return a value:
+- The obvious use for breaks are to exit quickly out of a loop once a particular condition is met
+  but they can also be used to return a value:
 
         break "Example Message" if some_value == "found"
 
 ## Control Flow
 
-- Use `and` and `or` sparingly and for control flow only since they have lesser precidence than their `&&` and `||`
-  counterparts. Additionally, `and` and `or` do not evaluate to a return value like `&&` and `||` (hence their
-  significance for control flow).
+- Use `and` and `or` sparingly and for control flow only since they have lesser precidence than
+  their `&&` and `||` counterparts. Additionally, `and` and `or` do not evaluate to a return value
+  like `&&` and `||` (hence their significance for control flow).
 - Use the ternary operator for one-liners:
 
         a > b ? "Yep" : "Nope"
@@ -385,8 +405,8 @@
           else
             "unknown"
         end
-- Use lambda's in `when` statements when needing to evaluate code since lambda's alias the `===` method to the `call`
-  method.
+- Use lambda's in `when` statements when needing to evaluate code since lambda's alias the `===`
+  method to the `call` method.
 
 ## Blocks
 
@@ -405,7 +425,8 @@
 ## Procs
 
 - Disregards extra arguments without error.
-- Returns from the scope of the bounded object (i.e. returns from the scope of the object in which the proc was defined).
+- Returns from the scope of the bounded object (i.e. returns from the scope of the object in which
+  the proc was defined).
 - Use `proc` instead of `Proc.new` as provided by the Kernel module.
 - Procs can be called the following ways (the first option, however, is more readable):
     - example.call "hello"
@@ -487,18 +508,19 @@
 ## Debugging
 
 - Use `p` instead of `puts` when debugging. Reasons:
-    - Returns the value given - makes printing of inline values possible while not obstructing control flow.
+    - Returns the value given - makes printing of inline values possible while not obstructing
+      control flow.
     - Inspects by default (i.e. which is the same as `puts some_object.inspect`).
-- Use `pp` to pretty print objects when debugging. Is part of the standard library, so make sure to `require "pp"`.
-  Additionally, the #pretty_print method allows objects to generate a pretty printed version of themselves for storage
-  within a local variable for later inspection if necessary.
+- Use `pp` to pretty print objects when debugging. Is part of the standard library, so make sure to
+  `require "pp"`. Additionally, the #pretty_print method allows objects to generate a pretty printed
+  version of themselves for storage within a local variable for later inspection if necessary.
 
 ## Objects
 
 ### General
 
-- Use `Object#tap` to communicate that the method subject is also the object being returned. It also serves as a concise
-  way to modify and return and object within a single step.
+- Use `Object#tap` to communicate that the method subject is also the object being returned. It also
+  serves as a concise way to modify and return and object within a single step.
 
         # No
         def update_params params
@@ -525,14 +547,16 @@
 - Follows value semantics rather than reference semantics.
 - Must be immutable.
 - Defines `#==` (value equality) to be equivalent to itself and other instances of same values.
-  - It must check that the class (type) of the other object is identical before checking it's values.
+  - It must check that the class (type) of the other object is identical before checking it's
+    values.
   - It must not be equivalent to other instances of different values or classes (types).
 - Defines `#===` (case equality) to behave identically to `#==` (make it an alias of `#==`).
-- Defines `#eql?` (hash equality) to behave identically to `#==` (make it an alias of `#==`). This is important when
-  using an instance as a hash key.
+- Defines `#eql?` (hash equality) to behave identically to `#==` (make it an alias of `#==`). This
+  is important when using an instance as a hash key.
 - Defines `#equal?` (identity equality) as equal only to itself.
 - Defines `#hash` to use value equality (state of all values) plus class to produce a unique hash.
-- Consider using the [Adamantium](https://github.com/dkubb/adamantium) gem when building value objects.
+- Consider using the [Adamantium](https://github.com/dkubb/adamantium) gem when building value
+  objects.
 
 ## Modules
 
@@ -550,13 +574,14 @@
               Module.nesting # => [ParentModule::ChildModule, ParentModule]
             end
           end
-    - When nested, you maintain hierarchy and constant/method lookup within the hierarchy. Using the shorthand
-      would cause constants, for example, defined in the *ParentModule- to not be found and makes debugging any related
-      errors much harder.
-- Use `module_function` to mark methods in a module that will be private instance methods when included in a class.
-  These methods can also be accessed as class level methods via the module. This allows classes to include module
-  methods when all or many of the methods are needed by the class but also allows classes to simply reference the module
-  directly when only a few of the methods are required.
+    - When nested, you maintain hierarchy and constant/method lookup within the hierarchy. Using the
+      shorthand would cause constants, for example, defined in the *ParentModule- to not be found
+      and makes debugging any related errors much harder.
+- Use `module_function` to mark methods in a module that will be private instance methods when
+  included in a class. These methods can also be accessed as class level methods via the module.
+  This allows classes to include module methods when all or many of the methods are needed by the
+  class but also allows classes to simply reference the module directly when only a few of the
+  methods are required.
 - Submodles can include containing modules. Example:
 
         module Outer
@@ -567,17 +592,19 @@
 
 ## Structs
 
-- Avoid using `Struct.new(...).new(...)` for creating a new instance of an anonymous class as it suffers a serious
-  [performance penalty](https://pragtob.wordpress.com/2016/04/12/dont-you-struct-new-new). Use a `class` instead
-  to contantize and properly name an object like this.
+- Avoid using `Struct.new(...).new(...)` for creating a new instance of an anonymous class as it
+  suffers a serious [performance penalty](https://pragtob.wordpress.com/2016/04/12/dont-you-struct-
+  new-new). Use a `class` instead to contantize and properly name an object like this.
 
 ## Classes
 
 - Use `CamelCase` for class names.
-- Never use `@@` class variables since the inheritance hierarchy uses the same variable. Example: `@@variable`.
-- When implementing an abstract class, throw a NotImplementedError (inherits from RuntimeError) for methods that
-  need to be implimented by a subclass. This will, in turn, clearly explain to future developers what needs to be fixed
-  with clear documentation and a stack trace back to the abstract class. Example:
+- Never use `@@` class variables since the inheritance hierarchy uses the same variable. Example:
+  `@@variable`.
+- When implementing an abstract class, throw a NotImplementedError (inherits from RuntimeError) for
+  methods that need to be implimented by a subclass. This will, in turn, clearly explain to future
+  developers what needs to be fixed with clear documentation and a stack trace back to the abstract
+  class. Example:
 
         class AbstractExample
           def overwrittable_method
@@ -631,7 +658,8 @@
         end
 
 - Class methods should be defined as `def self.method_name..end`.
-    - Do not use `self << class..end` as it is confusing to read when there are multiple methods defined within.
+    - Do not use `self << class..end` as it is confusing to read when there are multiple methods
+      defined within.
     - Do not use `def ClassName.method_name..end` as it is redundant and can complicate refactoring.
 - Avoid parentheses for method definitions:
 
@@ -677,17 +705,18 @@
         def example
           "Hi"
         end
-- Explicit Conversions (i.e. #to_s): Represent object conversions from classes that are vaguely or absolutely unrelated
-  to the target class. These messages are issued by a non-core Ruby object, never a core Ruby object. These are lenient
-  methods.
-- Implicit Conversions (i.e. #to_str): Represent object conversions from classes that are strongly related to the target
-  class. These messages can be issued by a core Ruby object. These are strict methods and will issue exceptions when not
-  found.
-- Conversion Functions (i.e. Integer(), String(), Array(), etc.): For times when objects needs to be converted to a core
-  type, sensibly, with the most leniency.
-- With Ruby 2.1+, methods return a symbolized version of their name instead of nil when there is nothing to return. This
-  can be combined with `private` statements or any statment that takes a symbol. *NOTE: This technique should only be
-  used in situations when a single method is defined but not for multiple methods as it is redundant.*
+- Explicit Conversions (i.e. #to_s): Represent object conversions from classes that are vaguely or
+  absolutely unrelated to the target class. These messages are issued by a non-core Ruby object,
+  never a core Ruby object. These are lenient methods.
+- Implicit Conversions (i.e. #to_str): Represent object conversions from classes that are strongly
+  related to the target class. These messages can be issued by a core Ruby object. These are strict
+  methods and will issue exceptions when not found.
+- Conversion Functions (i.e. Integer(), String(), Array(), etc.): For times when objects needs to be
+  converted to a core type, sensibly, with the most leniency.
+- With Ruby 2.1+, methods return a symbolized version of their name instead of nil when there is
+  nothing to return. This can be combined with `private` statements or any statment that takes a
+  symbol. *NOTE: This technique should only be used in situations when a single method is defined
+  but not for multiple methods as it is redundant.*
 
         # No
         def example
@@ -709,12 +738,12 @@
 
 ## Monkey Patches
 
-- Avoid monkey patching code you don't own because each patch adds additional maintenance and debugging effort to a
-  project as core/third-party libraries are updated. Use any of the following alternatives to better localize custom
-  changes for easier debugging and maintainability:
+- Avoid monkey patching code you don't own because each patch adds additional maintenance and
+  debugging effort to a project as core/third-party libraries are updated. Use any of the following
+  alternatives to better localize custom changes for easier debugging and maintainability:
     - Use aliases. Example: `alias SCE Some::Custom::Example`.
-    - Use a helper module that defines methods to make the dependant code more concise. Include the module in objects
-      that need the additional functionality.
+    - Use a helper module that defines methods to make the dependant code more concise. Include the
+      module in objects that need the additional functionality.
     - Extend instance objects with helper module functionality. Example:
 
             example = Example.new
@@ -722,7 +751,8 @@
 
 ## Macros
 
-- Macros are methods which dynamically generated methods, classes, and/or modules at class/module load time. Examples:
+- Macros are methods which dynamically generated methods, classes, and/or modules at class/module
+  load time. Examples:
     - attr_reader
     - attr_accessor
 
@@ -738,13 +768,15 @@
 
 ## Threads
 
-- Use .handle_interrupt over #raise or #kill to safely handle asynchronise interrupts. NOTE: These are hard to
-  use correctly so read method documentation for more info.
-- Use `MonitorMixin` (via `require "monitor"` and `include MonitorMixin`) to enhance an existing class so that all
-  methods are executed with mutual exclusion (including recursive exclusion). NOTE: This might be overkill in some cases
-  where using a Mutex would be simpler. Read the documentation for further details.
-- Use the [Concurrent Ruby](https://github.com/ruby-concurrency/concurrent-ruby) gem as an alternative to making
-  mutually exclusive operations Additionally, it is also more performant and supports MRI, Rubinius, and JRuby.
+- Use .handle_interrupt over #raise or #kill to safely handle asynchronise interrupts. NOTE: These
+  are hard to use correctly so read method documentation for more info.
+- Use `MonitorMixin` (via `require "monitor"` and `include MonitorMixin`) to enhance an existing
+  class so that all methods are executed with mutual exclusion (including recursive exclusion).
+  NOTE: This might be overkill in some cases where using a Mutex would be simpler. Read the
+  documentation for further details.
+- Use the [Concurrent Ruby](https://github.com/ruby-concurrency/concurrent-ruby) gem as an
+  alternative to making mutually exclusive operations Additionally, it is also more performant and
+  supports MRI, Rubinius, and JRuby.
 
 ## Files
 
@@ -764,7 +796,8 @@
 
 - Run a single test: `example_test.rb --name=test_me`
 - Run tests that match a regular expresion: `example_test.rb --name=/test_me/`
-- Alternatively, the TESTOPTS environment variable can be used: `TESTOPTS="--name=test_me" example_test.rb`
+- Alternatively, the TESTOPTS environment variable can be used: `TESTOPTS="--name=test_me"
+  example_test.rb`
 
 ## Resources
 

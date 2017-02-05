@@ -92,7 +92,8 @@
 - Make user friendly 404 Error Page
 - No Results Found (Product / Page)
 - Validation Error Messages
-- Offer them multiple payment options: It’s a no-brainer but this checklist will look incomplete without it.
+- Offer them multiple payment options: It’s a no-brainer but this checklist will look incomplete
+  without it.
 - Show Social Media Proofs
 - Sign-up with Google Trusted Stores
 - Information Touch Points

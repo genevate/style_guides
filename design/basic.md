@@ -23,7 +23,8 @@ We all have one chance at this life, why not make it a good one - a memorable on
 # General
 
 - Build upon existing, common design standards.
-- Use negative space - Separate navigation from content, sections from bodies, text from images, etc.
+- Use negative space - Separate navigation from content, sections from bodies, text from images,
+  etc.
 
 # Site Logo
 
@@ -41,14 +42,17 @@ We all have one chance at this life, why not make it a good one - a memorable on
 # Navigation
 
 - Navigation should be effortless without loosing a sense of where one is in the hierarchy.
-- Keep navigation level depth to five clicks or less - it shouldn't require a lot of clicking to find content.
-- Always make actionable elements (i.e. links, buttons) clearly standout with minimum thought for action.
+- Keep navigation level depth to five clicks or less - it shouldn't require a lot of clicking to
+  find content.
+- Always make actionable elements (i.e. links, buttons) clearly standout with minimum thought for
+  action.
 - Use tabbed navigation:
   - Always associate the active tab with the current page (using a prominent color, font size, etc.)
   - When hovering over tabs, each tab being hovered should be visibly highlighted.
 - Use a site logo:
   - Always have it link to the home page.
-  - Associate it with main site navigation at all times so that people know they are still on the same site.
+  - Associate it with main site navigation at all times so that people know they are still on the
+    same site.
 - Use a search form:
   - Associate it with main site navigation.
   - Keep it small but easy to see.
@@ -84,8 +88,9 @@ We all have one chance at this life, why not make it a good one - a memorable on
 
 # Text
 
-- Refrain from happy/promotional text - This is filler text that doesn't provide any useful information. Instead,
-  get to the point and make each word count. Be ruthless in removing extraneous words.
+- Refrain from happy/promotional text - This is filler text that doesn't provide any useful
+  information. Instead, get to the point and make each word count. Be ruthless in removing
+  extraneous words.
 
 ## References
 

@@ -2,9 +2,11 @@
 
 ## Database
 
-- [Apply indexes](http://robots.thoughtbot.com/post/163627511/a-grand-piano-for-your-violin) where appropriate.
-- PostgreSQL prepared statements are enabled by default (ActiveRecord creates up to 1000 prepared statements per
-  connection). These can be disabled (set `statement_limit: false`) or you can limit them via database.yml settings:
+- [Apply indexes](http://robots.thoughtbot.com/post/163627511/a-grand-piano-for-your-violin) where
+  appropriate.
+- PostgreSQL prepared statements are enabled by default (ActiveRecord creates up to 1000 prepared
+  statements per connection). These can be disabled (set `statement_limit: false`) or you can limit
+  them via database.yml settings:
 
         production:
           adapter: postgresql
@@ -30,7 +32,8 @@
 - Forms
   - Select statements should include blanks. Example: include_blank: "-select-"
 - HTML Injection
-  - Use the 'h' method to render form values in your views so that SQL or other code is not rendered.
+  - Use the 'h' method to render form values in your views so that SQL or other code is not
+    rendered.
 
 ## Controller
 
