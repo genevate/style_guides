@@ -1,3 +1,10 @@
+# v0.14.0 (2017-02-05)
+
+- Updated contributing documentation.
+- Updated organization of style guides.
+- Refactored Ruby on Rails guides location.
+- Refactored documents to use 100 width columns.
+
 # v0.13.0 (2016-11-19)
 
 - Added DNS SPF security documentation.
