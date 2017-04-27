@@ -2,14 +2,18 @@
 
 ## General
 
-- Prefer `git commit --fixup` when fixing a previous commit or addressing pull request feedback and
-  don't need to preserve original commit message details.
-- Prefer `git commit --squash` when fixing a previous commit or addressing pull request feedback and
-  want to combine previous commit messages into a single message.
-- Prefer `git rebase --interactive` when cleaning up commit history, order, messages, etc.
+- Use the [Git rebase workflow](http://www.bitsnbites.eu/a-tidy-linear-git-history) instead of the
+  Git merge workflow.
+- Use `git commit --fixup` when fixing a previous commit, addressing
+  pull request feedback, etc., and don't need to modifiy the original commit
+  message.
+- Use `git commit --squash` when fixing a previous commit, addressing pull request feedback, etc.,
+  and want to combine the original commit message with the squash commit message into a single
+  message.
+- Use `git rebase --interactive` when cleaning up commit history, order, messages, etc.
   Should be done prior to submitting a pull request or when pull request feedback has been addressed
   and you are ready to merge to `master`.
-- Prefer `git push --force-with-lease` instead of `git push --force` when pushing changes after an
+- Use `git push --force-with-lease` instead of `git push --force` when pushing changes after an
   interactive rebasing session.
 - Avoid checking in development-specific configuration files (add to `.gitignore` instead).
 - Avoid checking in sensitive information (i.e. security keys, passphrases, etc).
@@ -19,50 +23,54 @@
 
 ## Commits
 
-- Prefer small, atomic commits:
+- Use small, atomic commits:
   - Easier to review and provide feedback.
   - Easier to review implementation and corresponding tests.
   - Easier to document with detailed subject messages (especially when grouped together in a pull
     request).
   - Easier to reword, edit, squash, fix, or drop when interactively rebasing.
   - Easier to merge together versus tearing apart a larger commit into smaller commits.
-- Prefer commits in a logical order:
+- Use commits in a logical order:
   - Each commit should tell a story and be a logical building block to the next commit.
   - Each commit, when reviewed in order, should be able to explain *how* the feature or bug fix was
     completed and implemented properly.
-- Prefer commit message subject lines in the following format:
-  - Use 50 characters or less.
-  - Use past tense (makes it easier to build and read release notes).
+- Use commit message subject lines in the following format:
+  - Capitalize the first word.
+  - End with a period.
+  - Use 50 characters or less (prevents the subject line from getting word-wrapped).
+  - Use past tense (makes it easier to [automate](https://github.com/bkuhlmann/milestoner) the
+    generation of release notes).
   - Use the following prefixes only:
     - *Fixed* - Existing code that has been fixed.
     - *Removed* - Code that was once added and is now removed.
     - *Added* - New code that is an enhancement, feature, etc.
     - *Updated* - Existing code that has been modified.
-    - *Refactored* - Existing code that has been refactored and does not change functionality.
-  - Use hashtags to identify code (easier to search for later).
-- Prefer commit message bodies in the following format:
-  - Use 72 characters or less per line.
+    - *Refactored* - Existing code that has been cleaned up and does not change functionality.
+  - Use hashtags suffixes (optional, place after the period) to identify and/or make code easier to
+    search for later.
+- Use commit message bodies in the following format:
   - Use a space between the first line of the commit message (i.e. subject) and the body.
-  - Use a bullet for each detail of the commit body.
-  - If the commit has a dependency to the previous commit or is a dependency to the commit that will
+  - Use 72 characters or less per line.
+  - Use a bullet, in Markdown format (i.e. a dash(`-`)), for each detail of the commit body.
+  - If the commit has a dependency to the previous commit or is a precursor to the commit that will
     follow, make sure to explain that.
   - Include links to dependent projects, stories, etc. if available.
-- Each commit message should answer the following:
-  - Why? -- Why is the body of work necessary?
-  - What? -- What is the body of work being committed.
-  - How? -- How does the body of work solve the why.
+  - The commit message body should answer the following at a minimum:
+    - Why? -- Why is the body of work necessary?
+    - What? -- What is the body of work being committed.
+    - How? -- How does the body of work solve the why.
 
 ## Branches
 
-- Always work in feature branches.
-- Always maintain feature branches by rebasing upon `master` on a regular basis.
+- Use feature branches for new work.
+- Maintain branches by rebasing upon `master` on a regular basis.
 
 ## Tags
 
-- Always tag your releases:
+- Use tags to denote milestones/releases:
   - Makes it easier to record milestones and capture associated release notes.
   - Makes it easier to compare differences between versions.
-  - Makes adoption of the new changes easier and faster.
+  - Provides a starting point for debugging production issues (if any).
 
 ## Rebases
 
@@ -105,20 +113,7 @@
   return to reviewing the pull request.
 - The author, not the reviewer, should merge the feature branch upon approval.
 - Ensure the following criteria is met before merging your feature branch to master:
-  - Ensure all *fixup!* and *squash!* commits are interactively rebased and merged.
+  - Ensure all `fixup!` and `squash!` commits are interactively rebased and merged.
   - Ensure your feature branch is rebased upon `master`.
   - Ensure all tests and code quality checks are passing.
   - Ensure the feature branch is deleted after being successfully merged.
-
-## Archives
-
-- For large project repositories, use the following workflow:
-  0. cd (large git project)
-  0. git bundle create git-bundle master
-  0. mkdir new-project && cd new-project
-  0. git clone (path to previously created bundle)/git-bundle -b master
-  0. git remote set-url origin
-
-## References
-
-- [How to share large repositories](http://blog.plataformatec.com.br/2013/12/sharing-large-repositories-with-your-team).
