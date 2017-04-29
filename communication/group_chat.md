@@ -35,7 +35,7 @@ Structure company-wide channels as follows:
 - Status - For out-of-office messages, errands, sickness, upcoming vacation reminders, etc.
 - Demos - For end-of-week demos to show off the week's cumulative work. Doesn't have to be limited
   to end-of-week but can be anytime there is something of interest to share.
-- After Hours - News and information related to after hours adventures, gatherings, etc. Examples:
+- Events - News and information related to after hours adventures, gatherings, etc. Examples:
   - Snow - Ski/snowboarding information and events.
   - Games - Video/board game information and events.
 

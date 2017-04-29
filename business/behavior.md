@@ -4,10 +4,10 @@
 
 These are the guiding principles of what motivates people to accomplish great things:
 
-0. Autonomy - The freedom and ability to get things done. Requires control over Task, Team, Time,
+0. *Autonomy* - The freedom and ability to get things done. Requires control over Task, Team, Time,
    and Technique.
-0. Mastery - To gain thorough knowledge and experience of a subject.
-0. Purpose - The passion and drive to focus on the things that matter most.
+0. *Mastery* - To gain thorough knowledge and experience of a subject.
+0. *Purpose* - The passion and drive to focus on the things that matter most.
 
 ## Maintaining Happiness
 
@@ -43,19 +43,16 @@ Apply the following steps in order to discover weaknesses and make improvements:
 0. Take a year off every seven years to reflect, explore, and live life.
 0. Give yourself a performance review every month and figure out what worked and failed? Be brutally
    honest. Is progress being made? What needs to change?
-0. [Go oblique](https://twitter.com/Oblique_Chirps) when stuck. Read one of these each time you are
-   stuck to give your mind something to focus on while the subconscious chips away at the real
-   problem.
 0. Maintain deliberate practice:
-  0. Measure and improve performance.
-  0. Repeat. Repeat. Repeat.
-  0. Ask for constant feedback.
-  0. Focus ruthlessly on weaknesses and turn them into strengths.
-  0. Prepare for mental exhaustion.
+    0. Measure and improve performance.
+    0. Repeat. Repeat. Repeat.
+    0. Ask for constant feedback.
+    0. Focus ruthlessly on weaknesses and turn them into strengths.
+    0. Prepare for mental exhaustion.
 0. Keep asking yourself the following:
-  0. What gets you up in the morning?
-  0. What keeps you up at night?
-  0. What are you going to do about each?
+    0. What gets you up in the morning?
+    0. What keeps you up at night?
+    0. What are you going to do about each?
 
 ## Recommended Books
 
