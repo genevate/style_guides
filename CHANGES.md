@@ -1,3 +1,12 @@
+# v0.15.0 (2017-04-29)
+
+- Fixed page indentation issues.
+- Added Elm style guides.
+- Added REST styles.
+- Updated Git style guide.
+- Updated README semantic versioning order.
+- Refactored good and bad CSS examples.
+
 # v0.14.0 (2017-02-05)
 
 - Updated contributing documentation.
