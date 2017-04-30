@@ -25,7 +25,17 @@ Use the following module structure when designing your application:
   your app.
 - Main.elm - The entry-point to your SPA which loads the app and `Router` module.
 
+## Imports
+
+- Prefer qualified over unqualified imports.
+- Use unqualified imports sparingly (i.e. `import Html exposing (..)`) in order to avoid naming
+  conflicts and reduce code readability.
+
 ## Modules
+
+- Avoid defining modules with all functions exposed as top-level functions (i.e. `module Example
+  exposing (..)`). Limit what you expose to only those methods which are needed, everything else
+  should be kept private.
 
 The following illustrates the various types of module templates you might use within you app.
 
@@ -159,3 +169,13 @@ The following illustrates the various types of module templates you might use wi
 
         Response (Err error) ->
           {data = Nothing, error = APIKit.parseError error}
+
+## Records
+
+- Use the `-- RECORDS` section of your module to define all initial records needed for the module.
+- Define the `initialRecord` function (where the `Record` suffix is replaced with the actual name of
+  the record you providing default values for) within the `-- RECORDS` section of your module (this
+  should be defined directly after your `-- MODELS` section).
+- Avoid passing parameters to your `initialRecord` functions. These functions should remain simple
+  and provide safe defaults. If needing to modify the default values of one of these functions, use
+  a record update (i.e. `updatedRecord = {initialRecord | key = value}`) instead.
