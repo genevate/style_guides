@@ -1,5 +1,7 @@
 # CSS Styles
 
+## General
+
 - Avoid unclear naming conventions. A good class names should describe what it is about.
 - Use the minimum number of selectors possible.
   - Yes: ul#example
@@ -28,3 +30,10 @@
   0. Background
   0. Transitions
   0. Miscellaneous
+
+## Media Queries
+
+- Define media queries next to the components they modify.
+- Use REM units.
+- Use content-based instead of device-based breakpoints.
+- Keep your styles simple by designing mobile-first.
