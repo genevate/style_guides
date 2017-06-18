@@ -1,5 +1,6 @@
 # Style Guides
 
+[![Circle CI Status](https://circleci.com/gh/bkuhlmann/style_guides.svg?style=svg)](https://circleci.com/gh/bkuhlmann/style_guides)
 [![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/bkuhlmann)
 
 A collection of styles/best practices.
