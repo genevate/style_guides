@@ -1,3 +1,18 @@
+# v0.16.0 (2017-07-16)
+
+- Added Git Cop support.
+- Added `if` block temporary variable assignment Ruby styles.
+- Added media queries to CSS style guides.
+- Updated CONTRIBUTING documentation.
+- Updated Elm style guides.
+- Updated Git styles to reference Git Cop.
+- Updated GitHub templates.
+- Updated README headers.
+- Updated Ruby style guide with detect map (break) usage.
+- Updated Ruby style guide with subscripts and conversion functions.
+- Updated basic style guide with plural naming suggestion.
+- Updated gem dependencies.
+
 # v0.15.0 (2017-04-29)
 
 - Fixed page indentation issues.
