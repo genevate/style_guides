@@ -413,6 +413,21 @@ These constructors are handy to have around but be aware of their benefits and d
         if n > 10
         end
 
+## If..Elsif..Else..End
+
+- Prefer variable assignment only for the purpose of the logic statement. The variable should not be
+  used for any other purpose in order to reduce complexity. Examples:
+
+      # Single variable.
+      if home_dir = ENV["HOME"]
+        puts "Your home directory is: "#{home_dir}."
+      end
+
+      # Destructuring (Ruby 2.4+)
+      if name, enabled = ENV["SWITCHES"]
+        puts "Your "#{name} is #{enabled}."
+      end
+
 ## Cases
 
 - Indent `when` statements:
