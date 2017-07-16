@@ -353,10 +353,14 @@
 
 ## Breaks
 
-- The obvious use for breaks are to exit quickly out of a loop once a particular condition is met
-  but they can also be used to return a value:
+- Breaks are generally used exit quickly out of a loop once a particular condition is met
+  but they can also be used to return a value. Here are a few useful examples:
 
+        # Returning a message.
         break "Example Message" if some_value == "found"
+
+        # Returning the value of the object detected.
+        doc_list.detect {|doc| loaded_doc = load_doc(doc) and break loaded_doc}
 
 ## Control Flow
 
@@ -842,3 +846,4 @@
 - [Ruby Tapas - Adamantium (Episode 219)](http://www.rubytapas.com)
 - [Ruby Tapas - Evil Monkeys (Episode 226)](http://www.rubytapas.com)
 - [Ruby Tapas - Loop (Episode 277)](http://www.rubytapas.com)
+- [Ruby Tapas - Detect Map (Episode 440)](http://www.rubytapas.com)
