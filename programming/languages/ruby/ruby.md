@@ -341,6 +341,23 @@
 - Use symbols as default values for Hash#fetch. This will make it easier to debug when a value is
   expected but not supplied. Example: `example.fetch(:logger) { :unknown_logger }`.
 
+## Subscript Constructors
+
+There are several objects within the Ruby language that provide subscript construction of new
+objects. Examples:
+
+    Array[1, 2, 3] # [1, 2, 3]
+    Hash[:a, 1, :b, 2] # {:a=>1, :b=>2}
+
+    Point = Struct.new :x, :y
+    point = Point[3, 5] # <struct Point x=3, y=5>
+
+These constructors work like implicit conversion methods (i.e. `#to_s`, `#to_s`, `#to_a`) where if
+the object type used in construction can't be properly turned into that object's type, you might
+get a `nil` and no `TypeError` exception raised.
+
+These constructors are handy to have around but be aware of their benefits and detriments.
+
 ## Loops
 
 - Use `begin..end while <condition>` in lieu of a do while loop (it is the equivalent in Ruby).
@@ -597,8 +614,8 @@
 ## Structs
 
 - Avoid using `Struct.new(...).new(...)` for creating a new instance of an anonymous class as it
-  suffers a serious [performance penalty](https://pragtob.wordpress.com/2016/04/12/dont-you-struct-
-  new-new). Use a `class` instead to contantize and properly name an object like this.
+  suffers a serious [performance penalty](http://bit.ly/2tv9TbJ). Use a `class` instead to
+  contantize and properly name an object like this.
 
 ## Classes
 
@@ -739,6 +756,25 @@
 
         def example2
         end
+
+## Conversion Functions
+
+There are several conversion functions within the Ruby language. Here are a few examples:
+
+    String()
+    Integer()
+    Array()
+    Hash()
+
+These functions are useful in situations where it is necessary to cast an object from one type to
+another *and* raise a `TypeError` when the given object can't be properly converted.
+
+There are a few rules for conversion functions:
+
+- They should immediately raise a `TypeError` exception for unknown types.
+- The conversion function's object should be a value object.
+- When a conversion function isn't necessary, an alternative approach is to provide a class-level
+  `.for` method which can convert a type into the object's type.
 
 ## Monkey Patches
 
