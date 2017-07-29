@@ -6,9 +6,61 @@
 - Use commas (in arrays, list, records, etc) after each item not before.
 - Use `Message` instead of `Msg`.
 
-## App Module/Structure
+## Imports
 
-Use the following module structure when designing your application:
+- Prefer qualified over unqualified imports.
+- Use unqualified imports sparingly (i.e. `import Html exposing (..)`) in order to avoid naming
+  conflicts and reduce code readability.
+
+## Modules
+
+- Avoid defining modules with all functions exposed as top-level functions (i.e. `module Example
+  exposing (..)`). Limit what you expose to only those methods which are needed, everything else
+  should be kept private.
+
+## Flags
+
+- Use JSON encoded/decoded values for program flags to improve error handling between JavaScript and
+  Elm. Example:
+
+      main : Program Flags Model Message
+      main =
+        Navigation.programWithFlags LocationChange
+          {
+            init = init,
+            view = view,
+            update = update,
+            subscriptions = subscriptions
+          }
+
+## Ports
+
+- Use a single module for all ports. Example: `Ports.elm`.
+- Use JSON encoded/decoded values when sending data between JavaScript and Elm to improve error
+  handling. Example:
+
+      port module App.Ports exposing (..)
+
+      import Json.Encode as JSONE
+      import Json.Decode as JSOND
+
+      port localStorageSet : (String, JSONE.Value) -> Cmd message
+      port localStorageGet : String -> Cmd message
+      port localStorageResponse : (JSOND.Value -> message) -> Sub message
+
+## Records
+
+- Use the `-- RECORDS` section of your module to define all initial records needed for the module.
+- Define the `initialRecord` function (where the `Record` suffix is replaced with the actual name of
+  the record you providing default values for) within the `-- RECORDS` section of your module (this
+  should be defined directly after your `-- MODELS` section).
+- Avoid passing parameters to your `initialRecord` functions. These functions should remain simple
+  and provide safe defaults. If needing to modify the default values of one of these functions, use
+  a record update (i.e. `updatedRecord = {initialRecord | key = value}`) instead.
+
+## Structure
+
+Use the following structure when designing your application:
 
 - API - Contains the client modules for processing request/responses to internal/external APIs. Use
   singular naming for single resource requests and plural naming for a collections of resources
@@ -25,19 +77,9 @@ Use the following module structure when designing your application:
   your app.
 - Main.elm - The entry-point to your SPA which loads the app and `Router` module.
 
-## Imports
+## Templates
 
-- Prefer qualified over unqualified imports.
-- Use unqualified imports sparingly (i.e. `import Html exposing (..)`) in order to avoid naming
-  conflicts and reduce code readability.
-
-## Modules
-
-- Avoid defining modules with all functions exposed as top-level functions (i.e. `module Example
-  exposing (..)`). Limit what you expose to only those methods which are needed, everything else
-  should be kept private.
-
-The following illustrates the various types of module templates you might use within you app.
+The following illustrates the various templates you might use within you app.
 
 ### Main
 
@@ -169,13 +211,3 @@ The following illustrates the various types of module templates you might use wi
 
         Response (Err error) ->
           {data = Nothing, error = APIKit.parseError error}
-
-## Records
-
-- Use the `-- RECORDS` section of your module to define all initial records needed for the module.
-- Define the `initialRecord` function (where the `Record` suffix is replaced with the actual name of
-  the record you providing default values for) within the `-- RECORDS` section of your module (this
-  should be defined directly after your `-- MODELS` section).
-- Avoid passing parameters to your `initialRecord` functions. These functions should remain simple
-  and provide safe defaults. If needing to modify the default values of one of these functions, use
-  a record update (i.e. `updatedRecord = {initialRecord | key = value}`) instead.
