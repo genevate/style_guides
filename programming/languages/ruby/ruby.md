@@ -569,6 +569,21 @@ These constructors are handy to have around but be aware of their benefits and d
           params.tap { |param| param[:example ] = "Example" }
         end
 
+### Types
+
+When writing code to check the object's type (i.e. class), consider the following guidelines (in the
+order listed):
+
+- Avoid checking if at all possible. Ask whether the implementation truly needs the check and if
+  there is an alternative way to solve the issue. Can you message the object and get a workable
+  answer instead?
+- Can casting/conversion be used either via implicit or explicit means instead?
+- Can `#is_a?` or `#kind_of?` be used (if at the application level where it might not be as critical
+  to determine if objects are completely truthful in their answer)?
+- Can `#===` be used (if at the infrastructure level where you need your implementation to be as
+  strict and defensive as possible). *NOTE: This can still fail if `#===` has been monkey patched in
+  a weird way.*
+
 ### Comparing Objects
 
 - When defining the `<=>` method for an object, make sure to check for type:
@@ -635,7 +650,7 @@ These constructors are handy to have around but be aware of their benefits and d
 ## Classes
 
 - Use `CamelCase` for class names.
-- Never use `@@` class variables since the inheritance hierarchy uses the same variable. Example:
+- Avoid `@@` class variables since the inheritance hierarchy uses the same variable. Example:
   `@@variable`.
 - When implementing an abstract class, throw a NotImplementedError (inherits from RuntimeError) for
   methods that need to be implimented by a subclass. This will, in turn, clearly explain to future
@@ -898,3 +913,4 @@ There are a few rules for conversion functions:
 - [Ruby Tapas - Evil Monkeys (Episode 226)](http://www.rubytapas.com)
 - [Ruby Tapas - Loop (Episode 277)](http://www.rubytapas.com)
 - [Ruby Tapas - Detect Map (Episode 440)](http://www.rubytapas.com)
+- [Ruby Tapas - Advanced Class Membership (Episode 451)](http://www.rubytapas.com)
