@@ -708,10 +708,11 @@ order listed):
           end
         end
 
-- Class methods should be defined as `def self.method_name..end`.
-    - Do not use `self << class..end` as it is confusing to read when there are multiple methods
+- Class methods (i.e. class object singleton methods) should be defined as `def
+  self.method_name..end`.
+    - Avoid `self << class..end` as it is confusing to read when there are multiple methods
       defined within.
-    - Do not use `def ClassName.method_name..end` as it is redundant and can complicate refactoring.
+    - Avoid `def ClassName.method_name..end` as it is redundant and can complicate refactoring.
 - Avoid parentheses for method definitions:
 
         # No
@@ -721,14 +722,14 @@ order listed):
         # Yes
         def example one, two
         end
-- When using parentheses, do not put spaces around the parentheses:
+- When using parentheses, avoid spaces around the parentheses:
 
         # No
         example( "param" )
 
         # Yes
         example("param")
-- When using parentheses, do not put a space between the name and parameters:
+- When using parentheses, avoid using a space between name and parameters:
 
         # No
         example ("param")
@@ -914,3 +915,4 @@ There are a few rules for conversion functions:
 - [Ruby Tapas - Loop (Episode 277)](http://www.rubytapas.com)
 - [Ruby Tapas - Detect Map (Episode 440)](http://www.rubytapas.com)
 - [Ruby Tapas - Advanced Class Membership (Episode 451)](http://www.rubytapas.com)
+- [Ruby Tapas - Class Method (Episode 454)](http://www.rubytapas.com)
