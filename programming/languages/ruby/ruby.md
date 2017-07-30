@@ -479,7 +479,7 @@ These constructors are handy to have around but be aware of their benefits and d
 
 ## Exceptions
 
-- The basic rule of thumb for exceptoon classification is:
+- The basic rule of thumb for exception classification is:
   - Exception: Ruby has failed.
   - StandardError: Your application has failed.
   - RuntimeError: Your application has failed but it is recoverable.
@@ -540,6 +540,23 @@ These constructors are handy to have around but be aware of their benefits and d
         rescue StandardError
           # Do negative work.
         end
+- Use the best pattern that fits your needs when handling exceptions. Examples:
+
+      def example
+        # Potentially exceptional code.
+      rescue ExampleError1 => error
+        # Handles error #1.
+      rescue ExampleError2 => error
+        # Handles error #2.
+      rescue ExampleError3, ExampleError4 => error
+        # Handles error #3 or #4. NOTE: Avoid using this if both exceptions inherit from the same
+          superclass.
+      else
+        # Executed when no exception occurs.
+      ensure
+        # Always executes regardless (exception or not). NOTE: If an explicit return is used, any
+          exception that might have occurred will be consumed and never raised.
+      end
 
 ## Debugging
 
