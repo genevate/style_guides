@@ -75,7 +75,7 @@ Use the following structure when designing your application:
 - Pages - Contains the various pages of your Single Page App (SPA). This are loaded and managed by
   the `Router` module. The directory structure can be broken down further by namespace within
   your app.
-- Main.elm - The entry-point to your SPA which loads the app and `Router` module.
+- Main (`Main.elm`) - The entry-point to your SPA which loads the app and `Router` module.
 
 ## Templates
 
@@ -171,17 +171,32 @@ The following illustrates the various templates you might use within you app.
 
 ### API
 
-    module API.Country exposing (..)
+    module API.Countries exposing (..)
 
     import Http
+    import App.Types exposing (ID, Token, WebData)
     import App.Models as Models
-    import App.Types exposing (ID, Token)
     import App.Decoders as Decoders
     import API.Kit as APIKit
 
     -- REQUESTS
 
-    show : ID -> Token -> Cmd Message
+    index : Token -> Cmd (WebData Models.CountriesBody)
+    index token =
+      let
+        request = Http.request {
+          method = "GET",
+          headers = APIKit.readHeaders token,
+          url = "/api/countries",
+          body = Http.emptyBody,
+          expect = Http.expectJson Decoders.countriesBody,
+          timeout = Nothing,
+          withCredentials = False
+        }
+      in
+        APIKit.send request
+
+    show : ID -> Token -> Cmd (WebData Models.CountryBody)
     show id token =
       let
         request = Http.request {
@@ -194,20 +209,4 @@ The following illustrates the various templates you might use within you app.
           withCredentials = False
         }
       in
-        Http.send Response request
-
-    -- MESSAGES
-
-    type Message
-      = Response (Result Http.Error Models.CountryBody)
-
-    -- UPDATES
-
-    update : Message -> Models.CountryBody
-    update message =
-      case message of
-        Response (Ok body) ->
-          {data = body.data, error = Nothing}
-
-        Response (Err error) ->
-          {data = Nothing, error = APIKit.parseError error}
+        APIKit.send request
