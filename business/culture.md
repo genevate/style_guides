@@ -43,7 +43,7 @@ can delight, enrich, and astound our customers in ways impossible to imagine oth
   - Your schedule and hours worked are your own as long as you focus on *getting things done*.
   - Use dialog and debate to understand and solve complex problems.
   - Act upon your convictions.
-- Be Responsible:
+- [Be Responsible](https://www.youtube.com/watch?v=4E3xfR6IBII):
   - You are hired for your expertise and professionalism -- not for bragging rights, promotional
     capabilities, or a prized position of your boss/employeer.
   - Avoid actions that waste your time, the customer's time, or the company's money.
