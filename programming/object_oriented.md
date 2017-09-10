@@ -2,8 +2,8 @@
 
 ## Classes
 
-- Never reference instance variables directly, use getters/setters instead.
-- Never reference complex data structures because the structure could change.
+- Avoid referencing instance variables directly, use getters/setters instead.
+- Avoid referencing complex data structures because the structure could change.
 - Super may be called when subclassing, overriding methods (especially in constructors).
 
 ## Methods

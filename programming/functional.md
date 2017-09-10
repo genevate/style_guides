@@ -2,5 +2,5 @@
 
 ## General
 
-- Keep ternaries simple, easy to read one-liners. Do not use them for control logic (like case
+- Keep ternaries simple, easy to read one-liners. Avoid using them for control logic (like case
   statements).

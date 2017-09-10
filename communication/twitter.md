@@ -6,12 +6,13 @@
 0. Try to average posting less than 5 tweets a day.
 0. Unfollow anyone that averages more than 5 tweets a day, brags about themselves and/or company,
    spams, etc. Your time is valuable. Respect it.
-0. Don't retweet compliments (bragging).
-0. Don't dot reply (spam). Example: ". @example Reply text here." This causes your reply to show up
-   in all of your followers streams who might not want to follow everyone that you follow. It also
-   duplicates (spams) the tweet to a follower that follows both you and the person being replied to.
-0. Don't enable services that auto-tweet your activities. Examples: Path, Gowalla, FourSquare,
-   flight statuses, weight scales, etc. No one wants to read robotic speech.
+0. Avoid retweeting compliments (bragging).
+0. Avoid dot replies (spam). Example: ". @example Reply text here." This causes your reply to show
+   up in all of your followers streams who might not want to follow everyone that you follow. It
+   also duplicates (spams) the tweet to a follower that follows both you and the person being
+   replied to.
+0. Avoid enabling services that auto-tweet your activities. Examples: flight statuses, weight
+   scales, etc. No one wants to read robotic speech.
 0. Don't promote your company (bragging). Use a corporate account for company-specific information
    instead.
 0. [Get Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done). Limit the reading of tweets

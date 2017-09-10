@@ -73,8 +73,8 @@ the message they convey:
 
 ## Tips
 
-- Prefer chat rooms that are of value and critical to getting the job done. The rest can be entered
-  as time allows.
+- Prefer chat rooms that provide value and are critical to getting the job done. The rest can be
+  entered as time allows.
 - Limit notifications for rooms that are too noisy/distracting. Some clients allow notifications to
   be silenced per room so room distractions can be limited.
 - For the noisest of group chats, consider muting and then checking three times a day (morning,

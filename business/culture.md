@@ -47,7 +47,7 @@ can delight, enrich, and astound our customers in ways impossible to imagine oth
   - You are hired for your expertise and professionalism -- not for bragging rights, promotional
     capabilities, or a prized position of your boss/employeer.
   - Avoid actions that waste your time, the customer's time, or the company's money.
-  - Lead with questions, not answers -- Listen to and understand the *why* of something.
+  - Lead with questions, not answers -- Listen to and understand the *why* something is important.
   - Question *why* something is necessary -- Does the benefit outweigh the effort?
   - When performance is poor, clearly communicate why and provide the necessary support to turn the
     problem/weakness into a positive outcome.

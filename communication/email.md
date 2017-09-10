@@ -5,9 +5,9 @@
    new updates.
 0. [Get Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done). Check, at most, three times
    a day (morning, noon, night). Completely exit out of the program when done.
-0. Resist filters. If you find yourself setting up filters to deal with spam or automated messages,
+0. Avoid filters. If you find yourself setting up filters to deal with spam or automated messages,
    be assertive and ask whoever is sending them to stop. Use syndicated feeds or group chat instead.
-0. Resist newletters. Email is the wrong format for this. Use forums, discussion boards, syndicated
+0. Avoid newletters. Email is the wrong format for this. Use forums, discussion boards, syndicated
    feeds, social networks, etc. instead.
 0. Use folders (sparingly). Folders are great for keeping messages organized but try to extract
    information out of email as much as possible. Apps like
