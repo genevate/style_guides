@@ -1,3 +1,18 @@
+# v0.17.0 (2017-09-09)
+
+- Added Elm styles for flags and ports.
+- Added Ruby exception pattern examples.
+- Added Ruby style guidelines for determining object types.
+- Added culture link to Martin Fowler's "Not Just Code Monkeys" talk.
+- Added supporting for link for style guides to README.
+- Updated Elm API example.
+- Updated Ruby class method documentation.
+- Updated Ruby question and bang method documentation.
+- Updated documentation with more concise phrasing.
+- Updated gem dependencies.
+- Updated to Git Cop 1.3.0.
+- Updated to Git Cop 1.5.0.
+
 # v0.16.0 (2017-07-16)
 
 - Added Git Cop support.
