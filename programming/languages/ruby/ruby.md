@@ -642,6 +642,12 @@ order listed):
 - Consider using the [Adamantium](https://github.com/dkubb/adamantium) gem when building value
   objects.
 
+### Duplication/Clones
+
+- Use `#dup` to duplicate an object (this is generally what you want).
+- Use `#clone` when needing to copy an object's metadata such as frozen state, singleton methods,
+  and anything else which `#dup` does not provide.
+
 ## Modules
 
 - Modules allow code to be namespaced.
@@ -952,3 +958,4 @@ There are a few rules for conversion functions:
 - [Ruby Tapas - Advanced Class Membership (Episode 451)](http://www.rubytapas.com)
 - [Ruby Tapas - Class Method (Episode 454)](http://www.rubytapas.com)
 - [Ruby Tapas - Extract Default to Method (Episode 483)](http://www.rubytapas.com)
+- [Ruby Tapas - Dup and Clone (Episode 484)](http://www.rubytapas.com)
