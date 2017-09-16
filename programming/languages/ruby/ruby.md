@@ -188,6 +188,22 @@
         end
 
         example "Bob", bogus: "Foo" # => ArgumentError: unknown keyword: bogus
+- Use a default method for arguments that require a default object/value. This allows the current
+  object to be easily extended with a custom object/value and makes it possible to easily
+  inspect/experiment with the default method (because it is a public class method). Example:
+
+        class Example
+          def self.default_configuration
+            Configuration.new do |config|
+              config.debug = true
+              config.logging = true
+            end
+          end
+
+          def initialize configuration: self.class.default_configuration
+            @configuration = configuration
+          end
+        end
 
 ## Booleans
 
@@ -198,7 +214,7 @@
 
 ## Characters
 
-- Use double quotes for a single characters: `"a"`.
+- Use double quotes for a single character: `"a"`.
 
 ## Numbers
 
@@ -935,3 +951,4 @@ There are a few rules for conversion functions:
 - [Ruby Tapas - Detect Map (Episode 440)](http://www.rubytapas.com)
 - [Ruby Tapas - Advanced Class Membership (Episode 451)](http://www.rubytapas.com)
 - [Ruby Tapas - Class Method (Episode 454)](http://www.rubytapas.com)
+- [Ruby Tapas - Extract Default to Method (Episode 483)](http://www.rubytapas.com)
