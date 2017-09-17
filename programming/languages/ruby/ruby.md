@@ -357,23 +357,6 @@
 - Use symbols as default values for Hash#fetch. This will make it easier to debug when a value is
   expected but not supplied. Example: `example.fetch(:logger) { :unknown_logger }`.
 
-## Subscript Constructors
-
-There are several objects within the Ruby language that provide subscript construction of new
-objects. Examples:
-
-    Array[1, 2, 3] # [1, 2, 3]
-    Hash[:a, 1, :b, 2] # {:a=>1, :b=>2}
-
-    Point = Struct.new :x, :y
-    point = Point[3, 5] # <struct Point x=3, y=5>
-
-These constructors work like implicit conversion methods (i.e. `#to_s`, `#to_s`, `#to_a`) where if
-the object type used in construction can't be properly turned into that object's type, you might
-get a `nil` and no `TypeError` exception raised.
-
-These constructors are handy to have around but be aware of their benefits and detriments.
-
 ## Loops
 
 - Use `begin..end while <condition>` in lieu of a do while loop (it is the equivalent in Ruby).
@@ -584,11 +567,41 @@ These constructors are handy to have around but be aware of their benefits and d
   `require "pp"`. Additionally, the #pretty_print method allows objects to generate a pretty printed
   version of themselves for storage within a local variable for later inspection if necessary.
 
+## Constructors
+
+### Duplication/Cloning
+
+- Use the `#initialize_copy` hook method when providing a custom implementation when an object is
+  duplicated (`#dup`) or cloned (`#clone`).
+- Use the `#initialize_dup` hook method when providing a custom implementation when an object is
+  duplicated (`#dup`).
+- Use the `#initialize_clone` hook method when providing a custom implementation when an object is
+  cloned (`#clone`).
+- Use `super` before executing custom hook method implementations (i.e. `#initialize_copy`,
+  `#initialize_dup`, `#initialize_clone`) in order to not break superclass functionality.
+
+### Subscript Constructors
+
+There are several objects within the Ruby language that provide subscript construction of new
+objects. Examples:
+
+    Array[1, 2, 3] # [1, 2, 3]
+    Hash[:a, 1, :b, 2] # {:a=>1, :b=>2}
+
+    Point = Struct.new :x, :y
+    point = Point[3, 5] # <struct Point x=3, y=5>
+
+These constructors work like implicit conversion methods (i.e. `#to_s`, `#to_s`, `#to_a`) where if
+the object type used in construction can't be properly turned into that object's type, you might
+get a `nil` and no `TypeError` exception raised.
+
+These constructors are handy to have around but be aware of their benefits and detriments.
+
 ## Objects
 
 ### General
 
-- Use `Object#tap` to communicate that the method subject is also the object being returned. It also
+- Use `#tap` to communicate that the method subject is also the object being returned. It also
   serves as a concise way to modify and return and object within a single step.
 
         # No
@@ -642,7 +655,7 @@ order listed):
 - Consider using the [Adamantium](https://github.com/dkubb/adamantium) gem when building value
   objects.
 
-### Duplication/Clones
+### Duplication/Cloning
 
 - Use `#dup` to duplicate an object (this is generally what you want).
 - Use `#clone` when needing to copy an object's metadata such as frozen state, singleton methods,
@@ -959,3 +972,4 @@ There are a few rules for conversion functions:
 - [Ruby Tapas - Class Method (Episode 454)](http://www.rubytapas.com)
 - [Ruby Tapas - Extract Default to Method (Episode 483)](http://www.rubytapas.com)
 - [Ruby Tapas - Dup and Clone (Episode 484)](http://www.rubytapas.com)
+- [Ruby Tapas - Initialize Copy (Episode 486)](http://www.rubytapas.com)
