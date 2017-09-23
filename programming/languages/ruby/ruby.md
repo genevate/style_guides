@@ -56,6 +56,8 @@
     - $stdin - Current standard input.
     - $stdout - Current standard output.
     - $stderr - Current standard error output.
+- Use `require "English"` (included in the Ruby core libarary) to ensure the longer global variable
+  aliases are loaded for use.
 
 ## Constants
 
