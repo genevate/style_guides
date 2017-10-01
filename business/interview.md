@@ -83,3 +83,4 @@
 - [On Interviewing Front-End Engineers - Generalists/Specialists](http://www.nczonline.net/blog/2013/12/27/on-interviewing-front-end-engineers)
 - [I will not do your tech interview](https://medium.com/lessons-learned/80ba19c55883)
 - [Why Brainteasers Don't Belong in Job Interviews](http://www.newyorker.com/tech/elements/why-brainteasers-dont-belong-in-job-interviews)
+- [Tech Hiring Has Always Been Broken](https://medium.com/javascript-scene/tech-hiring-has-always-been-broken-heres-how-i-survived-it-for-decades-b7ac33088de6)
