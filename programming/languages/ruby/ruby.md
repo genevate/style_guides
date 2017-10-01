@@ -91,6 +91,12 @@
     - %x() - Executes an interpolated system command (does not echo to STDOUT or return the running
       command's result). `%x(echo #{message}) # => "Huzzah!"`
 
+## Operators
+
+- Avoid using the `&.` operator (a.k.a. lonely operator). It works like the Rails `Object#try!`
+  method but is confusing to read and better to use the null object pattern or implement code that
+  doesn't end up with a `nil` to begin with.
+
 ## Splats
 
 - Commonly used in method and/or block arguments.

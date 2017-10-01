@@ -1,5 +1,10 @@
 # Ruby on Rails Styles
 
+## Objects
+
+- Avoid using `Object#try` as it leads to brittle and hard to debug code. Use the null object
+  pattern or refactor your code in a manner that doesn't use a `nil` object.
+
 ## Database
 
 - [Apply indexes](http://robots.thoughtbot.com/post/163627511/a-grand-piano-for-your-violin) where
