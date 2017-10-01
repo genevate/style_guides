@@ -11,6 +11,7 @@
         production:
           adapter: postgresql
           statement_limit: 200
+- Use the `_at` suffix to represent represent date/time columns. Example: `<example>_at`.
 
 ## Model
 
