@@ -47,6 +47,10 @@
 - Use protect_from_forgery to prevent CRSF attacks.
 - Authorize user access before rendering content.
 - Caching
+  - Use `#stale?` when calculating responses in order to properly detect if there are changes or
+    not. This will speed up response time by avoiding the template later if there are no changes
+    with a 304 (not modified) response. Otherwise, if there is an update, a standard 200 response
+    will be given. [Tutorial](https://www.sitepoint.com/how-to-increase-performance-in-rails).
   - Add caches_page when appropriate. Example: caches_page :index, :show
   - Add expires_page when appropriate. Example: action: :show, id: @post
 
