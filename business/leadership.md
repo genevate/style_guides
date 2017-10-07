@@ -30,7 +30,7 @@
     - Tackle and resolve issues as they arise.
     - Grab a room if information is sensitive but otherwise go for a walk, grab a drink at a local
       tea shop, or get out of the office altogether.
-0. Be a teacher, always.
+0. Be a [mentor](https://alistapart.com/article/be-a-mentor), always.
 0. Be decisive but not a dictator:
     - Always base decisions on productivity not politics.
     - Never mandate how work will be performed/completed.
