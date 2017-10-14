@@ -8,7 +8,8 @@
 - End every file with a blank new line.
 - Prefer small methods/objects - They are easier to read, maintain, and build upon.
 - Prefer duplication over the wrong abstraction - Duplication is much cheaper to fix than
-  refactoring the wrong abstraction. Allow three duplicates, at a minimum, before refactoring.
+  refactoring the wrong abstraction. Allow duplication up to three times, as a maximum, before
+  refactoring.
 - Write tests that demonstrate passing and failing requirements.
 
 ## Sandi Metz' Rules
