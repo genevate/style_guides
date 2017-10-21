@@ -11,6 +11,8 @@
 - Prefer qualified over unqualified imports.
 - Use unqualified imports sparingly (i.e. `import Html exposing (..)`) in order to avoid naming
   conflicts and reduce code readability.
+- Avoid lots of imports (there should be more lines of code than import lines).
+- Avoid recursive imports. Refactor to reduce the circular imports to a single import.
 
 ## Modules
 
@@ -57,6 +59,11 @@
 - Avoid passing parameters to your `initialRecord` functions. These functions should remain simple
   and provide safe defaults. If needing to modify the default values of one of these functions, use
   a record update (i.e. `updatedRecord = {initialRecord | key = value}`) instead.
+
+## Case Expressions
+
+- Avoid large case expressions. Try to extract common functionality.
+- Avoid recursive calls to `update` (will degrade performance too).
 
 ## Structure
 
