@@ -272,13 +272,16 @@ nothing else.
 
 ## Primitive Obsession
 
-- Occurs when primitive data types (i.e. integer, string, array, etc.) are used to represent domain
-  knowledge.
-- Primitive obsession can be solved by introducing value objects to denote these special types.
-- The following are signs of primitive obsession:
+- Avoid using primitive data types (i.e. integer, string, array, etc.) to represent domain
+  knowledge. The following are signs of primitive obsession:
   - When primitives are used instead of value objects. Good, correctly typed, value objects might
     be: version, currency, units of measure, etc.
   - When constants or class methods are used to denote *special* values.
+  - When booleans are used as inputs to functions/methods (as the generally means you'll need
+    conditional logic to process the boolean input).
+  - When booleans are returned as the result of a function/method. Means the caller will need to use
+    conditional logic to process the response.
+- Use value objects to denote special types and avoid primitive obsession.
 
 ## Self-Saving Perils
 
