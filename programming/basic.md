@@ -12,7 +12,7 @@
   refactoring.
 - Write tests that demonstrate passing and failing requirements.
 
-## Sandi Metz' Rules
+## Sandi Metz Rules
 
 0. Classes must not be more than one hundred lines of code.
 0. Methods must not be more than five lines of code.
@@ -98,15 +98,17 @@ before a good name can be derived. Here are some guidelines worth following:
   - Adhering strictly to this principal makes popping values off a collection, for example,
     cumbersome because two steps are involved to answer the value to be removed AND changing the
     state of the collection. Being able pop a value off a collection (which answers the value and
-    changes state) in one step can be rather convenient.
+    changes state) in one step can be convenient.
 
 ## Tell Don't Ask
 
-- As pointed out in the CQS caveats, above, it is best to tell an object what to do rather than ask
-  it to do something. This also allows objects to couple behavor with the data being manipulated
-  (i.e. commands). However, there are many situations where it useful to query an object for
-  information as well.
-- Further reading: [Martin Fowler - Tell Don't Ask](http://martinfowler.com/bliki/TellDontAsk.html).
+- As mentioned in the CQS caveats, above, it is best to tell an object what to do rather than ask it
+  to do something. This allows objects to couple behavor with the data being manipulated (i.e.
+  commands). However, there are many situations where it useful to query an object for information
+  as well.
+- Further reading:
+  - [Tell Don't Ask](http://martinfowler.com/bliki/TellDontAsk.html) - Martin Fowler.
+  - [Converting Queries to Commands](https://michaelfeathers.silvrback.com/converting-queries-to-commands) - Michael Feathers.
 
 ## Pluggable Selector
 
