@@ -1,3 +1,24 @@
+# v0.18.0 (2017-11-11)
+
+- Added Elm styles for imports and case expressions.
+- Added Rails style for controller `#stale?` method.
+- Added Ruby on Rails styles for date/time database columns.
+- Added Ruby styles for avoiding the obscuring of `nil` objects.
+- Added Ruby styles for constructors (especially dups/clones).
+- Added Ruby styles for default methods as arguments.
+- Added Ruby styles for object duplication/cloning.
+- Added link to broken interview practices.
+- Added use of Ruby's English library for global variables.
+- Updated "Tell Don't Ask" terminology.
+- Updated Gemfile.lock file.
+- Updated basic programming styles for code duplication.
+- Updated basic style documentation for uses of primitive obsession.
+- Updated leadership styles with link to mentorship.
+- Updated to Bundler 1.16.0.
+- Updated to Git Cop 1.7.0.
+- Updated to Rubocop 0.51.0.
+- Updated to Ruby 2.4.2.
+
 # v0.17.0 (2017-09-09)
 
 - Added Elm styles for flags and ports.
