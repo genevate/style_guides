@@ -377,14 +377,14 @@
 
 ## Breaks
 
-- Breaks are generally used exit quickly out of a loop once a particular condition is met
+- Breaks are generally used to exit quickly out of a loop once a particular condition is met
   but they can also be used to return a value. Here are a few useful examples:
 
-        # Returning a message.
+        # Return a message.
         break "Example Message" if some_value == "found"
 
-        # Returning the value of the object detected.
-        doc_list.detect {|doc| loaded_doc = load_doc(doc) and break loaded_doc}
+        # Return the value of object found.
+        doc_list.find {|doc| loaded_doc = load_doc(doc) and break loaded_doc}
 
 ## Control Flow
 
@@ -455,7 +455,7 @@
 
 - Use braces, with spaces between each brace, for one-liners:
 
-        (1..5).detect { |item| item == 2 }
+        (1..5).find { |item| item == 2 }
 - Use `do..end` for multi-liners:
 
         %w(one two three).map do |word|
