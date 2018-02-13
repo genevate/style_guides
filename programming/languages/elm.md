@@ -50,6 +50,15 @@
       port localStorageGet : String -> Cmd message
       port localStorageResponse : (JSOND.Value -> message) -> Sub message
 
+## Maybes
+
+- Design data structures that avoid optional values to begin with.
+- Avoid code that combines checking for optionals with code that calculates values.
+- When extracting a functions to calculate values, they should never accept a `Maybe` (this includes
+  all arguments) but can answer a `Maybe`.
+- Avoid using `Maybe List a`. Any function, like `List`, which has an inherent empty state (i.e.
+  `[]`) does not need to classifed as a `Maybe`.
+
 ## Records
 
 - Use the `-- RECORDS` section of your module to define all initial records needed for the module.
@@ -63,7 +72,7 @@
 ## Case Expressions
 
 - Avoid large case expressions. Try to extract common functionality.
-- Avoid recursive calls to `update` (will degrade performance too).
+- Avoid recursive calls to `update` (degrades performance).
 
 ## Structure
 
