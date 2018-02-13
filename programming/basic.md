@@ -10,7 +10,7 @@
 - Prefer duplication over the wrong abstraction - Duplication is much cheaper to fix than
   refactoring the wrong abstraction. Allow duplication up to three times, as a maximum, before
   refactoring.
-- Write tests that demonstrate passing and failing requirements.
+- Write tests to demonstrate passing and failing requirements.
 
 ## Sandi Metz Rules
 
@@ -19,6 +19,11 @@
 0. Methods must not accept more than four parameters (this includes hash options).
 0. Controllers must instantiate only one object. Therefore, views can only know about a single
    instance variable and should only send messages to that object.
+
+## Comments
+
+- Avoid commenting out unused code. Always delete the code and use your Git history to restore later
+  if need be.
 
 ## Bare Words
 
