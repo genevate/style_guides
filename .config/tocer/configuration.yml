@@ -1,0 +1,16 @@
+:includes:
+  - business/behavior.md
+  - business/burnout.md
+  - business/career.md
+  - business/culture.md
+  - business/distributed_employees.md
+  - business/interview.md
+  - business/iterations.md
+  - business/leadership.md
+  - business/workspaces.md
+  - communication/group_chat.md
+  - design/basic.md
+  - design/ecommerce.md
+  - operations/issues.md
+  - programming/**/*
+  - README.md
