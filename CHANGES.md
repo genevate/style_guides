@@ -1,3 +1,16 @@
+# v0.20.0 (2018-03-04)
+
+- Fixed basic design style guide headers.
+- Added Elm `Maybe` style guides.
+- Added Tocer gem.
+- Added basic programming comment styles.
+- Added table of contents to style guides.
+- Updated README license information.
+- Updated Ruby on Rails style guide.
+- Updated Ruby styles for control flow breaks.
+- Updated to Circle CI 2.0.0 configuration.
+- Removed Patreon badge from README.
+
 # v0.19.0 (2018-01-01)
 
 - Fixed Workplaces style link for distributed employees.
