@@ -20,26 +20,26 @@ In order to to:
 
 We all have one chance at this life, why not make it a good one - a memorable one.
 
-# General
+## General
 
 - Build upon existing, common design standards.
 - Use negative space - Separate navigation from content, sections from bodies, text from images,
   etc.
 
-# Site Logo
+## Site Logo
 
 - Should include the company/site icon/branding.
 - Should include the company/site name.
 - Should include the site tagline (unless provided as ancillary text to logo image).
 
-# Tag Lines
+## Tag Lines
 
 - Should be six to eight characters in length (max).
 - Must be clear and informative.
 - Must convey the overall value proposition for the site.
 - Should be included with the site logo or as part of the main header.
 
-# Navigation
+## Navigation
 
 - Navigation should be effortless without loosing a sense of where one is in the hierarchy.
 - Keep navigation level depth to five clicks or less - it shouldn't require a lot of clicking to
@@ -69,7 +69,7 @@ We all have one chance at this life, why not make it a good one - a memorable on
   - Use a small font. It shouldn't take up a lot of space.
   - The last item in the breadcrumbs should be identical to the page label.
 
-# Home Page
+## Home Page
 
 - Must clearly answer the following:
   - Why does this site exist?
@@ -86,7 +86,7 @@ We all have one chance at this life, why not make it a good one - a memorable on
   - A welcome blurb - A brief description of the why and what of the site.
   - Efficient use of space - don’t overfill with explanation text.
 
-# Text
+## Text
 
 - Refrain from happy/promotional text - This is filler text that doesn't provide any useful
   information. Instead, get to the point and make each word count. Be ruthless in removing
