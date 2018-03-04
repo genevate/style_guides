@@ -1,5 +1,16 @@
 # Group Chat Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [General](#general)
+  - [Channels](#channels)
+  - [Reactions](#reactions)
+  - [Tips](#tips)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## General
 
 - Use [basic communication](basic.md) styles.

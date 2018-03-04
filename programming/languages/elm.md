@@ -1,5 +1,25 @@
 # Elm Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [General](#general)
+  - [Imports](#imports)
+  - [Modules](#modules)
+  - [Flags](#flags)
+  - [Ports](#ports)
+  - [Maybes](#maybes)
+  - [Records](#records)
+  - [Case Expressions](#case-expressions)
+  - [Structure](#structure)
+  - [Templates](#templates)
+    - [Main](#main)
+    - [HTML](#html)
+    - [API](#api)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## General
 
 - Use two-space indentation.

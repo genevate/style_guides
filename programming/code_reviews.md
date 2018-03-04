@@ -1,5 +1,15 @@
 # Code Review Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [General](#general)
+  - [When Being Reviewed](#when-being-reviewed)
+  - [When Reviewing Code](#when-reviewing-code)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## General
 
 - When programming styles/opions clash, reach a quick compromise and move on. Everyone is entitled

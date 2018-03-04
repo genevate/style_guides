@@ -1,5 +1,16 @@
 # Leadership Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [Guidelines](#guidelines)
+  - [Tactics](#tactics)
+  - [Growth Trajectories (for high performing employees)](#growth-trajectories-for-high-performing-employees)
+  - [Resources](#resources)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## Guidelines
 
 0. Earn and maintain the respect and trust of your team.
@@ -79,7 +90,7 @@
    people or less.
 0. Have faith and confidence in your team.
 
-# Tactics
+## Tactics
 
 The following is taken word-for-word from [My Management Lessons from Three Failed Startups, Google, Apple, Dropbox, Twitter and Square](http://www.timeforpool.com/2/post/2014/02/my-management-lessons-from-three-failed-startups-google-apple-dropbox-twitter-and-squareread.html):
 

@@ -1,5 +1,19 @@
 # Ruby on Rails Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [Objects](#objects)
+  - [Database](#database)
+  - [Models](#models)
+  - [Views](#views)
+  - [Controllers](#controllers)
+  - [Caching](#caching)
+  - [Logging](#logging)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## Objects
 
 - Avoid Globals. Example: `Current.user`. This introduces issues with concurrency and reduces the

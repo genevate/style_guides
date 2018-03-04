@@ -1,5 +1,14 @@
 # Representative State Transfer (REST) Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [Idempotent Requests](#idempotent-requests)
+  - [Exponential Backoff](#exponential-backoff)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## Idempotent Requests
 
 Consider supporting these requests for networks with high latency in `POST` requests. See Stripe's

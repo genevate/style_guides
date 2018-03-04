@@ -1,5 +1,16 @@
 # Career Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [General](#general)
+  - [Resources](#resources)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
+## General
+
 0. Strive to be positive and professional in all situations.
 0. Experience different work environments and cultures:
   * Startups (where you are an employee/founder or manager of employees/contractors)

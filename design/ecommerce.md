@@ -1,5 +1,24 @@
 # E-Commerce Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [Know your Customers](#know-your-customers)
+  - [Home Page Optimization](#home-page-optimization)
+  - [Navigation Optimization](#navigation-optimization)
+  - [Product Search Optimization](#product-search-optimization)
+  - [Product Page Optimization](#product-page-optimization)
+  - [Checkout Optimization](#checkout-optimization)
+  - [Touch Point Optimization](#touch-point-optimization)
+  - [Information Touch Points](#information-touch-points)
+  - [Load Speed Optimization](#load-speed-optimization)
+  - [Shipping and Returns](#shipping-and-returns)
+  - [Customer Re-Targeting](#customer-re-targeting)
+  - [Resources](#resources)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## Know your Customers
 
 - Use Qualaroo to Survey Visitors

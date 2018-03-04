@@ -1,5 +1,60 @@
 # Ruby Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [General](#general)
+  - [Variables](#variables)
+  - [Constants](#constants)
+  - [Shortcuts](#shortcuts)
+  - [Operators](#operators)
+  - [Splats](#splats)
+  - [Assigments](#assigments)
+  - [Arguments](#arguments)
+  - [Booleans](#booleans)
+  - [Characters](#characters)
+  - [Numbers](#numbers)
+  - [Strings](#strings)
+  - [Enumerables](#enumerables)
+  - [Arrays](#arrays)
+  - [Hashes](#hashes)
+  - [Loops](#loops)
+  - [Breaks](#breaks)
+  - [Control Flow](#control-flow)
+  - [If..Elsif..Else..End](#ifelsifelseend)
+  - [Cases](#cases)
+  - [Blocks](#blocks)
+  - [Procs](#procs)
+  - [Lambdas](#lambdas)
+  - [Exceptions](#exceptions)
+  - [Debugging](#debugging)
+  - [Constructors](#constructors)
+    - [Duplication/Cloning](#duplicationcloning)
+    - [Subscript Constructors](#subscript-constructors)
+  - [Objects](#objects)
+    - [General](#general-1)
+    - [Types](#types)
+    - [Comparing Objects](#comparing-objects)
+    - [Value Objects](#value-objects)
+    - [Duplication/Cloning](#duplicationcloning-1)
+  - [Modules](#modules)
+  - [Structs](#structs)
+  - [Classes](#classes)
+  - [Methods](#methods)
+  - [Conversion Functions](#conversion-functions)
+  - [Monkey Patches](#monkey-patches)
+  - [Macros](#macros)
+  - [Deprecations](#deprecations)
+  - [Threads](#threads)
+  - [Files](#files)
+  - [Load versus Require](#load-versus-require)
+  - [Tests](#tests)
+    - [MiniTest](#minitest)
+  - [Resources](#resources)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## General
 
 - Use spaces around operators:

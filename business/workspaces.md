@@ -1,5 +1,14 @@
 # Workspace Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [General](#general)
+  - [References](#references)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## General
 
 - Avoid open office design by all means. It is extremely counterproductive for optimal software

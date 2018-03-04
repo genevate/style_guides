@@ -1,5 +1,28 @@
 # Bash Shell Script Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [General](#general)
+  - [Settings](#settings)
+  - [Variables](#variables)
+  - [Strings](#strings)
+  - [Here Documents](#here-documents)
+  - [Conditionals](#conditionals)
+  - [Loops](#loops)
+  - [Cases](#cases)
+  - [Searches](#searches)
+  - [Subshells](#subshells)
+  - [Errors](#errors)
+  - [Debugging](#debugging)
+  - [Output](#output)
+  - [Files](#files)
+  - [Command Line Interface (CLI)](#command-line-interface-cli)
+  - [Resources](#resources)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## General
 
 - Use environment variables instead of process output:

@@ -1,5 +1,16 @@
 # Personal Behavior Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [The Three Tenants of Motivation](#the-three-tenants-of-motivation)
+  - [Maintaining Happiness](#maintaining-happiness)
+  - [Behavior Improvement Steps](#behavior-improvement-steps)
+  - [Recommended Books](#recommended-books)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## The Three Tenants of Motivation
 
 These are the guiding principles of what motivates people to accomplish great things:

@@ -1,5 +1,20 @@
 # Basic Design Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [Overview](#overview)
+  - [General](#general)
+  - [Site Logo](#site-logo)
+  - [Tag Lines](#tag-lines)
+  - [Navigation](#navigation)
+  - [Home Page](#home-page)
+  - [Text](#text)
+  - [References](#references)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## Overview
 
 Design is:

@@ -1,5 +1,17 @@
 # Iteration Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [Overview](#overview)
+  - [Plans](#plans)
+  - [Standup](#standup)
+  - [Retrospectives](#retrospectives)
+  - [Demos](#demos)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## Overview
 
 - Iterate in one-week intervals using the following schedule:

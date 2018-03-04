@@ -1,5 +1,15 @@
 # Interview Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [Guidelines](#guidelines)
+  - [Questions](#questions)
+  - [Resources](#resources)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## Guidelines
 
 0. Reject Resumes - If they give you one, move on to the next candidate.

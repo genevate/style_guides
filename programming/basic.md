@@ -1,5 +1,37 @@
 # Basic Programming Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [General Rules](#general-rules)
+  - [Sandi Metz Rules](#sandi-metz-rules)
+  - [Comments](#comments)
+  - [Bare Words](#bare-words)
+  - [Naming](#naming)
+  - [Messages and Methods](#messages-and-methods)
+  - [Command-Query Separation (CQS)](#command-query-separation-cqs)
+  - [Tell Don't Ask](#tell-dont-ask)
+  - [Pluggable Selector](#pluggable-selector)
+  - [The Law of Demeter (LoD)](#the-law-of-demeter-lod)
+  - [Single responsibility, Open-closed, Liskov substitution, Interface segregation and Dependency inversion (SOLID)](#single-responsibility-open-closed-liskov-substitution-interface-segregation-and-dependency-inversion-solid)
+  - [Transparent, Reasonable, Usable, and Exemplary (TRUE)](#transparent-reasonable-usable-and-exemplary-true)
+  - [Recognizing Dependencies](#recognizing-dependencies)
+  - [Inheritance](#inheritance)
+  - [Composition](#composition)
+  - [Duck Types](#duck-types)
+    - [Template Method Pattern](#template-method-pattern)
+    - [Hook Method Pattern](#hook-method-pattern)
+  - [Null Objects](#null-objects)
+  - [Primitive Obsession](#primitive-obsession)
+  - [Self-Saving Perils](#self-saving-perils)
+  - [Testing](#testing)
+    - [Mocks](#mocks)
+    - [Stubs](#stubs)
+  - [Resources](#resources)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## General Rules
 
 - Prefer spaces over tabs (i.e. soft tabs).

@@ -1,5 +1,14 @@
 # Object Oriented (OO) Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [Classes](#classes)
+  - [Methods](#methods)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## Classes
 
 - Avoid referencing instance variables directly, use getters/setters instead.

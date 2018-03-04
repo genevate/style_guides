@@ -1,5 +1,14 @@
 # CSS Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [General](#general)
+  - [Media Queries](#media-queries)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## General
 
 - Avoid unclear naming conventions. A good class names should describe what it is about.

@@ -1,5 +1,15 @@
 # Issue Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [General](#general)
+  - [Zero-Bug Classifications](#zero-bug-classifications)
+  - [Resources](#resources)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## General
 
 - Be disciplined about maintaining a zero-bug policy.

@@ -1,5 +1,15 @@
 # Capybara Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [Setup](#setup)
+  - [Matchers](#matchers)
+  - [Avoidances](#avoidances)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## Setup
 
 - Add `Capybara.asset_host = "http://localhost:3000"` to the spec helper to view test pages using

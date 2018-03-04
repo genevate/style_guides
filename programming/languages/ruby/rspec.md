@@ -1,5 +1,14 @@
 # RSpec Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [General](#general)
+  - [Performance](#performance)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## General
 
 - Run a single test or group of tests that match the substring: `example_spec.rb -e "example

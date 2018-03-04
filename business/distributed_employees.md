@@ -1,5 +1,15 @@
 # Distributed Employee Styles
 
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
+## Table of Contents
+
+  - [Things to Do](#things-to-do)
+  - [Things to Avoid](#things-to-avoid)
+  - [Resources](#resources)
+
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
+
 ## Things to Do
 
 - *Always* treat distributed workers as first class citizens. Helps if the founder/manager of the
