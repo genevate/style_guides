@@ -8,6 +8,8 @@
   - [Imports](#imports)
   - [Modules](#modules)
   - [Flags](#flags)
+  - [Functions](#functions)
+  - [Lets](#lets)
   - [Ports](#ports)
   - [Maybes](#maybes)
   - [Records](#records)
@@ -55,6 +57,18 @@
             subscriptions = subscriptions
           }
 
+## Functions
+
+- Avoid anonymous functions (i.e. `(\ -> )`). Use a named function instead as it'll have a type
+  signature and name which makes it readable, understandable, and easier to maintain. The caveat to
+  this is if the annonymous function is small, it can be helpful within one-off situations in a
+  `let` statement. Again, use sparingly.
+
+## Lets
+
+- Use `let...in` statements when needing to define a variable that is used multiple times within the
+  same function. For anything else, extract to a function.
+
 ## Ports
 
 - Use a single module for all ports. Example: `Ports.elm`.
@@ -88,6 +102,30 @@
 - Avoid passing parameters to your `initialRecord` functions. These functions should remain simple
   and provide safe defaults. If needing to modify the default values of one of these functions, use
   a record update (i.e. `updatedRecord = {initialRecord | key = value}`) instead.
+- Use a flat record structure initially and wait to use a more complex nested structure until you
+  refactor and see a need arise as this lead to few complications with unpacking and updating the
+  nested record. Example:
+
+      # No
+      type alias Model = {label: String, point: Point}
+      type alias Point = {x: Int, y: Int}
+
+      # Yes
+      type alias Model = {label: String, x: Int, y: Int}
+- Use records to extract complex function signatures. When the argument list of a function exceeds
+  more than three arguments, this is a good time to extract the details to a record. Example:
+
+      # No
+      example : String -> String -> String -> String -> String
+      example label slug notes bio =
+        "add implementation here"
+
+      # Yes
+      type alias Person = {label: String, slug: String, notes: String, bio: String}
+
+      example : Person -> String
+      example person =
+        "add implementation here"
 
 ## Case Expressions
 
