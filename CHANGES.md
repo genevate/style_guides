@@ -1,3 +1,8 @@
+# v0.21.0 (2018-03-19)
+
+- Fixed interview style layout issues.
+- Added Elm styles for lets, functions, and records.
+
 # v0.20.0 (2018-03-04)
 
 - Fixed basic design style guide headers.
