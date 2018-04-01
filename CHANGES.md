@@ -1,3 +1,9 @@
+# v0.22.0 (2018-04-01)
+
+- Updated to Git Cop 2.2.0.
+- Updated to Ruby 2.5.1.
+- Updated to Tocer 7.1.0.
+
 # v0.21.0 (2018-03-19)
 
 - Fixed interview style layout issues.
