@@ -1,15 +1,15 @@
-# v0.22.0 (2018-04-01)
+# 0.22.0 (2018-04-01)
 
 - Updated to Git Cop 2.2.0.
 - Updated to Ruby 2.5.1.
 - Updated to Tocer 7.1.0.
 
-# v0.21.0 (2018-03-19)
+# 0.21.0 (2018-03-19)
 
 - Fixed interview style layout issues.
 - Added Elm styles for lets, functions, and records.
 
-# v0.20.0 (2018-03-04)
+# 0.20.0 (2018-03-04)
 
 - Fixed basic design style guide headers.
 - Added Elm `Maybe` style guides.
@@ -22,7 +22,7 @@
 - Updated to Circle CI 2.0.0 configuration.
 - Removed Patreon badge from README.
 
-# v0.19.0 (2018-01-01)
+# 0.19.0 (2018-01-01)
 
 - Fixed Workplaces style link for distributed employees.
 - Added Gemfile.lock to .gitignore.
@@ -31,7 +31,7 @@
 - Updated to Ruby 2.4.3.
 - Updated to Ruby 2.5.0.
 
-# v0.18.0 (2017-11-11)
+# 0.18.0 (2017-11-11)
 
 - Added Elm styles for imports and case expressions.
 - Added Rails style for controller `#stale?` method.
@@ -52,7 +52,7 @@
 - Updated to Rubocop 0.51.0.
 - Updated to Ruby 2.4.2.
 
-# v0.17.0 (2017-09-09)
+# 0.17.0 (2017-09-09)
 
 - Added Elm styles for flags and ports.
 - Added Ruby exception pattern examples.
@@ -67,7 +67,7 @@
 - Updated to Git Cop 1.3.0.
 - Updated to Git Cop 1.5.0.
 
-# v0.16.0 (2017-07-16)
+# 0.16.0 (2017-07-16)
 
 - Added Git Cop support.
 - Added `if` block temporary variable assignment Ruby styles.
@@ -82,7 +82,7 @@
 - Updated basic style guide with plural naming suggestion.
 - Updated gem dependencies.
 
-# v0.15.0 (2017-04-29)
+# 0.15.0 (2017-04-29)
 
 - Fixed page indentation issues.
 - Added Elm style guides.
@@ -91,14 +91,14 @@
 - Updated README semantic versioning order.
 - Refactored good and bad CSS examples.
 
-# v0.14.0 (2017-02-05)
+# 0.14.0 (2017-02-05)
 
 - Updated contributing documentation.
 - Updated organization of style guides.
 - Refactored Ruby on Rails guides location.
 - Refactored documents to use 100 width columns.
 
-# v0.13.0 (2016-11-19)
+# 0.13.0 (2016-11-19)
 
 - Added DNS SPF security documentation.
 - Added basic infrastructure styles.
@@ -108,7 +108,7 @@
 - Updated group chat styles.
 - Refactored business style guides to use 100 column limits.
 
-# v0.12.0 (2016-11-06)
+# 0.12.0 (2016-11-06)
 
 - Fixed communication style typos.
 - Fixed distributed employee typos.
@@ -128,7 +128,7 @@
 - Removed CHANGELOG.md (use CHANGES.md instead).
 - Refactored communication style guides column layout.
 
-# v0.11.0 (2016-10-01)
+# 0.11.0 (2016-10-01)
 
 - Added basic null object programming styles.
 - Added being human to culture styles.
@@ -141,7 +141,7 @@
 - Updated basic programming styles for inheritance and composition.
 - Updated vacation styles for Christmas, New Years, and birthdays.
 
-# v0.10.0 (2016-08-17)
+# 0.10.0 (2016-08-17)
 
 - Fixed culture style typos.
 - Added issue styles for criticals, bugs, and enhancements.
@@ -149,7 +149,7 @@
 - Removed cultural FedEx day exercise.
 - Removed remote styles (use distributed employees instead).
 
-# v0.9.0 (2016-05-29)
+# 0.9.0 (2016-05-29)
 
 - Fixed indentation (from four to two spaces).
 - Added Ruby styles for load versus require.
@@ -169,7 +169,7 @@
 - Removed leadership styles for 1x1 maintenance.
 - Refactored culture and behavior styles to business folder.
 
-# v0.8.0 (2016-03-22)
+# 0.8.0 (2016-03-22)
 
 - Fixed contributing guideline links.
 - Added Git rebase styles.
@@ -183,7 +183,7 @@
 - Updated Ruby value object styles.
 - Updated to Code of Conduct, Version 1.4.0.
 
-# v0.7.0 (2015-12-13)
+# 0.7.0 (2015-12-13)
 
 - Fixed Git style guide typos and layout issues.
 - Fixed basic programming style bold/italic syntax.
@@ -207,7 +207,7 @@
 - Updated method not implemented error example.
 - Removed GitTip badge from README.
 
-# v0.6.0 (2015-01-01)
+# 0.6.0 (2015-01-01)
 
 - Fixed use of `raise` versus `fail` in code examples.
 - Added Ruby styles for monkey patches.
@@ -217,7 +217,7 @@
 - Added an enumerables section to the Ruby style guides.
 - Added "Maintaining Happiness" to personal style guide.
 
-# v0.5.0 (2014-07-19)
+# 0.5.0 (2014-07-19)
 
 - Updated Ruby styles to use blocks for Hash#fetch second arguments.
 - Updated Ruby styles for value objects to reference the Adamantium gem.
@@ -243,7 +243,7 @@
 - Added Ruby styles for handling exceptions.
 - Added Ruby styles for method modifier statements (for Ruby 2.1+).
 
-# v0.4.0 (2014-03-23)
+# 0.4.0 (2014-03-23)
 
 - Fixed typos.
 - Updated business vacation styles to include standard holidays, birthdays, and end of year holidays.
@@ -286,7 +286,7 @@
 - Added Ruby keyword arguments style to throw an ArgumentError for invalid keywords.
 - Added Ruby style for double naked splat (**).
 
-# v0.3.0 (2013-12-03)
+# 0.3.0 (2013-12-03)
 
 - Updated Ruby splat styles to define splat grouping.
 - Updated Ruby string styles with more regular expression named groups and group matching styles.
@@ -319,7 +319,7 @@
 - Added Ruby times vs. ranges loop styles.
 - Added basic design styles.
 
-# v0.2.0 (2013-10-20)
+# 0.2.0 (2013-10-20)
 
 - Fixed minor typos, styles, etc.
 - Added solutions when recognizing object dependencies.
@@ -353,6 +353,6 @@
 - Added Ruby module styles.
 - Enhanced business leadership styles to include empathetic listening and transparent communication.
 
-# v0.1.0 (2013-08-13)
+# 0.1.0 (2013-08-13)
 
 - Initial version.
