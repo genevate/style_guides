@@ -12,7 +12,7 @@
 
 ## General
 
-- When programming styles/opions clash, reach a quick compromise and move on. Everyone is entitled
+- When programming styles/opinions clash, reach a quick compromise and move on. Everyone is entitled
   to their opinion but not every opinion will ship code.
 - Be critical of the code, not the author.
 - Ask questions rather than making demands:
@@ -31,7 +31,7 @@
 - Be grateful of suggestions.
 - Extract enhancements/refactorings, when detected, to future stories.
 - Try to respond to any/all comments.
-- Once reviewed, allow the reviewer to merge.
+- Once reviewed, allow the reviewer to rebase.
 
 ## When Reviewing Code
 
@@ -40,4 +40,4 @@
 - Try to offer alternative solutions.
 - If typos or easy fixes are detected, consider committing the changes yourself and messaging the
   author afterwards.
-- Merge the code once reviewed and confident of the changes.
+- Rebase the code once reviewed and confident of the changes.

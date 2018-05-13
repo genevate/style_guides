@@ -2,17 +2,17 @@
 
 - Be prepared:
   - Your Portfolio:
-    - Keep your online portfolio (i.e. Twitter, web site/syndicated feeds, open source work, etc.)
-      and resume up-to-date.
+    - Keep your online portfolio (i.e. web site/syndicated feeds, social media, open source work,
+      etc.) and resume up-to-date.
     - Spellcheck everything you write.
     - Avoid buzzwords.
-    - Speak/write clearly for everything you describe.
+    - Speak/write clearly.
   - Refresh Technical Knowledge:
     - Ruby
       - [10 (best) Ruby (and Rails) Interview Questions (and Answers)](http://vlad.omnipragmatic.com/10-best-ruby-and-rails-interview-questions-and-answers)
       - [19 Ruby & Ruby on Rails Interview Questions and Answers](http://www.skilledup.com/articles/ruby-on-rails-interview-questions-answers)
       - [15 Questions to Ask During a Ruby Interview](https://gist.github.com/ryansobol/5252653)
-  - First Contact:
+  - First Impression:
     - Research the company and personalize your introductory message accordingly.
     - Register and use the product/service prior to the first interview.
     - Always respond with a follow-up email after the first interview.
@@ -65,12 +65,12 @@
     - Would it be possible to work on the support team for a week or two, if hired?
     - What impact (primary clear win) would I have on the team, if hired?
     - What would make this position a total success, if hired?
-    - What is the biggest question you really wanted to ask me but haven't yet?
+    - What is the biggest question you wanted to ask me but haven't yet?
 - Be polite:
-  - Never ask about salary (and definitely never in front of the entire team). Wait for an offer to
-    arrive and always talk to the hiring manager directly.
-  - Never ask how you did at the end of an interview. Receiving further inquiries will be your
+  - Avoid asking about salary (and definitely never in front of the entire team). Wait for an offer to
+    arrive and talk to the hiring manager directly.
+  - Avoid asking how you did at the end of an interview. Receiving further inquiries will be your
     answer.
-  - Never badmouth your former employeer - Speak positively as to why you are moving on.
+  - Avoid badmouthing your former employeer - Speak positively as to why you are moving on.
 - Be growing. Each interview is a learning experience. Consider interviewing once a year to keep
   your skills sharp and a pulse on the ever changing landscape.

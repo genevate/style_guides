@@ -23,13 +23,13 @@ Not Requred.
 
 ## General
 
-0. Be positive.
-0. Be transparent.
-0. Be humble and respectful of others.
-0. Be constantly adapting and changing.
-0. Be fun and a little weird.
-0. Be diverse (i.e. equal mix of females, males, races, backgrounds, etc).
-0. Be passionate, driven, and disciplined.
+- Be positive.
+- Be transparent.
+- Be humble and respectful of others.
+- Be constantly adapting and changing.
+- Be fun and a little weird.
+- Be diverse (i.e. equal mix of females, males, races, backgrounds, etc).
+- Be passionate, driven, and disciplined.
 
 ## Mission
 
@@ -101,27 +101,27 @@ Here is how to research to determin if your values and the values of the company
 The following is taken from [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805/ref=sr_1_1?ie=UTF8&qid=1375569191&sr=8-1&keywords=Drive)
 by Daniel H. Pink to encourage employee/team improvement:
 
-0. Implement 20% time with training wheels (by starting at 10% and working up).
-0. Allow members of a team to randomly give rewards for being exceptional at what they do.
-0. Take an Autonomy Audit - On a scale of 1-10, rank the following (with 10 being the highest):
-  0. How much autonomy do you have over your tasks in a given day?
-  0. How much autonomy do you have over your time in a given day?
-  0. How much autonomy do you have over your team (being able to choose the members you work with)?
-  0. How much autonomy do you have over your technique (how you solve problems)?
-0. Take three steps towards giving up control (Type-I bosses let members decide):
-  0. Involve people in goal settings.
-  0. Use non-controlling language.
-  0. Hold "office hours" so that any employee can talk with you.
-  0. Who's purpose is it?
-  0. Test for pronouns. Do employees use "they" or "we/us". The latter is best.
-  0. Design for intrinsic motivation. Give users autonomy, mastery, and purpose.
-  0. Promote Goldilocks tasks (i.e. simple tasks that can be easily accomplished within harder
+- Implement 20% time with training wheels (by starting at 10% and working up).
+- Allow members of a team to randomly give rewards for being exceptional at what they do.
+- Take an Autonomy Audit - On a scale of 1-10, rank the following (with 10 being the highest):
+  - How much autonomy do you have over your tasks in a given day?
+  - How much autonomy do you have over your time in a given day?
+  - How much autonomy do you have over your team (being able to choose the members you work with)?
+  - How much autonomy do you have over your technique (how you solve problems)?
+- Take three steps towards giving up control (Type-I bosses let members decide):
+  - Involve people in goal settings.
+  - Use non-controlling language.
+  - Hold "office hours" so that any employee can talk with you.
+  - Who's purpose is it?
+  - Test for pronouns. Do employees use "they" or "we/us". The latter is best.
+  - Design for intrinsic motivation. Give users autonomy, mastery, and purpose.
+  - Promote Goldilocks tasks (i.e. simple tasks that can be easily accomplished within harder
      tasks) for groups:
-    0. Begin with a diverse team.
-    0. Make the group a no-competition zone. Be collaborative/cooperative.
-    0. Try task shifting. If a member is bored, shift to having that member teach another member
+    - Begin with a diverse team.
+    - Make the group a no-competition zone. Be collaborative/cooperative.
+    - Try task shifting. If a member is bored, shift to having that member teach another member
        what he/she knows.
-    0. Animate with purpose, don't animate with rewards.
+    - Animate with purpose, don't animate with rewards.
 
 ### Further Reading
 

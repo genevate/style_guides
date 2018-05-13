@@ -64,9 +64,9 @@ There are several reasons reactions are useful:
 - They help let others know that your voice was heard even if someone didn't have anything to say in
   direct response to your post.
 
-While the list of emoticons is vast and growing, it is best to standardize on emoticons that have a
-consistent meaning as using every possible emoticon can be confusing. Here is a recommended list and
-the message they convey:
+While the list of emoticons is vast, it is best to standardize on emoticons that have a consistent
+meaning as using every possible emoticon can be confusing. Here is a recommended list and the
+message they convey:
 
 - :white_check_mark: - Indicates approval, the task requested of you has been completed, or the task
   is aleady done.

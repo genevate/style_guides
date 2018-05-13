@@ -23,7 +23,8 @@
 0. Be helpful to others (it's exhausting but this is the greatest long term career investment one
    can make).
 0. Be active in your local community.
-0. Use Twitter, write articles, and constanty share what you are learning and know with the world.
+0. Write articles, use social media, and constanty share what you know and are learning with the
+   world.
 
 ## Resources
 

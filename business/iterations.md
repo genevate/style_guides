@@ -14,12 +14,13 @@
 
 ## Overview
 
-- Iterate in one-week intervals using the following schedule:
-  - Monday: Plan and start work.
-  - Tuesday: Stand up and deliver.
-  - Wednesday: Stand up and deliver.
-  - Thursday: Stand up and deliver.
-  - Friday: Stand up, deliver, and retro.
+Iterate in one-week intervals using the following schedule:
+
+- **Monday**: Plan and start work.
+- **Tuesday**: Report progress and continue working forward.
+- **Wednesday**: Report progress and continue working forward.
+- **Thursday**: Report progress and continue working forward.
+- **Friday**: Report progress and demo accomplishments for the week.
 
 ## Plans
 
