@@ -30,7 +30,7 @@
   - Read through their open source code (i.e. GitHub, BitBucket, etc.). This is where you can get a
     sense of thier engineering prowess. You'll want to spend a good portion of time researching
     here.
-  - In the case where a interviewee doesn't have an online precense. Ask if it's possible to learn
+  - In the case where a interviewee doesn't have an online presence. Ask if it's possible to learn
     about their work in other ways (perhaps their work is private and you can get, legal, temporary
     access to review and discuss further).
 - Avoid resumes. If given one, move on to the next interviewee. That said, resumes might be
@@ -50,7 +50,7 @@
   care about the interviewee and their past experiences. It's the first step in establishing good
   rapport and trust. Additionally, it shows good will towards making the interview experience a
   positive one by appreciating and seeing them as an individual instead of a number. This can't be
-  stressed enough as this is one of the major points of failure in getting to know a interviewee.
+  stressed enough as this is one of the major points of failure in getting to know an interviewee.
   First impressions are critical so make it outstanding!
 - Assemble a stellar interview team:
   - Train team members in the art of interviewing, never bring them in cold.
@@ -130,9 +130,9 @@ When meeting the interviewee for the first time, do this via video chat or in pe
 everyone involved.
 
 Start by being inquisitive about them and then move into more job-specific questions. *Focus on
-being kind, a good lisener, non-judgemental, and creating a safe space for discussion.*
+being kind, a good listener, non-judgemental, and creating a safe space for discussion.*
 
-Watch body language. If the interviewee is nervious or anxious, determine the cause and figure out
+Watch body language. If the interviewee is nervous or anxious, determine the cause and figure out
 what will make them most comfortable. *It's important the interviewee sense the interview, and
 potential work environment, is a safe space for them to be who they are.*
 
@@ -180,7 +180,7 @@ time as they are doing real work and shows that you value their time.*
 
 Regardless of whether you perform weekly iterations, schedule your week as follows:
 
-- **Monday**: Plan out the week with the interviewee and the team. Encourage the interviewee ask
+- **Monday**: Plan out the week with the interviewee and the team. Encourage the interviewee to ask
   questions and pick up tasks of interest.
 - **Tuesday:** Report progress and/or pick up new tasks.
 - **Wednesday:** Report progress and/or pick up new tasks.
@@ -265,7 +265,7 @@ discuss notes. The notes need to be broken down by key areas of interest. Exampl
   be worth investing in the interviewee (perhaps at a lower salary). All of this depends on whether
   you have capacity to absorb the individual *and* have mentors on your staff to polish those rough
   edges adequately. Keep in mind this can occur at any age (young or old) and/or experience level.
-  Due the nature of this particular quality, it can have a strong influence over the other scores.
+  Due to the nature of this particular quality, it can have a strong influence over other scores.
 
 This can be further automated by using an internal application or spreadsheet. Each can be graded on
 a scale of -1 to 1 where -1 is negative, 0 is neutral, and 1 is positive. Allow space for each team
