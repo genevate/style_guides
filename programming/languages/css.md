@@ -5,6 +5,7 @@
 ## Table of Contents
 
   - [General](#general)
+  - [Colors](#colors)
   - [Media Queries](#media-queries)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
@@ -39,6 +40,11 @@
   0. Background
   0. Transitions
   0. Miscellaneous
+
+## Colors
+
+- Use [HSLA](https://drafts.csswg.org/css-color/#the-hsl-notation) notation for specificing colors
+  as they are the easiest to programmatically change and think about.
 
 ## Media Queries
 
