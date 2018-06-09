@@ -58,29 +58,31 @@ messages posted by team members.
 There are several reasons reactions are useful:
 
 - They convey emotion when text isn't enough.
-- They say a lot with very little. As they say...sometimes an image is worth a 1,000 words.
+- They say a lot with little -- Sometimes an image is worth a 1,000 words.
 - They provide feedback without alerting others. This is especially handy in keeping channel
   notifications at a minimum so others are not constantly distracted.
 - They help let others know that your voice was heard even if someone didn't have anything to say in
-  direct response to your post.
+  direct response to your message.
 
 While the list of emoticons is vast, it is best to standardize on emoticons that have a consistent
 meaning as using every possible emoticon can be confusing. Here is a recommended list and the
-message they convey:
+message each conveys:
 
 - :white_check_mark: - Indicates approval, the task requested of you has been completed, or the task
   is aleady done.
-- :bookmark: - Indicates you can't read a posted link, article, etc. immediately but will in the
-  future.
-- :cool: - Indicates a posted message is...well...cool.
-- :tada: - Indicates enthusiasm/excitement to a posted message.
-- :star: - Indicates you favorited/liked a posted message.
-- :pill: - Indicates you wish someone to heal up who might not be feeling well.
+- :bookmark: - Indicates you can't read the document immediately but will soon *or* you've read,
+  liked, and bookmarked the document for future reference.
+- :cool: - Indicates message is...well...cool.
+- :tada: - Indicates enthusiasm/excitement.
+- :star: - Indicates you favorited/liked the message.
+- :sunflower: - Indicates giving flowers to someone you wish will heal up and feel better soon.
+- :joy: - Indicates joy/laughter in response to something silly/funny.
 - :eyes: - Indicates you are reading/reviewing the posted message and plan to respond shortly.
+- :rocket: - Indicates enthusiastic movement, progress, and/or forward traction related to message.
 - :ok: - Indicates acknowledgement of a posted message.
-- :thought_balloon: - Indicates you are pondering the posted message and that you may or may not
-  respond immediately.
-- :bow: - Indicates thankfulness/gratefulness of a posted message.
+- :thought_balloon: - Indicates you are pondering the message for future consideration or might
+  respond to the message at a later time.
+- :bow: - Indicates thankfulness/gratefulness.
 
 ## Tips
 
@@ -89,5 +91,5 @@ message they convey:
 - Limit notifications for rooms that are too noisy/distracting. Some clients allow notifications to
   be silenced per room so room distractions can be limited.
 - For the noisest of group chats, consider muting and then checking three times a day (morning,
-  noon, and night) like good [email styles](email.md).
+  noon, and night) as done for [email styles](email.md).
 - Most group chat services provide desktop and mobile applications. Install both.
