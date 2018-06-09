@@ -25,30 +25,27 @@
 
 Structure company-wide channels as follows:
 
-- General - General company level communications, discussions, questions, etc.
-- Announcements - Official company alerts, news, and updates.
-- Emergencies - Production level issues that must be addressed immediately.
+- **General** - General communication, discussions, questions, etc.
+- **News** - Official company alerts, news, and updates.
+- **Kudos** - A place to praise others who have done an excellent job or for being awesome in
+  general.
+- **Emergencies** - Restricted to discussion of production alerts/emergencies that must be addressed
+  immediately.
   - Keep this chat open at all times (especially when on-call).
   - Ensure notifications are enabled for your mobile device.
-- Sales - News related to customer sign-up, revenue earned, contracts signed, etc.
-  - Try to limit the information to simply *(customer/contract) - (new revenue earned)*.
+- **Notifications** - For automated notifications and non-human messages like Git updates, build
+  failures, deployments, etc.
+- **Sales** - News related to customer sign-up, revenue earned, contracts signed, etc.
+  - Try to limit information to *(customer/contract) - (new revenue earned)*.
   - Try to limit responses so the room doesn't get too noisy...excitement is
     inevitable/understandable, though.
-- Marketing - News related to global/public promotional/awareness efforts.
-- Development - General technical news, discussions, etc. related to software development.
-- (team) - Team specific news. Use the following sub-structure (create the same structure per team):
-  (see [Iterations](../business/iterations.md) for more info):
-  - (team) Plans - For start of week planning.
-  - (team) Standups - For daily member status updates (i.e. yesterday, today, blockers).
-  - (team) Retrospectives - For end-of-week retrospectives.
-- Development Notifications - For automated notifications like Git updates, build failures,
-  deployments, etc.
-- Status - For out-of-office messages, errands, sickness, upcoming vacation reminders, etc.
-- Demos - For end-of-week demos to show off the week's cumulative work. Doesn't have to be limited
-  to end-of-week but can be anytime there is something of interest to share.
-- Events - News and information related to after hours adventures, gatherings, etc. Examples:
-  - Snow - Ski/snowboarding information and events.
-  - Games - Video/board game information and events.
+- **Marketing** - News related to global/public promotional/awareness efforts.
+- **Engineering** - Common area for technical news, discussions, questions, etc. related to software
+  engineering.
+- **Learnings** - A place for sharing links, things learned, tips and tricks, etc.
+- **Demos** - A place for sharing completed work that would be exciting for others to see, discuss,
+  be aware of, get feedback on, etc.
+- **Events** - News and information related to after hour gatherings, adventures, etc.
 
 ## Reactions
 
