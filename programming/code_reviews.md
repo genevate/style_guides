@@ -30,8 +30,8 @@
 
 - Be grateful of suggestions.
 - Extract enhancements/refactorings, when detected, to future stories.
-- Try to respond to any/all comments.
-- Once reviewed, allow the reviewer to rebase.
+- Respond to any/all comments.
+- Once reviewed, allow the author to rebase their feature branch onto `master`.
 
 ## When Reviewing Code
 
