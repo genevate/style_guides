@@ -11,6 +11,7 @@
   - [Navigation](#navigation)
   - [Home Page](#home-page)
   - [Text](#text)
+  - [Loading](#loading)
   - [References](#references)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
@@ -106,6 +107,14 @@ We all have one chance at this life, why not make it a good one - a memorable on
 - Refrain from happy/promotional text - This is filler text that doesn't provide any useful
   information. Instead, get to the point and make each word count. Be ruthless in removing
   extraneous words.
+
+## Loading
+
+- Avoid loading indicators as the user experience is perceived to take longer even if the
+  performance is the same or better than it was. Use skeleton screens instead.
+- Use skeleton screens to show a vague layout of what will be loaded by slowly filling in the
+  content as it loads. This improves perception of the overall wait time and provides more
+  information than a blank screen or a loading indicator.
 
 ## References
 
