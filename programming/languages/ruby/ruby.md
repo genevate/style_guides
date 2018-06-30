@@ -226,34 +226,35 @@
 
 ## Arguments
 
-- Use _ to ignore an argument or multiple arguments. Example:
+- Use `_` as a prefix to ignore an argument or multiple arguments. Example:
 
         a = [%w(Mr. Billy Bob Simpson), %w(Mrs. Sally Jane Ruffy)]
-        a.map { |_, first, _, last| [first, last] } # =>  [["Billy", "Simpson"], ["Sally", "Ruffy"]]
-- When using ambiguous arguments, that don't clearly express their intent, define a local variable
-  instead. Example:
+        a.map { |_prefix, first, _middle, last| [first, last] }
+        # [["Billy", "Simpson"], ["Sally", "Ruffy"]]
+- When using ambiguous arguments that don't express their intent, define a local variable instead.
+  Example:
 
         include_super = false
         String.instance_methods include_super
 
-- Use `key:,` to enforce a keyword argument:
+- Use a missing value for a keyword argument to force a value to be specified (i.e. `first_name` is
+  required in this example):
 
         def example first_name:, last_name: "Grant"
           puts [first_name, last_name].compact - ' '
         end
 
         example last_name: "Smith" # => ArgumentError: missing keyword: first_name
-- Use keyword arguments instead of option hashes so that an ArgumentError is thrown for unknown
-  keywords:
+- Use keyword arguments instead of option hashes to allow the code to be self-describing and for an
+  ArgumentError to be thrown for unknown keywords:
 
         def say name, prefix: "Hello"
           puts "#{prefix} #{name}"
         end
 
         example "Bob", bogus: "Foo" # => ArgumentError: unknown keyword: bogus
-- Use a default method for arguments that require a default object/value. This allows the current
-  object to be easily extended with a custom object/value and makes it possible to easily
-  inspect/experiment with the default method (because it is a public class method). Example:
+- Use a default method for arguments that require a default object/value. This allows the method to
+  be extended (i.e. dependency injection). Example:
 
         class Example
           def self.default_configuration
@@ -267,6 +268,14 @@
             @configuration = configuration
           end
         end
+- Use the following order of arguments to avoid argument errors when mixing argument types (WARNING:
+  While this is illustrative, try to limit arguments to three max):
+
+      # Pattern: required -> optional -> variable -> keyword
+
+      # Example:
+      def example required, optional = "default", *variable, keyword: "example", **options
+      end
 
 ## Booleans
 
