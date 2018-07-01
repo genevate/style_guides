@@ -1,3 +1,22 @@
+# 0.23.0 (2018-07-01)
+
+- Fixed interview typos.
+- Fixed typos and unclear explanations.
+- Added accessibility style guide.
+- Added basic design loading styles.
+- Added business onboarding style guide.
+- Added business performance review style guide.
+- Added colors to CSS style guide.
+- Added mobile design styles.
+- Updated Ruby keyword argument Ruby styles.
+- Updated Semantic Versioning links to be HTTPS.
+- Updated code review styles when being reviewed.
+- Updated group chat channels.
+- Updated group chat reaction emoticons.
+- Updated interview style guide with more research and thoughts.
+- Updated project changes to use semantic versions.
+- Refactored issue styles to programming folder.
+
 # 0.22.0 (2018-04-01)
 
 - Updated to Git Cop 2.2.0.
