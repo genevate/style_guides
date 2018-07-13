@@ -50,3 +50,6 @@
 - [aXe](https://www.axe-core.org) - An accessibility engine for testing the quality of your design.
 - [Contrast](https://usecontrast.com) - A macOS app for detecting low quality contrast in your
   design.
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) - A code quality tool for web
+  apps. Provides performance, progressive web app, accessibility, best practices, and SEO scores. It
+  can be installed as a Chrome extension, CLI, or Node module. Pro
