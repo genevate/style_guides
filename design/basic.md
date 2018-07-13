@@ -41,6 +41,11 @@ We all have one chance at this life, why not make it a good one - a memorable on
 - Build upon existing, common design standards.
 - Use negative space - Separate navigation from content, sections from bodies, text from images,
   etc.
+- Use plenty of headings to help the reader scan for what is most relevant.
+- Use short paragraphs which get to the point quickly.
+- Use designs that strive to be clear, obvious, and self-explanatory.
+- Avoid sacrificing functionality over beauty.
+- Avoid heavy explanations/instructions.
 
 ## Site Logo
 
@@ -107,6 +112,11 @@ We all have one chance at this life, why not make it a good one - a memorable on
 - Refrain from happy/promotional text - This is filler text that doesn't provide any useful
   information. Instead, get to the point and make each word count. Be ruthless in removing
   extraneous words.
+
+## Lists
+
+- Use bullet lists to group related items.
+- Use a space between list items.
 
 ## Loading
 
