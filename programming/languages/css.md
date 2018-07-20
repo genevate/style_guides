@@ -35,11 +35,11 @@
 - Use link, visited, hover, and active for link styling.
 - Avoid !important, use qualified selectors instead.
 - Use a standard declaration order for properties:
-  0. Positioning
-  0. Display/Box Model
-  0. Background
-  0. Transitions
-  0. Miscellaneous
+  1. Positioning
+  1. Display/Box Model
+  1. Background
+  1. Transitions
+  1. Miscellaneous
 
 ## Colors
 

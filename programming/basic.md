@@ -46,10 +46,10 @@
 
 ## Sandi Metz Rules
 
-0. Classes must not be more than one hundred lines of code.
-0. Methods must not be more than five lines of code.
-0. Methods must not accept more than four parameters (this includes hash options).
-0. Controllers must instantiate only one object. Therefore, views can only know about a single
+1. Classes must not be more than one hundred lines of code.
+1. Methods must not be more than five lines of code.
+1. Methods must not accept more than four parameters (this includes hash options).
+1. Controllers must instantiate only one object. Therefore, views can only know about a single
    instance variable and should only send messages to that object.
 
 ## Comments

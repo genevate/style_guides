@@ -13,36 +13,36 @@
 
 ## Guidelines
 
-0. Earn and maintain the respect and trust of your team.
-0. Empower teammates with the autonomy to be creative and solve problems.
-0. Allow teammates to gain/achieve mastery.
-0. Empower teammates with a sense of purpose/drive.
-0. Protect teammates from daily distractions and interruptions.
-0. Identify weaknesses and focus on turning them into strengths but also build upon existing
+1. Earn and maintain the respect and trust of your team.
+1. Empower teammates with the autonomy to be creative and solve problems.
+1. Allow teammates to gain/achieve mastery.
+1. Empower teammates with a sense of purpose/drive.
+1. Protect teammates from daily distractions and interruptions.
+1. Identify weaknesses and focus on turning them into strengths but also build upon existing
    strengths.
-0. Be human. Strive to make a connection with each and every one of your teammates so that you can
+1. Be human. Strive to make a connection with each and every one of your teammates so that you can
    understand who they are, what drives them, and how best to help them grow.
-0. Be honest:
+1. Be honest:
     - Be quick to constructively criticise. The longer you wait, the worse the situation will become.
     - Give praise but only when it is sincere and meaningful. Get this wrong and you'll do more
       damage than never giving praise in the first place. Plus, you'll lose credibility and respect.
-0. Be transparent: Share information often, clearly, and concisely.
-0. Be empathetic and caring -- Strive to understand what motivates people:
+1. Be transparent: Share information often, clearly, and concisely.
+1. Be empathetic and caring -- Strive to understand what motivates people:
     - Past: Listen to where they came from, what makes them tick, and how they got to where they are
       now.
     - Present: Listen to what they think of the current situation, how they feel about it, and how
       they would change it.
     - Future: Listen to what drives them, where they are excited about going, and how you can help
       in these endeavors.
-0. Be a good listener:
+1. Be a good listener:
     - Maintain consistently scheduled
       [1x1 meetings](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster).
     - Encourage an open channel of communication and honest feedback.
     - Tackle and resolve issues as they arise.
     - Grab a room if information is sensitive but otherwise go for a walk, grab a drink at a local
       tea shop, or get out of the office altogether.
-0. Be a [mentor](https://alistapart.com/article/be-a-mentor), always.
-0. Be decisive but not a dictator:
+1. Be a [mentor](https://alistapart.com/article/be-a-mentor), always.
+1. Be decisive but not a dictator:
     - Always base decisions on productivity not politics.
     - Never mandate how work will be performed/completed.
     - Facilitate and listen. Let the team come to their own conclusions.
@@ -51,44 +51,44 @@
     - Don't be afraid to delegate decisions to people that know the information better than you.
     - Don't defer decisions to senior staff when people, in the meeting, know the information
       better.
-0. Be cautious of high performers:
+1. Be cautious of high performers:
     - The occurance of these types of individuals is extremely rare.
     - Warning signs of perceived high output:
       - Not spending the necessary time to architect and design software using good design patterns.
       - Failure to craft code that is self-documenting, easy to read, and easy to maintain.
       - Failure to avoid code smells.
       - Failure to adequately test.
-0. Be a motivator. Do this for every teammate by taking action, when necessary, to engage people in
+1. Be a motivator. Do this for every teammate by taking action, when necessary, to engage people in
    the mission and vision of the team/company.
-0. Be accountable. Be responsible for tasks assigned to the team and hold teammates to the same
+1. Be accountable. Be responsible for tasks assigned to the team and hold teammates to the same
    standard for their work accordingly.
-0. Be focused on quality:
+1. Be focused on quality:
     - Encourage tackling every feature, bug, issue, etc. as a chance to pay down technical dept,
       refactor, and carve complex code into smaller (easier to read) pieces of functionality.
     - Encourage diligence in deleting old/unused code/features.
     - Baking continual improvement/refinement as a core team value encourages mastery, automony, and
       a strong sense of purpose making the team happier in the long run to achieve higher results.
       *It should not be underestimated how important a morale boost this is.*
-0. Be a peer to the team.
-0. Be additional help when help is needed.
-0. Be encouraging of code ownership:
+1. Be a peer to the team.
+1. Be additional help when help is needed.
+1. Be encouraging of code ownership:
     - Craft engineers, not bards (a.k.a. a jack/jill of all trades but master of none). Abandon the
       notion that team members are replacable cogs that need to have shared knowledge across all
       code bases. Instead, allow for code ownership of specific code bases instead. Provide the
       ability for each team member to slowly and carefully build knowledge and expertise in the
       various pillars of your architecture. They can eventually move on to other pillars but let
       them become masters first.
-0. Be on the lookout for natural leaders:
+1. Be on the lookout for natural leaders:
     - These are the people that other team members constantly seek out for advice/help.
     - It's important that these individuals be publically recognized with appropriate title when
       promoted.
-0. Be accommodating:
+1. Be accommodating:
     - When employees ask for better equipment, flexible schedules, etc. do it. Unless the requests
       are ceaseless or the request would impact budget in a significant manner, do it. *Again, don't
       underestimate the morale boost this provides.*
-0. Remember that excellent management doesn't scale. Limit your time and attention team to five
+1. Remember that excellent management doesn't scale. Limit your time and attention team to five
    people or less.
-0. Have faith and confidence in your team.
+1. Have faith and confidence in your team.
 
 ## Tactics
 

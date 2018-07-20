@@ -11,19 +11,19 @@
 
 ## General
 
-0. Strive to be positive and professional in all situations.
-0. Experience different work environments and cultures:
+1. Strive to be positive and professional in all situations.
+1. Experience different work environments and cultures:
   * Startups (where you are an employee/founder or manager of employees/contractors)
   * Freelance/Contract work
   * Small/Mid/Large Companies
   * Commercial, government, and non-profit companies
-0. Avoid burning bridges with an employeer unless necessary.
-0. Be loyal to an employeer but only to the point where your life goals and passions are not
+1. Avoid burning bridges with an employeer unless necessary.
+1. Be loyal to an employeer but only to the point where your life goals and passions are not
    sacrificed.
-0. Be helpful to others (it's exhausting but this is the greatest long term career investment one
+1. Be helpful to others (it's exhausting but this is the greatest long term career investment one
    can make).
-0. Be active in your local community.
-0. Write articles, use social media, and constanty share what you know and are learning with the
+1. Be active in your local community.
+1. Write articles, use social media, and constanty share what you know and are learning with the
    world.
 
 ## Resources

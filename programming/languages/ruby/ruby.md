@@ -424,8 +424,8 @@
         {example: false}.fetch(:example) { :default } # false
 - Use a block instead of a value for the default (second) argument of `#fetch`. This provides the
   following benefits:
-    0. Blocks can be defined once for easy reference in multiple defaults (DRY).
-    0. Blocks are lazy evaluated which improves application performance.
+    1. Blocks can be defined once for easy reference in multiple defaults (DRY).
+    1. Blocks are lazy evaluated which improves application performance.
 - Use symbols as default values for Hash#fetch. This will make it easier to debug when a value is
   expected but not supplied. Example: `example.fetch(:logger) { :unknown_logger }`.
 
