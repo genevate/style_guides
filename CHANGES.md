@@ -1,3 +1,14 @@
+# 0.24.0 (2018-08-03)
+
+- Fixed Email style Inbox Zero link.
+- Fixed Markdown ordered list numbering.
+- Fixed Twitter communication style links.
+- Added Lighthouse tooling to accessibility guide.
+- Added business performance style guide.
+- Added design accessibility guidelines.
+- Added lists and additional general styles to basic designs.
+- Updated README to latest version.
+
 # 0.23.0 (2018-07-01)
 
 - Fixed interview typos.
