@@ -19,11 +19,12 @@
 - [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself). Differentiate your
   tweets from your site feed and/or other syndicated services, otherwise you end up spamming
   followers and losing credibility.
-- Practice [Inbox Zero](http://inboxzero.com). When reading your timeline, get to the top of the
-  time quickly. [Pocket](http://getpocket.com) items of interest for later, respond to those who
-  have replied, and exit with your timeline caught up to the top.
-- Use services like [Pocket](http://getpocket.com) to save tweets that link to articles which
-  require more time to read. This will allow you to fly through your timeline quickly.
+- Practice [Inbox Zero](https://whatis.techtarget.com/definition/inbox-zero). Add to
+  [OmniFocus](https://www.omnigroup.com/omnifocus) items of interest for reading later, respond to
+  those who have replied, and exit with your timeline caught up to the top.
+- Use apps like [OmniFocus](https://www.omnigroup.com/omnifocus) to save tweets that link to
+  articles which require more time to read. This will allow you to fly through your timeline
+  quickly.
 - Use Twitter’s native URL shortening service. This allows links to be shortened but retain original
   information about the URL so that it shows up, fully expanded, in your followers stream.
-- In the end, have fun but be efficient about it.
+- Have fun but be *efficient* about it.
