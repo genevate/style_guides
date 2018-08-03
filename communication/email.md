@@ -1,8 +1,8 @@
 # Email Styles
 
 - Use [basic communication](basic.md) styles.
-- Practice [Inbox Zero](http://inboxzero.com). Keep the inbox at zero messages after checking for
-  new updates.
+- Practice [Inbox Zero](https://whatis.techtarget.com/definition/inbox-zero). Get to zero messages
+  after checking for new updates.
 - [Get Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done). Check, at most, three times
   a day (morning, noon, night). Completely exit out of the program when done.
 - Avoid filters. If you find yourself setting up filters to deal with spam or automated messages, be
@@ -15,8 +15,8 @@
   can make this easier.
 - Use descriptive subjects. Compose each email with a subject line revelant to the content being
   sent.
-- Use searchable subjects. Use keywords and phrases that pertain to the content, and easy to read,
-  but also searchable.
+- Use searchable subjects. Use keywords and phrases that pertain to the content, are easy to read,
+  and searchable.
 - Avoid signatures (especially images). It is tempting to add an email signature to each message but
   they quickly becomes redundant and repetive afterwards. Plus it slows down syncing across mobile
   devices.
