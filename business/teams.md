@@ -5,6 +5,7 @@
 ## Table of Contents
 
   - [Dynamics](#dynamics)
+  - [Workspaces](#workspaces)
   - [Statistics](#statistics)
     - [General](#general)
     - [Software Development](#software-development)
@@ -22,6 +23,13 @@ five key dynamics that set successful teams apart from other teams:
 1. **Structure and Clarity**: Are goals, roles, and execution plans clear?
 1. **Meaning**: Are we working on something that is personally important for each of us?
 1. **Impact**: Do we fundamentally believe the work we are doing matters?
+
+## Workspaces
+
+- Avoid [open office design](https://is.gd/vFEBFG). It is extremely counterproductive for optimal
+  software devlepment performance and happiness. Use private offices/workspaces instead. Better yet,
+  avoid offices altogether and be remote-first focused. See [Distributed Employee
+  Styles](distributed_employees.md) for details.
 
 ## Statistics
 
