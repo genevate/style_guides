@@ -1,3 +1,16 @@
+# 0.25.0 (2018-08-19)
+
+- Added culture style blockquote.
+- Added dossier style guide.
+- Added initial Fierce Converstation knowledge to performance review.
+- Added teams style guide.
+- Updated basic design table of contents.
+- Updated burnout style page label.
+- Updated to Contributor Covenant Code of Conduct 1.4.1.
+- Removed performance styles.
+- Removed workspace styles.
+- Refactored reviews style guide as performance reviews.
+
 # 0.24.0 (2018-08-03)
 
 - Fixed Email style Inbox Zero link.
