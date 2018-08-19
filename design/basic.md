@@ -11,6 +11,7 @@
   - [Navigation](#navigation)
   - [Home Page](#home-page)
   - [Text](#text)
+  - [Lists](#lists)
   - [Loading](#loading)
   - [References](#references)
 
