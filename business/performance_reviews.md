@@ -1,8 +1,8 @@
-# Reviews
+# Performance Review Styles
 
 Many companies perform some form of a periodic performance review. They are designed to help the
-company evaluate their workforce and help you grow as an individual. The problem is that *no one is
-100% invested in your growth, only you are*. With that in mind, the following describes how to take
+company evaluate their workforce and help you grow as an individual. The problem is *no one is 100%
+invested in your growth, only you are*. With that in mind, the following describes how to take
 control of this situation so it best benefits you and the company.
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
