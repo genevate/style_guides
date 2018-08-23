@@ -48,20 +48,20 @@ The following is sectioned by high level life and career goals.
   - How are you getting there?
   - Are you on the right path and realizing your full potential?
   - Are you living a life that is an authentic expression of who you are and wish to be?
-  - Is there anything you are pretending not to know?
   - What are your next actions?
 - Career
+  - What is new that has you most excited?
   - Is there value and fulfillment in your work?
+  - Is there anything that has you worried for feeling down?
   - What is the last thing you enjoyed working on?
   - What is the last major failure you learned from?
   - When was the last time your manager gave you feedback?
   - What compliment do you wish you could receive?
-  - What have you recently learned from your manager/team?
-    - Can you explain each and how they improved your work?
-  - What is the most recent feedback you received that impacted/changed your current work/thought
-    processes?
-  - What are your current strengths and can you prove them?
-  - What are your current weaknesses and can you prove them?
+  - What have you been learning from your team and can you explain how each lesson has improved your
+    work?
+  - What is the most recent feedback that has impacted/changed your thought processes?
+  - What are your current strengths and can you explain them?
+  - What are your current weaknesses and can you explain them?
     - What steps are you taking to improve them?
     - Is the company helping?
   - How long have you been at the company?
@@ -73,7 +73,7 @@ The following is sectioned by high level life and career goals.
     - Do you feel fairly compensated?
     - Can you justly explain why you were or were not compensated?
     - Have you discussed this with your manager?
-  - Who is your mentor and when did you last last meet?
+  - Who is your mentor and when did you last meet?
 
 ## Journal
 
