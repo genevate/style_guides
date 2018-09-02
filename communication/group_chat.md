@@ -1,5 +1,12 @@
 # Group Chat Styles
 
+Group chat software provides the following advantages:
+
+- Keeps communication asynchronous.
+- Provides transparent communication so all staff may participate that have interest.
+- Ensures automatic history for old conversations which can be searched and resurfaced.
+- Enables remote/mobile access for those traveling or constantly on the move.
+
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
 ## Table of Contents
@@ -14,16 +21,12 @@
 ## General
 
 - Use [basic communication](basic.md) styles.
-- Provides the following:
-  - Keeps communication asynchronous.
-  - Provides transparent communication so that all staff may participate that have interest.
-  - Ensures automatic history for old conversations which can be searched and resurfaced.
-  - Enables remote/mobile access for those traveling or constantly on the move.
-- Use group chat software for asynchronous communication. Example: [Slack](https://slack.com).
+- Use group chat software. Example: [Slack](https://slack.com).
 
 ## Channels
 
-Structure company-wide channels as follows:
+Create channels around topics so information can remain organized. For example, structure
+company-wide channels as follows:
 
 - **General** - General communication, discussions, questions, etc.
 - **News** - Official company alerts, news, and updates.
@@ -46,6 +49,23 @@ Structure company-wide channels as follows:
 - **Demos** - A place for sharing completed work that would be exciting for others to see, discuss,
   be aware of, get feedback on, etc.
 - **Events** - News and information related to after hour gatherings, adventures, etc.
+
+When using channels, keep to the following:
+
+- Avoid sending `@here`, `@all`, `@everyone`, etc. messages. A channel is meant for *asynchronous*
+  communication and these types of messages defeat that purpose. If a channel doesn't have these
+  messages disabled by default, ensure notifications of this type are disabled by manually editing
+  the channel notification settings.
+- Use channels instead of direct messages. Lead by example and initiate or respond to direct
+  messages in channels so others are encouraged to do the same. Even if you are composing the
+  message to a single person or part of the team, it's still useful for others to know what is going
+  on by messaging within a channel. If receiving a direct message, ask if it can be responded to in
+  the appropriate channel instead.
+- Avoid creating random channels. Be judicious in what constitutes bringing a new channel into
+  existence by identifiying information that might be too noisy for one channel but could benefit
+  from having it's own channel.
+- Avoid maintaining channels with low activity or have outlived their existence by
+  archiving/deleting them as necessary.
 
 ## Reactions
 
