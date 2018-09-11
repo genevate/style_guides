@@ -43,7 +43,7 @@
   - [Classes](#classes)
   - [Methods](#methods)
   - [Conversion Functions](#conversion-functions)
-  - [Monkey Patches](#monkey-patches)
+  - [Refinements](#refinements)
   - [Macros](#macros)
   - [Deprecations](#deprecations)
   - [Threads](#threads)
@@ -933,18 +933,15 @@ There are a few rules for conversion functions:
 - When a conversion function isn't necessary, an alternative approach is to provide a class-level
   `.for` method which can convert a type into the object's type.
 
-## Monkey Patches
+## Refinements
 
-- Avoid monkey patching code you don't own because each patch adds additional maintenance and
-  debugging effort to a project as core/third-party libraries are updated. Use any of the following
-  alternatives to better localize custom changes for easier debugging and maintainability:
-    - Use aliases. Example: `alias SCE Some::Custom::Example`.
-    - Use a helper module that defines methods to make the dependant code more concise. Include the
-      module in objects that need the additional functionality.
-    - Extend instance objects with helper module functionality. Example:
-
-            example = Example.new
-            example.extend(ExampleHelpers)
+- Use refinements to enhance core libraries and to be precise about what is being refined. Due to
+  refinements being [lexically
+  scoped](https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scoping), functionality
+  can't spreading to other objects. See the [Refinements](https://github.com/bkuhlmann/refinements)
+  gem for examples.
+- *Avoid monkey patching code* because each patch adds additional maintenance, obscurity, and
+  debugging effort to a project. Use refinements instead.
 
 ## Macros
 
