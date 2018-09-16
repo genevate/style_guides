@@ -5,6 +5,7 @@
 ## Table of Contents
 
   - [General Rules](#general-rules)
+  - [Architecture](#architecture)
   - [Sandi Metz Rules](#sandi-metz-rules)
   - [Comments](#comments)
   - [Bare Words](#bare-words)
@@ -43,6 +44,17 @@
   refactoring the wrong abstraction. Allow duplication up to three times, as a maximum, before
   refactoring.
 - Write tests to demonstrate passing and failing requirements.
+
+## Architecture
+
+- Be focused on ephemeralization. In other words, "do more and more with less and less until
+  eventually you can do everything with nothing." Another way to think about this is: "It seems that
+  perfection is reached not when there is nothing left to add, but when there is nothing left to
+  take away" -- Antoine de Saint Exupéry. By default, architect software to be minimalisitic in
+  nature. Constantly strive to remove that which you don't need. It takes maintenance and discipline
+  to see this through but will produce a well tuned system that is easier to maintain and
+  understand. For more on this, read [In Pursuit of Production
+  Minimalism](https://brandur.org/minimalism).
 
 ## Sandi Metz Rules
 
