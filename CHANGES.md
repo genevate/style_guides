@@ -1,3 +1,12 @@
+# 0.26.0 (2018-10-01)
+
+- Added architecture notes to basic programming style guide.
+- Added changes/history styles.
+- Added mental health to vacation styles.
+- Updated group chat style guide.
+- Updated performance review questions.
+- Removed monkey patching from the Ruby style guide.
+
 # 0.25.0 (2018-08-19)
 
 - Added culture style blockquote.
