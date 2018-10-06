@@ -13,21 +13,24 @@
   - [Mission](#mission)
   - [Core Values](#core-values)
   - [Resources](#resources)
-    - [How to Determine Culture Fit](#how-to-determine-culture-fit)
-    - [Behavior Improvement Exercises](#behavior-improvement-exercises)
-    - [Further Reading](#further-reading)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
 
 ## General
 
+- Be human.
+- Be learning.
+- Be driven.
+- Be responsible.
+- Be civil.
+- Be appreciative.
+- Be healthy.
 - Be positive.
 - Be transparent.
-- Be humble and respectful of others.
-- Be constantly adapting and changing.
-- Be fun and a little weird.
-- Be diverse (i.e. equal mix of females, males, races, backgrounds, etc).
-- Be passionate, driven, and disciplined.
+- Be humble.
+- Be diverse.
+- Be disciplined.
+- Be fun (and a little weird).
 
 ## Mission
 
@@ -38,17 +41,19 @@ can delight, enrich, and astound our customers in ways impossible to imagine oth
 ## Core Values
 
 - Be Human:
-  - Prioritize yourself and family first, company second -- Taking care of yourself and/or family
-    first allows you to remain awesome which, in turn, ensures a high functioning team.
+  - Prioritize yourself and family first, company second -- Allows you to be rooted in a solid
+    foundation which, in turn, ensures a high functioning team.
   - People, not organizations, build software -- Cherish your employees more than your customers.
   - Outstanding software and teams can't be built without emotion –- *You have to care!*
 - Be Learning:
   - A learning culture is an adaptable culture that is constantly growing and thinking of new ways
     to evolve. *Don't lose this.*
-  - Listen and consider everyone's input before making hasty judgements.
-  - Teach instead of directing (including failures - which is the most import time to be learning
+  - Teach instead of directing (including failures - which is the most important time to be learning
     and growing).
-- Be Empowered:
+  - Embrace failure by letting everyone know it's normal, expected, and an important opportunity for
+    learning.
+  - Listen and consider everyone's input before making hasty judgements.
+- Be Driven:
   - Work is not a place you go but something you do.
   - Provide each employee with the autonomy to work however they want with whatever tools they need
     to *get things done*.
@@ -68,12 +73,12 @@ can delight, enrich, and astound our customers in ways impossible to imagine oth
     space and/or team code of conduct is violated, decisive action is taken on the responsible
     culprits.
   - Conduct autopsies without blame -- Analyze, learn, and pivot instead.
-- [Be Civil](https://rework.withgoogle.com/blog/how-incivility-shuts-down-our-brains-at-work)
+- [Be Civil](https://rework.withgoogle.com/blog/how-incivility-shuts-down-our-brains-at-work):
   - Improves focus and processing of information.
   - Helps employees achieve their greatest potential.
 - Be Appreciative:
-  - Big or small, each employee's contribution is valued and encouraged. Always.
-  - Reward people who have drive, focus, discipline, and professional conduct instead of knowing
+  - Big or small, each contribution is valued and encouraged. Always.
+  - Reward those who have drive, focus, discipline, and professional conduct instead of knowing
     everything.
   - Pay and compensation should be equal to or higher than the industry average. Period.
 - Be Healthy:
@@ -82,46 +87,6 @@ can delight, enrich, and astound our customers in ways impossible to imagine oth
     prevented to avoid burnout.
 
 ## Resources
-
-### How to Determine Culture Fit
-
-Here is how to research to determin if your values and the values of the company match:
-
-- Read everything you can about the company by studying their website, videos, press releases, etc.
-  Ask for access to the employee handbook too.
-- Observe everything from quality of office equipment, office layout, work behavior, body language,
-  facial expressions, etc.
-- Talk to existing employees (important). You'll want to ask about office politics, historic
-  turnover, how the leadership team behaves and acts.
-
-### Behavior Improvement Exercises
-
-The following is taken from [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805/ref=sr_1_1?ie=UTF8&qid=1375569191&sr=8-1&keywords=Drive)
-by Daniel H. Pink to encourage employee/team improvement:
-
-- Implement 20% time with training wheels (by starting at 10% and working up).
-- Allow members of a team to randomly give rewards for being exceptional at what they do.
-- Take an Autonomy Audit - On a scale of 1-10, rank the following (with 10 being the highest):
-  - How much autonomy do you have over your tasks in a given day?
-  - How much autonomy do you have over your time in a given day?
-  - How much autonomy do you have over your team (being able to choose the members you work with)?
-  - How much autonomy do you have over your technique (how you solve problems)?
-- Take three steps towards giving up control (Type-I bosses let members decide):
-  - Involve people in goal settings.
-  - Use non-controlling language.
-  - Hold "office hours" so that any employee can talk with you.
-  - Who's purpose is it?
-  - Test for pronouns. Do employees use "they" or "we/us". The latter is best.
-  - Design for intrinsic motivation. Give users autonomy, mastery, and purpose.
-  - Promote Goldilocks tasks (i.e. simple tasks that can be easily accomplished within harder
-     tasks) for groups:
-    - Begin with a diverse team.
-    - Make the group a no-competition zone. Be collaborative/cooperative.
-    - Try task shifting. If a member is bored, shift to having that member teach another member
-       what he/she knows.
-    - Animate with purpose, don't animate with rewards.
-
-### Further Reading
 
 - [Cultivating a Focused Workplace](http://www.huffingtonpost.com/dan-goleman/cultivating-a-focused-wor_b_4645944.html)
 - [Good to Great](http://www.amazon.com/Good-Great-Companies-Leap-Others/dp/0066620996/ref=tmm_hrd_title_0?_encoding=UTF8&sr=8-1&qid=1375567924) by Jim Collins
