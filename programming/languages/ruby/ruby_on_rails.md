@@ -9,6 +9,7 @@
   - [Models](#models)
   - [Views](#views)
   - [Controllers](#controllers)
+  - [Jobs](#jobs)
   - [Caching](#caching)
   - [Logging](#logging)
 
@@ -100,6 +101,11 @@
 - Use `before_action` and `after_action` macros sparingly. There are cases where assigning the
   current, blocking certain actions, etc. can be helpful but don't over do it.
 - Authorize user access before rendering content.
+
+## Jobs
+
+- [Avoid looping over collections](https://andycroll.com/ruby/dont-loop-and-do-work-in-jobs). Use
+  jobs that work on the smallest units of work for easier debugging, queuing, and testing.
 
 ## Caching
 
