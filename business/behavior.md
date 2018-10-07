@@ -22,48 +22,53 @@ These are the guiding principles of what motivates people to accomplish great th
 
 ## Maintaining Happiness
 
-1. Have a sense of meaning (i.e. drive -- see above).
-1. Smile often. It releases chemicals within the brain and body. It also is contagious amongst
-   others.
-1. Leave personal issues at home. Avoid carrying over any of these issues into the workspace.
-1. Be future focused. Keeping an eye on goals and meeting those goals.
-1. Be thankful. It helps improves others sense of self-worth.
-1. Be relaxed. It's easy to get wrapped up in the heat of the moment. Taking the time to step away
-   from the issue and compose yourself can have a huge effect on you and the people around you.
-1. Be healthy. Goes without saying that exercising and eat healthy food regularly is good for you.
-1. Be organized. Use sticky notes, software, etc. to stay on top of tasks and larger goals.
-1. Avoid multitasking. Despite the sense of feeling productive, it is not. More time is wasted than
-   actually getting things done. Plus, it decreases concentration and creativity.
-1. Be accepting. You can't change who people are but you can find other ways to help or workaround
-   them. Be patience and take the time to do this.
-1. Be moving. Take intermittent breaks and change positions in order keep the blood flowing and give
-   your body time to adjust.
-1. Be sure to reward yourself of goals accomplished.
-1. Be reflective. Keep a journal and record the various events of the day. At the end of each day,
-   reflect on these events. Think about what didn't work, what did work, and what can be improved.
+- Have a sense of meaning (i.e. drive -- see above).
+- Smile often. It releases chemicals within the brain and body. It also is contagious amongst
+  others.
+- Leave personal issues at home. Avoid carrying over any of these issues into the workspace.
+- Be future focused. Keeping an eye on goals and meeting those goals.
+- Be thankful. It helps improves others sense of self-worth.
+- Be relaxed. It's easy to get wrapped up in the heat of the moment. Taking the time to step away
+  from the issue and compose yourself can have a huge effect on you and the people around you.
+- Be healthy. Goes without saying that exercising and eat healthy food regularly is good for you.
+- Be organized. Use sticky notes, software, etc. to stay on top of tasks and larger goals.
+- Avoid multitasking. Despite the sense of feeling productive, it is not. More time is wasted than
+  actually getting things done. Plus, it decreases concentration and creativity.
+- Be accepting. You can't change who people are but you can find other ways to help or workaround
+  them. Be patience and take the time to do this.
+- Be moving. Take intermittent breaks and change positions in order keep the blood flowing and give
+  your body time to adjust.
+- Be sure to reward yourself of goals accomplished.
+- Be reflective. Keep a journal and record the various events of the day. At the end of each day,
+  reflect on these events. Think about what didn't work, what did work, and what can be improved.
 
 ## Behavior Improvement Steps
 
 Apply the following steps in order to discover weaknesses and make improvements:
 
-1. Set random interrupt notifications. Write down what you are doing at the interruption. Are you in
+- Take an Autonomy Audit - On a scale of 1-10, rank the following (with 10 being the highest):
+  - How much autonomy do you have over your tasks in a given day?
+  - How much autonomy do you have over your time in a given day?
+  - How much autonomy do you have over your team (being able to choose the members you work with)?
+  - How much autonomy do you have over your technique (how you solve problems)?
+- Set random interrupt notifications. Write down what you are doing at the interruption. Are you in
    flow? Keep a log of this for a week and/or month to determine what needs improvement.
-1. Define, in one sentence, what your life purpose is.
-1. Ask yourself if you are better today than you were yesterday? Is progress being made? What needs
+- Define, in one sentence, what your life purpose is.
+- Ask yourself if you are better today than you were yesterday? Is progress being made? What needs
    to change?
-1. Take a year off every seven years to reflect, explore, and live life.
-1. Give yourself a performance review every month and figure out what worked and failed? Be brutally
+- Take a year off every seven years to reflect, explore, and live life.
+- Give yourself a performance review every month and figure out what worked and failed? Be brutally
    honest. Is progress being made? What needs to change?
-1. Maintain deliberate practice:
-    1. Measure and improve performance.
-    1. Repeat. Repeat. Repeat.
-    1. Ask for constant feedback.
-    1. Focus ruthlessly on weaknesses and turn them into strengths.
-    1. Prepare for mental exhaustion.
-1. Keep asking yourself the following:
-    1. What gets you up in the morning?
-    1. What keeps you up at night?
-    1. What are you going to do about each?
+- Maintain deliberate practice:
+  - Measure and improve performance.
+  - Repeat. Repeat. Repeat.
+  - Ask for constant feedback.
+  - Focus ruthlessly on weaknesses and turn them into strengths.
+  - Prepare for mental exhaustion.
+- Keep asking yourself the following:
+  - What gets you up in the morning?
+  - What keeps you up at night?
+  - What are you going to do about each?
 
 ## Recommended Books
 
