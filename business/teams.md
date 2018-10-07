@@ -5,6 +5,7 @@
 ## Table of Contents
 
   - [Dynamics](#dynamics)
+  - [Size](#size)
   - [Workspaces](#workspaces)
   - [Statistics](#statistics)
     - [General](#general)
@@ -23,6 +24,11 @@ five key dynamics that set successful teams apart from other teams:
 1. **Structure and Clarity**: Are goals, roles, and execution plans clear?
 1. **Meaning**: Are we working on something that is personally important for each of us?
 1. **Impact**: Do we fundamentally believe the work we are doing matters?
+
+## Size
+
+- Use a team size of three (one designer and two engineers). Remember:
+  [Small Teams Win And Bigger Ones Fail](https://is.gd/63WXiz).
 
 ## Workspaces
 
