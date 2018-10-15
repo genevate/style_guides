@@ -58,6 +58,8 @@
         # Yes
         scope(:published, -> { where status: :published })
         Post.published
+  - Ensure each scope answers an `ActiveRelation` object in order to be chained, encourage
+    flexibility, and reuse.
   - Avoid scopes that only use `#order` or `#limit`. Unless this is a common pattern, it's better to
     chain onto an existing scope for specific situations.
 - Avoid adding business logic of any kind to models. Your models should only surface data and
