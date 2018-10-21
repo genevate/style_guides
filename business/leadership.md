@@ -26,6 +26,10 @@
     - Be quick to constructively criticise. The longer you wait, the worse the situation will become.
     - Give praise but only when it is sincere and meaningful. Get this wrong and you'll do more
       damage than never giving praise in the first place. Plus, you'll lose credibility and respect.
+    - [Enourage others to tell the truth by recognizing those who do](https://is.gd/8W7UtO). This
+      can be accomplished by sharing critical feedback, tough questions, etc. Do this publically by
+      recognizing the person who gave it (even if you might not agree) in a sincere and heartfelt
+      manner. This indicates to others they can share, safely, too.
 1. Be transparent: Share information often, clearly, and concisely.
 1. Be empathetic and caring -- Strive to understand what motivates people:
     - Past: Listen to where they came from, what makes them tick, and how they got to where they are
@@ -39,18 +43,18 @@
       [1x1 meetings](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster).
     - Encourage an open channel of communication and honest feedback.
     - Tackle and resolve issues as they arise.
-    - Grab a room if information is sensitive but otherwise go for a walk, grab a drink at a local
-      tea shop, or get out of the office altogether.
+    - Allow sensitive feedback to be submitted anonymously.
+    - Find a private space if information is sensitive and needs direct face-to-face communication.
+      Otherwise go for a walk, grab a drink at a local tea shop, or get out of the office
+      altogether.
 1. Be a [mentor](https://alistapart.com/article/be-a-mentor), always.
 1. Be decisive but not a dictator:
-    - Always base decisions on productivity not politics.
-    - Never mandate how work will be performed/completed.
+    - Base decisions on productivity not politics.
+    - Avoid mandating how work will be performed/completed.
     - Facilitate and listen. Let the team come to their own conclusions.
     - Debate and clarify all decisions.
     - Negotiate diversity and resistance into resolved actions.
-    - Don't be afraid to delegate decisions to people that know the information better than you.
-    - Don't defer decisions to senior staff when people, in the meeting, know the information
-      better.
+    - Delegate decisions to people that know the content better than you.
 1. Be cautious of high performers:
     - The occurance of these types of individuals is extremely rare.
     - Warning signs of perceived high output:
@@ -83,10 +87,10 @@
     - It's important that these individuals be publically recognized with appropriate title when
       promoted.
 1. Be accommodating:
-    - When employees ask for better equipment, flexible schedules, etc. do it. Unless the requests
-      are ceaseless or the request would impact budget in a significant manner, do it. *Again, don't
-      underestimate the morale boost this provides.*
-1. Remember that excellent management doesn't scale. Limit your time and attention team to five
+    - When small requests are asked of you such as better equipment, flexible schedules, etc. *do
+      it*. Unless the requests are ceaseless or the request would impact budget in a significant
+      manner, do it. *Don't underestimate the morale boost this provides.*
+1. Remember that excellent management doesn't scale. Limit your time and attention to a team of five
    people or less.
 1. Have faith and confidence in your team.
 
