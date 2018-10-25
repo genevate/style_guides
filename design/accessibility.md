@@ -29,6 +29,9 @@
 
 ## Guidelines
 
+- Use `lang` attribute to ensure document is read correctly via screen readers. Common use is `<html
+  lang="en-US">` but can also be applied to specific tags within the document when content contains
+  mixed use of language.
 - Use concise but descriptive text for image `alt` attributes. Example: *"Red barn with aluminum
   roof and dilapidated wooden door set against freshly plowed field and clear blue sky."*
 - Use the image `alt` attribute to avoid invalid HTML and inconsistent behavior. It also prevents
