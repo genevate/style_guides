@@ -1,3 +1,16 @@
+# 0.27.0 (2018-11-01)
+
+- Added Ruby on Rails job styles.
+- Added language attribute guideline to accessibility styles.
+- Added return values to Ruby on Rails model styles.
+- Added team size to team styles.
+- Updated basic communication styles.
+- Updated business behavior styles.
+- Updated business culture styles.
+- Updated group chat communication styles.
+- Updated leadership style documentation.
+- Updated to Ruby 2.5.3.
+
 # 0.26.0 (2018-10-01)
 
 - Added architecture notes to basic programming style guide.
