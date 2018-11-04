@@ -92,6 +92,17 @@
   all arguments) but can answer a `Maybe`.
 - Avoid using `Maybe List a`. Any function, like `List`, which has an inherent empty state (i.e.
   `[]`) does not need to classifed as a `Maybe`.
+- Use `a` or `an` prefixes for function arguments that are maybes. This clarifies the type when used
+  in a `case` statment to avoid ambiguity and use of unwanted shadow variables. Example:
+
+      toLabel : Maybe String -> String
+      toLabel aLabel =
+        case aLabel of
+          Just label ->
+            label
+
+          Nothing ->
+            "Unknown"
 
 ## Records
 
