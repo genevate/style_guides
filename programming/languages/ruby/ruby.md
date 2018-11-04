@@ -19,6 +19,7 @@
   - [Enumerables](#enumerables)
   - [Arrays](#arrays)
   - [Hashes](#hashes)
+  - [Time](#time)
   - [Loops](#loops)
   - [Breaks](#breaks)
   - [Control Flow](#control-flow)
@@ -428,6 +429,10 @@
     1. Blocks are lazy evaluated which improves application performance.
 - Use symbols as default values for Hash#fetch. This will make it easier to debug when a value is
   expected but not supplied. Example: `example.fetch(:logger) { :unknown_logger }`.
+
+## Time
+
+- Use `Process.clock_gettime` instead of `Time.now` when needing precise measurements.
 
 ## Loops
 
