@@ -13,86 +13,85 @@
 
 ## Guidelines
 
-1. Earn and maintain the respect and trust of your team.
-1. Empower teammates with the autonomy to be creative and solve problems.
-1. Allow teammates to gain/achieve mastery.
-1. Empower teammates with a sense of purpose/drive.
-1. Protect teammates from daily distractions and interruptions.
-1. Identify weaknesses and focus on turning them into strengths but also build upon existing
-   strengths.
-1. Be human. Strive to make a connection with each and every one of your teammates so that you can
-   understand who they are, what drives them, and how best to help them grow.
-1. Be honest:
-    - Be quick to constructively criticise. The longer you wait, the worse the situation will become.
-    - Give praise but only when it is sincere and meaningful. Get this wrong and you'll do more
-      damage than never giving praise in the first place. Plus, you'll lose credibility and respect.
-    - [Enourage others to tell the truth by recognizing those who do](https://is.gd/8W7UtO). This
-      can be accomplished by sharing critical feedback, tough questions, etc. Do this publically by
-      recognizing the person who gave it (even if you might not agree) in a sincere and heartfelt
-      manner. This indicates to others they can share, safely, too.
-1. Be transparent: Share information often, clearly, and concisely.
-1. Be empathetic and caring -- Strive to understand what motivates people:
-    - Past: Listen to where they came from, what makes them tick, and how they got to where they are
-      now.
-    - Present: Listen to what they think of the current situation, how they feel about it, and how
-      they would change it.
-    - Future: Listen to what drives them, where they are excited about going, and how you can help
-      in these endeavors.
-1. Be a good listener:
-    - Maintain consistently scheduled
-      [1x1 meetings](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster).
-    - Encourage an open channel of communication and honest feedback.
-    - Tackle and resolve issues as they arise.
-    - Allow sensitive feedback to be submitted anonymously.
-    - Find a private space if information is sensitive and needs direct face-to-face communication.
-      Otherwise go for a walk, grab a drink at a local tea shop, or get out of the office
-      altogether.
-1. Be a [mentor](https://alistapart.com/article/be-a-mentor), always.
-1. Be decisive but not a dictator:
-    - Base decisions on productivity not politics.
-    - Avoid mandating how work will be performed/completed.
-    - Facilitate and listen. Let the team come to their own conclusions.
-    - Debate and clarify all decisions.
-    - Negotiate diversity and resistance into resolved actions.
-    - Delegate decisions to people that know the content better than you.
-1. Be cautious of high performers:
-    - The occurance of these types of individuals is extremely rare.
-    - Warning signs of perceived high output:
-      - Not spending the necessary time to architect and design software using good design patterns.
-      - Failure to craft code that is self-documenting, easy to read, and easy to maintain.
-      - Failure to avoid code smells.
-      - Failure to adequately test.
-1. Be a motivator. Do this for every teammate by taking action, when necessary, to engage people in
-   the mission and vision of the team/company.
-1. Be accountable. Be responsible for tasks assigned to the team and hold teammates to the same
-   standard for their work accordingly.
-1. Be focused on quality:
+- Earn and maintain the respect and trust of your team.
+- Empower teammates with the autonomy to be creative and solve problems.
+- Allow teammates to gain/achieve mastery.
+- Empower teammates with a sense of purpose/drive.
+- Protect teammates from daily distractions and interruptions.
+- Identify weaknesses and focus on turning them into strengths but also build upon existing
+  strengths.
+- Be human. Strive to make a connection with each and every one of your teammates so that you can
+  understand who they are, what drives them, and how best to help them grow.
+- Be honest:
+  - Be quick to constructively criticise. The longer you wait, the worse the situation will become.
+  - Give praise but only when it is sincere and meaningful. Get this wrong and you'll do more damage
+    than never giving praise in the first place. Plus, you'll lose credibility and respect.
+  - [Enourage others to tell the truth by recognizing those who do](https://is.gd/8W7UtO). This can
+    be accomplished by sharing critical feedback, tough questions, etc. Do this publically by
+    recognizing the person who gave it (even if you might not agree) in a sincere and heartfelt
+    manner. This indicates to others they can share, safely, too.
+- Be transparent: Share information often, clearly, and concisely.
+- Be empathetic and caring -- Strive to understand what motivates people:
+  - Past: Listen to where they came from, what makes them tick, and how they got to where they are
+    now.
+  - Present: Listen to what they think of the current situation, how they feel about it, and how
+    they would change it.
+  - Future: Listen to what drives them, where they are excited about going, and how you can help in
+    these endeavors.
+- Be a good listener:
+  - Maintain consistently scheduled
+    [1x1 meetings](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster).
+  - Encourage an open channel of communication and honest feedback.
+  - Tackle and resolve issues as they arise.
+  - Allow sensitive feedback to be submitted anonymously.
+  - Find a private space if information is sensitive and needs direct face-to-face communication.
+    Otherwise go for a walk, grab a drink at a local tea shop, or get out of the office altogether.
+- Be a [mentor](https://alistapart.com/article/be-a-mentor), always.
+- Be decisive but not a dictator:
+  - Base decisions on productivity not politics.
+  - Avoid mandating how work will be performed/completed.
+  - Facilitate and listen. Let the team come to their own conclusions.
+  - Debate and clarify all decisions.
+  - Negotiate diversity and resistance into resolved actions.
+  - Delegate decisions to people that know the content better than you.
+- Be cautious of high performers:
+  - The occurance of these types of individuals is extremely rare.
+  - Warning signs of perceived high output:
+    - Not spending the necessary time to architect and design software using good design patterns.
+    - Failure to craft code that is self-documenting, easy to read, and easy to maintain.
+    - Failure to avoid code smells.
+    - Failure to adequately test.
+- Be a motivator. Do this for every teammate by taking action, when necessary, to engage people in
+  the mission and vision of the team/company.
+- Be accountable. Be responsible for tasks assigned to the team and hold teammates to the same
+  standard for their work accordingly.
+- Be focused on quality:
     - Encourage tackling every feature, bug, issue, etc. as a chance to pay down technical dept,
       refactor, and carve complex code into smaller (easier to read) pieces of functionality.
     - Encourage diligence in deleting old/unused code/features.
     - Baking continual improvement/refinement as a core team value encourages mastery, automony, and
       a strong sense of purpose making the team happier in the long run to achieve higher results.
       *It should not be underestimated how important a morale boost this is.*
-1. Be a peer to the team.
-1. Be additional help when help is needed.
-1. Be encouraging of code ownership:
-    - Craft engineers, not bards (a.k.a. a jack/jill of all trades but master of none). Abandon the
-      notion that team members are replacable cogs that need to have shared knowledge across all
-      code bases. Instead, allow for code ownership of specific code bases instead. Provide the
-      ability for each team member to slowly and carefully build knowledge and expertise in the
-      various pillars of your architecture. They can eventually move on to other pillars but let
-      them become masters first.
-1. Be on the lookout for natural leaders:
-    - These are the people that other team members constantly seek out for advice/help.
-    - It's important that these individuals be publically recognized with appropriate title when
-      promoted.
-1. Be accommodating:
-    - When small requests are asked of you such as better equipment, flexible schedules, etc. *do
-      it*. Unless the requests are ceaseless or the request would impact budget in a significant
-      manner, do it. *Don't underestimate the morale boost this provides.*
-1. Remember that excellent management doesn't scale. Limit your time and attention to a team of five
-   people or less.
-1. Have faith and confidence in your team.
+- Be a peer to the team.
+- Be additional help when help is needed.
+- Be encouraging of code ownership:
+  - Craft engineers, not bards (a.k.a. a jack/jill of all trades but master of none). Abandon the
+    notion that team members are replacable cogs that need to have shared knowledge across all code
+    bases. Instead, allow for code ownership of specific code bases instead. Provide the ability for
+    each team member to slowly and carefully build knowledge and expertise in the various pillars of
+    your architecture. They can eventually move on to other pillars but let them become masters
+    first.
+- Be on the lookout for natural leaders:
+  - These are the people that other team members constantly seek out for advice/help.
+  - It's important that these individuals be publically recognized with appropriate title when
+    promoted.
+- Be accommodating:
+  - When small requests are asked of you such as better equipment, flexible schedules, etc. *do it*.
+    Unless the requests are ceaseless or the request would impact budget in a significant manner, do
+    it. *Don't underestimate the morale boost this provides.*
+- Remember that excellent management doesn't scale. Limit your time and attention to a team of five
+  people or less.
+- Have faith and confidence in your team.
 
 ## Tactics
 
