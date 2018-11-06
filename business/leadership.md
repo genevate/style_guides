@@ -40,27 +40,31 @@
     these endeavors.
 - Be a good listener:
   - Maintain consistently scheduled
-    [1x1 meetings](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster).
+    [1x1 meetings](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster) and
+    *never* be late.
+  - [Encourage thoughtful debate](https://is.gd/qxOhIV):
+    - Assign others the task of disagreeing with you.
+    - Allow the less experienced the chance to speak first.
+    - Have those, with the strongest opinion, speak last.
+    - Ask others what they think before adding your own thoughts.
+    - *Ask everyone to explain their reasoning rather than state opinion*.
+    - Ask for advice.
+    - Admit what you are unsure or struggling with.
   - Encourage an open channel of communication and honest feedback.
+    - Allow sensitive feedback to be submitted anonymously.
+    - Find a private space if information is sensitive and needs direct face-to-face communication.
+      Otherwise go for a walk, grab a drink at a local tea shop, or get out of the office
+      altogether.
   - Tackle and resolve issues as they arise.
-  - Allow sensitive feedback to be submitted anonymously.
-  - Find a private space if information is sensitive and needs direct face-to-face communication.
-    Otherwise go for a walk, grab a drink at a local tea shop, or get out of the office altogether.
 - Be a [mentor](https://alistapart.com/article/be-a-mentor), always.
+- Be a peer. Provide additional help when help is needed.
 - Be decisive but not a dictator:
-  - Base decisions on productivity not politics.
+  - Base decisions on productivity, not politics.
   - Avoid mandating how work will be performed/completed.
   - Facilitate and listen. Let the team come to their own conclusions.
   - Debate and clarify all decisions.
   - Negotiate diversity and resistance into resolved actions.
   - Delegate decisions to people that know the content better than you.
-- Be cautious of high performers:
-  - The occurance of these types of individuals is extremely rare.
-  - Warning signs of perceived high output:
-    - Not spending the necessary time to architect and design software using good design patterns.
-    - Failure to craft code that is self-documenting, easy to read, and easy to maintain.
-    - Failure to avoid code smells.
-    - Failure to adequately test.
 - Be a motivator. Do this for every teammate by taking action, when necessary, to engage people in
   the mission and vision of the team/company.
 - Be accountable. Be responsible for tasks assigned to the team and hold teammates to the same
@@ -72,8 +76,6 @@
     - Baking continual improvement/refinement as a core team value encourages mastery, automony, and
       a strong sense of purpose making the team happier in the long run to achieve higher results.
       *It should not be underestimated how important a morale boost this is.*
-- Be a peer to the team.
-- Be additional help when help is needed.
 - Be encouraging of code ownership:
   - Craft engineers, not bards (a.k.a. a jack/jill of all trades but master of none). Abandon the
     notion that team members are replacable cogs that need to have shared knowledge across all code
@@ -89,7 +91,14 @@
   - When small requests are asked of you such as better equipment, flexible schedules, etc. *do it*.
     Unless the requests are ceaseless or the request would impact budget in a significant manner, do
     it. *Don't underestimate the morale boost this provides.*
-- Remember that excellent management doesn't scale. Limit your time and attention to a team of five
+- Be cautious of high performers:
+  - The occurance of these types of individuals is extremely rare.
+  - Warning signs of perceived high output:
+    - Not spending the necessary time to architect and design software using good design patterns.
+    - Failure to craft code that is self-documenting, easy to read, and easy to maintain.
+    - Failure to avoid code smells.
+    - Failure to adequately test.
+- Remember excellent management doesn't scale. Limit your time and attention to a team of five
   people or less.
 - Have faith and confidence in your team.
 
