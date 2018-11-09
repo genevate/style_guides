@@ -15,12 +15,18 @@
 
 - [Web Accessibility Business Case](https://www.w3.org/WAI/bcase/Overview) - Reason why it is
   important to design with accessibility in mind.
+- [Web Accessibility Fundamentals](https://www.w3.org/WAI/fundamentals/accessibility-intro) - Learn
+  the fundamentals (especially how people with disabilities use the web).
 - [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21) - These are the
   official W3C recommendations.
+- [WAI-ARIA Authoring Practices](http://w3c.github.io/aria-practices) - Provides information on how
+  to use WAI-ARIA properly within rich web applications.
 - [Designing for Accessibility](https://is.gd/T3eZCD) - It doesn't need to be hard to design for
   accessibility. This article walks through the core criteria.
 - [Accessibility Developer Guide](https://www.accessibility-developer-guide.com) - A getting started
   guide to accessible web development.
+- [A11Y Style Guide](https://a11y-style-guide.com/style-guide) - A living document with examples and
+  code snippets.
 
 ## Checklists
 
@@ -29,6 +35,7 @@
 
 ## Guidelines
 
+- Use semantic structure as it is more important than developer ergonomics.
 - Use `lang` attribute to ensure document is read correctly via screen readers. Common use is `<html
   lang="en-US">` but can also be applied to specific tags within the document when content contains
   mixed use of language.
