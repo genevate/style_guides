@@ -10,8 +10,9 @@
   - [Views](#views)
   - [Controllers](#controllers)
   - [Jobs](#jobs)
-  - [Caching](#caching)
-  - [Logging](#logging)
+  - [Caches](#caches)
+  - [Logs](#logs)
+  - [Tests](#tests)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
 
@@ -109,7 +110,7 @@
 - [Avoid looping over collections](https://andycroll.com/ruby/dont-loop-and-do-work-in-jobs). Use
   jobs that work on the smallest units of work for easier debugging, queuing, and testing.
 
-## Caching
+## Caches
 
   - Use `#stale?` when calculating responses in order to properly detect if there are changes or
     not. This will speed up response time by avoiding the template later if there are no changes
@@ -118,7 +119,7 @@
   - Add caches_page when appropriate. Example: `caches_page :index, :show`.
   - Add expires_page when appropriate. Example: `action: :show, id: @post`.
 
-## Logging
+## Logs
 
 - Use blocks when logging as [blocks are more performant](http://bit.ly/2FaEcit):
 
@@ -127,3 +128,9 @@
 
         # Yes
         logger.debug { "Example" }
+
+## Tests
+
+- Use [request specs instead of controller tests](https://www.codewithjason.com/use-controller-request-specs-rails-dont).
+- Use [request specs to test API controllers](https://matthewlehner.net/rails-api-testing-guidelines).
+- Use integration specs to test UI controllers.
