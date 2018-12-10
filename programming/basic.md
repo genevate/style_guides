@@ -29,6 +29,7 @@
   - [Testing](#testing)
     - [Mocks](#mocks)
     - [Stubs](#stubs)
+  - [Security](#security)
   - [Resources](#resources)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
@@ -366,6 +367,13 @@ nothing else.
 ### Stubs
 
 - Avoid stubbing the object under test.
+
+## Security
+
+- Use generic/user friendly error messages when an exception occurs in order to provide a good user
+  experience. Avoid showing stack traces or internal error messages via your API or UI. Make sure
+  these situations are accounted for otherwise you risk exposing information to those who might wish
+  to infiltrate and harm your system.
 
 ## Resources
 
