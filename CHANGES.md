@@ -1,3 +1,19 @@
+# 0.28.0 (2019-01-01)
+
+- Fixed Circle CI cache for Ruby version.
+- Fixed behavior style book URLs.
+- Added Circle CI Bundler cache.
+- Added Elm maybe style for avoiding shadow variables.
+- Added Ruby on Rails test styles.
+- Added Ruby style for dealing with precise time.
+- Added general accessibility links.
+- Added leadership style thoughtful debate guidelines.
+- Added security section to basic programming styles.
+- Updated to Git Cop 3.0.0.
+- Updated to Ruby 2.6.0.
+- Updated to Tocer 8.0.0.
+- Refactored leadership styles to use bullet points.
+
 # 0.27.0 (2018-11-01)
 
 - Added Ruby on Rails job styles.
