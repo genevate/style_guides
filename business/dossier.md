@@ -1,7 +1,7 @@
 # Dossier Styles
 
 In order to effectively collaborate with others, it's nice to have a dossier on all members of the
-team. This removes the awkardness of getting to know someone and provides a foundation for which to
+team. This removes the awkwardness of getting to know someone and provides a foundation for which to
 establish stronger bonds.
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
@@ -28,6 +28,8 @@ Each team member should have the following profile information:
 - **Name** - Your full name.
 - **Tagline** - A short one-sentence blurb that summarizes who you are.
 - **Bio** - A few brief paragraphs that summaries your history.
+- **Chronotype** - What are your best hours of productive, [well-rested](https://is.gd/TGguix)
+  action.
 - **Links** - Allow links to social media, web sites, source code, etc.
 - **Dossier** - See *dossier questions* listed below. These should have protected access to team
   members only but can be marked public if desired.
