@@ -93,10 +93,12 @@ message each conveys:
 - :tada: - Indicates enthusiasm/excitement.
 - :star: - Indicates you favorited/liked the message.
 - :sunflower: - Indicates giving flowers to someone you wish will heal up and feel better soon.
-- :joy: - Indicates joy/laughter in response to something silly/funny.
+- ![:dancing_penguin:](http://emoji.alchemists.io.s3.amazonaws.com/dancing-penguin.gif) - Indicates
+  happiness in response to something fun.
 - :eyes: - Indicates you are reading/reviewing the posted message and plan to respond shortly.
-- :rocket: - Indicates enthusiastic movement, progress, and/or forward traction related to message.
-- :ok: - Indicates acknowledgement of a posted message.
+- :rocket: - Indicates enthusiastic movement, progress, and/or forward traction.
+- :sweat_smile: - Indicates a positive nervousness, slight embarrassment, or hesitation.
+- :ok: - Indicates acknowledgement.
 - :thought_balloon: - Indicates you are pondering the message for future consideration or might
   respond to the message at a later time.
 - :bow: - Indicates thankfulness/gratefulness.
