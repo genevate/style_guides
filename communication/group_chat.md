@@ -8,6 +8,7 @@
   - [General](#general)
   - [Channels](#channels)
   - [Reactions](#reactions)
+  - [Statuses](#statuses)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
 
@@ -102,3 +103,21 @@ message each conveys:
 - :thought_balloon: - Indicates you are pondering the message for future consideration or might
   respond to the message at a later time.
 - :bow: - Indicates thankfulness/gratefulness.
+
+## Statuses
+
+While it is tempting to post a message regarding your status, it's unnecessary due to being able to
+update your status via the `/status` command. This accomplishes two important aspects of
+communication:
+
+1. Provides a visual indication to others of your status so they can hover over your name to learn
+   of your status, see the status change in current discussions, and/or see your status via search.
+1. Avoids notifying the team of your status change so as not to disrupt everyone's workflow.
+
+Emoji's can help too. Examples:
+
+- `/status :rice: Lunch`
+- `/status :racing_motorcycle: Traveling`
+- `/status :books: Craft/Skill Training`
+
+Be creative and brief. Using a word or two is best.
