@@ -1,3 +1,12 @@
+# 0.29.0 (2019-02-01)
+
+- Added acronym avoidance to basic communication styles.
+- Added chronotype to dossier.
+- Added group chat status styles.
+- Added leadership quote to top of style guide.
+- Added nervous reaction to group chat styles.
+- Updated to Ruby 2.6.1.
+
 # 0.28.0 (2019-01-01)
 
 - Fixed Circle CI cache for Ruby version.
