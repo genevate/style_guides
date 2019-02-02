@@ -9,41 +9,24 @@
 
 ## Table of Contents
 
-  - [General](#general)
   - [Mission](#mission)
   - [Core Values](#core-values)
   - [Resources](#resources)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
 
-## General
-
-- Be human.
-- Be learning.
-- Be driven.
-- Be responsible.
-- Be civil.
-- Be appreciative.
-- Be healthy.
-- Be positive.
-- Be transparent.
-- Be humble.
-- Be diverse.
-- Be disciplined.
-- Be fun (and a little weird).
-
 ## Mission
 
-To create an environment where employees are empowered and inspired to reach their greatest
-potential by giving them autonomy, mastery, and purpose. It is by focusing on our employees that we
-can delight, enrich, and astound our customers in ways impossible to imagine otherwise.
+To create an environment where the collective is empowered and inspired to reach their greatest
+potential through autonomy, mastery, and purpose. It is by focusing on our staff that we can
+delight, enrich, and astound our customers in ways impossible to imagine otherwise.
 
 ## Core Values
 
 - Be Human:
   - Prioritize yourself and family first, company second -- Allows you to be rooted in a solid
     foundation which, in turn, ensures a high functioning team.
-  - People, not organizations, build software -- Cherish your employees more than your customers.
+  - People, not organizations, build software -- Cherish your staff more than your customers.
   - Outstanding software and teams can't be built without emotion –- *You have to care!*
 - Be Learning:
   - A learning culture is an adaptable culture that is constantly growing and thinking of new ways
@@ -55,14 +38,23 @@ can delight, enrich, and astound our customers in ways impossible to imagine oth
   - Listen and consider everyone's input before making hasty judgements.
 - Be Driven:
   - Work is not a place you go but something you do.
-  - Provide each employee with the autonomy to work however they want with whatever tools they need
-    to *get things done*.
+  - Provide each individual with the autonomy to work however they want with whatever tools they
+    need to *get things done*.
   - Your schedule and hours worked are your own as long as you focus on *getting things done*.
   - Use dialog and debate to understand and solve complex problems.
   - Act upon your convictions.
+- Be Disciplined:
+  - One aspect of great products/services is that they are well maintained. As when caring for a
+    plant, animal, and/or family member so too must the same be applied to a product/service. Once
+    given life, constant vigilance, maintenance, and care must be provided on a regular basis.
+- Be Augmented:
+  - When detecting repeating patterns, be applying solutions for automating behavior.
+  - Constantly curate and maintain software, services, scripts, etc. that allow you to do a lot with
+    little. Overtime this becomes a toolbox, of sorts, you take with you everywhere you go that
+    augments your experience and skills.
 - [Be Responsible](https://www.youtube.com/watch?v=4E3xfR6IBII):
   - You are hired for your expertise and professionalism -- not for bragging rights, promotional
-    capabilities, or a prized position of your boss/employeer.
+    capabilities, or a prized position of your boss/organization.
   - Avoid actions that waste your time, the customer's time, or the company's money.
   - Lead with questions, not answers -- Listen to and understand the *why* something is important.
   - Question *why* something is necessary -- Does the benefit outweigh the effort?
@@ -73,16 +65,26 @@ can delight, enrich, and astound our customers in ways impossible to imagine oth
     space and/or team code of conduct is violated, decisive action is taken on the responsible
     culprits.
   - Conduct autopsies without blame -- Analyze, learn, and pivot instead.
+- Be Diverse:
+  - Be inclusive of different cultures, ethnicities, and genders.
+  - A diverse team is a team that can tackle and solve complex situations more easily. Do not ignore
+    this.
 - [Be Civil](https://rework.withgoogle.com/blog/how-incivility-shuts-down-our-brains-at-work):
   - Improves focus and processing of information.
-  - Helps employees achieve their greatest potential.
+  - Helps individuals achieve their greatest potential.
 - Be Appreciative:
   - Big or small, each contribution is valued and encouraged. Always.
   - Reward those who have drive, focus, discipline, and professional conduct instead of knowing
     everything.
   - Pay and compensation should be equal to or higher than the industry average. Period.
+- Be Humble:
+  - Keep a modest view of you own importance.
+  - Be self-reflective and introspective of your actions and interactions with others and the work
+    you do.
+  - Avoid being vain and/or overly confident.
 - Be Healthy:
-  - Focus on a healthy mental/physical balance.
+  - Focus on a healthy mental/physical balance by taking time to walk outside, excercise, medidate,
+    read, or anything that will help keep both your body and mind in a healthy state.
   - If overtime is put in, reward accordingly. Spurts are allowed but sustained overtime should be
     prevented to avoid burnout.
 
