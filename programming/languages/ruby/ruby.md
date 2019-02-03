@@ -741,7 +741,7 @@ order listed):
 ## Modules
 
 - Modules allow code to be namespaced.
-- When defining modules, use nesting instead of shorthand:
+- When defining modules, use nesting instead of a flat structure:
 
           # No
           module ParentModule::ChildModule
@@ -754,15 +754,15 @@ order listed):
               Module.nesting # => [ParentModule::ChildModule, ParentModule]
             end
           end
-    - When nested, you maintain hierarchy and constant/method lookup within the hierarchy. Using the
-      shorthand would cause constants, for example, defined in the *ParentModule- to not be found
-      and makes debugging any related errors much harder.
+    - When nested, hierarchy is maintained so constant/method lookup is relative to the hierarchy.
+      Using a flat structure would cause constants, for example, defined in the *ParentModule* to
+      not be found and makes debugging related errors harder.
 - Use `module_function` to mark methods in a module that will be private instance methods when
   included in a class. These methods can also be accessed as class level methods via the module.
   This allows classes to include module methods when all or many of the methods are needed by the
   class but also allows classes to simply reference the module directly when only a few of the
   methods are required.
-- Submodles can include containing modules. Example:
+- Submodules can include containing modules. Example:
 
         module Outer
           module Inner
