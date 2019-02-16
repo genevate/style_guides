@@ -70,6 +70,8 @@
 - Avoid validations. Validations add side effects that is hard to maintain and test in all
   situations. Use database constraints (especially uniqueness contraints) when possible. Otherwise,
   extract behavior to business objects.
+- [Avoid `has_one` assignment](https://andycroll.com/ruby/be-careful-assigning-to-has-one-relations)
+  as it can lead to unexpected consequences.
 - Attachments
   - Avoid `ActiveStorage` as it introduces polymorphic and single table inheritance to your
     application that makes one table a junk pile of attachment associations. Use gems like
