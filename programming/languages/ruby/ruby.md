@@ -797,12 +797,13 @@ order listed):
 - Use `snake_case` for method names.
 - Use `?` for boolean methods which answer only `true` or `false`. Example: `user.admin?`
 - Use `!` for cautionary methods. Example: `example.destroy!` Usages:
-  - When writing an implementation, only add a band method when a non-bang method version exists and
-    there is a need for a version that has a surpising outcome.
-  - Use when throwing an error instead of an expected type.
-  - Use when bypassing a cache to force fetch.
-  - Use when implementation has performance implications.
-  - Use when it may cause unexpected side effects.
+  - Use a bang method when a non-bang method exists and there is a need for a version that has a
+    surpising outcome and/or unexpected side effects.
+  - Use when method mutates input.
+  - Use when throwing an error instead of answering an expected type.
+  - Use for destructive actions (like deleting a record from the database).
+  - Use when bypassing a cache to force a fetch.
+  - Use when an implementation has performance implications.
 - Define methods in the following order (from top to bottom within class definition):
     - Class methods
     - Public methods
