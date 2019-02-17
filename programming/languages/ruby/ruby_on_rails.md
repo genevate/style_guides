@@ -6,6 +6,7 @@
 
   - [Objects](#objects)
   - [Database](#database)
+  - [Migrations](#migrations)
   - [Models](#models)
   - [Views](#views)
   - [Controllers](#controllers)
@@ -42,6 +43,14 @@
           adapter: postgresql
           statement_limit: 200
 - Use the `_at` suffix to represent represent date/time columns. Example: `published_at`.
+
+## Migrations
+
+- Use migrations to alter the *schema* of your database, not the *data*.
+- Use Rake tasks or [Data Migrate](https://github.com/ilyakatz/data-migrate), for example, to
+  migrate/update the *data* in your database.
+- Ensure *schema* and *data* migrations are part of your test suite and run with every build (this
+  includes building up a database from scratch, running all schema and data migrations).
 
 ## Models
 
