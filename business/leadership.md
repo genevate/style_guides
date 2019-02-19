@@ -3,6 +3,9 @@
 > *The relationship with one's manager is the lens through which the whole work experience is
 > viewed.* -- Marcus Blankenship
 
+> *"The manager’s function is not to make people work, but to make it possible for people to work."*
+> -- Peopleware: Productive Projects and Teams
+
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
 ## Table of Contents
