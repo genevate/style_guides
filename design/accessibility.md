@@ -54,6 +54,8 @@
       before continuing.
 - Avoid using the `placeholder` attribute (or if used, ensure it ends up being a label so valuable
   usage information isn't lost).
+- [Avoid default field validation](http://adrianroselli.com/2019/02/avoid-default-field-validation.html)
+  as it is harmful to accessibility.
 
 ## Tools
 
