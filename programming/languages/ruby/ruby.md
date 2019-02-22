@@ -531,27 +531,33 @@
           ...
           ...
         end
+- :bulb: `do…end` has higher precedence over `{…}`
+- :bulb: All methods can accept a block by default without any change to the method signature.
+  Example:
 
-*NOTE: `do…end` blocks have a higher precedence over `{…}` blocks*
+        def example
+          yield if block_given?
+        end
 
 ## Procs
 
+- Use `proc` instead of `Proc.new` as provided by the Kernel module as it's more succinct.
 - Disregards extra arguments without error.
-- Returns from the scope of the bounded object (i.e. returns from the scope of the object in which
-  the proc was defined).
-- Use `proc` instead of `Proc.new` as provided by the Kernel module.
-- Procs can be called the following ways (the first option, however, is more readable):
+- :bulb: Returns from the scope of the bounded object (i.e. returns from the scope of the object in
+  which the proc was defined).
+- :bulb: Can be called the following ways (the first option, however, is more readable):
     - example.call "hello"
     - example["hello"]
     - example.("hello")
-- The `===` method which calls `call` is useful when used as a predicate in case statements.
+- :bulb: `#===` calls `#call` which is useful when used as a predicate in case statements.
 
 ## Lambdas
 
-- Respects defined arguments and throws errors if extra arguments are not defined.
-- Returns from the scope of the lambda, not the bounded object in which it was defined.
-- Use lambdas, by default, over procs.
-- Lambda can be defined via `lambda` or `->`. The latter is preferred.
+- Use `->` for single lines.
+- Use `lambda` for multiple lines.
+- Use lambdas instead of procs when arity matters (i.e. the number of arguments is required).
+- Use when needing to `return` from the scope of the lambda and not the bounded object in which it
+  was defined.
 
 ## Exceptions
 
