@@ -1,3 +1,18 @@
+# 0.30.0 (2019-03-01)
+
+- Fixed Performance Review wording.
+- Fixed Ruby module styles.
+- Fixed Ruby style documentation for bang and question methods.
+- Added HTML required field avoidance to accessibility style.
+- Added Peopleware quote for a manager's function to leadership styles.
+- Added Rack styles.
+- Added Rails style for `has_one` assignment.
+- Added Rails style for schema and data migrations.
+- Added open office design failure article to business culture style.
+- Updated Ruby styles for blocks, procs, and lambdas.
+- Updated group chat reaction emoticons.
+- Refactored culture general styles into core values.
+
 # 0.29.0 (2019-02-01)
 
 - Added acronym avoidance to basic communication styles.
