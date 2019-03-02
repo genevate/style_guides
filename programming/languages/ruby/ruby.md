@@ -48,10 +48,9 @@
   - [Macros](#macros)
   - [Deprecations](#deprecations)
   - [Threads](#threads)
+  - [Processes](#processes)
   - [Files](#files)
   - [Load versus Require](#load-versus-require)
-  - [Tests](#tests)
-    - [MiniTest](#minitest)
   - [Resources](#resources)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
@@ -1008,15 +1007,6 @@ There are a few rules for conversion functions:
 - Prefer `require` over `load`.
 - Use `load` when you need to read and load files every time you parse it.
 - Use `require` when you need to read and load files when referenced the first time only.
-
-## Tests
-
-### MiniTest
-
-- Run a single test: `example_test.rb --name=test_me`
-- Run tests that match a regular expresion: `example_test.rb --name=/test_me/`
-- Alternatively, the TESTOPTS environment variable can be used: `TESTOPTS="--name=test_me"
-  example_test.rb`
 
 ## Resources
 
