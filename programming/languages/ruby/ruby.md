@@ -805,6 +805,8 @@ order listed):
 
 ## Methods
 
+- Use small methods that have a single responsibility. *There are never too many small methods as
+  long as they provide clarity and express intent.*
 - Use `snake_case` for method names.
 - Use `?` for boolean methods which answer only `true` or `false`. Example: `user.admin?`
 - Use `!` for cautionary methods. Example: `example.destroy!` Usages:
