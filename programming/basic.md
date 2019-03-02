@@ -14,9 +14,9 @@
   - [Command-Query Separation (CQS)](#command-query-separation-cqs)
   - [Tell Don't Ask](#tell-dont-ask)
   - [Pluggable Selector](#pluggable-selector)
-  - [The Law of Demeter (LoD)](#the-law-of-demeter-lod)
-  - [Single responsibility, Open-closed, Liskov substitution, Interface segregation and Dependency inversion (SOLID)](#single-responsibility-open-closed-liskov-substitution-interface-segregation-and-dependency-inversion-solid)
-  - [Transparent, Reasonable, Usable, and Exemplary (TRUE)](#transparent-reasonable-usable-and-exemplary-true)
+  - [Law of Demeter (LoD)](#law-of-demeter-lod)
+  - [S.O.L.I.D.](#solid)
+  - [T.R.U.E.](#true)
   - [Recognizing Dependencies](#recognizing-dependencies)
   - [Inheritance](#inheritance)
   - [Composition](#composition)
@@ -54,8 +54,8 @@
   take away" -- Antoine de Saint Exupéry. By default, architect software to be minimalisitic in
   nature. Constantly strive to remove that which you don't need. It takes maintenance and discipline
   to see this through but will produce a well tuned system that is easier to maintain and
-  understand. For more on this, read [In Pursuit of Production
-  Minimalism](https://brandur.org/minimalism).
+  understand. For more on this, read:
+  [In Pursuit of Production Minimalism](https://brandur.org/minimalism).
 
 ## Sandi Metz Rules
 
@@ -140,7 +140,7 @@ before a good name can be derived. Here are some guidelines worth following:
 
 ## Command-Query Separation (CQS)
 
-- Specifies that methods should be categorized as follows:
+- Specifies methods should be categorized as follows:
   - **Queries**: Answer a result without changing the observable system state (i.e. no side side
     effects). Also means that queries can be chained (in any order) without consequences.
   - **Commands** (a.k.a. modifiers/mutators): Change the system state but do not answer a result.
@@ -168,7 +168,7 @@ before a good name can be derived. Here are some guidelines worth following:
 - Allows for highly customizable code but introduces additional levels of indirection and
   complexity.
 
-## The Law of Demeter (LoD)
+## Law of Demeter (LoD)
 
 - Assume no knowledge of an object's internal structure.
 - A method can call other methods in its class directly.
@@ -181,7 +181,9 @@ before a good name can be derived. Here are some guidelines worth following:
   - Bad: task.owner.full_name. (i.e. task --> owner --> string)
   - Good: task.owner_full_name.
 
-## Single responsibility, Open-closed, Liskov substitution, Interface segregation and Dependency inversion (SOLID)
+## S.O.L.I.D.
+
+Represents for the following principals:
 
 - [Single Responsibility Pattern (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle) - A
   class/module/method should only have one, and only one, reason to change.
@@ -202,7 +204,9 @@ before a good name can be derived. Here are some guidelines worth following:
   - High-level modules should not depend on low-level modules. Both should depend on abstractions.
   - Abstractions should not depend on details. Details should depend on abstractions.
 
-## Transparent, Reasonable, Usable, and Exemplary (TRUE)
+## T.R.U.E.
+
+T.R.U.E. code not only meets today's needs but can also be changed to meet the needs of the future.
 
 - **Transparent** - The consequences of change should be obvious in the code that is changing and in
   distant code that relies upon it.
@@ -211,8 +215,6 @@ before a good name can be derived. Here are some guidelines worth following:
 - **Usable** - Existing code should be usable in new and unexpected contexts.
 - **Exemplary** - The code itself should encourage those who change it to perpetuate these
   qualities.
-
-TRUE code not only meets today's needs but can also be changed to meet the needs of the future.
 
 ## Recognizing Dependencies
 
@@ -366,7 +368,7 @@ nothing else.
 
 ### Stubs
 
-- Avoid stubbing the object under test.
+- Avoid stubbing objects being tested.
 
 ## Security
 
