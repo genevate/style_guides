@@ -980,15 +980,22 @@ There are a few rules for conversion functions:
 
 ## Threads
 
-- Use .handle_interrupt over #raise or #kill to safely handle asynchronise interrupts. NOTE: These
-  are hard to use correctly so read method documentation for more info.
+- Use `.handle_interrupt` over `#fail` or `#kill` to safely handle asynchronise interrupts *These
+  are hard to use correctly so read method documentation for more info.*
 - Use `MonitorMixin` (via `require "monitor"` and `include MonitorMixin`) to enhance an existing
-  class so that all methods are executed with mutual exclusion (including recursive exclusion).
-  NOTE: This might be overkill in some cases where using a Mutex would be simpler. Read the
-  documentation for further details.
+  class so all methods are executed with mutual exclusion (including recursive exclusion). *This
+  might be overkill in some cases where using a Mutex would be simpler. Read the documentation for
+  details.*
 - Use the [Concurrent Ruby](https://github.com/ruby-concurrency/concurrent-ruby) gem as an
-  alternative to making mutually exclusive operations Additionally, it is also more performant and
-  supports MRI, Rubinius, and JRuby.
+  alternative to making mutually exclusive operations. It is also more performant and supports MRI,
+  Rubinius, and JRuby.
+
+## Processes
+
+- Use `fork {...}` blocks for spawning child processes which will cleanly exit upon reaching the end
+  of the block.
+- Avoid `fork` if you need compatibility across multiple systems as it only works on UNIX-like
+  systems.
 
 ## Files
 
@@ -1060,3 +1067,4 @@ There are a few rules for conversion functions:
 - [Ruby Tapas - Extract Default to Method (Episode 483)](http://www.rubytapas.com)
 - [Ruby Tapas - Dup and Clone (Episode 484)](http://www.rubytapas.com)
 - [Ruby Tapas - Initialize Copy (Episode 486)](http://www.rubytapas.com)
+- [Ruby Tapas - Subprocesses (Episode 499)](http://www.rubytapas.com)
