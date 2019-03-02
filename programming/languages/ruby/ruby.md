@@ -73,47 +73,53 @@
 
 ## Variables
 
-- Use `snake_case` for variable names.
-- Avoid the following global variables since it makes code harder to read and maintain (NOTE: if
-  globals are used, ensure the longer aliases are used instead of the crpytic shortcuts):
-    - $/ - Input record separator. Alias: $INPUT_RECORD_SEPARATOR. Default: newline.
-    - $. - Current input line number of the last file read. Alias: $INPUT_LINE_NUMBER.
-    - $\ - Output record separator. Alias: $OUTPUT_RECORD_SEPARATOR. Default: nil.
-    - $; - String#split default field separator. Alias: $FIELD_SEPARATOR.
-    - $, - Output field separator. Alias: $OUTPUT_FIELD_SEPARATOR.
-    - _$ - Input variable for each object within an IO loop.
-    - $! - Last exception thrown. Alias: $ERROR_INFO.
-    - $@ - Backtrace array of last exception thrown. Alias: $ERROR_POSITION.
-    - $& - String match of last successful pattern match for current scope. Alias: $MATCH.
-    - $` - String to the left of last successful match. Alias: $PREMATCH.
-    - $' - String to the right of last successful match. Alias: $POSTMATCH.
-    - $+ - Last bracket matched by the last successful match. Alias: $LAST_PAREN_MATCH.
-    - $<n> - nth group of last successful regexp match.
-    - $~ - Last match info for current scope. Alias: $LAST_MATCH_INFO.
-    - $< - Object access to the concatenation of all file contents given as command-line arguments.
+Ruby has a collection of global variables which are borrowed from Perl and shell scripting in
+general. These can be viewed via the `Kernel#global_variables` method. A full description of all
+variables and their corresponding aliases can be found within the English library source code (i.e.
+`<version>/lib/ruby/<version>/English.rb`). Here is a rough breakdown of all global variables:
+
+      $/ - Input record separator. Alias: $INPUT_RECORD_SEPARATOR. Default: newline.
+      $. - Current input line number of the last file read. Alias: $INPUT_LINE_NUMBER.
+      $\ - Output record separator. Alias: $OUTPUT_RECORD_SEPARATOR. Default: nil.
+      $; - String#split default field separator. Alias: $FIELD_SEPARATOR.
+      $, - Output field separator. Alias: $OUTPUT_FIELD_SEPARATOR.
+      _$ - Input variable for each object within an IO loop.
+      $! - Last exception thrown. Alias: $ERROR_INFO.
+      $@ - Backtrace array of last exception thrown. Alias: $ERROR_POSITION.
+      $& - String match of last successful pattern match for current scope. Alias: $MATCH.
+      $` - String to the left of last successful match. Alias: $PREMATCH.
+      $' - String to the right of last successful match. Alias: $POSTMATCH.
+      $+ - Last bracket matched by the last successful match. Alias: $LAST_PAREN_MATCH.
+      $<n> - nth group of last successful regexp match.
+      $~ - Last match info for current scope. Alias: $LAST_MATCH_INFO.
+      $< - Object access to the concatenation of all file contents given as command-line arguments.
       Alias: $DEFAULT_INPUT.
-    - $> - Output destination of Kernel.print and Kernel.printf. Alias: $DEFAULT_OUTPUT. Default:
+      $> - Output destination of Kernel.print and Kernel.printf. Alias: $DEFAULT_OUTPUT. Default:
       $stdout.
-    - $_ - Last input line of string by gets or readline. Alias: $LAST_READ_LINE.
-    - $0 - Name of the script being executed. Alias: $PROGRAM_NAME.
-    - $- - Command line arguments given for script. Alias: $ARGV.
-    - $$ - Ruby process number of current script. Alias: $PROCESS_ID or $PID.
-    - $? - Status of the last executed child process. Alias: $CHILD_STATUS.
-    - $: - Load path for scripts and binary modules via load or require. Alias: $LOAD_PATH.
-    - $" - Array of module names as loaded by require. Alias: $LOADED_FEATURES.
-    - $-d - Status of the -d switch. Alias: $DEBUG.
-    - $-K - Source code character encoding being used. Alias: $KCODE.
-    - $-v - Verbose flag (as set by the -v switch). Alias: $VERBOSE.
-    - $-a - True if option -a ("autosplit" mode) is set.
-    - $-i - In-place-edit mode. Holds the extension if true, otherwise nil.
-    - $-l - True if option -l is set ("line-ending processing" is on).
-    - $-p - True if option -p is set ("loop" mode is on).
-    - $-w - True if option -w is set (Ruby warnings).
-    - $stdin - Current standard input.
-    - $stdout - Current standard output.
-    - $stderr - Current standard error output.
-- Use `require "English"` (included in the Ruby core libarary) to ensure the longer global variable
-  aliases are loaded for use.
+      $_ - Last input line of string by gets or readline. Alias: $LAST_READ_LINE.
+      $0 - Name of the script being executed. Alias: $PROGRAM_NAME.
+      $- - Command line arguments given for script. Alias: $ARGV.
+      $$ - Ruby process number of current script. Alias: $PROCESS_ID or $PID.
+      $? - Status of the last executed child process. Alias: $CHILD_STATUS.
+      $: - Load path for scripts and binary modules via load or require. Alias: $LOAD_PATH.
+      $" - Array of module names as loaded by require. Alias: $LOADED_FEATURES.
+      $-d - Status of the -d switch. Alias: $DEBUG.
+      $-K - Source code character encoding being used. Alias: $KCODE.
+      $-v - Verbose flag (as set by the -v switch). Alias: $VERBOSE.
+      $-a - True if option -a ("autosplit" mode) is set.
+      $-i - In-place-edit mode. Holds the extension if true, otherwise nil.
+      $-l - True if option -l is set ("line-ending processing" is on).
+      $-p - True if option -p is set ("loop" mode is on).
+      $-w - True if option -w is set (Ruby warnings).
+      $stdin - Current standard input.
+      $stdout - Current standard output.
+      $stderr - Current standard error output.
+
+- Use `snake_case` for variable names.
+- Use the longer, more self-describing, global aliases and avoid the shorter forms as it improves
+  readability and makes the code easier to maintain.
+- Use the English library (included in the Ruby core libarary: `require "English"`) to ensure the
+  longer global variable aliases are loaded for use.
 
 ## Constants
 
