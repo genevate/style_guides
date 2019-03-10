@@ -40,17 +40,22 @@
     - What hours are required (strict or flexible)?
     - What does a typical developer day consist of?
     - What does a typical developer week consist of?
+  - Inclusivity:
+    - What is the female to male ratio of engineering and executive teams?
+    - What is the ratio of novice to experienced engineers?
+    - What is the age range range of all staff?
   - Structure:
     - What is the organizational structure of the company? Ask them to draw/provide a diagram so you
       can understand the lay of the land and what your position in it will be.
-    - What is the future growth of this structure?
+    - What is the future growth of this organization?
     - What is the future growth for your proposed position?
   - Communication:
-    - How is email used?
     - How is group chat used?
-    - How is content management used?
-  - Teamwork:
-    - How is pair programming performed?
+    - How is email used?
+    - How is documentation organized?
+  - Team:
+    - What is the retention rate of engineers and staff in general?
+    - How is collaboration/pairing performed?
     - How are new members indoctrinated/bootstrapped?
     - How are code reviews performed?
   - Technology:
@@ -59,16 +64,18 @@
     - What databases are used?
     - What programming languages/frameworks are used?
     - What development environment is used (i.e. tech stack, tooling, etc)?
+  - Finance:
+    - What has revenue looked like over the past couple of years?
+    - What does the compensation package look like (i.e. stocks, equity, bonuses, health)?
+    - What does the promotion/skill ladder look like and is there a clear path for growth?
   - Outliers:
-    - Does everyone use the software/product that is developed (*Critical: Do they eat their own dog
-      food*)?
-    - Would it be possible to work on the support team for a week or two, if hired?
+    - *Does everyone use the software/product that is developed?*
     - What impact (primary clear win) would I have on the team, if hired?
     - What would make this position a total success, if hired?
     - What is the biggest question you wanted to ask me but haven't yet?
 - Be polite:
-  - Avoid asking about salary (and definitely never in front of the entire team). Wait for an offer to
-    arrive and talk to the hiring manager directly.
+  - Avoid asking about salary (and definitely never in front of the entire team). Wait for an offer
+    to arrive and talk to the hiring manager directly.
   - Avoid asking how you did at the end of an interview. Receiving further inquiries will be your
     answer.
   - Avoid badmouthing your former employeer - Speak positively as to why you are moving on.
