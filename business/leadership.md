@@ -20,13 +20,12 @@
 ## Guidelines
 
 - Earn and maintain the respect and trust of your team.
-- Empower teammates with the autonomy to be creative and solve problems.
-- Allow teammates to gain/achieve mastery.
-- Empower teammates with a sense of purpose/drive.
+- Empower teammates with a sense of purpose/drive, with the autonomy to creatively solve problems,
+  and ability to gain/achieve mastery.
 - Protect teammates from daily distractions and interruptions.
 - Identify weaknesses and focus on turning them into strengths but also build upon existing
   strengths.
-- Be human. Strive to make a connection with each and every one of your teammates so that you can
+- Be human. Strive to make a connection with each and every one of your teammates so you can
   understand who they are, what drives them, and how best to help them grow.
 - Be honest:
   - Be quick to constructively criticise. The longer you wait, the worse the situation will become.
@@ -44,9 +43,9 @@
     they would change it.
   - Future: Listen to what drives them, where they are excited about going, and how you can help in
     these endeavors.
-- Be a good listener:
+- Be a good listener/observer:
   - Maintain consistently scheduled
-    [1x1 meetings](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster) and
+    [1:1 meetings](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster) and
     *never* be late.
   - [Encourage thoughtful debate](https://is.gd/qxOhIV):
     - Assign others the task of disagreeing with you.
@@ -61,9 +60,12 @@
     - Find a private space if information is sensitive and needs direct face-to-face communication.
       Otherwise go for a walk, grab a drink at a local tea shop, or get out of the office
       altogether.
+  - Be aware that your best people may take days or weeks to contribute code. This is not because
+    they are slow or lazy. Is is because they are researching solutions and unraveling unknown
+    territory in order to best determine the right course of action for architecting
+    well-designed/well-tested solutions. *You want people like this on your team.*
   - Tackle and resolve issues as they arise.
 - Be a [mentor](https://alistapart.com/article/be-a-mentor), always.
-- Be a peer. Provide additional help when help is needed.
 - Be decisive but not a dictator:
   - Base decisions on productivity, not politics.
   - Avoid mandating how work will be performed/completed.
@@ -115,7 +117,7 @@ The following is taken word-for-word from [My Management Lessons from Three Fail
 - **Give excellent ratings to everyone who is performing exceptionally**: Even at some of the best
   companies, people who have valuable skills but who aren’t likely to “take over the world,” will
   often be rated as meeting expectations because managers reserve high ratings for people they're
-  going to promote. This creates an unhealthy promotion- obsessed culture.
+  going to promote. This creates an unhealthy promotion obsessed culture.
 - **Put the gradual growth achievers in positions where they can train others**: Capitalize on their
   dependency, their thoroughness, and their dedication to the company. They will be your best
   teachers, and it’s a way to put them on stage even when they shy away from the spotlight. “Don’t
