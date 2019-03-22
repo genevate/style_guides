@@ -54,6 +54,9 @@
   First impressions are critical so make it outstanding!
 - Assemble a stellar interview team:
   - Train team members in the art of interviewing, never bring them in cold.
+  - Each interviewer should have completed all of the [Havard Implicit Bias
+    Tests](https://implicit.harvard.edu/implicit/takeatest.html), have a clear understanding of what
+    their biases are, and how to correct them.
   - Ensure every team member can provide comprehensive/constructive feedback of each interviewee.
   - Ensure everyone's expectation of the interviewee is the same in terms of having a positive
     experience, qualities desired, interview goals, etc.
