@@ -1,9 +1,10 @@
 # Culture Styles
 
-> *The only reliable way to muster motivation is by encouraging people to work on the stuff they
+> The only reliable way to muster motivation is by encouraging people to work on the stuff they
 > like and care about, with people they like and care about. There are no shortcuts... Motivation is
-> pivotal to healthy lives and healthy companies. Make sure you’re minding it.* -- Remote: Office
-> Not Requred.
+> pivotal to healthy lives and healthy companies. Make sure you’re minding it.
+>
+> [Remote: Office Not Requred](https://basecamp.com/books/remote) by Jason Fried and David Heinemeier Hansson
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
@@ -20,6 +21,31 @@
 To create an environment where the collective is empowered and inspired to reach their greatest
 potential through autonomy, mastery, and purpose. It is by focusing on our staff that we can
 delight, enrich, and astound our customers in ways impossible to imagine otherwise.
+
+> People yearn to be connected to something of substance. They are oriented to values. How shall I
+> live my life so that it means something more than a brief flash of biological existence soon to
+> disappear forever?
+>
+> The best kind of vision statement answers four questions:
+>
+> 1. **Why are we here?** The answer to this question must get beyond identifying the product you
+>    manufacture or the service you provide; it must answer the challenge “So what?” In other words,
+>    what do we do for our customers that matters to them? Consider the compelling response of a
+>    telecommunications company: “Our work brings the human family closer together.”
+> 1. **What is our ideal relationship with one another?** How would we describe the best possible
+>    relationship we could envision with everyone inside the organization? More compelling than “trust
+>    and respect” are specific, actionable values such as: “We want consistency between our plans and
+>    our actions. To disagree without fear. Each person to be connected with the final product.
+>    Freedom to fail; people are shot only for not trying.”
+> 1. **What is our ideal relationship with our customers?** Consider such responses as: “We act as
+>    partners with our customers. We encourage them to teach us how to do business with them. Our
+>    customers leave us feeling understood. We understand the impact of our actions on our customers.”
+> 1. **What contribution do we wish to make to the local or global community?** What impact do we wish
+>    to make in the larger community in which we are visible, beyond our customers? What do we want to
+>    be known for? Examples: “We give our unconditional commitment to enhance the quality of life and
+>    human growth,” and “We are committed to fulfilling our ethical and social responsibilities.”
+>
+> [Fierce Converstations](https://fierceinc.com/fierce-conversations) by Susan Scott
 
 ## Core Values
 
@@ -90,6 +116,7 @@ delight, enrich, and astound our customers in ways impossible to imagine otherwi
 
 ## Resources
 
+- [How to Create Culture in an Early Stage Company](https://you.women2.com/how-to-create-culture-in-an-early-stage-company-3f6af87b1b25) by Marwa Nur Muhammad
 - [Cultivating a Focused Workplace](http://www.huffingtonpost.com/dan-goleman/cultivating-a-focused-wor_b_4645944.html)
 - [Good to Great](http://www.amazon.com/Good-Great-Companies-Leap-Others/dp/0066620996/ref=tmm_hrd_title_0?_encoding=UTF8&sr=8-1&qid=1375567924) by Jim Collins
 - [Why Your Startup’s Culture Is Secretly Awful](http://www.fastcolabs.com/3016238/why-your-startups-culture-is-secretly-awful)
