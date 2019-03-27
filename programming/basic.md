@@ -1,5 +1,8 @@
 # Basic Programming Styles
 
+> *If you don’t actively fight for simplicity in software, complexity will win...and it will suck.*
+> -- Henrik Joreteg
+
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
 ## Table of Contents
