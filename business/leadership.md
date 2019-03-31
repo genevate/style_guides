@@ -1,10 +1,22 @@
 # Leadership Styles
 
-> *The relationship with one's manager is the lens through which the whole work experience is
-> viewed.* -- Marcus Blankenship
+> The relationship with one's manager is the lens through which the whole work experience is viewed.
+>
+> Marcus Blankenship
 
-> *"The manager’s function is not to make people work, but to make it possible for people to work."*
-> -- Peopleware: Productive Projects and Teams
+---
+
+> You have one chance to get this right. If you push back or get defensive, chances are you may
+> never get feedback again. Your job is to remain curious and grateful for whatever you get in order
+> to pave the way for more meaningful feedback once trust has been built.
+>
+> [Fierce Converstations](https://fierceinc.com/fierce-conversations) by Susan Scott
+
+---
+
+> The manager’s function is not to make people work, but to make it possible for people to work.
+>
+> [Peopleware](https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113) by Tom DeMarco and Tim Lister
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
