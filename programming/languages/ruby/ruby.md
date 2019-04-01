@@ -1,5 +1,11 @@
 # Ruby Styles
 
+Ruby is a beautiful language and deserves to be written and read as such. These style guides are
+provided to exemplify the best of Ruby syntax and style allowing one to write Ruby code that is easy
+to read and maintain. If you'd like automation, these styles can be enforced via the
+[Code Quality](https://github.com/bkuhlmann/code_quality) project for local or Continuous
+Integration application.
+
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
 ## Table of Contents
