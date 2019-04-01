@@ -1,3 +1,20 @@
+# 0.31.0 (2019-04-01)
+
+- Added Harvard Implicit Bias Tests to interview style.
+- Added Ruby process styles.
+- Added Ruby style guide introduction.
+- Added basic programming quote to top of document.
+- Added questions for guiding how to build a good mission statement.
+- Updated Ruby global variable styles.
+- Updated Ruby method styles.
+- Updated basic programming style documentation.
+- Updated business leadership quotes.
+- Updated interviewee styles to include inclusively and finance checks.
+- Updated leadership listening/observing styles.
+- Updated to Ruby 2.6.2.
+- Removed Ruby MiniTest styles.
+- Refactored business performance review styles.
+
 # 0.30.0 (2019-03-01)
 
 - Fixed Performance Review wording.
