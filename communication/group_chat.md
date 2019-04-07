@@ -96,8 +96,8 @@ message each conveys:
 - :sunflower: - Indicates giving flowers to someone you wish will heal up and feel better soon.
 - :thought_balloon: - Indicates you find the feedback interesting, are thinking about what was said,
   and/or are considering responding.
-- ![:dancing_penguin:](http://emoji.alchemists.io.s3.amazonaws.com/dancing-penguin.gif) - Indicates
-  happiness in response to something fun.
+- ![:dancing_penguin:](http://emoji.alchemists.io/dancing-penguin.gif) - Indicates happiness in
+  response to something fun.
 - :eyes: - Indicates you are reading/reviewing the posted message and plan to respond shortly.
 - :rocket: - Indicates enthusiastic movement, progress, and/or forward traction.
 - :sweat_smile: - Indicates a positive nervousness, slight embarrassment, or hesitation.
