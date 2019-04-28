@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="style_guides.png" alt="Style Guides Icon"/>
+</p>
+
 # Style Guides
 
 [![Circle CI Status](https://circleci.com/gh/bkuhlmann/style_guides.svg?style=svg)](https://circleci.com/gh/bkuhlmann/style_guides)
