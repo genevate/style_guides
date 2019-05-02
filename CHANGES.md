@@ -1,3 +1,10 @@
+# 0.32.0 (2019-05-01)
+
+- Fixed group chat dancing penguin emoji URL.
+- Added project icon to README.
+- Updated RSpec style guides.
+- Updated to Ruby 2.6.3.
+
 # 0.31.0 (2019-04-01)
 
 - Added Harvard Implicit Bias Tests to interview style.
