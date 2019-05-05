@@ -23,6 +23,7 @@
 ## Table of Contents
 
   - [Guidelines](#guidelines)
+  - [Self-Checks](#self-checks)
   - [Tactics](#tactics)
   - [Growth Trajectories (for high performing employees)](#growth-trajectories-for-high-performing-employees)
   - [Resources](#resources)
@@ -121,6 +122,26 @@
 - Remember excellent management doesn't scale. Limit your time and attention to a team of five
   people or less.
 - Have faith and confidence in your team.
+
+## [Self-Checks](https://blog.jessfraz.com/post/leadership-ci)
+
+The following is a set of questions for maintaining a course of action that is humble, soulfully
+reflective, inclusive, and growth oriented.
+
+- Is the current course of action morally good?
+- Am I including everyone and do they push back when I'm wrong?
+- Am I hiding something even if painful to tell?
+- Is there transparency here and can the team repeat it back me?
+- Am I being curious, asking uncomfortable questions, and/or comfortable being wrong?
+- Is my team afraid to tell me things truthfully and without fear (even if I won't like it)?
+- Am I only communicating with the same people over and over?
+- Do I feel insecure?
+- Can my team do the job they are hired to do and is this the job that needs to be done?
+- Are you scratching an itch and not delegating to others properly?
+- Am I being judgmental and not trusting my team?
+- Am I taking risks that won't lead to postive and fruitful outcomes?
+- Am I being manipulative?
+- Am I speaking for people or letting them speak for themselves?
 
 ## Tactics
 
