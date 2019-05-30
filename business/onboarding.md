@@ -1,7 +1,7 @@
 # Onboarding Styles
 
-Describes what can be done as a new hire and as the hiring company during the oboarding process for
-positive outcomes.
+Describes what a new hire and employeer can do during the oboarding process for a positive
+experience.
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
@@ -27,13 +27,16 @@ positive outcomes.
 
 ## First Day
 
-Help the new hire set up a working environment, deliver a bug fix and/or new feature, and push
-changes into production.
+Start the day by telling the new hire *why* they were hired to positively reinforce strengths
+identified during the interview process. This also gives the new hire a nice boost of confidence.
+
+Ensure the new hire has everything they need to set up a working environment, deliver a bug fix
+and/or new feature, and push changes into production.
 
 ## First Week
 
 Ask lots of questions. Pair with the team. Take lots of notes. Provide feedback and observations to
-the team as your perspective is invaluable due to observing existing processes with fresh eyes.
+the team as your perspective is invaluable in observing existing processes with fresh eyes.
 
 ## First Month
 
