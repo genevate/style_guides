@@ -16,6 +16,9 @@
       - [One Week Interation](#one-week-interation)
       - [Implementation, Review, and Pairing](#implementation-review-and-pairing)
     - [IV: Review](#iv-review)
+    - [V: Accept/Reject](#v-acceptreject)
+      - [Accept](#accept)
+      - [Reject](#reject)
   - [Resources](#resources)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
@@ -273,6 +276,30 @@ discuss notes. The notes need to be broken down by key areas of interest. Exampl
 This can be further automated by using an internal application or spreadsheet. Each can be graded on
 a scale of -1 to 1 where -1 is negative, 0 is neutral, and 1 is positive. Allow space for each team
 member to record and explain notes for each score as well.
+
+### V: Accept/Reject
+
+Once review and final analysis of the candidate is concluded, it is time to either accept or reject
+the candidate.
+
+#### Accept
+
+Upon acceptance, email the candidate with getting started instructions:
+
+- Explain (or reiterate) the position, their role, and responsibilities.
+- Provide agreed upon salary figures.
+- Provide links for setting up payroll, health benefits, and whatever else is necessary.
+
+#### Reject
+
+Upon rejection of the candidate, be sure to respond quickly explaining *why* they were rejected in
+addition to what you liked about them. When explaining disqualifying critirea, make sure to provide
+resources on how they can improve. Though they didn't make it through the door this time, that
+doesn't mean they could acquire the skills to try again. Remember, candidates go through a lot of
+effort during the interview process so being able to reject them while being genuine and honest will
+go a long way. Careers are long so leave candidates with a good impession of you and the company.
+Candidates won't forget this. Planting this kind of good will as a first impression will go a long
+way and, who knows, it might pay dividends in the future in surprising and interesting ways.
 
 ## Resources
 
