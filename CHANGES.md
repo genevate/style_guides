@@ -1,3 +1,14 @@
+# 0.33.0 (2019-06-01)
+
+- Added accept/reject stage to interview style guide.
+- Added leadership self-checks.
+- Added presentation style guide.
+- Updated contributing documentation.
+- Updated iteration styles.
+- Updated onboarding style guide.
+- Updated to Git Cop 3.5.0.
+- Updated to Tocer 9.0.0.
+
 # 0.32.0 (2019-05-01)
 
 - Fixed group chat dancing penguin emoji URL.
