@@ -39,12 +39,16 @@ Each team member should have the following profile information:
 Each person on your team should fill out the answers to these questions. Be honest!
 
 - What is your primary goal in life?
-- What is your superpower?
-- What is your weakness?
+- What brings out the best in you?
+- What brings out the worst in you?
+- What are your strengths?
+- What are your weaknesses?
+- What are you blind spots?
 - What are your primary skills?
 - What is your favorite mode of communication?
-- What annoys you?
-  - How would someone help you when annoyed?
+- What makes you grumpy?
+- How would someone know when you are grumpy?
+- How would someone help you when grumpy?
 - What are your favorite hobbies?
 - What environment is best suited for you to work effectively?
 - Are you intrinsically or extrinsically motivated?
