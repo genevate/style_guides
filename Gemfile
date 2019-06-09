@@ -4,4 +4,4 @@ source "https://rubygems.org"
 
 gem "rake", "~> 12.0"
 gem "git-cop", "~> 3.5"
-gem "tocer", "9.0"
+gem "tocer", "~> 9.1"
