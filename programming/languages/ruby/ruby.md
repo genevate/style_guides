@@ -1,5 +1,13 @@
 # Ruby Styles
 
+> The goal of Ruby is to make programmers happy. I started out to make a programming language that
+> would make me happy, and as a side effect it's made many, many programmers happy.
+>
+> I hope to see Ruby help every programmer in the world to be productive, and to enjoy programming,
+> and to be happy. That is the primary purpose of the Ruby language.
+>
+> Yukihiro Matsumoto
+
 Ruby is a beautiful language and deserves to be written and read as such. These style guides are
 provided to exemplify the best of Ruby syntax and style allowing one to write Ruby code that is easy
 to read and maintain. If you'd like automation, these styles can be enforced via the
