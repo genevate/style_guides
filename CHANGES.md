@@ -1,3 +1,9 @@
+# 0.34.0 (2019-07-01)
+
+- Added Yukihiro Matsumoto quote to Ruby style guide.
+- Updated dossier questions.
+- Updated to Tocer 9.1.0.
+
 # 0.33.0 (2019-06-01)
 
 - Added accept/reject stage to interview style guide.
