@@ -91,19 +91,21 @@ message each conveys:
 - :bookmark: - Indicates you can't read the document immediately but will soon *or* you've read,
   liked, and bookmarked the document for future reference.
 - :cool: - Indicates message is...well...cool.
+- ![:disbelief:](http://emoji.alchemists.io/disbelief.png) - Indicates disbelief.
 - :tada: - Indicates enthusiasm/excitement.
 - :star: - Indicates you favorited/liked the message.
 - :sunflower: - Indicates giving flowers to someone you wish will heal up and feel better soon.
 - :thought_balloon: - Indicates you find the feedback interesting, are thinking about what was said,
   and/or are considering responding.
-- ![:dancing_penguin:](http://emoji.alchemists.io/dancing-penguin.gif) - Indicates happiness in
-  response to something fun.
+- ![:dancing_penguin:](http://emoji.alchemists.io/dancing-penguin.gif) - Indicates joy in response
+  to something fun.
 - :eyes: - Indicates you are reading/reviewing the posted message and plan to respond shortly.
-- :rocket: - Indicates enthusiastic movement, progress, and/or forward traction.
-- :sweat_smile: - Indicates a positive nervousness, slight embarrassment, or hesitation.
+- ![:nod:](http://emoji.alchemists.io/nod.gif) - Indicates agreement.
 - :ok: - Indicates acknowledgement.
+- :rocket: - Indicates enthusiastic progress, and/or forward traction.
 - :bow: - Indicates thankfulness/gratefulness.
-- :arrow_up: - Indicates, yes, you agree with the statement and/or want to emphasis it's importance.
+- :sweat_smile: - Indicates a positive worry, nervousness, embarrassment, or hesitation.
+- :arrow_up: - Indicates emphasis/importance of statement.
 
 ## Statuses
 
