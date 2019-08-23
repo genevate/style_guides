@@ -54,12 +54,14 @@ by Susan Scott and [Your Professional Growth Questionnaire](https://is.gd/PS1C6P
   - Are you living a life that is an authentic expression of who you are and wish to be?
   - What are your next actions?
 - Career
-  - Do the core values of the business still align with you (explain)?
+  - Are the core values of the business still aligned with you?
   - Is there value and fulfillment in your work?
   - What is new that has you most excited?
   - What are you worried or feeling down about?
   - What is the last thing you enjoyed working on?
   - What is the last major failure you learned from?
+  - What do you wish you were doing more of?
+  - What do you wish you were doing less of?
   - When was the last time your manager gave you feedback?
   - What compliment do you wish you could receive?
   - What have you been learning from your team and can you explain how each lesson has improved your
