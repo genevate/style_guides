@@ -39,8 +39,10 @@ Each team member should have the following profile information:
 Each person on your team should fill out the answers to these questions. Be honest!
 
 - What is your primary goal in life?
+- Who is your hero and why?
 - What brings out the best in you?
 - What brings out the worst in you?
+- What is your superpower?
 - What are your strengths?
 - What are your weaknesses?
 - What are you blind spots?
@@ -50,12 +52,14 @@ Each person on your team should fill out the answers to these questions. Be hone
 - How would someone know when you are grumpy?
 - How would someone help you when grumpy?
 - What are your favorite hobbies?
+- Whare you your pet peeves?
 - What environment is best suited for you to work effectively?
 - Are you intrinsically or extrinsically motivated?
-- Are you introverted or extraverted?
+- Are you introverted, extraverted, or somewhere in between?
 - How do you like to learn (i.e. articles/books, tutorials, lectures, screencasts, etc.)?
-- How do you prefer to receive feedback?
 - How do you prefer to receive praise/recognition?
+- How do you prefer to receive feedback?
+- How do you prefer to deal with conflict?
 - What do you need from your company?
 - What do you need from your manager?
 - What do you need from your colleagues?
