@@ -1,3 +1,10 @@
+# 0.35.0 (2019-09-01)
+
+- Updated dossier questions.
+- Updated group chat reaction emoticons.
+- Updated performance review career checklist.
+- Updated to Ruby 2.6.4.
+
 # 0.34.0 (2019-07-01)
 
 - Added Yukihiro Matsumoto quote to Ruby style guide.
