@@ -6,6 +6,7 @@
 
   - [General](#general)
   - [Structure](#structure)
+  - [Metadata](#metadata)
   - [Contexts](#contexts)
   - [Performance](#performance)
 
@@ -14,11 +15,9 @@
 ## General
 
 - Use the following steps for writing a spec:
-  - **Arrage**: This is where you define your subject and supporting depedencies to be tested.
-  - **Execute**: This is where you execute the subject under test.
-  - **Expect**: The last, and final, line of your spec then verifies what you tested matches your
-    expectation.
-- Use Coderay (i.e. `bundle install coderay`) to produce colorized output when running specs.
+  - **Arrage**: Define the subject and supporting dependencies to be tested.
+  - **Execute**: Execute the subject under test.
+  - **Expect**: The last, and final, line which verifies what was tested matches expectation.
 - Use `let` to define common objects used across multiple specs. Doing this provides the following
   benefits:
   - Provides a helpful error mesage if the object is not defined, missing, mispelled, etc. versus a
@@ -27,9 +26,9 @@
     is contructed for *every* spec regardless if the spec needs it or not while a `let` only creates
     the object on demand.
 - Run a single test or group of tests that match the substring: `example_spec.rb -e "example
-  description"`
-- Run line number of test (can be any line number of the test): `example_spec.rb -l 10`
-- Alternatively, the SPEC_OPTS environment variable can be used: `SPEC_OPTS="-l 10" example_spec.rb`
+  description"`.
+- Run line number of test (can be any line number of the test): `example_spec.rb -l 10`.
+- Alternatively, the SPEC_OPTS environment variable can be used: `SPEC_OPTS="-l 10" example_spec.rb`.
 - When using `raise_error`, test for both the error class and message:
 
         # Avoid
@@ -82,11 +81,42 @@ In the situation where you are using Rails, you'll want to break down your suppo
 and `rails` folders and then load those support files via the corresponding `spec_helper.rb` and
 `rails_helper.rb` files since context matters.
 
+## Metadata
+
+- When using multiple keys, list keys with values last to avoid having to specify all keys with
+  values (i.e. using a value of `true`). Example:
+
+      # Avoid
+      it "is an example", one: true, two: ExampleObject, three: true
+
+      # Use
+      it "is an example", two: ExampleObject, :one, :three
+- Avoid describing specs with multiple metadata keys in order to avoid line wrapping and complicated
+  behavior. In situations like this, rethink how the spec could be simplified. Example:
+
+      # Avoid
+      RSpec.describe Example, :one, :two, :three, :four, :five, six do
+      end
+
+      # Use
+      RSpec.describe Example, :one do
+      end
+
 ## Contexts
 
 - Use `context` when needing to make a slight alternation to the subject or provide addtional setup.
 - Use `with` or `when` prefixes for your context definitions to help describe what makes the context
   unique.
+- Avoid using shared context blocks when possible as a shared context with a block probably means
+  you need a shared example instead or have the wrong abstraction for the context. Example:
+
+      # Avoid
+      include_context "with example" do
+        # Modify/alter original context.
+      end
+
+      # Use
+      include_context "with example"
 
 ## Performance
 
