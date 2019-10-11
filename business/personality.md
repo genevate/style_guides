@@ -1,12 +1,12 @@
-# Dossier Styles
+# Personality Styles
 
-To effectively collaborate with others, it's nice to have a dossier on all members of a team. This
-removes the awkwardness of getting to know someone and provides a foundation for which to establish
-stronger bonds.
+To effectively collaborate with others, it can be nice to describe the personalities of all members
+of a team. This removes the awkwardness of getting to know someone and provides a foundation for
+which to establish stronger bonds.
 
-*Keep in mind, a dossier is not meant to serve as a public interface that people are forced to
+*Keep in mind, a personality is not meant to serve as a public interface that people are forced to
 conform to in order to work with you.* Effort and collaboration with others is required to establish
-strong bonds of trust. A dossier is then meant to serve as a launching pad in order to help make
+strong bonds of trust. A personality is then meant to serve as a launching pad in order to help make
 the bonding possible.
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
@@ -31,10 +31,10 @@ which is also a high functioning and learning team.
 
 ## Accountability
 
-What you list in your dossier, you *must* be accountable for. If people find you don't practice what
-you preach; lack follow through; or behave in a manner not described, you will erorde trust with the
-team. Hold yourself to accoountable, be open for feedback as well as praise, and a willingness to
-grow instead.
+What you list in your personality, you *must* be accountable for. If people find you don't practice
+what you preach; lack follow through; or behave in a manner not described, you will erorde trust
+with the team. Hold yourself to accoountable, be open for feedback as well as praise, and a
+willingness to grow instead.
 
 ## Roster
 
@@ -53,7 +53,7 @@ Each team member should have the following profile information:
 - **Chronotype** - What are your best hours of productive, [well-rested](https://is.gd/TGguix)
   action.
 - **Links** - Allow links to social media, web sites, source code, etc.
-- **Dossier** - See *dossier questions* listed below. These should have protected access to team
+- **Personality** - See *questions* listed below. These should have protected access to team
   members only but can be marked public if desired.
 
 ## Questions
