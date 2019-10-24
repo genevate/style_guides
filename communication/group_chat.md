@@ -53,15 +53,32 @@ structure:
 
 When using channels, keep to the following:
 
-- Avoid sending `@here`, `@all`, `@everyone`, etc. messages. A channel is meant for *asynchronous*
-  communication and these types of messages defeat that purpose. If a channel doesn't have these
-  messages disabled by default, ensure notifications of this type are disabled by manually editing
-  the channel notification settings.
+- When creating channels, ensure there is a *topic* which is a brief sentence on *what* the channel
+  is about. The channel topic generally shows up at the top of the channel and is the first thing
+  people will want to read when determining whether to join a channel or when forgetting what the
+  channel is about. Next, ensure the channel's *purpose* is defined. This generally appears in the
+  information/details section of the channel and explains *why* the channel exists. The *purpose* is
+  meant to support the *topic* and should be a brief paragraph (or two) which further explains why
+  the channel is important. Supporting links, references, etc. can be included in the *topic* and
+  *purpose* descriptions as necessary.
 - Use channels instead of direct messages. Lead by example and initiate or respond to direct
   messages in channels so others are encouraged to do the same. Even if you are composing the
   message to a single person or part of the team, it's still useful for others to know what is going
   on. If receiving a direct message, ask if it can be responded to in the appropriate channel
-  instead.
+  instead. Encouraging public discussion allows participation from everyone and reinforces a culture
+  of inclusion, trust, and transparency.
+- Use threads when responding to messages in a channel. This allows for detailed discussions to form
+  around a topic which anyone can follow for further updates if necessary. Doing this also prevents
+  the channel from being interspersed with multiple discussions going on at once which are confusing
+  to read and/or follow.
+- Avoid sending `@here`, `@all`, `@everyone`, etc. messages. A channel is meant for *asynchronous*
+  communication and these types of messages defeat that purpose. If a channel doesn't have these
+  messages disabled by default, ensure notifications of this type are disabled by manually editing
+  the channel notification settings.
+- Avoid heavy use of individual's handles (i.e. `@jane`, `@joe`, etc.) when messaging others. Unless
+  it is truly urgent or know they are currently watching the channel, avoid using handles so
+  individuals are not spammed with notifications. Remember, group chat is meant for *asynchronous*
+  commmunication and shouldn't need immediate attention.
 - Avoid creating random channels. Be judicious in what constitutes bringing a new channel into
   existence by identifiying information that might be too noisy for one channel but could benefit
   from having it's own channel.
