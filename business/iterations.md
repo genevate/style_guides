@@ -15,8 +15,9 @@
 ## Overview
 
 Many businesses typically like to schedule meetings for planning, status, demos, etc. This is time
-consuming and wasteful of company time. Instead, focus on being productive and enabling everyone to
-do their best work via the following:
+consuming, a [scourge](https://m.signalvnoise.com/status-meetings-are-the-scourge), and wasteful of
+company time. Instead, focus on being productive and enabling everyone to do their best work via the
+following:
 
 - **Schedule**: Use a one-week interval starting on Monday and ending on Friday.
 - **Status**: Each day, when people start their day (respective of time) zone, everyone reports
