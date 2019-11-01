@@ -1,3 +1,15 @@
+# 0.36.0 (2019-11-01)
+
+- Fixed Career style Markdown syntax.
+- Added Basecamp's meeting source article to interations.
+- Added accountability and authenticity to dossier.
+- Added group style emoji icon plus code associations.
+- Added group styles for channel creation, threads, descriptions, etc.
+- Updated RSpec style guide.
+- Updated dossier as personoality style.
+- Updated to Rake 13.0.0.
+- Updated to Ruby 2.6.5.
+
 # 0.35.0 (2019-09-01)
 
 - Updated dossier questions.
