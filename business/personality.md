@@ -26,14 +26,14 @@ the bonding possible.
 ## Authenticity
 
 Focus on being authentic and putting trust in others. This only works when everyone is onboard and
-reciprocating these efforts. An authentic team is a team with strong bonds of trust and forgiviness
+reciprocating these efforts. An authentic team is a team with strong bonds of trust and forgiveness
 which is also a high functioning and learning team.
 
 ## Accountability
 
 What you list in your personality, you *must* be accountable for. If people find you don't practice
 what you preach; lack follow through; or behave in a manner not described, you will erorde trust
-with the team. Hold yourself to accoountable, be open for feedback as well as praise, and a
+with the team. Hold yourself to accountable, be open for feedback as well as praise, and a
 willingness to grow instead.
 
 ## Roster
@@ -48,10 +48,8 @@ Each team member should have the following profile information:
 
 - **Avatar** - Needs to be a professional or semi-professional head shot of yourself.
 - **Name** - Your full name.
-- **Tagline** - A short one-sentence blurb that summarizes who you are.
+- **Motto** - A short one-sentence blurb that summarizes what you are about.
 - **Bio** - A few brief paragraphs that summaries your history.
-- **Chronotype** - What are your best hours of productive, [well-rested](https://is.gd/TGguix)
-  action.
 - **Links** - Allow links to social media, web sites, source code, etc.
 - **Personality** - See *questions* listed below. These should have protected access to team
   members only but can be marked public if desired.
@@ -74,7 +72,8 @@ Each person on your team should fill out the answers to these questions. Be hone
 - How would someone know when you are grumpy?
 - How would someone help you when grumpy?
 - What are your favorite hobbies?
-- Whare you your pet peeves?
+- What are your pet peeves?
+- What are your best hours of productive, [well-rested](https://is.gd/TGguix) action.
 - What environment is best suited for you to work effectively?
 - Are you intrinsically or extrinsically motivated?
 - Are you introverted, extraverted, or somewhere in between?
