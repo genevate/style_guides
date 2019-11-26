@@ -118,7 +118,9 @@ delight, enrich, and astound our customers in ways impossible to imagine otherwi
 
 - [How to Create Culture in an Early Stage Company](https://you.women2.com/how-to-create-culture-in-an-early-stage-company-3f6af87b1b25) by Marwa Nur Muhammad
 - [Cultivating a Focused Workplace](http://www.huffingtonpost.com/dan-goleman/cultivating-a-focused-wor_b_4645944.html)
+- [Building Great Teams](https://insight.kellogg.northwestern.edu/building-leading-great-teams-research)
 - [Good to Great](http://www.amazon.com/Good-Great-Companies-Leap-Others/dp/0066620996/ref=tmm_hrd_title_0?_encoding=UTF8&sr=8-1&qid=1375567924) by Jim Collins
+- [How Performance Reviews Can Kill Your Culture](https://fs.blog/2019/11/performance-reviews-kill-culture)
 - [Why Your Startup’s Culture Is Secretly Awful](http://www.fastcolabs.com/3016238/why-your-startups-culture-is-secretly-awful)
 - [This is why people leave your company](http://qz.com/287876/this-is-why-people-leave-your-company)
 - [The Open-Office Trap](http://www.newyorker.com/online/blogs/currency/2014/01/the-open-office-trap.html)
