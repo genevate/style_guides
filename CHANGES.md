@@ -1,3 +1,10 @@
+# 0.37.0 (2020-01-01)
+
+- Fixed personality style typos.
+- Added additional culture resources.
+- Added burnout ratio.
+- Updated to Ruby 2.7.0.
+
 # 0.36.0 (2019-11-01)
 
 - Fixed Career style Markdown syntax.
