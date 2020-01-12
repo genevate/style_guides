@@ -22,9 +22,10 @@ The burnout raitio can be calculated as follows:
 
 ## Signs of Burnout
 
-- Work-life imbalance.
-- Lack of control.
+- Lack of control such as shifting goals or expectations based on a whim without a concrete
+  foundation. Additionally, this erodes trust and confidence amongst members of your team.
 - Feeling you're not making a difference.
+- Work-life imbalance.
 - Insufficient reward.
 - Lack of community.
 - Absence of fairness.
