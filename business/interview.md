@@ -30,31 +30,30 @@
     (see [Twitter Style Guide](../communication/twitter.md) for example).
   - Read their syndicated feeds (RSS) - This is a great way to see how they communicate, express
     thoughts/ideas, what their experiences have been, and what they are passionate about.
-  - Read through their open source code (i.e. GitHub, BitBucket, etc.). This is where you can get a
-    sense of thier engineering prowess. You'll want to spend a good portion of time researching
-    here.
-  - In the case where a interviewee doesn't have an online presence. Ask if it's possible to learn
-    about their work in other ways (perhaps their work is private and you can get, legal, temporary
+  - Read through their open source code. This is where you can get a sense of thier engineering
+    prowess. You'll want to spend a good portion of time researching here.
+  - In the case where an interviewee doesn't have an online presence. Ask if it's possible to learn
+    about their work in other ways (perhaps their work is private and you can get legal, temporary,
     access to review and discuss further).
-- Avoid resumes. If given one, move on to the next interviewee. That said, resumes might be
-  interesting towards the end of the interview process after you've reviewed the interviewee's
-  portfolio and spent time talking with them. Generally, they are a terrible introduction because
-  the interviewee didn't take the time to read up on the company, culture, and problem space first
-  which is why a simple introduction with links to a portfolio is more engaging (for both parties).
+- Allow resumes as a complement to portfolios:
+  - Useful when the candidate doesn't have an online presence or publically available work (as
+    mentioned above).
+  - When interview process is almost to an end and you'd like a chronological view of their career
+    journey.
 - Avoid puzzles and esoteric challenges. Tricking people and demonstrating you have obscure
   knowledge they don't will exclude a wide array of qualified interviewees and send a clear message
   to others that this isn't a good work environment.
 - Prefer writers.
   - Good writers means good communicators.
   - Introductory emails and/or open source documentation is a great indicator.
-- Prepare for every interview by thoroughly researching their portfolio (as described above). This
-  includes you and *all team members* involved in the interview process. If you need a study group
-  to build a common understanding of the interviewee, *do it*. This is *important* to show you truly
-  care about the interviewee and their past experiences. It's the first step in establishing good
-  rapport and trust. Additionally, it shows good will towards making the interview experience a
-  positive one by appreciating and seeing them as an individual instead of a number. This can't be
-  stressed enough as this is one of the major points of failure in getting to know an interviewee.
-  First impressions are critical so make it outstanding!
+- Prepare for every interview by thoroughly researching their portfolio/resume. This includes you
+  and *all team members* involved in the interview process. If you need a study group to build a
+  common understanding of the interviewee, *do it*. This is *important* to show you truly care about
+  the interviewee and their past experiences. It's the first step in establishing good rapport and
+  trust. Additionally, it shows good will towards making the interview experience a positive one by
+  appreciating and seeing them as an individual instead of a number. This can't be stressed enough
+  as this is one of the major points of failure in getting to know an interviewee. First impressions
+  are critical so make it outstanding!
 - Assemble a stellar interview team:
   - Train team members in the art of interviewing, never bring them in cold.
   - Each interviewer should have completed all of the [Havard Implicit Bias
@@ -131,9 +130,9 @@ ensure it is easy to use. Example:
 
 ### II: First Impression
 
-When meeting the interviewee for the first time, do this via video chat or in person at a tea shop
-(if local for example). The former is preferred as it is more convenient and less time consuming for
-everyone involved.
+When meeting the interviewee for the first time, do this via video chat or in person (like at a tea
+shop). The former is preferred as it is convenient, less time consuming for everyone involved, and
+reflects the remote working environment.
 
 Start by being inquisitive about them and then move into more job-specific questions. *Focus on
 being kind, a good listener, non-judgemental, and creating a safe space for discussion.*
@@ -142,27 +141,53 @@ Watch body language. If the interviewee is nervous or anxious, determine the cau
 what will make them most comfortable. *It's important the interviewee sense the interview, and
 potential work environment, is a safe space for them to be who they are.*
 
-Before asking questions, make sure to avoid asking questions that haven't been asked before or you
-don't have the answers to. Start off with something fun like asking how their day is going, did they
-have a good weekend, recent events in world news, etc.
+Before asking questions, avoid asking questions that haven't been asked before or you don't have the
+answers to. Start off with something fun like asking how their day is going, did they have a good
+weekend, recent events in world news, etc.
 
 The following is a list of questions that yield a great first impression:
 
-- What are some of your favorite news feeds, books, podcasts, etc. related to software engineering?
-- What have you read recently that has excited you or caused you to learn something new?
-- What is on your list of things to learn next?
-- What got you into software development and what drives you?
-- What are you building or have built recently that is most exciting to you?
-- How long have you been doing software development?
-- How long have you been doing distributed work?
-- What has been the greatest highs and lows in your career?
-- What excites you about open source?
-- Have you mentored/taught others and do you have a mentor yourself?
-- Do you practice constant maintenance on all projects (i.e. daily/weekly/monthly updates)?
-- What is the difference between Git merge and rebase workflows?
-- What is the difference between inheritance and composition in object oriented design?
-- What are S.O.L.I.D. design principles?
-- What is the different between stubs, mocks, and spies when testing?
+- **Purpose**
+  - What got you into software development?
+  - How long have you been doing software development?
+  - Why are you leaving your current job?
+  - Why are you interested in working with us?
+  - What are you career goals?
+- **Mastery**
+  - What are your strengths and/or superpowers?
+  - What are your weaknesses and/or aspects of your career you are not interested in?
+- **Autonomy/Discipline**
+  - How long have you been doing distributed work?
+  - How do you handle distractions?
+  - What is your preferred way to work and get things done?
+  - What methodologies and tools do you use to manage your workflow?
+  - Can you explain your project maintenance practice?
+- **Learning**
+  - What are some of your favorite software engineering news feeds, books, podcasts, etc?
+  - What have you read recently that has excited you or caused you to learn something new?
+  - What is on your list of things to learn next?
+  - What are you building or have recently built that is most exciting to you?
+  - Have you mentored/taught others and do you have a mentor yourself?
+- **Leadership/Compassion**
+  - Can you explain when you've had to take ownership of a situation/project?
+  - Can you explain when you've had to recover from a difficult situation?
+  - How have you handled mistakes and/or failures with software?
+  - How have you handled mistakes and/or weakness of character in others?
+- **Ethics**
+  - How do you honor the contributions of others?
+  - How have you delt with under marginalized situations?
+  - How have you delt with borderline illegal or fully illegal situations?
+- **Security**
+  - What steps do you take to be secure (i.e. 30+ alpha/numeric/symbolic passwords, two-factor
+    authentication, VPN, encrypted disks, total erasure after limited failed attempts, Pi-hole,
+    etc)?
+- **Technical**
+  - What is the difference between Git rebase and merge workflows?
+  - What is the difference between composition and inheritance?
+  - What is a monad?
+  - What is [TRUE](/programming/basic.md#true) design?
+  - What is [SOLID](/programming/basic.md#solid) design?
+  - What is the different between stubs, mocks, and spies when testing?
 
 You may want to extend this list or set up another interviewing session to dig into specific
 questions related to your software stack. For example, let's say your stack consists of: AWS,
@@ -177,12 +202,12 @@ following details both with the first being the preferred approach.
 
 #### One Week Interation
 
-When a interviewee has a strong portfolio such as a syndicated feed, social presence, open source
-code, etc (as mentioned in the general section above). It would be insulting to the interviewee to
-force them to do a code challenge or spend any more of their time proving themselves to you. They
-are impressive enough and it's important to recognize that. In this situation, bring the interviewee
-in for a weekly iteration with your team and *pay them* for it. *Repeat: You must pay them for their
-time as they are doing real work and shows that you value their time.*
+When an interviewee has a strong portfolio such as a syndicated feed, social presence, open source
+code, etc (as mentioned in the general section above) it would be insulting to force the interviewee
+to do a code challenge or spend more of their time proving themselves to you. They are impressive
+enough and it's important to recognize that. In this situation, bring the interviewee in for a
+weekly iteration with your team and *pay them* for it. *Repeat: You must pay them for their time as
+they are doing real work and shows that you value their time.*
 
 Regardless of whether you perform weekly iterations, schedule your week as follows:
 
@@ -195,7 +220,7 @@ Regardless of whether you perform weekly iterations, schedule your week as follo
   - Report progress and/or pick up new tasks.
   - Have the interviewee, along with the rest of the team, demo and explain completed features
     and/or bugs fixed.
-  - Schedule time for a formal review of interviewees work with the team. Allow the interviewee to
+  - Schedule time for a formal review of interviewee's work with the team. Allow the interviewee to
     provide feedback on experiences with working in the code base, the business space, team/company
     culture, and anything else the interviewee might have observed.
   - End the day early by extending an offer to the interviewee or providing them feedback on what
@@ -204,13 +229,24 @@ Regardless of whether you perform weekly iterations, schedule your week as follo
     more fruitful in the future.
 
 Doing an iteration like this is valuable as it provides a two-way discourse between you and the
-interviewee. You get to learn how they ask questions, their design process, how they solve issues
-and provide solutions, their Git commit etiquette, communicating/pairing with others, resolving pull
-requests, quality of delivered work, etc. At the same time, the interviewee is learning about the
-business, code base, team dynamics, culture, etc. All of this is important as it allows both the
-team and the interviewee to determine if it's a good long term fit. It's valuable to both parties to
-determine this quickly rather than several weeks/months later when so much time and effort has been
-invested in the interviewee.
+interviewee. You get to learn:
+
+- Their design process.
+- Their implementation style.
+- How they ask questions.
+- How they handle being stuck and the time to resolution.
+- How they deliver quality solutions.
+- Their Git commit etiquette.
+- How they communicate/pair with others.
+- How they handle code reviews and resolve feedback.
+- How they manage a bug/feature, implement, deliver, and handle any unforeseen production
+  issues/customer feedback.
+- ...etc...
+
+At the same time, the interviewee is learning about the business, code base, team dynamics, culture,
+etc. All of this is important as it allows both the team and the interviewee to determine if it's a
+good long term fit. It's important both parties determine this quickly rather than several
+weeks/months later when so much time and effort has been invested in the interviewee.
 
 Lastly, don't forget to have time to hang out with the interviewee during the week casually or while
 working together!
