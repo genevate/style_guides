@@ -5,7 +5,9 @@
 ## Table of Contents
 
   - [Overview](#overview)
+  - [Ratio](#ratio)
   - [Signs of Burnout](#signs-of-burnout)
+  - [Resources](#resources)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
 
