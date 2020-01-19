@@ -18,8 +18,8 @@
   - [Tell Don't Ask](#tell-dont-ask)
   - [Pluggable Selector](#pluggable-selector)
   - [Law of Demeter (LoD)](#law-of-demeter-lod)
-  - [S.O.L.I.D.](#solid)
-  - [T.R.U.E.](#true)
+  - [SOLID](#solid)
+  - [TRUE](#true)
   - [Recognizing Dependencies](#recognizing-dependencies)
   - [Inheritance](#inheritance)
   - [Composition](#composition)
@@ -184,9 +184,9 @@ before a good name can be derived. Here are some guidelines worth following:
   - Bad: task.owner.full_name. (i.e. task --> owner --> string)
   - Good: task.owner_full_name.
 
-## S.O.L.I.D.
+## SOLID
 
-Represents for the following principals:
+Represents the following principals:
 
 - [Single Responsibility Pattern (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle) - A
   class/module/method should only have one, and only one, reason to change.
@@ -207,9 +207,9 @@ Represents for the following principals:
   - High-level modules should not depend on low-level modules. Both should depend on abstractions.
   - Abstractions should not depend on details. Details should depend on abstractions.
 
-## T.R.U.E.
+## TRUE
 
-T.R.U.E. code not only meets today's needs but can also be changed to meet the needs of the future.
+TRUE code not only meets today's needs but can also be changed to meet the needs of the future.
 
 - **Transparent** - The consequences of change should be obvious in the code that is changing and in
   distant code that relies upon it.
