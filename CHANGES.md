@@ -1,3 +1,14 @@
+# 0.38.0 (2020-01-19)
+
+- Fixed group chat emoji links
+- Added Retrium as a service for managing retros
+- Added benefit styles
+- Updated basic programming TRUE and SOLID links
+- Updated burnout documentation
+- Updated interview resume documentation
+- Updated to Git Cop 4.0.0
+- Updated to Tocer 10.0.0.
+
 # 0.37.0 (2020-01-01)
 
 - Fixed personality style typos.
