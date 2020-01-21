@@ -156,27 +156,35 @@ The following is a list of questions that yield a great first impression:
 - **Mastery**
   - What are your strengths and/or superpowers?
   - What are your weaknesses and/or aspects of your career you are not interested in?
-- **Autonomy/Discipline**
+  - What methodologies and tools do you use to manage your workflow?
+  - Can you explain your project maintenance practice?
+  - When do you consider a piece of work to be finished?
+- **Autonomy**
   - How long have you been doing distributed work?
   - How do you handle distractions?
   - What is your preferred way to work and get things done?
-  - What methodologies and tools do you use to manage your workflow?
-  - Can you explain your project maintenance practice?
+- **Communication**
+  - What is the best way to collaborate on a project?
+  - When in the middle of an iteration with an unexpected discovery or major change in
+    functionality, how do you explain this to the rest of the team?
+  - How do you handle disagreements with your proposal, methodology, and/or implementation yet
+    ensure your opinion is heard?
 - **Learning**
   - What are some of your favorite software engineering news feeds, books, podcasts, etc?
   - What have you read recently that has excited you or caused you to learn something new?
   - What is on your list of things to learn next?
   - What are you building or have recently built that is most exciting to you?
   - Have you mentored/taught others and do you have a mentor yourself?
-- **Leadership/Compassion**
+- **Leadership**
   - Can you explain when you've had to take ownership of a situation/project?
   - Can you explain when you've had to recover from a difficult situation?
   - How have you handled mistakes and/or failures with software?
   - How have you handled mistakes and/or weakness of character in others?
 - **Ethics**
-  - How do you honor the contributions of others?
-  - How have you delt with under marginalized situations?
-  - How have you delt with borderline illegal or fully illegal situations?
+  - How do you honor the contributions of others and why is that important?
+  - How have you handled situations in which you confronted unfair, biased or cruel behavior in a
+    work environment? This could be standing up for yourself or someone else.
+  - How have you confronted illegal or unethical situations in the workplace (if any)?
 - **Security**
   - What steps do you take to be secure (i.e. 30+ alpha/numeric/symbolic passwords, two-factor
     authentication, VPN, encrypted disks, total erasure after limited failed attempts, Pi-hole,
