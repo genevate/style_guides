@@ -56,6 +56,7 @@
   usage information isn't lost).
 - [Avoid default field validation](http://adrianroselli.com/2019/02/avoid-default-field-validation.html)
   as it is harmful to accessibility.
+- [Avoid opening links in new windows/tabs](https://adrianroselli.com/2020/02/link-targets-and-3-2-5.html).
 
 ## Tools
 
