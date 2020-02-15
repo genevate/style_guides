@@ -82,13 +82,12 @@ experience before re-applying.
 
 ### I: Application
 
-Use a *single page* to describe the company and hiring process. It should be easy to read/use so the
-interviewee is able to get started quickly with minimal resistance.
+Use a *single page* to describe the hiring process. It should be easy to read/use so the interviewee
+is able to get started quickly with minimal resistance.
 
 #### Overview
 
-Start with the *why*. *Why* is your company special and *why* would people be excited to work with
-you?
+Start with *why* the company is special and *why* people would be excited to work with you.
 
 #### Expectations
 
@@ -100,6 +99,7 @@ bullet list is nice for this but feel free to be creative.
 Define all the benefits you offer. Again, a bullet list is great but be creative. You'll want to
 list everything you provide. Add links for further details, if necessary. Example:
 
+- Salary.
 - Paid time off (including sick time).
 - Paid holidays.
 - Paid parental leave.
@@ -121,12 +121,11 @@ ensure it is easy to use. Example:
 - **Name** (required) - The interviewee's full name.
 - **Email** (required) - The interviewee's primary email address.
 - **Location** (required) - The interviewee's primary location.
-- **Programming Languages** (required) - The list of top languages the interviewee is skilled in.
-- **Social URLs** (optional) - Can be single or multiple links.
-- **Portfolio URLs** (optional) - Can be single or multiple links (i.e. personal web site, open
+- **Salary** (required) - Clarifies the range of what you can and can't afford.
+- **Skills/Tools** (required) - The list of languages/tools the interviewee is skilled in.
+- **Portfolio** (optional) - Can be single or multiple links (i.e. personal web site, open
   source, etc).
-- **Salary Expectations** (required) - Clarifies the range of what you can and can't afford.
-- **Comments** (optional) - Allow for any random thoughts/highlights.
+- **Notes** (optional) - Allow for any random thoughts/highlights.
 
 ### II: First Impression
 
@@ -147,6 +146,9 @@ weekend, recent events in world news, etc.
 
 The following is a list of questions that yield a great first impression:
 
+- **Salary**
+  - Confirm salary expectations as provided in *Step I* in terms of range and exact figures to
+    ensure everyone is on the same page.
 - **Purpose**
   - What got you into software development?
   - How long have you been doing software development?

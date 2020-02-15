@@ -31,6 +31,10 @@
 - Be relaxed. It's a two-way street - You're interviewing the company too!
 - Be inquisitive. Do your homework and ask lots of questions. Everyone loves to talk about
   themselves - Use that to your advantage. Questions to ask:
+  - Salary:
+    - Before starting the interview process ensure you know what salary you desire and what the
+      company can afford. Knowing this upfront avoids wasting time for you and company in an
+      interview process that might have been mismatched to begin with.
   - Work/Life Balance:
     - How are remote employees supported?
         - How many founders/leaders work remotely?
@@ -74,10 +78,9 @@
     - What would make this position a total success, if hired?
     - What is the biggest question you wanted to ask me but haven't yet?
 - Be polite:
-  - Avoid asking about salary (and definitely never in front of the entire team). Wait for an offer
-    to arrive and talk to the hiring manager directly.
-  - Avoid asking how you did at the end of an interview. Receiving further inquiries will be your
+  - Avoid asking how you did at the end of an interview -- Receiving further inquiries will be your
     answer.
-  - Avoid badmouthing your former employeer - Speak positively as to why you are moving on.
+  - Avoid badmouthing your former employeer - Speak positively as to why you are moving on and the
+    lessons learned from that experience.
 - Be growing. Each interview is a learning experience. Consider interviewing once a year to keep
   your skills sharp and a pulse on the ever changing landscape.
