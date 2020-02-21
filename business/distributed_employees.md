@@ -1,5 +1,15 @@
 # Distributed Employee Styles
 
+> What makes remote teams so effective is that they’re breeding grounds for trust — the key
+> ingredient for high-performing workplaces.
+
+> Employees in high-trust organizations are more productive, have more energy at work, collaborate
+> better with their colleagues, and stay with their employers longer than people working at
+> low-trust companies. They also suffer less chronic stress and are happier with their lives, and
+> these factors fuel stronger performance.
+
+> [Remote Work Insights You’ve Never Heard Before](https://medium.com/better-programming/rethinking-remote-work-b1c43a52b8dd) by Sarah Milstein
+
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
 ## Table of Contents
