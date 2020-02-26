@@ -22,6 +22,8 @@ The burnout raitio can be calculated as follows:
 
     How much you care / Ability you have to change or influence = Score
 
+You can use [Burnout Index](https://burnoutindex.org) as a tool for calculating your score as well.
+
 ## Signs of Burnout
 
 - Lack of control such as shifting goals or expectations based on a whim without a concrete
