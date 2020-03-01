@@ -1,3 +1,12 @@
+# 0.39.0 (2020-03-01)
+
+- Added Burnout Index as a tool for calculating your burnout score
+- Added accessibility guideline for opening links in new windows/tabs
+- Added remote work insights to distributed team styles
+- Updated DNS styles
+- Updated interview questions
+- Updated salary negotiations for business styles
+
 # 0.38.0 (2020-01-19)
 
 - Fixed group chat emoji links
