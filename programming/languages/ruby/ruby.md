@@ -91,11 +91,11 @@ general. These can be viewed via the `Kernel#global_variables` method. A full de
 variables and their corresponding aliases can be found within the English library source code (i.e.
 `<version>/lib/ruby/<version>/English.rb`). Here is a rough breakdown of all global variables:
 
-      $/ - Input record separator. Alias: $INPUT_RECORD_SEPARATOR. Default: newline.
+      $/ - Input record separator. Alias: $INPUT_RECORD_SEPARATOR. Default: newline. Deprecated in Ruby 2.7.0.
       $. - Current input line number of the last file read. Alias: $INPUT_LINE_NUMBER.
-      $\ - Output record separator. Alias: $OUTPUT_RECORD_SEPARATOR. Default: nil.
-      $; - String#split default field separator. Alias: $FIELD_SEPARATOR.
-      $, - Output field separator. Alias: $OUTPUT_FIELD_SEPARATOR.
+      $\ - Output record separator. Alias: $OUTPUT_RECORD_SEPARATOR. Default: nil. Deprecated in Ruby 2.7.0.
+      $; - String#split default field separator. Alias: $FIELD_SEPARATOR. Deprecated in Ruby 2.7.0.
+      $, - Output field separator. Alias: $OUTPUT_FIELD_SEPARATOR. Deprecated in Ruby 2.7.0.
       _$ - Input variable for each object within an IO loop.
       $! - Last exception thrown. Alias: $ERROR_INFO.
       $@ - Backtrace array of last exception thrown. Alias: $ERROR_POSITION.
