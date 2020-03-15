@@ -52,6 +52,10 @@
     - Use commas to provide a short break while announcing content.
     - Use periods at the end of each sentence to cause the screen reader to pause for a moment
       before continuing.
+- Avoid using the  `title` attribute as it has [limited
+  value](https://developer.paciellogroup.com/blog/2010/11/using-the-html-title-attribute) on mobile
+  devices, touch screens, screen readers, etc. Consider displaying the text as part of your design
+  rather than relying on it automatically showing up.
 - Avoid using the `placeholder` attribute (or if used, ensure it ends up being a label so valuable
   usage information isn't lost).
 - [Avoid default field validation](http://adrianroselli.com/2019/02/avoid-default-field-validation.html)
