@@ -16,6 +16,8 @@ why this is important.
   - [Features](#features)
   - [Requirements](#requirements)
   - [Setup](#setup)
+    - [Production](#production)
+    - [Development](#development)
   - [Usage](#usage)
   - [Versioning](#versioning)
   - [Code of Conduct](#code-of-conduct)
@@ -41,16 +43,17 @@ None.
 
 ## Setup
 
-Open a terminal window and execute one of the following setup sequences depending on your version
-preference:
+### Production
 
-Current Version (stable):
+To install, run:
 
     git clone https://github.com/bkuhlmann/style_guides.git
     cd style_guides
     git checkout 0.39.0
 
-Master Version (unstable):
+### Development
+
+To contribute, run:
 
     git clone https://github.com/bkuhlmann/style_guides.git
     cd style_guides
