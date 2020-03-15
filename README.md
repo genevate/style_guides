@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="style_guides.png" alt="Style Guides Icon"/>
+  <img src="https://www.alchemists.io/images/projects/style_guides/icon.png" alt="Style Guides Icon"/>
 </p>
 
 # Style Guides
