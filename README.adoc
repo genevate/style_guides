@@ -1,0 +1,82 @@
+:toc: macro
+:toclevels: 5
+:figure-caption!:
+
+= Style Guides
+
+[link=https://circleci.com/gh/bkuhlmann/style_guides]
+image::https://circleci.com/gh/bkuhlmann/style_guides.svg?style=svg[Circle CI Status]
+
+A collection of styles/best practices. Read http://bit.ly/2uaPSaI[Why We Argue: Style] for reasons
+why this is important.
+
+toc::[]
+
+== Features
+
+* Business
+* Communication
+* Design
+* Operations
+* Programming
+* Tools
+
+== Requirements
+
+None.
+
+== Setup
+
+=== Production
+
+To install, run:
+
+[source,bash]
+----
+git clone https://github.com/bkuhlmann/style_guides.git
+cd style_guides
+git checkout 0.39.0
+----
+
+=== Development
+
+To contribute, run:
+
+[source,bash]
+----
+git clone https://github.com/bkuhlmann/style_guides.git
+cd style_guides
+----
+
+== Usage
+
+Read/use the `.md` (Markdown) documents located in the subfolders.
+
+== Versioning
+
+Read link:https://semver.org[Semantic Versioning] for details. Briefly, it means:
+
+* Major (X.y.z) - Incremented for any backwards incompatible public API changes.
+* Minor (x.Y.z) - Incremented for new, backwards compatible, public API enhancements/fixes.
+* Patch (x.y.Z) - Incremented for small, backwards compatible, bug fixes.
+
+== Code of Conduct
+
+Please note that this project is released with a link:CODE_OF_CONDUCT.adoc[CODE OF CONDUCT]. By
+participating in this project you agree to abide by its terms.
+
+== Contributions
+
+Read link:CONTRIBUTING.adoc[CONTRIBUTING] for details.
+
+== License
+
+Read link:LICENSE.adoc[LICENSE] for details.
+
+== History
+
+Read link:CHANGES.adoc[CHANGES] for details.
+
+== Credits
+
+Engineered by link:https://www.alchemists.io/team/brooke_kuhlmann.html[Brooke Kuhlmann].
