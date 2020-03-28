@@ -123,5 +123,3 @@ delight, enrich, and astound our customers in ways impossible to imagine otherwi
 - [How Performance Reviews Can Kill Your Culture](https://fs.blog/2019/11/performance-reviews-kill-culture)
 - [Why Your Startup’s Culture Is Secretly Awful](http://www.fastcolabs.com/3016238/why-your-startups-culture-is-secretly-awful)
 - [This is why people leave your company](http://qz.com/287876/this-is-why-people-leave-your-company)
-- [The Open-Office Trap](http://www.newyorker.com/online/blogs/currency/2014/01/the-open-office-trap.html)
-- [It's Official: Open-Plan Offices Are Now the Dumbest Management Fad of All Time](https://www.inc.com/geoffrey-james/its-official-open-plan-offices-are-now-dumbest-management-fad-of-all-time.html)

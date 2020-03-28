@@ -62,4 +62,6 @@
 
 - [Remote: Office Not Required](https://37signals.com/remote).
 - [5 Traits Remote Employees Must Have](http://www.inc.com/jeff-haden/5-traits-of-great-remote-employees.html).
-- [Terms: Distributed, Remote, and More](http://vanderburg.org/blog/2016/05/31/mdt_2_distributed.html)
+- [Terms: Distributed, Remote, and More](http://vanderburg.org/blog/2016/05/31/mdt_2_distributed.html).
+- [The Open-Office Trap](http://www.newyorker.com/online/blogs/currency/2014/01/the-open-office-trap.html).
+- [Open-Plan Offices Are Now the Dumbest Management Fad of All Time](https://www.inc.com/geoffrey-james/its-official-open-plan-offices-are-now-dumbest-management-fad-of-all-time.html).
