@@ -1,5 +1,18 @@
 = Changes
 
+== 0.40.0 (2020-04-01)
+
+- Added README production and development setup instructions
+- Added Ruby global variable deprecations
+- Added avoidance of title attribute
+- Added link for explaining longer DNS TTL settings
+- Updated Circle CI build label
+- Updated documentation to ASCII Doc format
+- Updated to Code of Conduct 2.0.0
+- Updated to Ruby 2.7.1
+- Removed README images
+- Refactored open office designs to distributed employee styles
+
 == 0.39.0 (2020-03-01)
 
 * Added Burnout Index as a tool for calculating your burnout score
