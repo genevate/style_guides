@@ -306,7 +306,9 @@ variables and their corresponding aliases can be found within the English librar
 
 ## Characters
 
-- Use double quotes for a single character: `"a"`.
+- Use double quotes for a single character: `"c"`.
+- Use single character strings (i.e. `"c"`) and avoid using the `?` prefix because it is hard to
+  read. Example: `?c # => "c"`.
 
 ## Numbers
 
