@@ -52,14 +52,17 @@
     - Use commas to provide a short break while announcing content.
     - Use periods at the end of each sentence to cause the screen reader to pause for a moment
       before continuing.
-- Avoid using the  `title` attribute as it has [limited
+- Avoid the  `title` attribute as it has [limited
   value](https://developer.paciellogroup.com/blog/2010/11/using-the-html-title-attribute) on mobile
   devices, touch screens, screen readers, etc. Consider displaying the text as part of your design
   rather than relying on it automatically showing up.
-- Avoid using the `placeholder` attribute (or if used, ensure it ends up being a label so valuable
+- Avoid the `placeholder` attribute (or if used, ensure it ends up being a label so valuable
   usage information isn't lost).
 - [Avoid default field validation](http://adrianroselli.com/2019/02/avoid-default-field-validation.html)
   as it is harmful to accessibility.
+- [Avoid `aria-roledescription`
+  property](https://adrianroselli.com/2020/04/avoid-aria-roledescription.html) because it tends to
+  be misused which causes confusion for screen readers more often than not.
 - [Avoid opening links in new windows/tabs](https://adrianroselli.com/2020/02/link-targets-and-3-2-5.html).
 
 ## Tools
