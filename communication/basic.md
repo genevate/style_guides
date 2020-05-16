@@ -1,5 +1,6 @@
 # Basic Communication Styles
 
+- Learn to [become a better writer](https://doist.com/blog/writing-tips).
 - Be positive. Write in an upbeat tone as body language is generally hard to communicate.
 - Be clear. Encourage well thought out discussions with plenty of background, context, and reasoning
   to support new ideas. This reduces confusion and clarification noise while allowing everyone to
